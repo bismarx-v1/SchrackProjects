@@ -1,0 +1,199 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "baf3888c-a3d4-4602-9f44-a142638bf2bb")
+	(paper "A3")
+	(title_block
+		(title "SchrackPanel")
+		(date "2024-03-27")
+	)
+	(lib_symbols)
+	(text "Today"
+		(exclude_from_sim no)
+		(at 1536.7 590.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d2d92bf-c679-4946-a3c1-5aadc81b5257")
+	)
+	(text "(9.2.12024)"
+		(exclude_from_sim no)
+		(at 1579.88 590.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "75427c9a-e895-414f-9e7b-acbc0bd65c35")
+	)
+	(sheet
+		(at 57.15 49.53)
+		(size 130.81 85.09)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 255 255 255 1.0000)
+		)
+		(uuid "136065d1-8cd5-4f21-9d2d-f68724c0958e")
+		(property "Sheetname" "MECHANICAL"
+			(at 98.044 93.98 0)
+			(effects
+				(font
+					(size 5 5)
+					(bold yes)
+					(color 0 0 0 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MECHANICAL.kicad_sch"
+			(at 57.15 135.2046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ShrackThingy"
+				(path "/baf3888c-a3d4-4602-9f44-a142638bf2bb"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 203.2 147.32)
+		(size 130.81 85.09)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 255 255 255 1.0000)
+		)
+		(uuid "4d67781b-d162-4b47-9045-c2866ffbd3c9")
+		(property "Sheetname" "POWER_SUPP"
+			(at 245.364 190.754 0)
+			(effects
+				(font
+					(size 5 5)
+					(bold yes)
+					(color 0 0 0 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "POWER_SUPP.kicad_sch"
+			(at 203.2 232.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ShrackThingy"
+				(path "/baf3888c-a3d4-4602-9f44-a142638bf2bb"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 203.2 49.53)
+		(size 130.81 85.09)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 255 255 255 1.0000)
+		)
+		(uuid "841ce6bb-916d-4fd6-a4d0-a9a052c47219")
+		(property "Sheetname" "LOGIC"
+			(at 260.096 94.488 0)
+			(effects
+				(font
+					(size 5 5)
+					(bold yes)
+					(color 0 0 0 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LOGIC.kicad_sch"
+			(at 203.2 135.2046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ShrackThingy"
+				(path "/baf3888c-a3d4-4602-9f44-a142638bf2bb"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 57.15 147.32)
+		(size 130.81 85.09)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 255 255 255 1.0000)
+		)
+		(uuid "c4f82483-f802-4419-b8e3-223ccf337c82")
+		(property "Sheetname" "MCU"
+			(at 114.554 191.77 0)
+			(effects
+				(font
+					(size 5 5)
+					(bold yes)
+					(color 0 0 0 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 57.15 232.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ShrackThingy"
+				(path "/baf3888c-a3d4-4602-9f44-a142638bf2bb"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
