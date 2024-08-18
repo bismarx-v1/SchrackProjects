@@ -83,7 +83,7 @@ void StateToFrameLoop() {
 	case 2:	// State "Schrack logo"
 		if(State != StateLast) {
 			StateLast = State;
-			GraphicsLoop(Frame, 2, 0, "SCHRACK", 0);
+			GraphicsLoop(Frame, 2, 1, "SCHRACK", 0);
 		}
 
 		break;
