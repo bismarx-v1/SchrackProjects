@@ -12,37 +12,29 @@
 		(comment 1 "SAVVA POPOV")
 	)
 	(lib_symbols
-		(symbol "74xx:74HC595"
+		(symbol "Display_Character:DC56-11EWA"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -7.62 13.97 0)
+				(at -11.43 13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "74HC595"
-				(at -7.62 -16.51 0)
+			(property "Value" "DC56-11EWA"
+				(at 12.065 13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf"
-				(at 0 0 0)
+			(property "Footprint" "Display_7Segment:DA56-11SURKWA"
+				(at 0.508 -16.51 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -50,8 +42,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "8-bit serial in/out Shift Register 3-State Outputs"
-				(at 0 0 0)
+			(property "Datasheet" "http://www.kingbrightusa.com/images/catalog/SPEC/DC56-11EWA.pdf"
+				(at -3.048 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -59,368 +51,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "HCMOS SR 3State"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x9.9mm*P1.27mm* TSSOP*4.4x5mm*P0.65mm* SOIC*5.3x10.2mm*P1.27mm* SOIC*7.5x10.3mm*P1.27mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "74HC595_1_0"
-				(pin tri_state line
-					(at 10.16 7.62 180)
-					(length 2.54)
-					(name "QB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "~{SRCLR}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 5.08 0)
-					(length 2.54)
-					(name "SRCLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "RCLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "~{OE}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 10.16 0)
-					(length 2.54)
-					(name "SER"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state line
-					(at 10.16 10.16 180)
-					(length 2.54)
-					(name "QA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 15.24 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state line
-					(at 10.16 5.08 180)
-					(length 2.54)
-					(name "QC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "QD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "QE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "QF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state line
-					(at 10.16 -5.08 180)
-					(length 2.54)
-					(name "QG"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state line
-					(at 10.16 -7.62 180)
-					(length 2.54)
-					(name "QH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -17.78 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 -12.7 180)
-					(length 2.54)
-					(name "QH'"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74HC595_1_1"
-				(rectangle
-					(start -7.62 12.7)
-					(end 7.62 -15.24)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-		)
-		(symbol "Display_Character:LTS-6960HR"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "AFF"
-				(at -7.874 13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LTS-6960HR"
-				(at -2.032 13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Display_7Segment:7SegmentLED_LTS6760_LTS6780"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://datasheet.octopart.com/LTS-6960HR-Lite-On-datasheet-11803242.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "DISPLAY 7 SEGMENTS common A."
+			(property "Description" "Double digit 7 segment super bright red LED common cathode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -438,7 +69,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "7SegmentLED?LTS6760?LTS6780*"
+			(property "ki_fp_filters" "*DA56*11*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -447,10 +78,52 @@
 					(hide yes)
 				)
 			)
-			(symbol "LTS-6960HR_0_1"
+			(symbol "DC56-11EWA_0_0"
+				(text "8.8."
+					(at 0 8.636 0)
+					(effects
+						(font
+							(size 2.54 2.54)
+						)
+					)
+				)
+				(text "DIG1"
+					(at -2.286 10.922 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(text "DIG2"
+					(at 1.27 10.922 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(text "DP1"
+					(at -0.762 6.604 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(text "DP2"
+					(at 3.048 6.604 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(symbol "DC56-11EWA_0_1"
 				(rectangle
-					(start -10.16 12.7)
-					(end 10.16 -12.7)
+					(start -12.7 12.7)
+					(end 12.7 -12.7)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -459,47 +132,12 @@
 						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy -3.81 -0.508) (xy 3.81 -0.508) (xy 2.54 -8.128) (xy -5.08 -8.128) (xy -3.81 -0.508) (xy -3.81 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 8.128) (xy 5.08 8.128) (xy 3.81 0.508) (xy -3.81 0.508) (xy -2.54 8.128) (xy -2.54 8.128)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 4.572 -8.128)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 			)
-			(symbol "LTS-6960HR_1_1"
-				(pin passive line
-					(at -12.7 0 0)
+			(symbol "DC56-11EWA_1_1"
+				(pin input line
+					(at -15.24 0 0)
 					(length 2.54)
-					(name "e"
+					(name "DIG1_E"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -514,10 +152,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -12.7 -5.08 0)
+				(pin input line
+					(at 15.24 7.62 180)
 					(length 2.54)
-					(name "g"
+					(name "DIG2_B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -532,10 +170,154 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -12.7 2.54 0)
+				(pin input line
+					(at 15.24 10.16 180)
 					(length 2.54)
-					(name "d"
+					(name "DIG2_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -2.54 180)
+					(length 2.54)
+					(name "DIG2_F"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -10.16 180)
+					(length 2.54)
+					(name "DIG2_CC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -10.16 0)
+					(length 2.54)
+					(name "DIG1_CC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 7.62 0)
+					(length 2.54)
+					(name "DIG1_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 10.16 0)
+					(length 2.54)
+					(name "DIG1_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -5.08 0)
+					(length 2.54)
+					(name "DIG1_G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -2.54 0)
+					(length 2.54)
+					(name "DIG1_F"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 2.54 0)
+					(length 2.54)
+					(name "DIG1_D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -550,10 +332,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 12.7 7.62 180)
+				(pin input line
+					(at -15.24 5.08 0)
 					(length 2.54)
-					(name "C.A."
+					(name "DIG1_C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -568,10 +350,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -12.7 5.08 0)
+				(pin input line
+					(at -15.24 -7.62 0)
 					(length 2.54)
-					(name "c"
+					(name "DP1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -586,10 +368,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 12.7 -7.62 180)
+				(pin input line
+					(at 15.24 0 180)
 					(length 2.54)
-					(name "DP"
+					(name "DIG2_E"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -604,10 +386,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -12.7 7.62 0)
+				(pin input line
+					(at 15.24 2.54 180)
 					(length 2.54)
-					(name "b"
+					(name "DIG2_D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -622,10 +404,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -12.7 10.16 0)
+				(pin input line
+					(at 15.24 -5.08 180)
 					(length 2.54)
-					(name "a"
+					(name "DIG2_G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -640,10 +422,525 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 12.7 10.16 180)
+				(pin input line
+					(at 15.24 5.08 180)
 					(length 2.54)
-					(name "C.A."
+					(name "DIG2_C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -7.62 180)
+					(length 2.54)
+					(name "DP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Driver_LED:MAX7221xWG"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -6.35 24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "MAX7221xWG"
+				(at 1.27 25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm"
+				(at -1.27 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX7219-MAX7221.pdf"
+				(at 1.27 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Serially Interfaced, 8-Digit LED Display Driver, SOIC-24W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "spi qspi microwire"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*7.5x15.4mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MAX7221xWG_0_1"
+				(rectangle
+					(start -7.62 22.86)
+					(end 7.62 -22.86)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "MAX7221xWG_1_1"
+				(pin input line
+					(at -10.16 -20.32 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 -12.7 180)
+					(length 2.54)
+					(name "DIG_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "DIG_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -15.24 0)
+					(length 2.54)
+					(name "~{CS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -17.78 0)
+					(length 2.54)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_emitter line
+					(at 10.16 20.32 180)
+					(length 2.54)
+					(name "SEG_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_emitter line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "SEG_F"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_emitter line
+					(at 10.16 17.78 180)
+					(length 2.54)
+					(name "SEG_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_emitter line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "SEG_G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 20.32 0)
+					(length 2.54)
+					(name "ISET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 25.4 270)
+					(length 2.54)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "DIG_0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_emitter line
+					(at 10.16 15.24 180)
+					(length 2.54)
+					(name "SEG_C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_emitter line
+					(at 10.16 10.16 180)
+					(length 2.54)
+					(name "SEG_E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_emitter line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "SEG_DP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_emitter line
+					(at 10.16 12.7 180)
+					(length 2.54)
+					(name "SEG_D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -20.32 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 -10.16 180)
+					(length 2.54)
+					(name "DIG_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -25.4 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 -15.24 180)
+					(length 2.54)
+					(name "DIG_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "DIG_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "DIG_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 -17.78 180)
+					(length 2.54)
+					(name "DIG_7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -659,9 +956,9 @@
 					)
 				)
 				(pin passive line
-					(at -12.7 -2.54 0)
-					(length 2.54)
-					(name "f"
+					(at 0 -25.4 90)
+					(length 2.54) hide
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -680,42 +977,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Display_Character:LTS-6960HR")
-		(at 121.92 62.23 0)
+		(lib_id "Driver_LED:MAX7221xWG")
+		(at 36.83 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9194547e-fc5b-4455-b912-936e9ca48374")
-		(property "Reference" "AFF1"
-			(at 121.92 44.45 0)
+		(uuid "971b1ae5-deda-4799-b8f2-0b57a6ec43e2")
+		(property "Reference" "U?"
+			(at 39.0541 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "LTS-6960HR"
-			(at 121.92 46.99 0)
+		(property "Value" "MAX7221xWG"
+			(at 39.0541 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Display_7Segment:7SegmentLED_LTS6760_LTS6780"
-			(at 121.92 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.octopart.com/LTS-6960HR-Lite-On-datasheet-11803242.pdf"
-			(at 121.92 62.23 0)
+		(property "Footprint" "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm"
+			(at 35.56 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -723,8 +1012,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DISPLAY 7 SEGMENTS common A."
-			(at 121.92 62.23 0)
+		(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX7219-MAX7221.pdf"
+			(at 38.1 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -732,84 +1021,124 @@
 				(hide yes)
 			)
 		)
-		(pin "7"
-			(uuid "5317084e-c72d-4263-88d1-03c458aa4d48")
+		(property "Description" "Serially Interfaced, 8-Digit LED Display Driver, SOIC-24W"
+			(at 36.83 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "4"
-			(uuid "8d51c223-bbe7-4e02-914b-26ef42134062")
+		(pin "12"
+			(uuid "4494729d-5833-4bba-a784-def3b7816b89")
 		)
-		(pin "8"
-			(uuid "7fbd4c90-78b3-40ca-94d7-572e9962ce6b")
-		)
-		(pin "2"
-			(uuid "0d217cf4-49ca-4a04-ad7a-20596042b120")
-		)
-		(pin "6"
-			(uuid "ae3c9d29-d5dc-442b-a3e5-5681c039d840")
-		)
-		(pin "3"
-			(uuid "ab04d874-055f-4a8b-b96f-341563ffb3b9")
+		(pin "16"
+			(uuid "595040cb-fba4-408b-9349-caa6a10520e9")
 		)
 		(pin "9"
-			(uuid "acf4cf74-2a9f-47ad-9ee5-b1f0751d363a")
+			(uuid "4878ebac-1939-4bf8-a712-63054c60bed7")
 		)
-		(pin "1"
-			(uuid "e7624be8-f6f6-4ef4-85a1-149b92255ecd")
+		(pin "13"
+			(uuid "a644f90f-28e4-4f20-96a4-179a2116056f")
 		)
-		(pin "10"
-			(uuid "954b1252-a026-4150-9f16-d2db4496c631")
+		(pin "17"
+			(uuid "803ebcb9-09cd-4400-94ea-1fd9219fee75")
+		)
+		(pin "23"
+			(uuid "934a7626-a442-4631-80df-5b0c989f0d10")
+		)
+		(pin "4"
+			(uuid "37f8d90d-7df9-40cc-bd19-d48f3f270d96")
+		)
+		(pin "2"
+			(uuid "a04ec0c1-d9db-4709-ba7a-5794e5401b6d")
+		)
+		(pin "24"
+			(uuid "f2eac89f-8b4e-43ec-98d1-7f2cd9859630")
 		)
 		(pin "5"
-			(uuid "ae4fc4ac-c30a-4680-b69c-816a3f7d9083")
+			(uuid "cf41719a-bc38-4081-8872-c9ac39472b71")
+		)
+		(pin "11"
+			(uuid "a112e6c2-b9f4-40cf-9bd5-333e7d114d3c")
+		)
+		(pin "18"
+			(uuid "11ca497f-874b-4ba8-9985-03c5b0db50b7")
+		)
+		(pin "7"
+			(uuid "898a9c16-92c3-44be-b9f9-e4e12dee25ac")
+		)
+		(pin "6"
+			(uuid "05dedfeb-c7aa-49a5-8388-c16ad60e4d6c")
+		)
+		(pin "1"
+			(uuid "7dc82c99-2662-47f0-8dd2-80cc704d770c")
+		)
+		(pin "10"
+			(uuid "9f7d55ab-cfd0-45d7-8b7e-64cb0c0effb8")
+		)
+		(pin "20"
+			(uuid "fb81511d-717c-4645-879c-26c913171055")
+		)
+		(pin "21"
+			(uuid "118d7902-fa78-40d3-b563-8c0afae1f6ec")
+		)
+		(pin "3"
+			(uuid "b8a19bd2-704d-4e36-a225-03e331669530")
+		)
+		(pin "14"
+			(uuid "e8fe8a03-9630-4fc6-986e-b80373a9fe40")
+		)
+		(pin "8"
+			(uuid "353e05e7-cf0c-4f02-a96f-d05094240152")
+		)
+		(pin "19"
+			(uuid "5df37c69-44ab-48aa-aeaa-1c6f01e557d9")
+		)
+		(pin "22"
+			(uuid "58ab959e-48d6-41bd-b54e-4339f265640c")
+		)
+		(pin "15"
+			(uuid "bd1dd959-4a43-4a6f-8348-8181e91ff0cf")
 		)
 		(instances
 			(project ""
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/50491303-1200-42ed-9e6c-90c20c198c18"
-					(reference "AFF1")
+					(reference "U?")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "74xx:74HC595")
-		(at 156.21 59.69 0)
+		(lib_id "Display_Character:DC56-11EWA")
+		(at 109.22 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "de4cc9e4-038d-46c2-adb1-2f11a1177087")
-		(property "Reference" "U1"
-			(at 158.4341 41.91 0)
+		(uuid "cc4b35fa-a45a-416f-a2c2-54851789910e")
+		(property "Reference" "U?"
+			(at 109.22 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "74HC595"
-			(at 158.4341 44.45 0)
+		(property "Value" "DC56-11EWA"
+			(at 109.22 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 156.21 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf"
-			(at 156.21 59.69 0)
+		(property "Footprint" "Display_7Segment:DA56-11SURKWA"
+			(at 109.728 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -817,8 +1146,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "8-bit serial in/out Shift Register 3-State Outputs"
-			(at 156.21 59.69 0)
+		(property "Datasheet" "http://www.kingbrightusa.com/images/catalog/SPEC/DC56-11EWA.pdf"
+			(at 106.172 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -826,58 +1155,73 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "15622d6d-fc3c-4c33-9b6d-3e9e4531a37a")
-		)
-		(pin "12"
-			(uuid "cae33cd4-385f-49fd-89c7-b444a4518b11")
-		)
-		(pin "15"
-			(uuid "c295a41f-d12c-40e7-a2d0-749e1636242d")
-		)
-		(pin "6"
-			(uuid "51a87f7a-6fdb-4118-98f9-b2caf9b066e6")
-		)
-		(pin "16"
-			(uuid "461ec881-9c07-4d33-afb6-84c6ee9353a1")
-		)
-		(pin "11"
-			(uuid "a4642bc3-f6e0-45c1-bdb7-fe3a94ca3e4a")
-		)
-		(pin "10"
-			(uuid "4089fcff-ca06-4e35-b2f1-b031284f5d57")
-		)
-		(pin "9"
-			(uuid "54457477-fb0b-4155-b142-b300a74e5224")
-		)
-		(pin "8"
-			(uuid "c5593135-e236-4e23-92a2-a1dd3bd1e300")
-		)
-		(pin "4"
-			(uuid "59bf4c42-cf31-4436-9770-74afde4d8f7b")
-		)
-		(pin "3"
-			(uuid "8ccba479-006c-4dc8-bca8-2b9de44c6ce1")
-		)
-		(pin "7"
-			(uuid "20be9fa7-a193-44ab-9f98-bba4c824b733")
-		)
-		(pin "14"
-			(uuid "054d1281-ee5b-4725-9271-091d380da8d8")
-		)
-		(pin "1"
-			(uuid "ceff9e21-fefa-4fd5-9f40-fc1fea82c0dd")
+		(property "Description" "Double digit 7 segment super bright red LED common cathode"
+			(at 109.22 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "5"
-			(uuid "f41e074c-7351-4806-87ef-92d05bcd4710")
+			(uuid "948fc88b-e7e4-45f6-bae9-791e5d344e61")
+		)
+		(pin "7"
+			(uuid "b4ef7a74-60ad-4e14-9623-fdd851443b9a")
+		)
+		(pin "4"
+			(uuid "05926daf-311c-4a78-b67a-4d024cf208c7")
+		)
+		(pin "15"
+			(uuid "a91510d7-6613-484b-84d9-a775ce7e2f64")
+		)
+		(pin "11"
+			(uuid "1185f77a-6a93-4ced-95c3-8419396d4bf4")
+		)
+		(pin "9"
+			(uuid "816fec25-0e0e-42e4-9083-bdaffc54f71e")
+		)
+		(pin "16"
+			(uuid "e48d0435-3bc3-4d9f-b803-a468d2d5b7a1")
+		)
+		(pin "6"
+			(uuid "7c6d1982-b0b0-4c11-b4b6-3d7ac4f63610")
+		)
+		(pin "14"
+			(uuid "b6a0c307-c32b-47c8-a504-5f48f490cff6")
+		)
+		(pin "1"
+			(uuid "69e01a53-5f7e-4ea6-9787-6586e0779192")
+		)
+		(pin "17"
+			(uuid "651903b2-73a4-4bad-862e-c4b78262c12b")
+		)
+		(pin "8"
+			(uuid "9e23ca55-4d9a-456e-9f8e-c278f12e46f8")
+		)
+		(pin "10"
+			(uuid "436bdff1-48a7-4f8c-a2c4-a7c87d7171fa")
+		)
+		(pin "2"
+			(uuid "055dd0dd-f8af-4c82-a3b6-7418c87a1544")
+		)
+		(pin "18"
+			(uuid "9d9ee778-b927-486c-b2f7-7dff7782774c")
+		)
+		(pin "12"
+			(uuid "7f15e51b-332c-4964-b1b2-5e020e07019c")
+		)
+		(pin "3"
+			(uuid "60c515ec-cefa-4c74-9cb4-5c70a51e37cd")
 		)
 		(pin "13"
-			(uuid "8550f700-d4b1-41bd-8d39-503a01679184")
+			(uuid "dcd11761-c2e1-488e-b2c8-bf2612a9d66d")
 		)
 		(instances
 			(project ""
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/50491303-1200-42ed-9e6c-90c20c198c18"
-					(reference "U1")
+					(reference "U?")
 					(unit 1)
 				)
 			)
