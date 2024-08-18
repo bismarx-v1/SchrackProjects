@@ -1663,7 +1663,7 @@
 		(uuid "58942eed-45e0-47b0-82ea-4a996fc921b1")
 	)
 	(junction
-		(at 111.76 129.54)
+		(at 110.49 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7fff7e38-9fb1-4834-a95e-50a77138c4a0")
@@ -1687,7 +1687,7 @@
 		(uuid "9ef53f8a-a0c4-4cd3-8aa5-9d5d7f1b419c")
 	)
 	(junction
-		(at 121.92 119.38)
+		(at 120.65 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5ae0d5d-ddf9-4b63-b493-6f63ac3f738e")
@@ -1699,7 +1699,7 @@
 		(uuid "a72d686d-1184-4ee3-82be-9676576daecc")
 	)
 	(junction
-		(at 121.92 129.54)
+		(at 120.65 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b2479536-3073-4c8a-bf04-1e639c0fdce6")
@@ -1711,7 +1711,7 @@
 		(uuid "c9b6fbfb-04b6-46a7-bf07-35103d6f597b")
 	)
 	(junction
-		(at 111.76 119.38)
+		(at 110.49 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da98400e-48e5-4532-b881-a2659ce70e03")
@@ -1729,12 +1729,12 @@
 		(uuid "fdd22a3c-49f5-411e-9130-77510fa430b8")
 	)
 	(no_connect
-		(at 210.82 119.38)
+		(at 209.55 120.65)
 		(uuid "481256e3-8a30-490b-b25a-4401b33125d9")
 	)
 	(wire
 		(pts
-			(xy 100.33 123.19) (xy 107.95 123.19)
+			(xy 99.06 120.65) (xy 106.68 120.65)
 		)
 		(stroke
 			(width 0.1524)
@@ -1764,7 +1764,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 119.38) (xy 205.74 119.38)
+			(xy 209.55 120.65) (xy 204.47 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1804,7 +1804,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 129.54) (xy 121.92 129.54)
+			(xy 110.49 127) (xy 120.65 127)
 		)
 		(stroke
 			(width 0.1524)
@@ -1814,7 +1814,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 116.84) (xy 195.58 116.84)
+			(xy 189.23 118.11) (xy 194.31 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1864,7 +1864,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 119.38) (xy 121.92 120.65)
+			(xy 120.65 116.84) (xy 120.65 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1874,7 +1874,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 129.54) (xy 111.76 129.54)
+			(xy 106.68 127) (xy 110.49 127)
 		)
 		(stroke
 			(width 0.1524)
@@ -1904,7 +1904,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 125.73) (xy 107.95 125.73)
+			(xy 99.06 123.19) (xy 106.68 123.19)
 		)
 		(stroke
 			(width 0.1524)
@@ -1924,7 +1924,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 125.73) (xy 107.95 129.54)
+			(xy 106.68 123.19) (xy 106.68 127)
 		)
 		(stroke
 			(width 0.1524)
@@ -1974,7 +1974,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 123.19) (xy 107.95 119.38)
+			(xy 106.68 120.65) (xy 106.68 116.84)
 		)
 		(stroke
 			(width 0.1524)
@@ -1984,7 +1984,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 119.38) (xy 111.76 120.65)
+			(xy 110.49 116.84) (xy 110.49 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2064,7 +2064,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 119.38) (xy 111.76 119.38)
+			(xy 106.68 116.84) (xy 110.49 116.84)
 		)
 		(stroke
 			(width 0.1524)
@@ -2104,7 +2104,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 119.38) (xy 133.35 119.38)
+			(xy 120.65 116.84) (xy 132.08 116.84)
 		)
 		(stroke
 			(width 0.1524)
@@ -2154,7 +2154,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 119.38) (xy 121.92 119.38)
+			(xy 110.49 116.84) (xy 120.65 116.84)
 		)
 		(stroke
 			(width 0.1524)
@@ -2164,7 +2164,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 128.27) (xy 121.92 129.54)
+			(xy 120.65 125.73) (xy 120.65 127)
 		)
 		(stroke
 			(width 0)
@@ -2184,7 +2184,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 129.54) (xy 133.35 129.54)
+			(xy 120.65 127) (xy 132.08 127)
 		)
 		(stroke
 			(width 0.1524)
@@ -2204,7 +2204,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 128.27) (xy 111.76 129.54)
+			(xy 110.49 125.73) (xy 110.49 127)
 		)
 		(stroke
 			(width 0)
@@ -2214,7 +2214,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 114.3) (xy 205.74 114.3)
+			(xy 208.28 115.57) (xy 204.47 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2349,7 +2349,7 @@
 	)
 	(global_label "VBATT"
 		(shape input)
-		(at 190.5 116.84 180)
+		(at 189.23 118.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2361,7 +2361,7 @@
 		)
 		(uuid "3f49a393-453d-4b69-a4cb-59945d6ec15b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.284 116.84 0)
+			(at 183.014 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2421,7 +2421,7 @@
 	)
 	(global_label "VBATT"
 		(shape input)
-		(at 100.33 123.19 180)
+		(at 99.06 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2433,7 +2433,7 @@
 		)
 		(uuid "8d861b0c-3ff0-4bec-8e0a-601919ca50fb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.114 123.19 0)
+			(at 92.844 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2659,7 +2659,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 209.55 114.3 270)
+		(at 208.28 115.57 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2668,7 +2668,7 @@
 		(fields_autoplaced yes)
 		(uuid "1f54917c-f343-4e0c-8f4d-0ae258828c63")
 		(property "Reference" "#PWR02"
-			(at 205.74 114.3 0)
+			(at 204.47 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2677,7 +2677,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 213.36 114.2999 90)
+			(at 212.09 115.5699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2686,7 +2686,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 114.3 0)
+			(at 208.28 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2695,7 +2695,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 114.3 0)
+			(at 208.28 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2704,7 +2704,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 209.55 114.3 0)
+			(at 208.28 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2726,7 +2726,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 100.33 125.73 0)
+		(at 99.06 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2735,7 +2735,7 @@
 		(fields_autoplaced yes)
 		(uuid "3444fa53-55d1-4d69-a481-fc234b9dd94e")
 		(property "Reference" "#PWR01"
-			(at 100.33 132.08 0)
+			(at 99.06 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2744,7 +2744,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.33 130.81 0)
+			(at 99.06 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2752,7 +2752,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 125.73 0)
+			(at 99.06 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2761,7 +2761,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 125.73 0)
+			(at 99.06 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2770,7 +2770,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 125.73 0)
+			(at 99.06 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2792,7 +2792,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 121.92 124.46 0)
+		(at 120.65 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2800,7 +2800,7 @@
 		(dnp no)
 		(uuid "37b84ad8-9cbb-4afd-922f-50961f580a6a")
 		(property "Reference" "C2"
-			(at 125.095 123.19 0)
+			(at 123.825 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2809,7 +2809,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 125.095 125.73 0)
+			(at 123.825 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2818,7 +2818,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 122.8852 128.27 0)
+			(at 121.6152 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2827,7 +2827,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 124.46 0)
+			(at 120.65 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2836,7 +2836,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 121.92 124.46 0)
+			(at 120.65 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2861,7 +2861,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DPDT_x2")
-		(at 200.66 116.84 0)
+		(at 199.39 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2869,7 +2869,7 @@
 		(dnp no)
 		(uuid "3c90d540-0b11-45f6-8e49-a81db4987773")
 		(property "Reference" "SW1"
-			(at 200.66 121.92 0)
+			(at 199.39 123.19 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -2878,7 +2878,7 @@
 			)
 		)
 		(property "Value" "SW_DPDT_x2"
-			(at 200.66 111.76 0)
+			(at 199.39 113.03 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -2888,7 +2888,7 @@
 			)
 		)
 		(property "Footprint" "sumec_brd:Custom_SPDT_4.7mm_Switch"
-			(at 200.66 116.84 0)
+			(at 199.39 118.11 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -2898,7 +2898,7 @@
 			)
 		)
 		(property "Datasheet" "https://cz.mouser.com/ProductDetail/E-Switch/500SSP1S1M2QEA?qs=rR7wk9eDIwofjM3j2mZRnA%3D%3D"
-			(at 200.66 116.84 0)
+			(at 199.39 118.11 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -2908,7 +2908,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 200.66 116.84 0)
+			(at 199.39 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3023,7 +3023,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 111.76 124.46 0)
+		(at 110.49 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3031,7 +3031,7 @@
 		(dnp no)
 		(uuid "5a260634-6ff7-4cc8-9208-6ce5e2c44796")
 		(property "Reference" "C1"
-			(at 114.935 123.19 0)
+			(at 113.665 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3040,7 +3040,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 114.935 125.73 0)
+			(at 113.665 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3049,7 +3049,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder"
-			(at 112.7252 128.27 0)
+			(at 111.4552 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3058,7 +3058,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 111.76 124.46 0)
+			(at 110.49 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3067,7 +3067,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 111.76 124.46 0)
+			(at 110.49 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3786,7 +3786,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery")
-		(at 133.35 124.46 0)
+		(at 132.08 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3794,7 +3794,7 @@
 		(dnp no)
 		(uuid "a8fa9319-7d73-47e0-90ad-49448617afb8")
 		(property "Reference" "BT1"
-			(at 136.525 123.19 0)
+			(at 135.255 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3803,7 +3803,7 @@
 			)
 		)
 		(property "Value" "Battery"
-			(at 136.525 125.73 0)
+			(at 135.255 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3812,7 +3812,7 @@
 			)
 		)
 		(property "Footprint" "Battery:BatteryHolder_Keystone_2462_2xAA - no holes"
-			(at 133.35 122.936 90)
+			(at 132.08 120.396 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3821,7 +3821,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 122.936 90)
+			(at 132.08 120.396 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3830,7 +3830,7 @@
 			)
 		)
 		(property "Description" "Multiple-cell battery"
-			(at 133.35 124.46 0)
+			(at 132.08 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
