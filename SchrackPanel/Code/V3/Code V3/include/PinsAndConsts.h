@@ -75,9 +75,9 @@ const uint8_t CharSet[3822] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
  * 	- Second are the texts
  * 	- Third is how long should each text be displayed
 */
-#define TextsToCycleLength 4
-const String TextsToCycle[TextsToCycleLength]				= {"Schrack Technik",	"Get Ready, Get Schrack",	"Schrack for Students",	"ARODEM"};
-const uint16_t CycleTextChangePeriod[TextsToCycleLength]	= {30000,				30000,						30000,					30000};
+#define TextsToCycleLength 5
+const String TextsToCycle[TextsToCycleLength]				= {"Schrack Technik",	"Get Ready, Get Schrack",	"Schrack for Students",	"ARODEM",	"MESIT Stredni Skola"};
+const uint16_t CycleTextChangePeriod[TextsToCycleLength]	= {30000,				30000,						30000,					30000,		30000};
 
 /**
  * Times for the "predefined time cycle" function
