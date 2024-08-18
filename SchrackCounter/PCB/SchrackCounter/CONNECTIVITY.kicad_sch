@@ -2744,7 +2744,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "51ac71b9-e767-4490-b685-c38517ef87c9")
-		(property "Reference" "R?"
+		(property "Reference" "R5"
 			(at 172.72 91.44 90)
 			(effects
 				(font
@@ -2802,7 +2802,7 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/301b3ab9-8372-40d2-93c7-cd7607d23fc4"
-					(reference "R?")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -2817,7 +2817,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "78f233d8-54a8-4f94-8182-bbf4c50ac2e6")
-		(property "Reference" "R?"
+		(property "Reference" "R4"
 			(at 172.72 66.04 90)
 			(effects
 				(font
@@ -2875,7 +2875,7 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/301b3ab9-8372-40d2-93c7-cd7607d23fc4"
-					(reference "R?")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -2891,7 +2891,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94bcc475-def8-4983-a6ed-92dc498a9c2c")
-		(property "Reference" "U?"
+		(property "Reference" "U8"
 			(at 200.66 62.23 0)
 			(effects
 				(font
@@ -3105,7 +3105,7 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/301b3ab9-8372-40d2-93c7-cd7607d23fc4"
-					(reference "U?")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -3120,7 +3120,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a770cff8-2982-44c8-b522-15facca79481")
-		(property "Reference" "D?"
+		(property "Reference" "D1"
 			(at 119.38 65.405 0)
 			(effects
 				(font
@@ -3172,7 +3172,7 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/301b3ab9-8372-40d2-93c7-cd7607d23fc4"
-					(reference "D?")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -3187,7 +3187,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c6ee28e9-3d9b-49bd-b4ab-5a9a3626caae")
-		(property "Reference" "C?"
+		(property "Reference" "C13"
 			(at 226.06 86.36 0)
 			(effects
 				(font
@@ -3245,7 +3245,7 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/301b3ab9-8372-40d2-93c7-cd7607d23fc4"
-					(reference "C?")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -3261,7 +3261,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "da1042f5-7c7f-4fdc-9e5e-b8fcca623cdd")
-		(property "Reference" "J?"
+		(property "Reference" "J1"
 			(at 144.78 64.77 0)
 			(effects
 				(font
@@ -3494,7 +3494,7 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/301b3ab9-8372-40d2-93c7-cd7607d23fc4"
-					(reference "J?")
+					(reference "J1")
 					(unit 1)
 				)
 			)

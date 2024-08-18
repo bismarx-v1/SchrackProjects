@@ -221,7 +221,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55cbe2b7-eafc-4e75-96b6-9f95366abcc2")
-		(property "Reference" "TP?"
+		(property "Reference" "TP1"
 			(at 133.35 79.2479 0)
 			(effects
 				(font
@@ -274,7 +274,7 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/d3d754f1-f67b-44d1-a5f7-0d46ec9de124"
-					(reference "TP?")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -290,7 +290,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bfd2d9b7-33c9-4d12-b7b6-ced9910890d8")
-		(property "Reference" "TP?"
+		(property "Reference" "TP2"
 			(at 137.16 79.2479 0)
 			(effects
 				(font
@@ -343,76 +343,7 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/d3d754f1-f67b-44d1-a5f7-0d46ec9de124"
-					(reference "TP?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 138.43 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ca82fa12-f427-4ae4-b924-67509f540014")
-		(property "Reference" "TP?"
-			(at 140.97 79.2479 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 140.97 81.7879 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "sumec_graphic:ULTRAKILL_IMG"
-			(at 143.51 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 138.43 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e11ab408-50de-47ab-9fc5-9566a8858fbb")
-		)
-		(instances
-			(project "SchrackCounter"
-				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/d3d754f1-f67b-44d1-a5f7-0d46ec9de124"
-					(reference "TP?")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
