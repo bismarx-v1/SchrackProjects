@@ -109,24 +109,24 @@
 		)
 	)
 	(junction
-		(at 69.85 57.15)
+		(at 140.97 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d18866f-26f7-46cd-acc1-5ed53d123d34")
 	)
 	(junction
-		(at 66.04 57.15)
+		(at 137.16 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c18ad0b-8f33-4329-afcf-7f62739108a7")
 	)
 	(no_connect
-		(at 66.04 60.96)
+		(at 137.16 87.63)
 		(uuid "51e1822a-931d-47f0-9cef-22c6767fca93")
 	)
 	(wire
 		(pts
-			(xy 69.85 57.15) (xy 69.85 54.61)
+			(xy 140.97 83.82) (xy 140.97 81.28)
 		)
 		(stroke
 			(width 0)
@@ -136,7 +136,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 57.15) (xy 66.04 60.96)
+			(xy 137.16 83.82) (xy 137.16 87.63)
 		)
 		(stroke
 			(width 0)
@@ -146,7 +146,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 57.15) (xy 69.85 57.15)
+			(xy 137.16 83.82) (xy 140.97 83.82)
 		)
 		(stroke
 			(width 0)
@@ -156,7 +156,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 57.15) (xy 73.66 57.15)
+			(xy 140.97 83.82) (xy 144.78 83.82)
 		)
 		(stroke
 			(width 0)
@@ -166,7 +166,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 54.61) (xy 66.04 57.15)
+			(xy 137.16 81.28) (xy 137.16 83.82)
 		)
 		(stroke
 			(width 0)
@@ -176,7 +176,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 54.61) (xy 73.66 57.15)
+			(xy 144.78 81.28) (xy 144.78 83.82)
 		)
 		(stroke
 			(width 0)
@@ -185,8 +185,8 @@
 		(uuid "f9a44b3d-fd78-4f8d-b0ca-2bf24b095fbc")
 	)
 	(rectangle
-		(start 38.1 32.385)
-		(end 102.87 78.105)
+		(start 109.22 59.055)
+		(end 173.99 104.775)
 		(stroke
 			(width 0)
 			(type dash)
@@ -199,7 +199,7 @@
 	)
 	(text "ART"
 		(exclude_from_sim no)
-		(at 38.1 32.385 0)
+		(at 109.22 59.055 0)
 		(effects
 			(font
 				(face "Bahnschrift")
@@ -213,7 +213,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 66.04 54.61 0)
+		(at 137.16 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -222,7 +222,7 @@
 		(fields_autoplaced yes)
 		(uuid "55cbe2b7-eafc-4e75-96b6-9f95366abcc2")
 		(property "Reference" "TP1"
-			(at 68.58 50.0379 0)
+			(at 139.7 76.7079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -232,7 +232,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 68.58 52.5779 0)
+			(at 139.7 79.2479 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -242,7 +242,7 @@
 			)
 		)
 		(property "Footprint" "sumec_graphic:SPS_LOGO_IMG"
-			(at 71.12 54.61 0)
+			(at 142.24 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -251,7 +251,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 54.61 0)
+			(at 142.24 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -260,7 +260,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 66.04 54.61 0)
+			(at 137.16 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -282,16 +282,16 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 69.85 54.61 0)
+		(at 144.78 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bfd2d9b7-33c9-4d12-b7b6-ced9910890d8")
-		(property "Reference" "TP2"
-			(at 72.39 50.0379 0)
+		(uuid "78a2f445-1ecf-45f1-ab34-825c1f66bbb3")
+		(property "Reference" "TP3"
+			(at 147.32 76.7079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -301,7 +301,76 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 72.39 52.5779 0)
+			(at 147.32 79.2479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Schrack_brd:SCHRACK_LOGO_IMG"
+			(at 149.86 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8aa01ed0-8f7d-4132-9a98-d925cca3285a")
+		)
+		(instances
+			(project "SchrackCounter"
+				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/d3d754f1-f67b-44d1-a5f7-0d46ec9de124"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 140.97 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bfd2d9b7-33c9-4d12-b7b6-ced9910890d8")
+		(property "Reference" "TP2"
+			(at 143.51 76.7079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 143.51 79.2479 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -311,7 +380,7 @@
 			)
 		)
 		(property "Footprint" "sumec_graphic:SUMEC_LOGO_IMG"
-			(at 74.93 54.61 0)
+			(at 146.05 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -320,7 +389,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.93 54.61 0)
+			(at 146.05 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -329,7 +398,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 69.85 54.61 0)
+			(at 140.97 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
