@@ -1,0 +1,1 @@
+Just take that folder you see and copy it to the lib folder in the project. then add a #include "LedControl.h"
