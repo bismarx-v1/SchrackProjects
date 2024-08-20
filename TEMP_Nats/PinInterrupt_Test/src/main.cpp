@@ -4,6 +4,14 @@
  * Everything you see here is just how i do it, not how it's done right
 */
 
+/**
+ * This is an example of a pin interrupt
+ * This code has 3 parts
+ * 	- Callback - a really small function that is called every time the button is pressed
+ * 	- Check - runs each loop. checks for yet uncounted button presses
+ * 	- Button function - a piece of code that runs exactly once each loop if the button got pressed no matter how many times was it pressed
+*/
+
 #include <Arduino.h>
 
 #define PIN_BUTTON1 4
@@ -26,6 +34,13 @@ void IRAM_ATTR callback_func() {
 
 void setup() {
 	Serial.begin(230400);
+	/**
+	 * Sets a pin to INPUT
+	 * Enables a pull-up resistor (not all pins have this. external pull-up may be required)
+	 * (pull-up sets the pin defaultly to high and a button must connect it to ground instead. safer, especially with multiple buttons)
+	*/
+	pinMode(PIN_BUTTON1, INPUT_PULLUP);
+	
 	/**
 	 * MODE can be
 	 * 	- LOW
