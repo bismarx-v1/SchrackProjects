@@ -2,17 +2,26 @@ import re
 import cv2
 import numpy as np
 
+#BGR not RGB
 Input = "CharSet.png"
 
 Img = cv2.imread(Input, -1)
-
 Out = []
+Out2 = []
+TempWidth = 0
 for x in range(len(Img[0])):
 	for y in range(len(Img)):
-		if(Img[y][x][0].astype(int) + Img[y][x][1].astype(int) + Img[y][x][2].astype(int) >= 384):
-			Out.append(0)
-		else:
+		if(Img[y][x][0].astype(int) == 255):		# Decode blue channel
 			Out.append(1)
+		else:
+			Out.append(0)
+	
+	if x % 6 == 5:
+		for y in range(len(Img)):
+			if (Img[y][x][2].astype(int) == 255):		# Decode red channel
+				TempWidth = TempWidth + 2**y
+		Out2.append(TempWidth)
+		TempWidth = 0
 
 print("const uint8_t CharSet[" + str(len(Out)) + "] = {", end="")
 for i in range(len(Out)):
@@ -21,9 +30,18 @@ for i in range(len(Out)):
 	else:
 		print(str(Out[i]), end=", ")
 	
+print("};\n")
+
+print("const uint8_t CharSetWidths[" + str(len(Out2)) + "] = {", end="")
+for i in range(len(Out2)):
+	if (i == len(Out2) - 1):
+		print(str(Out2[i]), end="")
+	else:
+		print(str(Out2[i]), end=", ")
+
 print("};")
 
-quit()
+quit()		# dunno what's past this. probs ok to delete
 
 '''	#img format convert
 Img2 = cv2.imread("SOmething.png", -1)

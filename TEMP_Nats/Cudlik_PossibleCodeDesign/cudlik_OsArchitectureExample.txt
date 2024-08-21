@@ -1,0 +1,45 @@
+spot diffs between this and the "minutka" one
+
+3 tasks(functions that run basically paralel to each other (not really))
+	- names
+		- State
+		- Graphics
+		- Outputs(Display driver)
+	
+	- what each task does
+		- State
+			- Decides what to set an "internal state" variable (just a concept) to based on the current state and currently pressed buttons
+
+		- Graphics
+			- Decides what to display based on the "internal state" variable
+
+		- Outputs
+			- Handles outputing the right stuff based on what the "Graphics" task throws at it
+			- Can be handled in the "Graphics" task instead
+
+	- Pros for using tasks
+		- Once you know what you are doing it becomes easy and readable
+		- Each task can run with a different period
+
+	- Cons
+		- More stuff to learn
+
+	- Addition
+		- These tasks don't defaultly exist. there is just a way to make them
+		- Probs better to just slap it all in one loop
+			- like
+				- check_buttons();
+				- process_state();
+				- render_output();
+				- output_stuff();
+				- repeat
+		
+		- how can the "internal state" var work, an example
+			- values of the state
+				- 0 => error screen
+				- 1 => main menu (screen shows some random number that will be the players id, or something i guess)
+				- 2 => game session in progress
+				- 3 => game over
+
+or something, why/how should i know ^w^
+loud music makes bad feelings go away. oh and sugar water tastes good :3
