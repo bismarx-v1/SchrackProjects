@@ -1486,6 +1486,126 @@
 				)
 			)
 		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers hide)
@@ -2364,6 +2484,18 @@
 		(uuid "6b184d95-542f-4d77-b74f-68db88f98d03")
 	)
 	(junction
+		(at 124.46 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "955bdb78-26b0-4585-8765-56af85bd1747")
+	)
+	(junction
+		(at 124.46 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aafaad69-c57c-4e9f-9258-9da3258b884e")
+	)
+	(junction
 		(at 194.31 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2399,6 +2531,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 128.27) (xy 124.46 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b891fb7-42d1-434e-8888-1665a2258e99")
+	)
+	(wire
+		(pts
 			(xy 99.06 71.12) (xy 100.33 71.12)
 		)
 		(stroke
@@ -2416,6 +2558,16 @@
 			(type default)
 		)
 		(uuid "0ca54494-bf6d-4ef2-825c-808f0b466935")
+	)
+	(wire
+		(pts
+			(xy 121.92 130.81) (xy 124.46 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13676d16-2240-4692-aa48-30bdb465b984")
 	)
 	(wire
 		(pts
@@ -2496,6 +2648,16 @@
 			(type default)
 		)
 		(uuid "52a1a8f1-9f42-4580-9b4a-0da188b0bf46")
+	)
+	(wire
+		(pts
+			(xy 124.46 130.81) (xy 124.46 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5542c518-e0de-411f-87ea-b8f95cd05607")
 	)
 	(wire
 		(pts
@@ -2679,6 +2841,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 128.27) (xy 121.92 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9a27c4b-c91e-4ac3-95d0-b737ab3fcde7")
+	)
+	(wire
+		(pts
 			(xy 99.06 71.12) (xy 99.06 72.39)
 		)
 		(stroke
@@ -2729,6 +2901,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 133.35) (xy 124.46 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f162acd0-0148-47a5-876a-32060d2ccae3")
+	)
+	(wire
+		(pts
 			(xy 132.08 71.12) (xy 130.81 71.12)
 		)
 		(stroke
@@ -2756,6 +2938,16 @@
 			(type default)
 		)
 		(uuid "fde67209-6b4a-44ef-bd69-c0f5528a2c9f")
+	)
+	(wire
+		(pts
+			(xy 124.46 133.35) (xy 124.46 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fef5437a-d304-45d7-8ed2-b5989e7ca040")
 	)
 	(wire
 		(pts
@@ -4457,7 +4649,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Schrack_brd:LTD080BUE-103A made_by_bismarx"
+		(property "Footprint" "Schrack_brd:LTD080BUE-103A_made_by_bismarx"
 			(at 93.98 138.43 0)
 			(effects
 				(font
@@ -5149,6 +5341,76 @@
 			(project ""
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/50491303-1200-42ed-9e6c-90c20c198c18"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 125.73 128.27 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2350daa-01c1-455a-8802-22de8e8789b2")
+		(property "Reference" "#PWR013"
+			(at 121.92 128.27 0)
+			(effects
+				(font
+					(face "Bahnschrift")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 129.54 128.27 90)
+			(effects
+				(font
+					(face "Bahnschrift")
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 128.27 0)
+			(effects
+				(font
+					(face "Bahnschrift")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 128.27 0)
+			(effects
+				(font
+					(face "Bahnschrift")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f85c6b68-bfb8-4ea1-a4b5-e694d6183fa0")
+		)
+		(instances
+			(project "SchrackCounter"
+				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/50491303-1200-42ed-9e6c-90c20c198c18"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
