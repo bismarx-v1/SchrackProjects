@@ -1231,15 +1231,15 @@
 		(remove_unused_layers no)
 		(uuid "dbd4fa26-794a-40a0-9cfe-468914749d19")
 	)
-	(model "${KISYS3DMOD}/Display_7Segment.3dshapes/CA56-12CGKWA.wrl"
+	(model "C:/Users/MenMe/GitHub/SchrackProjects/_libs/Schrack_3d/2DIGIT_CUSTOM_SCALED.stp"
 		(offset
-			(xyz 20.32 5.1 0)
+			(xyz 27 12.5 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 -90)
+			(xyz 0 0 0)
 		)
 	)
 )
