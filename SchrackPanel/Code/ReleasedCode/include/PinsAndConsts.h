@@ -136,4 +136,7 @@ uint16_t FlipMatrix(uint16_t Position, uint8_t Side1Length, uint8_t Side2Length)
 	return((Position-Position%Side1Length)/Side1Length+Side2Length*(Position%Side1Length));
 }
 
+String CurrentText = "       ";
+String PreviousText = "       ";
+
 #endif

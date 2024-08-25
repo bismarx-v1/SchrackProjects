@@ -3,25 +3,24 @@
  * 
  * Here the program splits of into 4 separate tasks as seen bellow
  * Stuff changes a bit if the output is hardware of a console but only in the driver
+ * 
+ * Dunno what i made nor how i made it, but it tastes like spaghetti.
 */
 
 /**
  * TODO
  *  - Fix
- * 		- Turn off cycling through for short thexts (defined len <= 7chars) (in menus)
- * 		- Use the "TextTransAnim()"
- * 		- Add RTC
- * 		- Add VW font support
- * 		- Clean up the code
+ * 		- Add RTC																														(requires a wifi AP with a predefined name and pass)
+ * 		- Add VW font support																											(requieres a whole rewrite)
  * 		- Check for all "// DEBUG"s
  * 
  * 	- Efficiency
- * 		- Try to slow down StateToFrame task
- * 		- Try to speed up Buttons task
+ * 		- Try to slow down StateToFrame task																							(it's fine like this, and the esp is powerfull enough that i don't care now)
+ * 		- Try to speed up Buttons task																									(not really needed, it's fast enough)
  * 
  * 	- Consistency
- * 		- Check how long can the program run, theory is 49.710269618055555days, 1193.0464708333334hours or 4294967295 millisseconds
- * 		- Test countdown accuracy
+ * 		- Check how long can the program run, theory is 49.710269618055555days, 1193.0464708333334hours or 4294967295 millisseconds		(looking at the whole thing, We think the hardware won't stand uptime longer than a day)
+ * 		- Test countdown accuracy																										(eh, good enough. no deviation We could measure in a 10min test)
 */
 
 //  CCCC H   H EEEEE  CCCC K   K      OOO  U   U TTTTT PPPP  U   U TTTTT
@@ -32,7 +31,7 @@
 // C     H   H E     C     K  K      O   O U   U   T   P     U   U   T  
 //  CCCC H   H EEEEE  CCCC K   K      OOO   UUU    T   P      UUU    T  
 
-#define OUTPUT_IS_HARDWARE 0	// Switches between printing to panel or serial console @ 230400 b/s
+#define OUTPUT_IS_HARDWARE 1	// Switches between printing to panel or serial console @ 230400 b/s
 
 #include <Arduino.h>
 #include "PinsAndConsts.h"

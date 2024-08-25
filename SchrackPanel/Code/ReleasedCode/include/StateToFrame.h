@@ -83,6 +83,7 @@ void StateToFrameLoop() {
 	case 2:	// State "Schrack logo"
 		if(State != StateLast) {
 			StateLast = State;
+			CurrentText = "SCHRACK";
 			GraphicsLoop(Frame, 2, 1, "SCHRACK", 0);
 		}
 
@@ -92,10 +93,12 @@ void StateToFrameLoop() {
 		if(State != StateLast) {
 			StateLast = State;
 			StateTick = 0;
+			PreviousText = CurrentText;
+			CurrentText = TEXT_MainMenu;
 		}
 
 		if(StateTick < 65535) {
-			StateTick = TextEnterAnim(Frame, TEXT_MainMenu, 0, StateTick);
+			StateTick = TextEnterAnim(Frame, CurrentText, 0, StateTick);
 		}
 		
 		break;
@@ -104,6 +107,8 @@ void StateToFrameLoop() {
 		if(State != StateLast) {
 			StateLast = State;
 			StateTick = 0;
+			PreviousText = CurrentText;
+			CurrentText = TEXT_ScrtPt;
 		}
 
 		if(StateTick < 65535) {
@@ -162,6 +167,8 @@ void StateToFrameLoop() {
 		if(State != StateLast) {
 			StateLast = State;
 			StateTick = 0;
+			PreviousText = CurrentText;
+			CurrentText = TEXT_Time;
 		}
 
 		if(StateTick < 65535) {
@@ -174,6 +181,8 @@ void StateToFrameLoop() {
 		if(State != StateLast) {
 			StateLast = State;
 			StateTick = 0;
+			PreviousText = CurrentText;
+			CurrentText = TEXT_Countdown;
 		}
 
 		if(StateTick < 65535) {

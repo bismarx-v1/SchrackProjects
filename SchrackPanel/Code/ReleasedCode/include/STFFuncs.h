@@ -37,6 +37,45 @@ void BootAnim(uint16_t Tick, uint8_t* Frame) {
 	}
 }
 
+uint8_t LongText;	// If the text is longer than 7 chars
+uint8_t NewTextLength;
+
+/**
+ * @brief This func should provide a transition anim between 2 texts
+ * @param OldText Text you go from
+ * @param NewText Text you go to
+ * @param Tick Variable with the offset
+ * @returns 0 when finished, else 1
+*/
+uint8_t TextTransAnim(uint8_t* Frame, String OldText, String NewText, uint16_t* Tick) {
+	//GraphicsLoop(Frame, 3, 0, OldText+". "+OldText+". "+NewText, Tick[0]);	// Render text
+	if(OldText[OldText.length()-1] != ' ') {
+		if(7-OldText.length() > 0) {
+			LongText = 0;
+			NewTextLength = 0;
+			for(uint8_t i = 0; i < 7-OldText.length()+1; i++) {
+				OldText = OldText + " ";
+			}
+		}
+	}
+
+	if(NewText.length() > 7) {
+		LongText = 1;
+		NewTextLength = NewText.length();
+		NewText = NewText + ". " + NewText;
+	}
+
+	OldText = OldText + " >";
+	GraphicsLoop(Frame, 3, 0, OldText+NewText, Tick[0]);	// Render text
+	// if(Tick[0]+1 >= (((OldText+". "+OldText+". ").length())*6)) {	// If the next offset is 0 for the new text
+	if(Tick[0]+1 >= ((OldText.length())*6+1) + LongText*(NewTextLength+2)*6+1) {	// If the next offset is 0 for the new text
+		return(0);
+	} else {
+		Tick[0]++;
+		return(1);
+	}
+}
+
 /**
  * @brief Renders continuation a piece of text ariving from the right
  * @param Frame The frame to make the change to
@@ -46,12 +85,27 @@ void BootAnim(uint16_t Tick, uint8_t* Frame) {
  * @returns Value of next tick
 */
 uint16_t TextEnterAnim(uint8_t* Frame, String Text, uint8_t EndHighlight, uint16_t Tick) {
-	if(Tick < (Text.length()+7+2)*6) {
-		GraphicsLoop(Frame, 3, 0, "       "+Text+". "+Text, Tick);
-		return(Tick+1);
-	} else {
-		GraphicsLoop(Frame, 2, EndHighlight, Text, 0);
-		return(65535);
+	if(Text.length() <= 7) {	// Text is short, it just arrives
+		if(TextTransAnim(Frame, PreviousText, Text, &Tick)) {
+			//TextTransAnim(Frame, PreviousText, Text, &Tick);
+			//GraphicsLoop(Frame, 3, 0, "       "+Text, Tick);
+			//return(Tick+1);
+			return(Tick);
+		} else {
+			GraphicsLoop(Frame, 2, EndHighlight, Text, 0);
+			return(65535);
+		}
+	} else {	// Texts is long, it passes through once
+		/*if(Tick < (Text.length()+7+2)*6) {
+			GraphicsLoop(Frame, 3, 0, "       "+Text+". "+Text, Tick);
+			return(Tick+1);
+		}*/
+		if(TextTransAnim(Frame, PreviousText, Text, &Tick)) {
+			return(Tick);
+		}else {
+			GraphicsLoop(Frame, 2, EndHighlight, Text, 0);
+			return(65535);
+		}
 	}
 }
 
@@ -89,6 +143,7 @@ void CycleTextsReset(const String* TextsArray, String* Text) {
 void CycleTexts(const String* TextsArray, uint8_t TextsArrayLength, const uint16_t* TextChangePeriod, uint8_t* IndexInTextArray, uint32_t* TextChangedLast, uint16_t* CycleTextsOffset, String* Text) {
 	//Serial.print(Text[0]); Serial.print("; "); Serial.print(IndexInTextArray[0]);  Serial.print("; "); Serial.print(CycleTextsOffset[0]); Serial.print("; "); Serial.print((TextsArray[IndexInTextArray[0]].length()+2)*6); Serial.print("; "); Serial.print(TextChangedLast[0]+TextChangePeriod[IndexInTextArray[0]]); Serial.print("; "); Serial.println(millis());	// Debug print
 	GraphicsLoop(Frame, 3, 0, Text[0], CycleTextsOffset[0]);
+	CurrentText = "       ";
 
 	if(TextChangedLast[0]+TextChangePeriod[IndexInTextArray[0]] < millis()) {
 		TextChangedLast[0] = millis();
@@ -132,6 +187,7 @@ void SetTimePredefined(uint8_t* ButtonCheckedFlag) {
 	if(IndexInPredefinedTimeArray != IndexInPredefinedTimeArrayLast) {	// If time changed, update Frame
 		CounterRemTime = PredefinedTimeToCycle[IndexInPredefinedTimeArray];	// Set remaining time to the desired time
 		GraphicsLoop(Frame, 1, 0, CounterRemTime, 0);	// Display the time
+		CurrentText = "       ";
 		IndexInPredefinedTimeArrayLast = IndexInPredefinedTimeArray;
 	}
 }
@@ -150,6 +206,8 @@ uint16_t CountdownPause(uint16_t Tick) {
 	} else if(Tick == 1) {
 		GraphicsLoop(Frame, 1, 0, "Pa:us:ed", 0);	// "Paused" text
 	}
+
+	CurrentText = "       ";
 
 	if(CountdownPauseAnimToggleLast + CountdownPauseAnimToggleTimeArray[Tick] < millis()) {	// If time to change to new text
 		Tick = 1-Tick;
@@ -173,6 +231,8 @@ uint16_t CountdownEnd(uint16_t Tick, uint32_t TimeTriggred) {
 		GraphicsLoop(Frame, 1, 1, "00 00 00", 0);	// colons off
 		//GraphicsLoop(Frame, 1, 0, String(CounterRemTime[0] + CounterRemTime[1] + String(" ") + CounterRemTime[4] + CounterRemTime[5] + String(" ") + CounterRemTime[7] + CounterRemTime[8]), 0);	// colons off; for any end time
 	}
+
+	CurrentText = "       ";
 
 	if(CountdownPauseAnimToggleLast + CountdownPauseAnimToggleTimeArray[Tick] < millis()) {	// If time to change to new text
 		Tick = 1-Tick;
@@ -259,6 +319,7 @@ uint8_t CountdownRunForLoopI1 = 0;
 */
 uint16_t CountdownRun() {
 	GraphicsLoop(Frame, 1, 0, CounterRemTime, 0);
+	CurrentText = "       ";
 	if(CounterRemTimeLast + 1000 <= millis()) {
 		CounterRemTimeLastLast = CounterRemTimeLast;
 		CounterRemTimeLast = millis();
@@ -287,6 +348,7 @@ void SetTimeCustom(uint8_t* MoveCursorFlagPointer, uint8_t* CycleDigitFlagPointe
 	if(SetTimeCustomChangedFlag = 1) {
 		SetTimeCustomChangedFlag = 0;
 		GraphicsLoop(Frame, 1, 0, CounterRemTime, 0);
+		CurrentText = "       ";
 		if(SetTimeCustomToggleCursorHighlight == 1) {
 			for(SetTimeCustomForLoopI1 = 0; SetTimeCustomForLoopI1 < 42; SetTimeCustomForLoopI1++) {
 				Frame[CursorOffset[CursorIndex]+SetTimeCustomForLoopI1] = 1-Frame[CursorOffset[CursorIndex]+SetTimeCustomForLoopI1];
@@ -339,21 +401,5 @@ void SetTimeCustom(uint8_t* MoveCursorFlagPointer, uint8_t* CycleDigitFlagPointe
 
 }
 
-/**
- * @brief This func should provide a transition anim between 2 texts
- * @param OldText Text you go from
- * @param NewText Text you go to
- * @param Tick Variable with the offset
- * @returns 0 when finished, else 1
-*/
-uint8_t TextTransAnim(const String OldText, const String NewText, uint16_t* Tick) {
-	GraphicsLoop(Frame, 3, 0, OldText+". "+OldText+". "+NewText, Tick[0]);	// Render text
-	if(Tick[0]+1 >= (((OldText+". "+OldText+". ").length())*6)) {	// If the next offset is 0 for the new text
-		return(0);
-	} else {
-		Tick[0]++;
-		return(1);
-	}
-}
 
 #endif
