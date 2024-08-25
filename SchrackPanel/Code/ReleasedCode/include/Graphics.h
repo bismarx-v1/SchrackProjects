@@ -165,17 +165,33 @@ void GraphicsLoop(uint8_t* Frame, uint8_t DisplayMode, uint8_t RedLeds, String T
 		
 		case 1:	// Time
 			for(uint8_t FrameX = 0; FrameX < CONST_Width; FrameX++) {
-				if((FrameX == 12 || FrameX == 16) || (FrameX == 30 || FrameX == 34)) {
+				/*if((FrameX == 12 || FrameX == 16) || (FrameX == 30 || FrameX == 34)) {
 					OffsetH += 2;
 				}
 
 				if((FrameX == 12 || FrameX == 13 || FrameX == 16 || FrameX == 17) || (FrameX == 30 || FrameX == 31 || FrameX == 34 || FrameX == 35)) {
 					continue;
+				}*/
+
+				if(FrameX == 13 || FrameX == 27+4) {	// Skips the rest of the character. in this case the colon; 27+4 because the next colon in on position 26 but without counting the added 4 (in reality it's at 31)
+					OffsetH += 4;
 				}
 
-				for(uint8_t FrameY = 0; FrameY < CONST_Height; FrameY++) {
-					if(Frame[(FrameY)+((FrameX-OffsetH)*CONST_Height)] == 2) {
-						Frame[(FrameY)+((FrameX-OffsetH)*CONST_Height)] = CharSet[(FrameY)+(FrameX%6*CONST_Height)+(CharToCharIndex(Text[(FrameX-FrameX%CONST_CharSegWidth)/CONST_CharSegWidth])*CONST_Height*CONST_CharSegWidth)];
+				if((FrameX >= 13 && FrameX <= 13+3) || (FrameX >= 27+4 && FrameX <= 27+4+3)) {	// Skips rendering of the columns
+					continue;
+				}
+
+				if(FrameX == 12 || FrameX == 30) {	// Column position, render it instead then
+					for(uint8_t FrameY = 0; FrameY < CONST_Height; FrameY++) {
+						if(Frame[(FrameY)+((FrameX-OffsetH)*CONST_Height)] == 2) {
+							Frame[(FrameY)+((FrameX-OffsetH)*CONST_Height)] = TimeColonChar[(FrameY)+(FrameX%6*CONST_Height)];
+						}
+					}
+				} else {
+					for(uint8_t FrameY = 0; FrameY < CONST_Height; FrameY++) {
+						if(Frame[(FrameY)+((FrameX-OffsetH)*CONST_Height)] == 2) {
+							Frame[(FrameY)+((FrameX-OffsetH)*CONST_Height)] = CharSet[(FrameY)+(FrameX%6*CONST_Height)+(CharToCharIndex(Text[(FrameX-FrameX%CONST_CharSegWidth)/CONST_CharSegWidth])*CONST_Height*CONST_CharSegWidth)];
+						}
 					}
 				}
 

@@ -7,6 +7,14 @@
 
 /**
  * TODO
+ *  - Fix
+ * 		- Turn off cycling through for short thexts (defined len <= 7chars) (in menus)
+ * 		- Use the "TextTransAnim()"
+ * 		- Add RTC
+ * 		- Add VW font support
+ * 		- Clean up the code
+ * 		- Check for all "// DEBUG"s
+ * 
  * 	- Efficiency
  * 		- Try to slow down StateToFrame task
  * 		- Try to speed up Buttons task
@@ -14,12 +22,17 @@
  * 	- Consistency
  * 		- Check how long can the program run, theory is 49.710269618055555days, 1193.0464708333334hours or 4294967295 millisseconds
  * 		- Test countdown accuracy
- * 
- * 	- Looks
- * 		- Use the "TextTransAnim()"
 */
 
-#define OUTPUT_IS_HARDWARE 1	// Switches between printing to panel or serial console @ 250000 b/s
+//  CCCC H   H EEEEE  CCCC K   K      OOO  U   U TTTTT PPPP  U   U TTTTT
+// C     H   H E     C     K  K      O   O U   U   T   P   P U   U   T  
+// C     H   H E     C     K K       O   O U   U   T   P   P U   U   T  
+// C     HHHHH EEEEE C     KK        O   O U   U   T   PPPP  U   U   T  
+// C     H   H E     C     K K       O   O U   U   T   P     U   U   T  
+// C     H   H E     C     K  K      O   O U   U   T   P     U   U   T  
+//  CCCC H   H EEEEE  CCCC K   K      OOO   UUU    T   P      UUU    T  
+
+#define OUTPUT_IS_HARDWARE 0	// Switches between printing to panel or serial console @ 230400 b/s
 
 #include <Arduino.h>
 #include "PinsAndConsts.h"

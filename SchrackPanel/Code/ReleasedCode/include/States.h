@@ -42,6 +42,7 @@ void StatesLoop() {
 			}
 
 			if(Button2CheckedFlag == 1) {
+				State = 2;	// DEBUG/TEMP ability to skip the anim
 				Button2CheckedFlag = 0;
 			}
 
