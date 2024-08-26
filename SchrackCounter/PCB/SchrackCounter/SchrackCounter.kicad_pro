@@ -466,7 +466,8 @@
       "Schrack_brd"
     ],
     "pinned_symbol_libs": [
-      "SCHRACK"
+      "SCHRACK",
+      "SchrackThingy_library"
     ]
   },
   "meta": {
