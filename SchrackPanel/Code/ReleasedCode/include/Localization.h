@@ -15,6 +15,6 @@
 		#define TEXT_MainMenu "Menu"	// found @ state 3
 		#define TEXT_ScrtPt "EstrEgg?"		// found @ state 90
 		#define TEXT_Time "Time"			// found @ state 200
-		#define TEXT_Countdown "Countdown"	// found @ state 210
+		#define TEXT_Countdown "Timer"	// found @ state 210
 	#endif
 #endif

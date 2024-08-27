@@ -97,7 +97,7 @@ const String PredefinedTimeToCycle[PredefinedTimeToCycleLength] = {"00:20:00", "
 */
 #define CreditTextLength 5
 const String CreditText[CreditTextLength]			= {"PCB: Savva Popov",	"Sfwr: ms. Natani Simak",	"Mech: Jonas Jary",	"Mech: Filip Kadlec",	"Support: Doc Krivka, Bc. Happy"};
-const uint16_t CreditTextPeriod[CreditTextLength]	= {20000,				20000,						20000,				20000,					40000};
+const uint16_t CreditTextPeriod[CreditTextLength]	= {20000,				20000,						20000,				20000,					30000};
 
 /**
  * "Dev texts" text cycle function

@@ -1,4 +1,4 @@
-/**
+                    /**
  * This is the main program for the panel. I am sorry for anyone who has to fix this (excluding future me).
  * 
  * Here the program splits of into 4 separate tasks as seen bellow
@@ -13,6 +13,8 @@
  * 		- Add RTC																														(requires a wifi AP with a predefined name and pass)
  * 		- Add VW font support																											(requieres a whole rewrite)
  * 		- Check for all "// DEBUG"s
+ * 		- Everything breaks when leaving(btn4) "countdown"/"timer"
+ * 		- Paused timer anim is too fast
  * 
  * 	- Efficiency
  * 		- Try to slow down StateToFrame task																							(it's fine like this, and the esp is powerfull enough that i don't care now)
