@@ -2710,8 +2710,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at -17.78 -11.43 90)
+		(property "Footprint" "Schrack_brd:LDD080BUE-101A_made_by_bismarx"
+			(at -0.508 17.018 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4159,8 +4159,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 -15.24 0)
+		(property "Footprint" "Schrack_brd:LTD080BUE-103A_made_by_bismarx"
+			(at -5.08 16.764 0)
 			(effects
 				(font
 					(size 1.27 1.27)
