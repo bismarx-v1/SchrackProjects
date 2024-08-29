@@ -282,75 +282,6 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 144.78 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "78a2f445-1ecf-45f1-ab34-825c1f66bbb3")
-		(property "Reference" "TP3"
-			(at 147.32 76.7079 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 147.32 79.2479 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Schrack_brd:SCHRACK_LOGO_IMG"
-			(at 149.86 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 149.86 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 144.78 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8aa01ed0-8f7d-4132-9a98-d925cca3285a")
-		)
-		(instances
-			(project "SchrackCounter"
-				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/d3d754f1-f67b-44d1-a5f7-0d46ec9de124"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
 		(at 140.97 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -379,7 +310,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "sumec_graphic:SUMEC_LOGO_IMG"
+		(property "Footprint" "sumec_graphic:SCHRACK_LOGO_IMG"
 			(at 146.05 81.28 0)
 			(effects
 				(font

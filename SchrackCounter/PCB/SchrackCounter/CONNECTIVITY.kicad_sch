@@ -734,103 +734,7 @@
 				)
 			)
 		)
-		(symbol "power:GND"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "sumec_library:TYPE-C-31-M-12"
+		(symbol "SchrackThingy_library:TYPE-C-31-M-12 (USB C CONN)"
 			(pin_names
 				(offset 1.016)
 			)
@@ -846,7 +750,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "TYPE-C-31-M-12"
+			(property "Value" "TYPE-C-31-M-12 (USB C CONN)"
 				(at -12.7 -13.462 0)
 				(effects
 					(font
@@ -925,7 +829,7 @@
 				)
 			)
 			(property "Check_prices" "https://www.snapeda.com/parts/TYPE-C-31-M-12/HRO+Electronics+Co.%252C+Ltd./view-part/?ref=eda"
-				(at 0 0 0)
+				(at 2.54 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1004,7 +908,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "TYPE-C-31-M-12_0_0"
+			(symbol "TYPE-C-31-M-12 (USB C CONN)_0_0"
 				(rectangle
 					(start -12.7 -12.7)
 					(end 12.7 12.7)
@@ -1300,6 +1204,102 @@
 						(effects
 							(font
 								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -4179,6 +4179,238 @@
 		)
 	)
 	(symbol
+		(lib_id "SchrackThingy_library:TYPE-C-31-M-12 (USB C CONN)")
+		(at 146.05 62.23 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a930e8c-490f-4638-b164-42d9003e350e")
+		(property "Reference" "J1"
+			(at 146.05 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TYPE-C-31-M-12 (USB C CONN)"
+			(at 146.05 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "sumec_brd:USB_Type_C"
+			(at 146.05 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS"
+			(at 146.05 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "HRO Electronics Co., Ltd."
+			(at 146.05 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.26 mm"
+			(at 146.05 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Package"
+			(at 146.05 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 146.05 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TYPE-C-31-M-12/HRO+Electronics+Co.%252C+Ltd./view-part/?ref=eda"
+			(at 143.51 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 146.05 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "2020.12.08"
+			(at 146.05 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TYPE-C-31-M-12/HRO+Electronics+Co.%252C+Ltd./view-part/?ref=snap"
+			(at 146.05 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TYPE-C-31-M-12"
+			(at 146.05 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "TYPE-C-31-M-12"
+			(at 146.05 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 146.05 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "HRO Electronics Co., Ltd."
+			(at 146.05 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A5"
+			(uuid "dc0d5b95-fb83-417d-b57b-1110977eb529")
+		)
+		(pin "A6"
+			(uuid "2c8514ab-86ad-4dd7-9e34-28d23217d2a0")
+		)
+		(pin "B5"
+			(uuid "4cbe7679-3fc5-44d1-89d5-84a1b784339e")
+		)
+		(pin "S1"
+			(uuid "3c317a93-033e-4487-8080-3ffd739fcd22")
+		)
+		(pin "S2"
+			(uuid "0abd6a39-f6f2-4d7e-94fc-b3fe79f388e0")
+		)
+		(pin "A7"
+			(uuid "6c0c7953-8cb9-41c2-a793-1a5e2e535781")
+		)
+		(pin "B7"
+			(uuid "94010d44-eca2-4aae-a4b8-4ba05fc457e3")
+		)
+		(pin "A8"
+			(uuid "1574a067-b454-4e18-89c3-bd6ff190709a")
+		)
+		(pin "B4_A9"
+			(uuid "e996cd8d-9ec2-4a00-9bb4-95a672a83167")
+		)
+		(pin "A4_B9"
+			(uuid "0506da18-1d8f-4834-b0c3-b830972d0c5e")
+		)
+		(pin "B6"
+			(uuid "862c90e7-78e7-4b04-86b2-81ccd5cd5dde")
+		)
+		(pin "S3"
+			(uuid "f2c37abc-ac1b-4c82-aa6d-29d219d397e7")
+		)
+		(pin "S4"
+			(uuid "61848009-2cf7-4be0-96f9-4190f3482f7f")
+		)
+		(pin "A1_B12"
+			(uuid "c23972ee-43d4-4d56-b769-99410f5d45e6")
+		)
+		(pin "B8"
+			(uuid "902569bd-6d69-424e-b6bb-073e58a242d9")
+		)
+		(pin "B1_A12"
+			(uuid "08f022db-cd7c-4569-94d7-5677eed13a4d")
+		)
+		(instances
+			(project "SchrackCounter"
+				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/301b3ab9-8372-40d2-93c7-cd7607d23fc4"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 132.08 138.43 90)
 		(unit 1)
@@ -5095,255 +5327,6 @@
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/301b3ab9-8372-40d2-93c7-cd7607d23fc4"
 					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "sumec_library:TYPE-C-31-M-12")
-		(at 146.05 62.23 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "da1042f5-7c7f-4fdc-9e5e-b8fcca623cdd")
-		(property "Reference" "J1"
-			(at 146.05 45.72 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TYPE-C-31-M-12"
-			(at 146.05 48.26 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "sumec-smdV2_library:USB_Type_C"
-			(at 146.05 62.23 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 62.23 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "\nUSB Connectors 24 Receptacle 1 8.94*7.3mm RoHS\n"
-			(at 146.05 62.23 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "HRO Electronics Co., Ltd."
-			(at 146.05 62.23 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "3.26 mm"
-			(at 146.05 62.23 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "Package"
-			(at 146.05 62.23 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 146.05 62.23 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TYPE-C-31-M-12/HRO+Electronics+Co.%252C+Ltd./view-part/?ref=eda"
-			(at 146.05 62.23 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 146.05 62.23 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "2020.12.08"
-			(at 146.05 62.23 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TYPE-C-31-M-12/HRO+Electronics+Co.%252C+Ltd./view-part/?ref=snap"
-			(at 146.05 62.23 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "TYPE-C-31-M-12"
-			(at 146.05 62.23 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "TYPE-C-31-M-12"
-			(at 146.05 62.23 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 146.05 62.23 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "HRO Electronics Co., Ltd."
-			(at 146.05 62.23 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "A1_B12"
-			(uuid "952f5f80-65e0-46d3-9463-379094b9a214")
-		)
-		(pin "A4_B9"
-			(uuid "968d93aa-3db3-428b-8bf6-f4ce6eb10ba0")
-		)
-		(pin "A5"
-			(uuid "92297b7e-78f5-4688-8605-184e18b211a9")
-		)
-		(pin "A6"
-			(uuid "0f5762c3-80b3-46da-aa45-a9a5e9970ae5")
-		)
-		(pin "A7"
-			(uuid "d8b7e665-06ca-4403-a366-308402627527")
-		)
-		(pin "A8"
-			(uuid "3608131e-6687-44c8-b4a7-cf0eb2cfed8a")
-		)
-		(pin "B1_A12"
-			(uuid "ad107d74-fdf9-4f37-a217-cd91796a3ec1")
-		)
-		(pin "B4_A9"
-			(uuid "3be6653e-b300-4527-b781-977d019c57e5")
-		)
-		(pin "B5"
-			(uuid "c9da23ee-990f-4892-95d0-9ed8fd87c120")
-		)
-		(pin "B6"
-			(uuid "ff9564dc-a069-4b57-99af-5102064c68ee")
-		)
-		(pin "B7"
-			(uuid "f9ba3867-fa56-403d-8c40-1525e14c6e2a")
-		)
-		(pin "B8"
-			(uuid "48af51b9-1836-48ef-a8d2-4db5faf95fe8")
-		)
-		(pin "S1"
-			(uuid "2a8594c3-b18b-4244-80f9-baef03bec2b4")
-		)
-		(pin "S2"
-			(uuid "59662e04-e764-4659-9943-f34c962c659f")
-		)
-		(pin "S3"
-			(uuid "23676f18-6186-48fa-8af1-346bae7002f3")
-		)
-		(pin "S4"
-			(uuid "568fec9a-9d7c-4625-98c8-044909898eca")
-		)
-		(instances
-			(project "SchrackCounter"
-				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/301b3ab9-8372-40d2-93c7-cd7607d23fc4"
-					(reference "J1")
 					(unit 1)
 				)
 			)

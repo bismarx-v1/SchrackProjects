@@ -748,6 +748,108 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Motor:Fan_CPU_4pin"
 			(pin_names
 				(offset 0)
@@ -1955,7 +2057,7 @@
 		)
 	)
 	(junction
-		(at 165.1 46.99)
+		(at 165.1 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "08a404bf-3941-441f-b0a4-6c90a8a6f4ea")
@@ -1973,16 +2075,34 @@
 		(uuid "232f4cec-a939-4198-b53b-bda515cd911e")
 	)
 	(junction
+		(at 85.09 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "253260e3-2949-4fa4-9d3b-c20d7229911c")
+	)
+	(junction
 		(at 132.08 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "26a1ad15-7044-4e06-b03e-c6d6e8dd266d")
 	)
 	(junction
+		(at 85.09 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27267c78-7c50-4c7f-8139-715f33cd9d98")
+	)
+	(junction
 		(at 144.78 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5011d920-e9e9-44ba-871a-ddf46b0a02fa")
+	)
+	(junction
+		(at 85.09 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56407933-6d52-43c8-8169-bc19b29d1a34")
 	)
 	(junction
 		(at 109.22 64.77)
@@ -2015,7 +2135,7 @@
 		(uuid "d762f9f0-1da4-466d-8eaa-acb4616d77e2")
 	)
 	(junction
-		(at 165.1 54.61)
+		(at 165.1 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1bbdf68-4c79-4e7a-aaf8-c419e32b80a8")
@@ -2033,6 +2153,16 @@
 	(no_connect
 		(at 195.58 118.11)
 		(uuid "803abe1b-9f4c-405c-97c6-297d4072f042")
+	)
+	(wire
+		(pts
+			(xy 205.74 64.77) (xy 209.55 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0054d44a-e76a-4e58-9e14-049907b4efd0")
 	)
 	(wire
 		(pts
@@ -2056,6 +2186,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 161.29) (xy 85.09 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03f50d6a-d2c2-41a9-ae4d-149ae5f19d66")
+	)
+	(wire
+		(pts
 			(xy 132.08 71.12) (xy 134.62 71.12)
 		)
 		(stroke
@@ -2066,7 +2206,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 46.99) (xy 167.64 46.99)
+			(xy 165.1 55.88) (xy 167.64 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2086,7 +2226,17 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 62.23) (xy 165.1 54.61)
+			(xy 213.36 57.15) (xy 213.36 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "156e7030-e39d-4d65-a7eb-2c4454b45cb3")
+	)
+	(wire
+		(pts
+			(xy 165.1 71.12) (xy 165.1 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2136,7 +2286,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 54.61) (xy 177.8 54.61)
+			(xy 181.61 63.5) (xy 177.8 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2216,6 +2366,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 154.94) (xy 85.09 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3858c9f0-57c5-472d-b144-63dd456d3a31")
+	)
+	(wire
+		(pts
 			(xy 195.58 101.6) (xy 195.58 102.87)
 		)
 		(stroke
@@ -2253,6 +2413,16 @@
 			(type default)
 		)
 		(uuid "43879e6d-f6ec-4b21-ac19-4130efb94e31")
+	)
+	(wire
+		(pts
+			(xy 71.12 154.94) (xy 85.09 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b906b09-dd26-4c51-a969-27231b57d2ff")
 	)
 	(wire
 		(pts
@@ -2296,6 +2466,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 167.64) (xy 85.09 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a19cc51-2465-4456-b3ff-3689644da1f1")
+	)
+	(wire
+		(pts
 			(xy 195.58 101.6) (xy 185.42 101.6)
 		)
 		(stroke
@@ -2336,7 +2516,17 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 46.99) (xy 165.1 54.61)
+			(xy 71.12 173.99) (xy 85.09 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7490eae3-b172-48c4-bfce-7681436a12c3")
+	)
+	(wire
+		(pts
+			(xy 165.1 55.88) (xy 165.1 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2376,7 +2566,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 46.99) (xy 165.1 46.99)
+			(xy 162.56 55.88) (xy 165.1 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2466,13 +2656,23 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 46.99) (xy 181.61 46.99)
+			(xy 177.8 55.88) (xy 181.61 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "991f01b1-141d-4755-8083-d3346997749e")
+	)
+	(wire
+		(pts
+			(xy 85.09 167.64) (xy 85.09 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d8f423c-7a31-417d-952d-b3f551374902")
 	)
 	(wire
 		(pts
@@ -2483,6 +2683,16 @@
 			(type default)
 		)
 		(uuid "a2ab4d0d-f1c6-468e-ae24-88867702dc55")
+	)
+	(wire
+		(pts
+			(xy 85.09 175.26) (xy 85.09 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5b08818-6e51-4f96-8f62-675bf7a457de")
 	)
 	(wire
 		(pts
@@ -2536,13 +2746,33 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 54.61) (xy 167.64 54.61)
+			(xy 85.09 161.29) (xy 85.09 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be726564-9137-42d5-ac2b-d007ca94ee3b")
+	)
+	(wire
+		(pts
+			(xy 165.1 63.5) (xy 167.64 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c3115db3-9832-4d6c-b8ee-6ec26cf5a66a")
+	)
+	(wire
+		(pts
+			(xy 220.98 64.77) (xy 217.17 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3e34ccc-c746-437f-9e89-36c4730b3f77")
 	)
 	(wire
 		(pts
@@ -2566,7 +2796,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 62.23) (xy 165.1 62.23)
+			(xy 167.64 71.12) (xy 165.1 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2586,7 +2816,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 62.23) (xy 181.61 62.23)
+			(xy 177.8 71.12) (xy 181.61 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2683,7 +2913,7 @@
 	)
 	(text "DEBOUNCE: 100nF and 2k?"
 		(exclude_from_sim no)
-		(at 53.975 137.16 0)
+		(at 66.675 131.445 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2736,7 +2966,7 @@
 	)
 	(text "DEBOUNCE?"
 		(exclude_from_sim no)
-		(at 171.45 66.675 0)
+		(at 171.45 75.565 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2762,7 +2992,7 @@
 	)
 	(text "JST big conductor gauge"
 		(exclude_from_sim no)
-		(at 53.975 133.35 0)
+		(at 49.53 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2786,7 +3016,7 @@
 	)
 	(global_label "MODE"
 		(shape input)
-		(at 181.61 62.23 0)
+		(at 181.61 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2798,7 +3028,7 @@
 		)
 		(uuid "0762ad06-3248-48e3-a7b9-4b432a6ff3ee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.5065 62.23 0)
+			(at 187.5065 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2954,7 +3184,7 @@
 	)
 	(global_label "DIGIT_SELECT"
 		(shape input)
-		(at 181.61 46.99 0)
+		(at 181.61 55.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2966,7 +3196,7 @@
 		)
 		(uuid "7e4da77c-452e-47b0-9564-6a95c48c1090")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 192.5516 46.99 0)
+			(at 192.5516 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3096,9 +3326,9 @@
 			)
 		)
 	)
-	(global_label "TIME_DOWN"
+	(global_label "TIME_CONTROL"
 		(shape input)
-		(at 115.57 176.53 0)
+		(at 213.36 57.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3106,23 +3336,23 @@
 				(size 1 1)
 				(color 0 0 0 1)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "ef8eea95-5234-400e-9e05-2e2df76285e4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.3344 176.53 0)
+			(at 201.5205 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "RESET"
 		(shape input)
-		(at 181.61 54.61 0)
+		(at 181.61 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3134,7 +3364,7 @@
 		)
 		(uuid "ff4c168a-cb92-435f-9c44-87a0b350c882")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.9198 54.61 0)
+			(at 187.9198 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3430,7 +3660,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "17ad87ac-9b73-4443-ae37-a797acc59908")
-		(property "Reference" "R?"
+		(property "Reference" "R11"
 			(at 69.85 109.22 0)
 			(effects
 				(font
@@ -3486,7 +3716,7 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/0ccd8f36-c6f2-454f-91e2-c1976b699e0e"
-					(reference "R?")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -3494,7 +3724,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 163.83 46.99 90)
+		(at 162.56 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3502,7 +3732,7 @@
 		(dnp no)
 		(uuid "19f824c1-7d41-498f-a0af-ddeba68912b5")
 		(property "Reference" "#PWR038"
-			(at 167.64 46.99 0)
+			(at 166.37 55.88 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -3512,7 +3742,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 160.02 46.99 90)
+			(at 159.385 55.88 90)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -3522,7 +3752,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 46.99 0)
+			(at 162.56 55.88 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -3532,7 +3762,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 46.99 0)
+			(at 162.56 55.88 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -3542,7 +3772,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 163.83 46.99 0)
+			(at 162.56 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3571,7 +3801,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c72ebd8-9d5b-4bb6-b6d3-0dcb1dbbd2bc")
-		(property "Reference" "C?"
+		(property "Reference" "C17"
 			(at 182.245 105.41 0)
 			(effects
 				(font
@@ -3625,7 +3855,7 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/0ccd8f36-c6f2-454f-91e2-c1976b699e0e"
-					(reference "C?")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -3702,7 +3932,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 172.72 54.61 0)
+		(at 172.72 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3710,7 +3940,7 @@
 		(dnp no)
 		(uuid "2bceca1f-e0ca-4429-8132-4c700e4ddb8b")
 		(property "Reference" "SW7"
-			(at 172.72 50.165 0)
+			(at 172.72 59.055 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -3719,7 +3949,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 172.72 50.8 0)
+			(at 172.72 59.69 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -3728,8 +3958,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_EVQPE1"
-			(at 172.72 49.53 0)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 172.72 58.42 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -3739,7 +3969,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 172.72 49.53 0)
+			(at 172.72 58.42 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -3749,7 +3979,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 172.72 54.61 0)
+			(at 172.72 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4060,7 +4290,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "59038273-602f-4f25-8856-6b95b5d781d7")
-		(property "Reference" "C?"
+		(property "Reference" "C18"
 			(at 191.135 106.045 0)
 			(effects
 				(font
@@ -4118,7 +4348,72 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/0ccd8f36-c6f2-454f-91e2-c1976b699e0e"
-					(reference "C?")
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 68.58 167.64 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "61b35c16-0d2f-4796-889a-9a87a003e101")
+		(property "Reference" "H3"
+			(at 62.865 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Mounting Hole M3"
+			(at 67.31 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 68.58 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 68.58 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56487559-8775-4fd3-ab67-f0deab8b1907")
+		)
+		(instances
+			(project "SchrackCounter"
+				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/0ccd8f36-c6f2-454f-91e2-c1976b699e0e"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -4402,16 +4697,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 105.41 175.26 90)
+		(at 213.36 64.77 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "75496656-1dd5-4cea-a26a-827c7cc7fd54")
-		(property "Reference" "RV?"
-			(at 105.41 179.07 90)
+		(property "Reference" "RV1"
+			(at 213.36 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4419,7 +4713,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 105.41 181.61 90)
+			(at 213.36 69.215 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4427,7 +4721,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 175.26 0)
+			(at 213.36 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4436,7 +4730,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 105.41 175.26 0)
+			(at 213.36 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4445,7 +4739,7 @@
 			)
 		)
 		(property "Description" "Potentiometer"
-			(at 105.41 175.26 0)
+			(at 213.36 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4465,7 +4759,7 @@
 		(instances
 			(project ""
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/0ccd8f36-c6f2-454f-91e2-c1976b699e0e"
-					(reference "RV?")
+					(reference "RV1")
 					(unit 1)
 				)
 			)
@@ -4480,7 +4774,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "791b9927-cf7e-4bde-9794-4dd9e7f751d1")
-		(property "Reference" "J?"
+		(property "Reference" "J5"
 			(at 199.39 105.41 0)
 			(effects
 				(font
@@ -4665,7 +4959,7 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/0ccd8f36-c6f2-454f-91e2-c1976b699e0e"
-					(reference "J?")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -4673,7 +4967,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 172.72 46.99 0)
+		(at 172.72 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4681,7 +4975,7 @@
 		(dnp no)
 		(uuid "7b3d8a1d-9107-4588-8251-0f1e6cf02001")
 		(property "Reference" "SW4"
-			(at 172.72 42.545 0)
+			(at 172.72 51.435 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4690,7 +4984,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 172.72 43.18 0)
+			(at 172.72 52.07 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4699,8 +4993,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_EVQPE1"
-			(at 172.72 41.91 0)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 172.72 50.8 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4710,7 +5004,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 172.72 41.91 0)
+			(at 172.72 50.8 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4720,7 +5014,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 172.72 46.99 0)
+			(at 172.72 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4744,6 +5038,140 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 85.09 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c63cc97-1dd5-4be5-8230-6bed0fc2882f")
+		(property "Reference" "#PWR044"
+			(at 85.09 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 85.09 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 85.09 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd9945a5-80e5-478c-9386-351fae523913")
+		)
+		(instances
+			(project "SchrackCounter"
+				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/0ccd8f36-c6f2-454f-91e2-c1976b699e0e"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 220.98 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8726f4e0-600b-4744-b263-14b2c8b20160")
+		(property "Reference" "#PWR042"
+			(at 220.98 71.12 0)
+			(effects
+				(font
+					(face "Bahnschrift")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 220.98 68.58 0)
+			(effects
+				(font
+					(face "Bahnschrift")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 64.77 0)
+			(effects
+				(font
+					(face "Bahnschrift")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 64.77 0)
+			(effects
+				(font
+					(face "Bahnschrift")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70a267fe-e0dd-484c-ad7b-3741c04faf04")
+		)
+		(instances
+			(project "SchrackCounter"
+				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/0ccd8f36-c6f2-454f-91e2-c1976b699e0e"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Motor:Fan_CPU_4pin")
 		(at 106.68 114.3 90)
 		(unit 1)
@@ -4753,7 +5181,7 @@
 		(dnp no)
 		(uuid "976d8029-e418-42ff-9380-d880395b4665")
 		(property "Reference" "M1"
-			(at 106.045 108.585 90)
+			(at 105.41 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4812,6 +5240,71 @@
 			(project ""
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/0ccd8f36-c6f2-454f-91e2-c1976b699e0e"
 					(reference "M1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 68.58 154.94 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ae466e1-02a6-4674-acd2-693c5602700a")
+		(property "Reference" "H1"
+			(at 62.865 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Mounting Hole M3"
+			(at 67.31 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 68.58 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 68.58 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b941296-27fc-4fb8-82a9-0dd61fd37bed")
+		)
+		(instances
+			(project "SchrackCounter"
+				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/0ccd8f36-c6f2-454f-91e2-c1976b699e0e"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -4967,7 +5460,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c9109a3c-bb67-4bc9-af6d-1e31138598e8")
-		(property "Reference" "R?"
+		(property "Reference" "R12"
 			(at 182.88 116.84 0)
 			(effects
 				(font
@@ -5023,7 +5516,72 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/0ccd8f36-c6f2-454f-91e2-c1976b699e0e"
-					(reference "R?")
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 68.58 173.99 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc38ba70-92e7-4e83-8ca2-563f15ad41c3")
+		(property "Reference" "H4"
+			(at 62.865 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Mounting Hole M3"
+			(at 67.31 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 68.58 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 68.58 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a28636b-6754-45b8-9a09-746ac8deea7c")
+		)
+		(instances
+			(project "SchrackCounter"
+				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/0ccd8f36-c6f2-454f-91e2-c1976b699e0e"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -5031,7 +5589,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 172.72 62.23 0)
+		(at 172.72 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5039,7 +5597,7 @@
 		(dnp no)
 		(uuid "dd2a91b7-5734-47f1-aef9-05d3d0a3301d")
 		(property "Reference" "SW8"
-			(at 172.72 57.785 0)
+			(at 172.72 66.675 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -5048,7 +5606,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 172.72 58.42 0)
+			(at 172.72 67.31 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -5058,7 +5616,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_EVQPE1"
-			(at 172.72 57.15 0)
+			(at 172.72 66.04 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -5068,7 +5626,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 172.72 57.15 0)
+			(at 172.72 66.04 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -5078,7 +5636,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 172.72 62.23 0)
+			(at 172.72 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5183,7 +5741,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e07660a8-3635-4b61-b768-178dd57d853c")
-		(property "Reference" "C?"
+		(property "Reference" "C16"
 			(at 71.755 120.015 0)
 			(effects
 				(font
@@ -5241,7 +5799,72 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/0ccd8f36-c6f2-454f-91e2-c1976b699e0e"
-					(reference "C?")
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 68.58 161.29 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "e1627578-9f0a-45b5-8a0f-ac8b27b1f9b4")
+		(property "Reference" "H2"
+			(at 62.865 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Mounting Hole M3"
+			(at 67.31 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 68.58 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 68.58 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d79465e-c225-431b-a3e9-dbecd4cf2f5d")
+		)
+		(instances
+			(project "SchrackCounter"
+				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/0ccd8f36-c6f2-454f-91e2-c1976b699e0e"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -5315,6 +5938,76 @@
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/0ccd8f36-c6f2-454f-91e2-c1976b699e0e"
 					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 205.74 64.77 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f8212149-2455-49fd-a935-fe0f43de7435")
+		(property "Reference" "#PWR043"
+			(at 209.55 64.77 0)
+			(effects
+				(font
+					(face "Bahnschrift")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 202.565 64.77 90)
+			(effects
+				(font
+					(face "Bahnschrift")
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 64.77 0)
+			(effects
+				(font
+					(face "Bahnschrift")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 64.77 0)
+			(effects
+				(font
+					(face "Bahnschrift")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ffc04a7-665b-47df-aefa-b2825a206872")
+		)
+		(instances
+			(project "SchrackCounter"
+				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/0ccd8f36-c6f2-454f-91e2-c1976b699e0e"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)

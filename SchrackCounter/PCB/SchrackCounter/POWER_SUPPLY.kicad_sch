@@ -4101,7 +4101,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eafaeb50-0593-46b8-90ca-d2be6e0e4504")
-		(property "Reference" "J?"
+		(property "Reference" "J4"
 			(at 220.345 115.57 0)
 			(effects
 				(font
@@ -4154,7 +4154,7 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/2b0bd697-1473-4a31-8990-1278f12dea07"
-					(reference "J?")
+					(reference "J4")
 					(unit 1)
 				)
 			)

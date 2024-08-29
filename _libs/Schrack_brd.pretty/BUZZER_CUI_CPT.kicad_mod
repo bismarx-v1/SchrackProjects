@@ -1,4 +1,4 @@
-(footprint "CUI_CPT-1625-80"
+(footprint "BUZZER_CUI_CPT"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
