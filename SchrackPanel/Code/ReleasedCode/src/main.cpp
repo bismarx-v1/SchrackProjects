@@ -13,8 +13,7 @@
  * 		- Add RTC																														(requires a wifi AP with a predefined name and pass)
  * 		- Add VW font support																											(requieres a whole rewrite)
  * 		- Check for all "// DEBUG"s
- * 		- Everything breaks when leaving(btn4) "countdown"/"timer"
- * 		- Paused timer anim is too fast
+ * 		- Everything breaks when leaving(btn4) a menu with a long text(>7chars)
  * 
  * 	- Efficiency
  * 		- Try to slow down StateToFrame task																							(it's fine like this, and the esp is powerfull enough that i don't care now)
@@ -33,7 +32,7 @@
 // C     H   H E     C     K  K      O   O U   U   T   P     U   U   T  
 //  CCCC H   H EEEEE  CCCC K   K      OOO   UUU    T   P      UUU    T  
 
-#define OUTPUT_IS_HARDWARE 1	// Switches between printing to panel or serial console @ 230400 b/s
+#define OUTPUT_IS_HARDWARE 0	// Switches between printing to panel or serial console @ 230400 b/s
 
 #include <Arduino.h>
 #include "PinsAndConsts.h"

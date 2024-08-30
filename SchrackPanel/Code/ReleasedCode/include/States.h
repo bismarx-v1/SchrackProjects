@@ -219,16 +219,18 @@ void StatesLoop() {
 
 		case 200:	// State "Time"
 			if(Button1CheckedFlag == 1) {
-				State = 210;	// Go to "Countdown"
+				//State = 210;	// Go to "Countdown"
+				State = 211;	// Go to "Predefined"
 				Button1CheckedFlag = 0;
 			}
 
 			if(Button2CheckedFlag == 1) {
-				//State = 220;	// Go to "RTC"
+				State = 212;	// Go to "Custom"
 				Button2CheckedFlag = 0;
 			}
 
 			if(Button3CheckedFlag == 1) {
+				//State = 220;	// Go to "RTC"
 				Button3CheckedFlag = 0;
 			}
 
@@ -277,7 +279,8 @@ void StatesLoop() {
 			}
 
 			if(Button4CheckedFlag == 1) {
-				State = 210;	// Go to "Countdown"
+				//State = 210;	// Go to "Countdown"
+				State = 200;	// Go to "Time"
 				Button4CheckedFlag = 0;
 			}
 
@@ -300,7 +303,8 @@ void StatesLoop() {
 			}
 
 			if(Button4CheckedFlag == 1) {
-				State = 210;	// Go to "Countdown"
+				//State = 210;	// Go to "Countdown"
+				State = 200;	// Go to "Time"
 				Button4CheckedFlag = 0;
 			}
 
@@ -321,7 +325,8 @@ void StatesLoop() {
 			}
 
 			if(Button4CheckedFlag == 1) {
-				State = 210;	// Go to "Countdown"
+				//State = 210;	// Go to "Countdown"
+				State = 200;	// Go to "Time"
 				Button4CheckedFlag = 0;
 			}
 
@@ -329,22 +334,26 @@ void StatesLoop() {
 
 		case 214:	// State "Countdown ended"
 			if(Button1CheckedFlag == 1) {
-				State = 210;	// Go to "Countdown"
+				//State = 210;	// Go to "Countdown"
+				State = 200;	// Go to "Time"
 				Button1CheckedFlag = 0;
 			}
 
 			if(Button2CheckedFlag == 1) {
-				State = 210;	// Go to "Countdown"
+				//State = 210;	// Go to "Countdown"
+				State = 200;	// Go to "Time"
 				Button2CheckedFlag = 0;
 			}
 
 			if(Button3CheckedFlag == 1) {
-				State = 210;	// Go to "Countdown"
+				//State = 210;	// Go to "Countdown"
+				State = 200;	// Go to "Time"
 				Button3CheckedFlag = 0;
 			}
 
 			if(Button4CheckedFlag == 1) {
-				State = 210;	// Go to "Countdown"
+				//State = 210;	// Go to "Countdown"
+				State = 200;	// Go to "Time"
 				Button4CheckedFlag = 0;
 			}
 
@@ -365,7 +374,8 @@ void StatesLoop() {
 			}
 
 			if(Button4CheckedFlag == 1) {
-				State = 210;	// Go to "Countdown"
+				//State = 210;	// Go to "Countdown"
+				State = 200;	// Go to "Time"
 				Button4CheckedFlag = 0;
 			}
 

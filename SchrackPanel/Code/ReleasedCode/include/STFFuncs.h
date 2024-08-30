@@ -193,7 +193,7 @@ void SetTimePredefined(uint8_t* ButtonCheckedFlag) {
 }
 
 uint32_t CountdownPauseAnimToggleLast = 0;	// Last time the anim changed
-const uint16_t CountdownPauseAnimToggleTimeArray[2] = {20000, 10000};	// How long before anim change
+const uint16_t CountdownPauseAnimToggleTimeArray[2] = {1000, 1000};	// How long before anim change
 
 /**
  * @brief A small anim for when the countdown is paused
@@ -210,6 +210,7 @@ uint16_t CountdownPause(uint16_t Tick) {
 	CurrentText = "       ";
 
 	if(CountdownPauseAnimToggleLast + CountdownPauseAnimToggleTimeArray[Tick] < millis()) {	// If time to change to new text
+		CountdownPauseAnimToggleLast = millis();
 		Tick = 1-Tick;
 	}
 
@@ -340,6 +341,7 @@ const uint8_t CursorOffset[8] = {0, 42, 0, 98, 140, 0, 196, 238};
 uint8_t SetTimeCustomForLoopI1 = 0;
 uint8_t SetTimeCustomToggleCursorHighlight = 0;
 uint32_t SetTimeCustomToggleCursorHighlightChangedLast = 0;
+const String MaxPlaceVal = "99:59:59";
 
 /**
  * 
@@ -390,7 +392,7 @@ void SetTimeCustom(uint8_t* MoveCursorFlagPointer, uint8_t* CycleDigitFlagPointe
 
 	if(CycleDigitFlagPointer[0] == 1) {
 		SetTimeCustomChangedFlag = 1;
-		if(CounterRemTime[CursorIndex] >= '9') {
+		if(CounterRemTime[CursorIndex] >= MaxPlaceVal[CursorIndex]) {
 			CounterRemTime[CursorIndex] = '0';
 		} else {
 			CounterRemTime[CursorIndex] = CounterRemTime[CursorIndex]+1;
