@@ -1,0 +1,219 @@
+(footprint "SOLDER_PADS"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Through hole straight Samtec HPM power header series 11.94mm post length, 1x02, 5.08mm pitch, single row")
+	(tags "Through hole Samtec HPM power header series 11.94mm post length THT 1x02 5.08mm single row")
+	(property "Reference" "REF**"
+		(at 8.5 -0.5 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4092e279-fa96-40dd-8782-e36fa036073a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOLDER_PADS"
+		(at 0.25 -2.25 0)
+		(layer "F.Fab")
+		(uuid "d3ed9e79-bd73-443c-8975-f547bdb81c93")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 2.54 2.54 -90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cf377408-426a-4d47-9582-c18e96df319d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 2.54 2.54 -90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3eaf29e5-dffa-4cbf-b5c8-ffd7d9179fe4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 2.54 2.54 -90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f17c7f6c-bbf2-4cbf-8896-ebadabeca86f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.59 -1.14)
+		(end -5.59 6.22)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "04a93374-d1c8-488d-83fc-5777e0bb4560")
+	)
+	(fp_line
+		(start -5.59 6.22)
+		(end 5.58 6.22)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "71e4f014-ef64-472b-b895-67909a537218")
+	)
+	(fp_line
+		(start 5.58 -1.14)
+		(end -5.59 -1.14)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e58e1c49-891e-4e15-9d5d-57073d7bbb0f")
+	)
+	(fp_line
+		(start 5.58 6.22)
+		(end 5.58 -1.14)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e5cde9d8-b599-4ba2-9253-bb52774c3a69")
+	)
+	(fp_line
+		(start -5.08 5.715)
+		(end -5.08 -0.635)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "153674df-a868-4731-9a07-fb3e2e58579d")
+	)
+	(fp_line
+		(start -5.075 -0.635)
+		(end 5.075 -0.635)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0358aad3-5c2c-4844-b836-9f48d4be3710")
+	)
+	(fp_line
+		(start 5.08 -0.625)
+		(end 5.08 5.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3ee8d26f-d7ef-469d-960d-5cc536c17902")
+	)
+	(fp_line
+		(start 5.08 5.715)
+		(end -5.08 5.715)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "74755b82-ff0c-4d43-a4fe-e583f3009fb6")
+	)
+	(fp_text user "+"
+		(at 2.5 4.75 -90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6132b53c-3650-49b2-9504-8f1a30b43cee")
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 3 3)
+				(thickness 0.1)
+			)
+		)
+		(render_cache "+" 270
+			(polygon
+				(pts
+					(xy 2.828168 3.927878) (xy 2.828168 5.592637) (xy 2.430296 5.592637) (xy 2.430296 3.927878)
+				)
+			)
+			(polygon
+				(pts
+					(xy 3.461978 4.969818) (xy 1.796486 4.969818) (xy 1.796486 4.55143) (xy 3.461978 4.55143)
+				)
+			)
+		)
+	)
+	(fp_text user "-"
+		(at -2.5 4.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f5980026-f50d-42e5-8968-e9d970ba3620")
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 3 3)
+				(thickness 0.1)
+			)
+		)
+		(render_cache "-" 0
+			(polygon
+				(pts
+					(xy -3.178506 4.477379) (xy -1.800244 4.477379) (xy -1.800244 4.875251) (xy -3.178506 4.875251)
+				)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 11 1.25 0)
+		(layer "F.Fab")
+		(uuid "3994e826-1025-4552-bd22-1817c41e1ccf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 2.54 1.5)
+		(size 3 4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f72f1b0d-4921-4d87-9fe6-98628f932b15")
+	)
+	(pad "2" smd rect
+		(at -2.54 1.5)
+		(size 3 4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "47d2ddc7-e4f3-4048-a12a-e0941c368e5d")
+	)
+)
