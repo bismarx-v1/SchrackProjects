@@ -140,29 +140,33 @@ void CycleTextsReset(const String* TextsArray, String* Text) {
  * @param TextsArrayLength Length of the array
  * @param TextChangePeriod Array with times how long should each text stay
 */
-void CycleTexts(const String* TextsArray, uint8_t TextsArrayLength, const uint16_t* TextChangePeriod, uint8_t* IndexInTextArray, uint32_t* TextChangedLast, uint16_t* CycleTextsOffset, String* Text) {
-	//Serial.print(Text[0]); Serial.print("; "); Serial.print(IndexInTextArray[0]);  Serial.print("; "); Serial.print(CycleTextsOffset[0]); Serial.print("; "); Serial.print((TextsArray[IndexInTextArray[0]].length()+2)*6); Serial.print("; "); Serial.print(TextChangedLast[0]+TextChangePeriod[IndexInTextArray[0]]); Serial.print("; "); Serial.println(millis());	// Debug print
-	GraphicsLoop(Frame, 3, 0, Text[0], CycleTextsOffset[0]);
-	CurrentText = "       ";
+void CycleTexts(const String* TextsArray, uint8_t TextsArrayLength, const uint16_t* TextChangePeriod, uint8_t* IndexInTextArray, uint32_t* TextChangedLast, uint16_t* CycleTextsOffset, String* Text, uint8_t cTLOverride) {
+	if(cTLOverride != 1) {	// DEBUG/TODO	
+		//Serial.print(Text[0]); Serial.print("; "); Serial.print(IndexInTextArray[0]);  Serial.print("; "); Serial.print(CycleTextsOffset[0]); Serial.print("; "); Serial.print((TextsArray[IndexInTextArray[0]].length()+2)*6); Serial.print("; "); Serial.print(TextChangedLast[0]+TextChangePeriod[IndexInTextArray[0]]); Serial.print("; "); Serial.println(millis());	// Debug print
+		GraphicsLoop(Frame, 3, 0, Text[0], CycleTextsOffset[0]);
+		CurrentText = "       ";
 
-	if(TextChangedLast[0]+TextChangePeriod[IndexInTextArray[0]] < millis()) {
-		TextChangedLast[0] = millis();
-		CycleTextsOffset[0] = 0;
-
-		if(IndexInTextArray[0]+1 >= TextsArrayLength) {
-			IndexInTextArray[0] = 0;
-		} else {
-			IndexInTextArray[0]++;
-		}
-
-		Text[0] = SetText(TextsArray, IndexInTextArray[0]);
-
-	} else {
-		if(CycleTextsOffset[0]+1 >= (TextsArray[IndexInTextArray[0]].length()+2)*6) {
+		if(TextChangedLast[0]+TextChangePeriod[IndexInTextArray[0]] < millis()) {
+			TextChangedLast[0] = millis();
 			CycleTextsOffset[0] = 0;
+
+			if(IndexInTextArray[0]+1 >= TextsArrayLength) {
+				IndexInTextArray[0] = 0;
+			} else {
+				IndexInTextArray[0]++;
+			}
+
+			Text[0] = SetText(TextsArray, IndexInTextArray[0]);
+
 		} else {
-			CycleTextsOffset[0]++;
+			if(CycleTextsOffset[0]+1 >= (TextsArray[IndexInTextArray[0]].length()+2)*6) {
+				CycleTextsOffset[0] = 0;
+			} else {
+				CycleTextsOffset[0]++;
+			}
 		}
+	} else {
+
 	}
 }
 

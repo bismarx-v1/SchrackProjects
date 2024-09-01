@@ -1,10 +1,11 @@
-                    /**
+/**
  * This is the main program for the panel. I am sorry for anyone who has to fix this (excluding future me).
  * 
  * Here the program splits of into 4 separate tasks as seen bellow
  * Stuff changes a bit if the output is hardware of a console but only in the driver
  * 
  * Dunno what i made nor how i made it, but it tastes like spaghetti.
+ * Chess Battle Advanced
 */
 
 /**

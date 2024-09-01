@@ -126,7 +126,7 @@ void StateToFrameLoop() {
 			CycleTextsReset(CreditText, &Text);
 		}
 
-		CycleTexts(CreditText, CreditTextLength, CreditTextPeriod, &CycleTextsIndexInTextArray, &CycleTextsLast, &CycleTextsOffset, &Text);
+		CycleTexts(CreditText, CreditTextLength, CreditTextPeriod, &CycleTextsIndexInTextArray, &CycleTextsLast, &CycleTextsOffset, &Text, 0);
 
 		break;
 
@@ -139,7 +139,7 @@ void StateToFrameLoop() {
 			CycleTextsReset(DevText, &Text);
 		}
 
-		CycleTexts(DevText, DevTextLength, DevTextPeriod, &CycleTextsIndexInTextArray, &CycleTextsLast, &CycleTextsOffset, &Text);
+		CycleTexts(DevText, DevTextLength, DevTextPeriod, &CycleTextsIndexInTextArray, &CycleTextsLast, &CycleTextsOffset, &Text, 0);
 
 		break;
 
@@ -159,7 +159,7 @@ void StateToFrameLoop() {
 			CycleTextsReset(TextsToCycle, &Text);
 		}
 
-		CycleTexts(TextsToCycle, TextsToCycleLength, CycleTextChangePeriod, &CycleTextsIndexInTextArray, &CycleTextsLast, &CycleTextsOffset, &Text);
+		CycleTexts(TextsToCycle, TextsToCycleLength, CycleTextChangePeriod, &CycleTextsIndexInTextArray, &CycleTextsLast, &CycleTextsOffset, &Text, 0);	// DEBUG/TODO
 
 		break;
 	
