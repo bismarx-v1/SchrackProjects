@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2024-09-01T13:45:42.645Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.4.8 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="OdOUVbi1BW4AuV_dQoO8" version="24.4.8" type="device">
+<mxfile host="Electron" modified="2024-09-01T14:02:49.195Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.4.8 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="VVcHWefoQvuzczxq9E_0" version="24.4.8" type="device">
   <diagram name="Page-1" id="O6bcs-abmlyXL-6Mab-k">
     <mxGraphModel dx="1420" dy="870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -92,7 +92,7 @@
         <mxCell id="UJFcI3xOjRwTeI_TndEH-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="SXCyoP0QDoGg-8MIkyOE-17" target="SXCyoP0QDoGg-8MIkyOE-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SXCyoP0QDoGg-8MIkyOE-17" value="&lt;div style=&quot;font-size: 19px;&quot;&gt;Schrack Technic&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Consolas;strokeColor=default;align=center;verticalAlign=middle;fontSize=19;fontColor=default;fillColor=none;fillStyle=auto;gradientColor=none;gradientDirection=south;" parent="1" vertex="1">
+        <mxCell id="SXCyoP0QDoGg-8MIkyOE-17" value="&lt;div style=&quot;font-size: 19px;&quot;&gt;Schrack Technik&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Consolas;strokeColor=default;align=center;verticalAlign=middle;fontSize=19;fontColor=default;fillColor=none;fillStyle=auto;gradientColor=none;gradientDirection=south;" parent="1" vertex="1">
           <mxGeometry x="280" y="800" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UJFcI3xOjRwTeI_TndEH-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="SXCyoP0QDoGg-8MIkyOE-19" target="SXCyoP0QDoGg-8MIkyOE-20" edge="1">
