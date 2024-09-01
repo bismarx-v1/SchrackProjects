@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2024-08-27T21:42:40.858Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.4.8 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="FwbaDI3Dj9mWRpo9fr6h" version="24.4.8" type="device">
+<mxfile host="Electron" modified="2024-09-01T13:45:42.645Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.4.8 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="OdOUVbi1BW4AuV_dQoO8" version="24.4.8" type="device">
   <diagram name="Page-1" id="O6bcs-abmlyXL-6Mab-k">
     <mxGraphModel dx="1420" dy="870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -194,7 +194,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="UJFcI3xOjRwTeI_TndEH-5" value="&lt;div style=&quot;font-size: 19px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 19px;&quot;&gt;ARODEM&lt;/span&gt;&lt;br style=&quot;font-size: 19px;&quot;&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Consolas;strokeColor=default;align=center;verticalAlign=middle;fontSize=19;fontColor=default;fillColor=none;fillStyle=auto;gradientColor=none;gradientDirection=south;" parent="1" vertex="1">
+        <mxCell id="UJFcI3xOjRwTeI_TndEH-5" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;MESIT stredni skola&lt;/font&gt;&lt;/span&gt;&lt;br style=&quot;font-size: 19px;&quot;&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Consolas;strokeColor=default;align=center;verticalAlign=middle;fontSize=19;fontColor=default;fillColor=none;fillStyle=auto;gradientColor=none;gradientDirection=south;" parent="1" vertex="1">
           <mxGeometry x="920.0899999999999" y="800" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UJFcI3xOjRwTeI_TndEH-8" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 30px;&quot;&gt;Text cycle&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 20px;&quot;&gt;Cycles a text for ~30secs.&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;Red button escapes.&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
