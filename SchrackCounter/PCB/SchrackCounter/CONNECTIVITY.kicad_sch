@@ -2575,7 +2575,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 138.43) (xy 132.08 132.08)
+			(xy 134.62 137.16) (xy 134.62 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3075,7 +3075,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 137.16) (xy 127 132.08)
+			(xy 129.54 137.16) (xy 129.54 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3228,17 +3228,6 @@
 			(justify left)
 		)
 		(uuid "db9db3b9-f1bf-44ea-ac68-05c2a69a8653")
-	)
-	(text "Funny bug, show to nat >:3"
-		(exclude_from_sim no)
-		(at 128.905 142.875 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 194 0 194 1)
-			)
-		)
-		(uuid "dfff7972-62a4-4d62-aa22-2d8cb66ffb6f")
 	)
 	(global_label "VBUS 5V"
 		(shape input)
@@ -3506,7 +3495,7 @@
 	)
 	(global_label "BZ1_PWM"
 		(shape input)
-		(at 127 137.16 180)
+		(at 129.54 137.16 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3518,7 +3507,7 @@
 		)
 		(uuid "d4f35bf5-1172-4337-a684-7e0f47e511a4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.9317 137.16 0)
+			(at 121.4717 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3621,7 +3610,7 @@
 	)
 	(symbol
 		(lib_id "Device:Buzzer")
-		(at 129.54 129.54 90)
+		(at 132.08 129.54 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3629,7 +3618,7 @@
 		(dnp no)
 		(uuid "0c4f8431-ca5f-49c0-ab28-3025e69359c4")
 		(property "Reference" "BZ1"
-			(at 128.2699 125.73 0)
+			(at 132.08 122.555 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3638,7 +3627,7 @@
 			)
 		)
 		(property "Value" "Buzzer"
-			(at 130.8099 125.73 0)
+			(at 134.9375 124.7776 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3647,7 +3636,7 @@
 			)
 		)
 		(property "Footprint" "Schrack_brd:BUZZER_CUI_CPT"
-			(at 127 130.175 90)
+			(at 129.54 130.175 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3656,7 +3645,7 @@
 			)
 		)
 		(property "Datasheet" "https://cz.mouser.com/ProductDetail/CUI-Devices/CPT-1625-80-SMT-TR?qs=P1JMDcb91o43eCFIymFs3Q%3D%3D"
-			(at 127 130.175 90)
+			(at 129.54 130.175 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3665,7 +3654,7 @@
 			)
 		)
 		(property "Description" "Buzzer, polarized"
-			(at 129.54 129.54 0)
+			(at 132.08 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4412,7 +4401,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 132.08 138.43 90)
+		(at 134.62 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4421,7 +4410,7 @@
 		(fields_autoplaced yes)
 		(uuid "76894e0b-a08d-4e00-bf33-67a8feec3e9f")
 		(property "Reference" "#PWR025"
-			(at 138.43 138.43 0)
+			(at 134.62 143.51 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4431,7 +4420,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 135.89 139.065 90)
+			(at 133.985 140.97 90)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4442,7 +4431,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 138.43 0)
+			(at 134.62 137.16 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4452,7 +4441,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 138.43 0)
+			(at 134.62 137.16 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4462,7 +4451,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 132.08 138.43 0)
+			(at 134.62 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
