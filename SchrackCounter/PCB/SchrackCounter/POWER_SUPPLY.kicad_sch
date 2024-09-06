@@ -684,6 +684,266 @@
 				)
 			)
 		)
+		(symbol "Regulator_Linear:LM1084-3.3"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LM1084-3.3"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1084.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "5A 27V Linear Regulator, Fixed Output 3.3V, TO-220/TO-263"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Voltage Regulator Fixed 5A Positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?220* TO?263*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LM1084-3.3_0_1"
+				(rectangle
+					(start -5.08 1.905)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LM1084-3.3_1_1"
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers hide)
@@ -902,10 +1162,28 @@
 		)
 	)
 	(junction
+		(at 158.75 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c8420ec-dc1f-4157-8966-154e86c2dc76")
+	)
+	(junction
+		(at 175.26 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "589b3625-a878-48c9-ae33-ecc821637cb1")
+	)
+	(junction
 		(at 110.49 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7fff7e38-9fb1-4834-a95e-50a77138c4a0")
+	)
+	(junction
+		(at 143.51 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9bd5f4c9-627d-4d8f-a855-f90b21031602")
 	)
 	(junction
 		(at 120.65 115.57)
@@ -927,6 +1205,26 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 55.88) (xy 175.26 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02b5b423-a699-4b47-87c3-4322e97ed8a2")
+	)
+	(wire
+		(pts
+			(xy 175.26 68.58) (xy 175.26 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02f3bade-66a4-42da-978c-f85e9c5037be")
+	)
+	(wire
+		(pts
 			(xy 99.06 119.38) (xy 106.68 119.38)
 		)
 		(stroke
@@ -934,6 +1232,16 @@
 			(type solid)
 		)
 		(uuid "065a7de6-21cb-4849-b959-86a8198e8d57")
+	)
+	(wire
+		(pts
+			(xy 158.75 68.58) (xy 158.75 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0efe88a7-9d4d-4875-a061-965e241dc770")
 	)
 	(wire
 		(pts
@@ -947,7 +1255,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 114.3) (xy 213.36 114.3)
+			(xy 185.42 114.3) (xy 190.5 114.3)
 		)
 		(stroke
 			(width 0)
@@ -987,6 +1295,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 66.04) (xy 143.51 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d1c5174-1763-4216-a842-0038c493474e")
+	)
+	(wire
+		(pts
 			(xy 106.68 121.92) (xy 106.68 125.73)
 		)
 		(stroke
@@ -994,6 +1312,26 @@
 			(type solid)
 		)
 		(uuid "570160e9-0f19-4bb8-a330-d039390fb0c4")
+	)
+	(wire
+		(pts
+			(xy 143.51 58.42) (xy 143.51 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e916b50-3d0d-4ded-9fb7-d29cdc09f2de")
+	)
+	(wire
+		(pts
+			(xy 166.37 55.88) (xy 175.26 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78be7ac5-a80f-4f79-a0a4-9ed50d50d815")
 	)
 	(wire
 		(pts
@@ -1017,6 +1355,36 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 63.5) (xy 158.75 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9b001b1-7767-472b-bb21-0653e03d5184")
+	)
+	(wire
+		(pts
+			(xy 143.51 68.58) (xy 158.75 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaaaf391-2a4f-4762-a266-d86fc113012a")
+	)
+	(wire
+		(pts
+			(xy 180.34 55.88) (xy 175.26 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7cfab11-9cdc-4d67-9acf-d042b487a14d")
+	)
+	(wire
+		(pts
 			(xy 106.68 115.57) (xy 110.49 115.57)
 		)
 		(stroke
@@ -1024,6 +1392,16 @@
 			(type solid)
 		)
 		(uuid "b9821ed0-402a-40b8-845d-e2a00e636980")
+	)
+	(wire
+		(pts
+			(xy 158.75 68.58) (xy 175.26 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3844581-ed5f-4ded-9c91-2d417221a727")
 	)
 	(wire
 		(pts
@@ -1047,6 +1425,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 55.88) (xy 143.51 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8dd411b-0c05-4013-989c-ffd92bc3b7af")
+	)
+	(wire
+		(pts
 			(xy 120.65 124.46) (xy 120.65 125.73)
 		)
 		(stroke
@@ -1054,6 +1442,16 @@
 			(type default)
 		)
 		(uuid "d9116ef3-664b-4d62-aeed-f4c3b9891de7")
+	)
+	(wire
+		(pts
+			(xy 143.51 55.88) (xy 151.13 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de0096c8-ac57-40d6-82ac-eb39ceeb66da")
 	)
 	(wire
 		(pts
@@ -1077,7 +1475,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 116.84) (xy 213.36 116.84)
+			(xy 186.69 116.84) (xy 190.5 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1100,7 +1498,7 @@
 	)
 	(rectangle
 		(start 156.845 95.25)
-		(end 234.95 133.35)
+		(end 210.82 133.35)
 		(stroke
 			(width 0)
 			(type dash)
@@ -1110,6 +1508,19 @@
 			(type none)
 		)
 		(uuid 38bd03d0-6c00-41a3-9337-725a07d0e1a9)
+	)
+	(rectangle
+		(start 66.04 44.45)
+		(end 210.82 82.55)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d097977a-0c3a-4a03-bb31-3d73d0940ce6)
 	)
 	(text "3XAA Battery connector\n\nBattery specs:\n- Alkaline \n- 1.5V Cell voltage (nominal voltage)\n- 1,65V Cell voltage (fully charged)"
 		(exclude_from_sim no)
@@ -1124,6 +1535,19 @@
 			(justify left bottom)
 		)
 		(uuid "2f84dcf7-bf1c-48ff-8e36-262aa3dffb83")
+	)
+	(text "Texas Instruments \nLDO Voltage Regulator\n\nLM1084IS-3.3/NOPB 3.3V\n\nUsing TO-263-3 footprint"
+		(exclude_from_sim no)
+		(at 71.12 68.58 0)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1.5 1.5)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "2fd558cc-2e47-4dc2-9461-ec00d75e87aa")
 	)
 	(text "BATTERY"
 		(exclude_from_sim no)
@@ -1152,6 +1576,20 @@
 			(justify left)
 		)
 		(uuid "8c8dd178-b024-4fcf-87dc-9305be9be1cc")
+	)
+	(text "LDO VOLTAGE REGULATOR"
+		(exclude_from_sim no)
+		(at 65.405 42.545 0)
+		(effects
+			(font
+				(size 5 5)
+				(thickness 1.2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "e4b148ff-0287-43de-8193-012b1ae79d0a")
 	)
 	(text "Batt connector should probs be in the box but not on the pcb"
 		(exclude_from_sim no)
@@ -1189,7 +1627,7 @@
 	)
 	(global_label "VBATT"
 		(shape input)
-		(at 209.55 116.84 180)
+		(at 186.69 116.84 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1201,13 +1639,156 @@
 		)
 		(uuid "aa30a937-0fd7-407a-ada0-6d03abbdbe90")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.334 116.84 0)
+			(at 180.474 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 138.43 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "10c7e0f0-3e12-42a6-8e29-8d0a7603d589")
+		(property "Reference" "#PWR02"
+			(at 142.24 55.88 0)
+			(effects
+				(font
+					(face "Bahnschrift")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 130.81 55.88 90)
+			(effects
+				(font
+					(face "Bahnschrift")
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 55.88 0)
+			(effects
+				(font
+					(face "Bahnschrift")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 55.88 0)
+			(effects
+				(font
+					(face "Bahnschrift")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e9cc9fa-6efd-4017-9fb8-018095bff501")
+		)
+		(instances
+			(project "SchrackCounter"
+				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/2b0bd697-1473-4a31-8990-1278f12dea07"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 175.26 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "23b0d0b7-4364-45b5-ab01-37c118234e85")
+		(property "Reference" "C4"
+			(at 179.07 64.77 0)
+			(effects
+				(font
+					(face "Bahnschrift")
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF.stabl"
+			(at 179.07 67.31 0)
+			(effects
+				(font
+					(face "Bahnschrift")
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder"
+			(at 176.2252 66.04 0)
+			(effects
+				(font
+					(face "Bahnschrift")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 62.23 0)
+			(effects
+				(font
+					(face "Bahnschrift")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bcb05cfe-5278-4656-8be7-d9c4a1baebdd")
+		)
+		(pin "2"
+			(uuid "8b434ece-ed09-45fd-a64a-952b3ae926ee")
+		)
+		(instances
+			(project "SchrackCounter"
+				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/2b0bd697-1473-4a31-8990-1278f12dea07"
+					(reference "C4")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -1341,6 +1922,149 @@
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/2b0bd697-1473-4a31-8990-1278f12dea07"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 158.75 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a385379-972a-483e-873a-d7d86fb2666b")
+		(property "Reference" "#PWR03"
+			(at 158.75 78.74 0)
+			(effects
+				(font
+					(face "Bahnschrift")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 158.75 77.47 0)
+			(effects
+				(font
+					(face "Bahnschrift")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 72.39 0)
+			(effects
+				(font
+					(face "Bahnschrift")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 72.39 0)
+			(effects
+				(font
+					(face "Bahnschrift")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "283bdbbb-9559-4754-a339-99534c800589")
+		)
+		(instances
+			(project "SchrackCounter"
+				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/2b0bd697-1473-4a31-8990-1278f12dea07"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 143.51 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3d86ec75-048f-4580-9a4d-a308d6fa9cd1")
+		(property "Reference" "C3"
+			(at 135.89 64.77 0)
+			(effects
+				(font
+					(face "Bahnschrift")
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF.stabl"
+			(at 129.54 67.31 0)
+			(effects
+				(font
+					(face "Bahnschrift")
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder"
+			(at 144.4752 66.04 0)
+			(effects
+				(font
+					(face "Bahnschrift")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 62.23 0)
+			(effects
+				(font
+					(face "Bahnschrift")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65ec6f51-ad4b-4e36-b859-8f5b02aa41d4")
+		)
+		(pin "2"
+			(uuid "8a558dc0-1843-4988-be58-8ea2bf0af92c")
+		)
+		(instances
+			(project "SchrackCounter"
+				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/2b0bd697-1473-4a31-8990-1278f12dea07"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -1485,8 +2209,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:LM1084-3.3")
+		(at 158.75 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba01a7c2-dfbd-433c-baf2-57c6c1f30cd4")
+		(property "Reference" "U1"
+			(at 158.75 49.53 0)
+			(effects
+				(font
+					(face "Bahnschrift")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM1084-3.3"
+			(at 158.75 52.07 0)
+			(effects
+				(font
+					(face "Bahnschrift")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-3_TabPin2"
+			(at 158.75 49.53 0)
+			(effects
+				(font
+					(face "Bahnschrift")
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1084.pdf"
+			(at 158.75 55.88 0)
+			(effects
+				(font
+					(face "Bahnschrift")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5663473b-3bed-4c49-b224-4c9072cfc0d4")
+		)
+		(pin "2"
+			(uuid "49598480-709c-4a90-bee2-6b82aa38627e")
+		)
+		(pin "3"
+			(uuid "4b75bd4b-64fd-46fa-a4c7-03daca37f9a4")
+		)
+		(instances
+			(project "SchrackCounter"
+				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/2b0bd697-1473-4a31-8990-1278f12dea07"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
-		(at 208.28 114.3 90)
+		(at 185.42 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1494,8 +2294,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ccb77b92-c221-4e7a-b6ac-99f30d40cd71")
-		(property "Reference" "#PWR010"
-			(at 212.09 114.3 0)
+		(property "Reference" "#PWR05"
+			(at 189.23 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1504,7 +2304,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 204.47 114.3001 90)
+			(at 181.61 114.3001 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1513,7 +2313,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 114.3 0)
+			(at 185.42 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1522,7 +2322,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 114.3 0)
+			(at 185.42 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1531,7 +2331,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 208.28 114.3 0)
+			(at 185.42 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1545,7 +2345,77 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/2b0bd697-1473-4a31-8990-1278f12dea07"
-					(reference "#PWR010")
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 180.34 55.88 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6d75f73-f2f4-49ab-aa08-f005b99a88ab")
+		(property "Reference" "#PWR04"
+			(at 176.53 55.88 0)
+			(effects
+				(font
+					(face "Bahnschrift")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 184.15 55.88 90)
+			(effects
+				(font
+					(face "Bahnschrift")
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 55.88 0)
+			(effects
+				(font
+					(face "Bahnschrift")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 55.88 0)
+			(effects
+				(font
+					(face "Bahnschrift")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ccea2ef-dc87-4676-bd62-1eae5885dd0c")
+		)
+		(instances
+			(project "SchrackCounter"
+				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/2b0bd697-1473-4a31-8990-1278f12dea07"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -1553,7 +2423,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 218.44 116.84 180)
+		(at 195.58 116.84 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1561,7 +2431,7 @@
 		(dnp no)
 		(uuid "eafaeb50-0593-46b8-90ca-d2be6e0e4504")
 		(property "Reference" "J1"
-			(at 220.345 115.57 0)
+			(at 197.485 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1569,7 +2439,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 219.075 119.38 0)
+			(at 196.215 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1578,7 +2448,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 218.44 116.84 0)
+			(at 195.58 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1587,7 +2457,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 218.44 116.84 0)
+			(at 195.58 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1596,7 +2466,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 218.44 116.84 0)
+			(at 195.58 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
