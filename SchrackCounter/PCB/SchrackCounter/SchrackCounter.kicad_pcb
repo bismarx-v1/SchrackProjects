@@ -1752,7 +1752,7 @@
 		(descr "JST XH series connector, B2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "SW2"
-			(at -1.35 -3.5 0)
+			(at 1.174 2.048 0)
 			(layer "F.SilkS")
 			(uuid "3914410c-7e09-4cbc-85c6-9cec4f9df80a")
 			(effects
@@ -7127,7 +7127,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R5"
-			(at 0 -1.65 360)
+			(at 0 -1.65 0)
 			(layer "F.SilkS")
 			(uuid "c7d0dcb7-db89-4ca5-9618-6d462cd8eb4c")
 			(effects
@@ -7138,7 +7138,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "346461c9-0a02-4317-bab2-8c1d69249793")
 			(effects
@@ -7293,7 +7293,7 @@
 			(uuid "4e64df29-8add-4ea6-8917-ded6ea3c5099")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "06db2a1d-6380-40d4-bb5d-d21009ed5779")
 			(effects
@@ -7789,7 +7789,7 @@
 		(descr "JST XH series connector, B2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "SW3"
-			(at 1.25 -3.55 0)
+			(at 1.068 2.073 0)
 			(layer "F.SilkS")
 			(uuid "ae3b40f5-9800-4a4c-a488-eae98ecf46ad")
 			(effects
