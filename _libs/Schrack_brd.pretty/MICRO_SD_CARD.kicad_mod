@@ -706,4 +706,15 @@
 			)
 		)
 	)
+	(model "C:/Users/MenMe/GitHub/SchrackProjects/_libs/Schrack_3d/MEM2067-02-180-00-A_REVB.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )

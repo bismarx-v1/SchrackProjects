@@ -1729,7 +1729,7 @@
 		(dnp no)
 		(uuid "23b0d0b7-4364-45b5-ab01-37c118234e85")
 		(property "Reference" "C4"
-			(at 179.07 64.77 0)
+			(at 178.435 61.595 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -1739,7 +1739,7 @@
 			)
 		)
 		(property "Value" "10uF.stabl"
-			(at 179.07 67.31 0)
+			(at 178.435 63.5 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -1868,7 +1868,7 @@
 		(dnp no)
 		(uuid "37b84ad8-9cbb-4afd-922f-50961f580a6a")
 		(property "Reference" "C2"
-			(at 123.825 119.38 0)
+			(at 123.825 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1935,7 +1935,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3a385379-972a-483e-873a-d7d86fb2666b")
 		(property "Reference" "#PWR03"
 			(at 158.75 78.74 0)
@@ -1948,7 +1947,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 158.75 77.47 0)
+			(at 158.75 76.2 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -2007,7 +2006,7 @@
 		(dnp no)
 		(uuid "3d86ec75-048f-4580-9a4d-a308d6fa9cd1")
 		(property "Reference" "C3"
-			(at 135.89 64.77 0)
+			(at 137.795 62.23 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -2017,7 +2016,7 @@
 			)
 		)
 		(property "Value" "10uF.stabl"
-			(at 129.54 67.31 0)
+			(at 132.08 64.135 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -2080,7 +2079,7 @@
 		(dnp no)
 		(uuid "5a260634-6ff7-4cc8-9208-6ce5e2c44796")
 		(property "Reference" "C1"
-			(at 113.665 119.38 0)
+			(at 113.665 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)

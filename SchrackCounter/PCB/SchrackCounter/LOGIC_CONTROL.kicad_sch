@@ -2723,6 +2723,10 @@
 		(uuid "ba0188ad-f1fe-4ab4-bf58-9394a0adfc2c")
 	)
 	(no_connect
+		(at 222.25 134.62)
+		(uuid "4f02d7a6-7f69-4932-9b5c-d45faa4d5d22")
+	)
+	(no_connect
 		(at 222.25 111.76)
 		(uuid "690810ba-b9d4-4cb5-b973-ab44e6b92e2e")
 	)
@@ -2919,6 +2923,16 @@
 			(type default)
 		)
 		(uuid "8799a085-41d6-4d33-9db3-25f1ecce1ed6")
+	)
+	(wire
+		(pts
+			(xy 217.17 134.62) (xy 222.25 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87e2b95b-2f92-4c3e-a01e-417442e47581")
 	)
 	(wire
 		(pts
@@ -4655,10 +4669,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "087fbdff-8d0e-49be-bf5a-b2b6c87535b7")
 		(property "Reference" "U2"
-			(at 72.39 40.64 0)
+			(at 72.39 41.275 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4666,7 +4679,7 @@
 			)
 		)
 		(property "Value" "LDD080BUE-101A"
-			(at 72.39 43.18 0)
+			(at 72.39 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4988,10 +5001,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "47aad5ca-5c9e-4753-a25c-fab85fa6abf7")
 		(property "Reference" "U3"
-			(at 93.98 105.41 0)
+			(at 93.98 106.045 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4999,7 +5011,7 @@
 			)
 		)
 		(property "Value" "LTD080BUE-103A"
-			(at 93.98 107.95 0)
+			(at 93.98 108.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5357,7 +5369,7 @@
 		(dnp no)
 		(uuid "8d404d1a-de06-4158-9e21-b330d18579c7")
 		(property "Reference" "U5"
-			(at 196.215 138.43 0)
+			(at 196.215 139.065 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5490,10 +5502,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b5b7c22f-b531-4465-9810-1285aa000841")
 		(property "Reference" "U4"
-			(at 124.46 40.64 0)
+			(at 124.46 41.275 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5501,7 +5512,7 @@
 			)
 		)
 		(property "Value" "LDD080BUE-101A"
-			(at 124.46 43.18 0)
+			(at 124.46 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
