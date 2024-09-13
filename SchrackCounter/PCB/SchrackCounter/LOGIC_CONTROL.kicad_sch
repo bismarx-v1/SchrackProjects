@@ -5386,7 +5386,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm"
+		(property "Footprint" "Package_DIP:DIP-24_W10.16mm"
 			(at 205.74 113.03 0)
 			(effects
 				(font
