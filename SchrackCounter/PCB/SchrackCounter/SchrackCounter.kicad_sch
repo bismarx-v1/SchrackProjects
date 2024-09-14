@@ -794,6 +794,16 @@
 			)
 		)
 	)
+	(text "FIX FONTS AND SYMBOLS"
+		(exclude_from_sim no)
+		(at 86.106 173.736 0)
+		(effects
+			(font
+				(size 5 5)
+			)
+		)
+		(uuid "79194603-8c3e-43de-b975-6cca1a30f94c")
+	)
 	(symbol
 		(lib_id "SCHRACK:LOGO")
 		(at 143.51 41.91 0)
@@ -850,7 +860,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d"
 					(reference "#G1")
 					(unit 1)

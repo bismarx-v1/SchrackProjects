@@ -2574,7 +2574,7 @@
 			(uuid "85236cb1-f166-430a-be9a-fe87c0e2dd56")
 		)
 		(instances
-			(project ""
+			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/39e148ed-9462-493d-862b-d9debebaa239"
 					(reference "U6")
 					(unit 1)
@@ -2857,7 +2857,7 @@
 			(uuid "73e60fd5-138a-44de-ba98-d97e0a4009e3")
 		)
 		(instances
-			(project ""
+			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/39e148ed-9462-493d-862b-d9debebaa239"
 					(reference "#PWR016")
 					(unit 1)
