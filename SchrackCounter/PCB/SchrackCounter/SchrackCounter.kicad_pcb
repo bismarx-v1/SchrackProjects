@@ -11643,7 +11643,7 @@
 	(footprint "sumec_graphic:SCHRACK_LOGO_IMG"
 		(layer "F.Cu")
 		(uuid "cf046410-8889-4607-9c8a-efa4ff0beb28")
-		(at 304.5 42)
+		(at 361.764 80.684)
 		(property "Reference" "TP2"
 			(at 0 0 0)
 			(layer "F.SilkS")
@@ -22455,8 +22455,8 @@
 		(layer "Edge.Cuts")
 		(uuid "c2c2e503-fd86-45f8-bc08-2b1e92ef11cc")
 	)
-	(gr_text "Who and how will make holes for the Schrack buttons,\nDimensions needed: \n- Schrack tactile switches\n- Schrack light switch (the main premise)"
-		(at 73.75 256.25 0)
+	(gr_text "Switches used in SchrackCounter PCB:\n- MAIN POWER SWITCH (Rotary switch used for power supp)\n- MODE: Optional switch for other software purpose (modes, time, etc)\n- RESET: Score/Time reset\n- Time is set using a webserver"
+		(at 149.166 237.656 0)
 		(layer "Cmts.User")
 		(uuid "44839d20-ca7f-4520-a645-50ade07b402a")
 		(effects
@@ -22468,7 +22468,7 @@
 		)
 	)
 	(gr_text "POWER"
-		(at 194.25 188 0)
+		(at 196.156 187.11 0)
 		(layer "Cmts.User")
 		(uuid "7aa03648-ed77-4baa-8983-94807700922d")
 		(effects
@@ -22480,7 +22480,7 @@
 		)
 	)
 	(gr_text "MODE"
-		(at 148.75 176.5 0)
+		(at 152.722 176.188 0)
 		(layer "Cmts.User")
 		(uuid "944aa7fd-7d4e-4542-aeb5-c1f00309f0b1")
 		(effects
@@ -22492,7 +22492,7 @@
 		)
 	)
 	(gr_text "RESET"
-		(at 240.75 176.25 0)
+		(at 241.622 175.172 0)
 		(layer "Cmts.User")
 		(uuid "f4b228c8-5419-4716-8779-09a33aee2327")
 		(effects
