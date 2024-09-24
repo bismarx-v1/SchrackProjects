@@ -794,16 +794,6 @@
 			)
 		)
 	)
-	(text "FIX FONTS AND SYMBOLS"
-		(exclude_from_sim no)
-		(at 86.106 173.736 0)
-		(effects
-			(font
-				(size 5 5)
-			)
-		)
-		(uuid "79194603-8c3e-43de-b975-6cca1a30f94c")
-	)
 	(symbol
 		(lib_id "SCHRACK:LOGO")
 		(at 143.51 41.91 0)
@@ -884,6 +874,7 @@
 			(at 196.85 133.35 0)
 			(effects
 				(font
+					(face "Bahnschrift")
 					(size 4 4)
 					(color 0 0 0 1)
 				)
@@ -924,6 +915,7 @@
 			(at 52.705 92.71 0)
 			(effects
 				(font
+					(face "Bahnschrift")
 					(size 4 4)
 					(color 0 0 0 1)
 				)
@@ -1105,6 +1097,7 @@
 			(at 200.025 92.71 0)
 			(effects
 				(font
+					(face "Bahnschrift")
 					(size 4 4)
 					(color 0 0 0 1)
 				)

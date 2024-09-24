@@ -2723,6 +2723,10 @@
 		(uuid "ba0188ad-f1fe-4ab4-bf58-9394a0adfc2c")
 	)
 	(no_connect
+		(at 222.25 127)
+		(uuid "2bd17b7a-433b-4d2f-9fe0-cb348f71682f")
+	)
+	(no_connect
 		(at 222.25 134.62)
 		(uuid "4f02d7a6-7f69-4932-9b5c-d45faa4d5d22")
 	)
@@ -2732,7 +2736,11 @@
 	)
 	(no_connect
 		(at 222.25 132.08)
-		(uuid "82af6165-96ae-41d5-ae14-72a95fdad802")
+		(uuid "7feb1a20-ec4f-4eb1-a974-33e2a3d51db6")
+	)
+	(no_connect
+		(at 222.25 116.84)
+		(uuid "d96701fd-70b9-4ddc-b3b6-3c754ea2c8f2")
 	)
 	(wire
 		(pts
@@ -3185,9 +3193,10 @@
 	)
 	(text "DRIVERS"
 		(exclude_from_sim no)
-		(at 160.02 31.75 0)
+		(at 160.02 32.385 0)
 		(effects
 			(font
+				(face "Bahnschrift")
 				(size 5 5)
 				(thickness 1.2)
 				(bold yes)
@@ -3199,9 +3208,10 @@
 	)
 	(text "TIME"
 		(exclude_from_sim no)
-		(at 46.355 31.75 0)
+		(at 46.355 32.385 0)
 		(effects
 			(font
+				(face "Bahnschrift")
 				(size 5 5)
 				(thickness 1.2)
 				(bold yes)
@@ -3213,9 +3223,10 @@
 	)
 	(text "SCORE"
 		(exclude_from_sim no)
-		(at 45.72 92.075 0)
+		(at 45.72 92.71 0)
 		(effects
 			(font
+				(face "Bahnschrift")
 				(size 5 5)
 				(thickness 1.2)
 				(bold yes)
@@ -3249,7 +3260,7 @@
 			)
 		)
 	)
-	(global_label "DP4"
+	(global_label "DP3"
 		(shape input)
 		(at 142.24 66.04 0)
 		(fields_autoplaced yes)
@@ -3263,7 +3274,31 @@
 		)
 		(uuid "06f3769f-4105-4f09-a6ba-93a5c070f768")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.9329 66.04 0)
+			(at 146.931 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DP3"
+		(shape input)
+		(at 222.25 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "11b7904d-85ea-47c6-9f14-5ded67c1ffb5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.941 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3293,30 +3328,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DP5"
-		(shape input)
-		(at 222.25 127 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 1 1)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "159e0202-6f37-4642-8bf2-56d2ad634b00")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.9634 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -3419,7 +3430,7 @@
 	)
 	(global_label "DP0"
 		(shape input)
-		(at 222.25 114.3 0)
+		(at 222.25 124.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3431,7 +3442,7 @@
 		)
 		(uuid "1e845d7b-a600-44a7-8dd6-5cfc2fbb2dc8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.9595 114.3 0)
+			(at 226.9595 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3537,30 +3548,6 @@
 			)
 		)
 	)
-	(global_label "DP6"
-		(shape input)
-		(at 222.25 129.54 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 1 1)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "302f5a3b-a380-41c0-b39f-a510c7ff2ee1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.8647 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SEG_A"
 		(shape input)
 		(at 106.68 48.26 180)
@@ -3657,7 +3644,7 @@
 			)
 		)
 	)
-	(global_label "DP2"
+	(global_label "DP1"
 		(shape input)
 		(at 90.17 66.04 0)
 		(fields_autoplaced yes)
@@ -3671,12 +3658,36 @@
 		)
 		(uuid "4e84da45-d7a1-4902-8cbb-c23f7e0c0e3c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.8443 66.04 0)
+			(at 94.5864 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DP0"
+		(shape input)
+		(at 54.61 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "55d733a3-81e9-43c7-ba60-9a77ea5b0b8f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 49.9005 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3773,54 +3784,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DP3"
-		(shape input)
-		(at 222.25 121.92 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 1 1)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "71fa0f70-1108-4b93-bfa6-b067b2f5f8cd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.941 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DP1"
-		(shape input)
-		(at 222.25 116.84 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 1 1)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "7a739b3b-6eb5-4ff6-bee5-7ff477303680")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.6664 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -4065,7 +4028,7 @@
 			)
 		)
 	)
-	(global_label "DPX"
+	(global_label "DP4-6"
 		(shape input)
 		(at 66.04 133.35 180)
 		(fields_autoplaced yes)
@@ -4079,7 +4042,7 @@
 		)
 		(uuid "aa6024cf-935e-49c5-b207-ca2fc3220c0f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 61.308 133.35 0)
+			(at 59.9578 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4137,30 +4100,6 @@
 			)
 		)
 	)
-	(global_label "DP4"
-		(shape input)
-		(at 222.25 124.46 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 1 1)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "b12aaabd-c41b-4507-a5e8-179b6407a886")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.9429 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SEG_G"
 		(shape input)
 		(at 90.17 48.26 0)
@@ -4185,7 +4124,31 @@
 			)
 		)
 	)
-	(global_label "DP3"
+	(global_label "DP4-6"
+		(shape input)
+		(at 222.25 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "bafba6d1-2030-4f55-8aae-6bd68c34d873")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.3322 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DP2"
 		(shape input)
 		(at 106.68 66.04 180)
 		(fields_autoplaced yes)
@@ -4199,7 +4162,7 @@
 		)
 		(uuid "c0e70997-e954-4682-b843-d12310bf0c1d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.989 66.04 0)
+			(at 102.0057 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4320,6 +4283,30 @@
 		(uuid "cc771dca-e341-498b-8079-4c43c758a71b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 148.4795 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DP1"
+		(shape input)
+		(at 222.25 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "d801f257-54cf-4e8b-b2ba-62a2d6834d65")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.6664 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4488,30 +4475,6 @@
 		(uuid "ec7078d2-9f4b-463b-b957-9e744a591dd0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 48.3305 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DP1"
-		(shape input)
-		(at 54.61 66.04 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 1 1)
-				(color 0 0 0 1)
-			)
-			(justify right)
-		)
-		(uuid "f2a7e85f-b7c5-43f1-9a6b-18318f43e508")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.1936 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)

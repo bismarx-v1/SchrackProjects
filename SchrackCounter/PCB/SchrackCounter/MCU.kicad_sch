@@ -1914,11 +1914,11 @@
 		(at 54.61 109.855 0)
 		(effects
 			(font
-				(face "Bahnschrift")
 				(size 5 5)
 				(thickness 1)
 				(bold yes)
-				(color 0 0 0 1)
+				(italic yes)
+				(color 0 0 255 1)
 			)
 			(justify left bottom)
 			(href "https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf")

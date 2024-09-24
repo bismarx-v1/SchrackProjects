@@ -1554,6 +1554,7 @@
 		(at 65.405 93.345 0)
 		(effects
 			(font
+				(face "Bahnschrift")
 				(size 5 5)
 				(thickness 1.2)
 				(bold yes)
@@ -1568,6 +1569,7 @@
 		(at 156.21 93.345 0)
 		(effects
 			(font
+				(face "Bahnschrift")
 				(size 5 5)
 				(thickness 1.2)
 				(bold yes)
@@ -1582,6 +1584,7 @@
 		(at 65.405 42.545 0)
 		(effects
 			(font
+				(face "Bahnschrift")
 				(size 5 5)
 				(thickness 1.2)
 				(bold yes)

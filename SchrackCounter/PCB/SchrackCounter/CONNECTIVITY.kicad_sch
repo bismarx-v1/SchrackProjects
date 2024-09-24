@@ -3162,6 +3162,7 @@
 		(at 59.055 47.625 0)
 		(effects
 			(font
+				(face "Bahnschrift")
 				(size 2 2)
 				(italic yes)
 				(color 0 0 0 1)
@@ -3175,6 +3176,7 @@
 		(at 55.245 29.21 0)
 		(effects
 			(font
+				(face "Bahnschrift")
 				(size 5 5)
 				(thickness 1.2)
 				(bold yes)
@@ -3215,6 +3217,7 @@
 		(at 123.19 99.695 0)
 		(effects
 			(font
+				(face "Bahnschrift")
 				(size 5 5)
 				(thickness 1.2)
 				(bold yes)
@@ -5211,7 +5214,7 @@
 		(dnp no)
 		(uuid "a770cff8-2982-44c8-b522-15facca79481")
 		(property "Reference" "D1"
-			(at 120.65 46.355 0)
+			(at 120.65 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5224,6 +5227,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
