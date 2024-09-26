@@ -1162,16 +1162,10 @@
 		)
 	)
 	(junction
-		(at 158.75 68.58)
+		(at 119.38 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c8420ec-dc1f-4157-8966-154e86c2dc76")
-	)
-	(junction
-		(at 175.26 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "589b3625-a878-48c9-ae33-ecc821637cb1")
 	)
 	(junction
 		(at 110.49 125.73)
@@ -1180,10 +1174,10 @@
 		(uuid "7fff7e38-9fb1-4834-a95e-50a77138c4a0")
 	)
 	(junction
-		(at 143.51 55.88)
+		(at 107.95 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9bd5f4c9-627d-4d8f-a855-f90b21031602")
+		(uuid "8e13c0d6-4c1f-4f29-a35b-c3625b509d22")
 	)
 	(junction
 		(at 120.65 115.57)
@@ -1203,9 +1197,15 @@
 		(color 0 0 0 0)
 		(uuid "da98400e-48e5-4532-b881-a2659ce70e03")
 	)
+	(junction
+		(at 130.81 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e72d2abe-c6c8-413a-86f0-5ab4afa92ace")
+	)
 	(wire
 		(pts
-			(xy 175.26 55.88) (xy 175.26 58.42)
+			(xy 130.81 55.88) (xy 130.81 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1215,7 +1215,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 68.58) (xy 175.26 66.04)
+			(xy 130.81 68.58) (xy 130.81 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1235,7 +1235,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 68.58) (xy 158.75 72.39)
+			(xy 119.38 68.58) (xy 119.38 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1255,7 +1255,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 114.3) (xy 190.5 114.3)
+			(xy 207.01 116.84) (xy 209.55 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1295,13 +1295,23 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 66.04) (xy 143.51 68.58)
+			(xy 107.95 66.04) (xy 107.95 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4d1c5174-1763-4216-a842-0038c493474e")
+	)
+	(wire
+		(pts
+			(xy 107.95 55.88) (xy 111.76 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52c671d0-4393-4e59-ab22-3590a4044d7a")
 	)
 	(wire
 		(pts
@@ -1315,7 +1325,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 58.42) (xy 143.51 55.88)
+			(xy 107.95 58.42) (xy 107.95 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1325,7 +1335,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 55.88) (xy 175.26 55.88)
+			(xy 127 55.88) (xy 130.81 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1355,7 +1365,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 63.5) (xy 158.75 68.58)
+			(xy 119.38 63.5) (xy 119.38 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1365,23 +1375,13 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 68.58) (xy 158.75 68.58)
+			(xy 107.95 68.58) (xy 119.38 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "aaaaf391-2a4f-4762-a266-d86fc113012a")
-	)
-	(wire
-		(pts
-			(xy 180.34 55.88) (xy 175.26 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7cfab11-9cdc-4d67-9acf-d042b487a14d")
 	)
 	(wire
 		(pts
@@ -1395,7 +1395,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 68.58) (xy 175.26 68.58)
+			(xy 119.38 68.58) (xy 130.81 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1425,7 +1425,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 55.88) (xy 143.51 55.88)
+			(xy 104.14 55.88) (xy 107.95 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1442,16 +1442,6 @@
 			(type default)
 		)
 		(uuid "d9116ef3-664b-4d62-aeed-f4c3b9891de7")
-	)
-	(wire
-		(pts
-			(xy 143.51 55.88) (xy 151.13 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de0096c8-ac57-40d6-82ac-eb39ceeb66da")
 	)
 	(wire
 		(pts
@@ -1475,7 +1465,17 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 116.84) (xy 190.5 116.84)
+			(xy 130.81 55.88) (xy 133.35 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3a512a8-c414-429e-a950-a3d568305f69")
+	)
+	(wire
+		(pts
+			(xy 205.74 119.38) (xy 209.55 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1485,7 +1485,7 @@
 	)
 	(rectangle
 		(start 66.04 95.25)
-		(end 143.51 133.35)
+		(end 149.86 133.35)
 		(stroke
 			(width 0)
 			(type dash)
@@ -1498,7 +1498,7 @@
 	)
 	(rectangle
 		(start 156.845 95.25)
-		(end 210.82 133.35)
+		(end 227.33 133.35)
 		(stroke
 			(width 0)
 			(type dash)
@@ -1511,7 +1511,7 @@
 	)
 	(rectangle
 		(start 66.04 44.45)
-		(end 210.82 82.55)
+		(end 149.86 82.55)
 		(stroke
 			(width 0)
 			(type dash)
@@ -1538,7 +1538,7 @@
 	)
 	(text "Texas Instruments \nLDO Voltage Regulator\n\nLM1084IS-3.3/NOPB 3.3V\n\nUsing TO-263-3 footprint"
 		(exclude_from_sim no)
-		(at 71.12 68.58 0)
+		(at 68.58 61.595 0)
 		(effects
 			(font
 				(face "Bahnschrift")
@@ -1596,7 +1596,7 @@
 	)
 	(text "Batt connector should probs be in the box but not on the pcb"
 		(exclude_from_sim no)
-		(at 116.84 102.235 0)
+		(at 106.68 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1630,7 +1630,7 @@
 	)
 	(global_label "VBATT"
 		(shape input)
-		(at 186.69 116.84 180)
+		(at 205.74 119.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1642,7 +1642,7 @@
 		)
 		(uuid "aa30a937-0fd7-407a-ada0-6d03abbdbe90")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.474 116.84 0)
+			(at 199.524 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1654,15 +1654,15 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 138.43 55.88 90)
+		(at 207.01 116.84 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "10c7e0f0-3e12-42a6-8e29-8d0a7603d589")
-		(property "Reference" "#PWR02"
-			(at 142.24 55.88 0)
+		(uuid "0eb07778-47a2-4305-b0b8-b4f443babf90")
+		(property "Reference" "#PWR042"
+			(at 210.82 116.84 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -1672,7 +1672,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 130.81 55.88 90)
+			(at 199.39 116.84 90)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -1682,7 +1682,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 55.88 0)
+			(at 207.01 116.84 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -1692,7 +1692,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 55.88 0)
+			(at 207.01 116.84 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -1702,7 +1702,77 @@
 			)
 		)
 		(property "Description" ""
-			(at 138.43 55.88 0)
+			(at 207.01 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd80af2d-4283-430a-95fe-c2c625a89a0d")
+		)
+		(instances
+			(project "SchrackCounter"
+				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/2b0bd697-1473-4a31-8990-1278f12dea07"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 104.14 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "10c7e0f0-3e12-42a6-8e29-8d0a7603d589")
+		(property "Reference" "#PWR02"
+			(at 107.95 55.88 0)
+			(effects
+				(font
+					(face "Bahnschrift")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 96.52 55.88 90)
+			(effects
+				(font
+					(face "Bahnschrift")
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 55.88 0)
+			(effects
+				(font
+					(face "Bahnschrift")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 55.88 0)
+			(effects
+				(font
+					(face "Bahnschrift")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1724,7 +1794,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 175.26 62.23 0)
+		(at 130.81 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1732,7 +1802,7 @@
 		(dnp no)
 		(uuid "23b0d0b7-4364-45b5-ab01-37c118234e85")
 		(property "Reference" "C4"
-			(at 178.435 61.595 0)
+			(at 133.985 61.595 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -1741,8 +1811,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF.stabl"
-			(at 178.435 63.5 0)
+		(property "Value" "10uF"
+			(at 133.985 63.5 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -1752,7 +1822,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder"
-			(at 176.2252 66.04 0)
+			(at 131.7752 66.04 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -1762,7 +1832,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.26 62.23 0)
+			(at 130.81 62.23 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -1772,7 +1842,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 175.26 62.23 0)
+			(at 130.81 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1870,8 +1940,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "37b84ad8-9cbb-4afd-922f-50961f580a6a")
-		(property "Reference" "C2"
-			(at 123.825 120.015 0)
+		(property "Reference" "C3"
+			(at 123.19 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1880,7 +1950,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 123.825 121.92 0)
+			(at 123.19 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1924,7 +1994,7 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/2b0bd697-1473-4a31-8990-1278f12dea07"
-					(reference "C2")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -1932,7 +2002,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 158.75 72.39 0)
+		(at 119.38 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1940,7 +2010,7 @@
 		(dnp no)
 		(uuid "3a385379-972a-483e-873a-d7d86fb2666b")
 		(property "Reference" "#PWR03"
-			(at 158.75 78.74 0)
+			(at 119.38 78.74 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -1950,7 +2020,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 158.75 76.2 0)
+			(at 119.38 76.2 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -1959,7 +2029,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 72.39 0)
+			(at 119.38 72.39 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -1969,7 +2039,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 72.39 0)
+			(at 119.38 72.39 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -1979,7 +2049,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 158.75 72.39 0)
+			(at 119.38 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2001,15 +2071,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 143.51 62.23 0)
+		(at 107.95 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "3d86ec75-048f-4580-9a4d-a308d6fa9cd1")
-		(property "Reference" "C3"
-			(at 137.795 62.23 0)
+		(property "Reference" "C1"
+			(at 102.87 61.595 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -2018,8 +2088,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF.stabl"
-			(at 132.08 64.135 0)
+		(property "Value" "10uF"
+			(at 101.6 63.5 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -2029,7 +2099,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder"
-			(at 144.4752 66.04 0)
+			(at 108.9152 66.04 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -2039,7 +2109,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 143.51 62.23 0)
+			(at 107.95 62.23 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -2049,7 +2119,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 143.51 62.23 0)
+			(at 107.95 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2066,7 +2136,7 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/2b0bd697-1473-4a31-8990-1278f12dea07"
-					(reference "C3")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -2081,8 +2151,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5a260634-6ff7-4cc8-9208-6ce5e2c44796")
-		(property "Reference" "C1"
-			(at 113.665 120.015 0)
+		(property "Reference" "C2"
+			(at 113.03 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2091,7 +2161,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 113.665 121.92 0)
+			(at 113.03 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2135,7 +2205,7 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/2b0bd697-1473-4a31-8990-1278f12dea07"
-					(reference "C1")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -2151,7 +2221,7 @@
 		(dnp no)
 		(uuid "a8fa9319-7d73-47e0-90ad-49448617afb8")
 		(property "Reference" "BT1"
-			(at 135.255 119.38 0)
+			(at 134.62 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2160,7 +2230,7 @@
 			)
 		)
 		(property "Value" "Battery"
-			(at 135.255 121.92 0)
+			(at 134.62 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2212,7 +2282,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Linear:LM1084-3.3")
-		(at 158.75 55.88 0)
+		(at 119.38 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2221,7 +2291,7 @@
 		(fields_autoplaced yes)
 		(uuid "ba01a7c2-dfbd-433c-baf2-57c6c1f30cd4")
 		(property "Reference" "U1"
-			(at 158.75 49.53 0)
+			(at 119.38 49.53 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -2230,7 +2300,7 @@
 			)
 		)
 		(property "Value" "LM1084-3.3"
-			(at 158.75 52.07 0)
+			(at 119.38 52.07 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -2239,7 +2309,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-263-3_TabPin2"
-			(at 158.75 49.53 0)
+			(at 119.38 49.53 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -2250,7 +2320,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1084.pdf"
-			(at 158.75 55.88 0)
+			(at 119.38 55.88 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -2260,7 +2330,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 158.75 55.88 0)
+			(at 119.38 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2287,75 +2357,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 185.42 114.3 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ccb77b92-c221-4e7a-b6ac-99f30d40cd71")
-		(property "Reference" "#PWR05"
-			(at 189.23 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 181.61 114.3001 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 185.42 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "191879ed-d6c5-40fb-989f-f029774bc476")
-		)
-		(instances
-			(project "SchrackCounter"
-				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/2b0bd697-1473-4a31-8990-1278f12dea07"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
-		(at 180.34 55.88 270)
+		(at 133.35 55.88 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2363,7 +2366,7 @@
 		(dnp no)
 		(uuid "e6d75f73-f2f4-49ab-aa08-f005b99a88ab")
 		(property "Reference" "#PWR04"
-			(at 176.53 55.88 0)
+			(at 129.54 55.88 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -2373,7 +2376,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 184.15 55.88 90)
+			(at 137.16 55.88 90)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -2383,7 +2386,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 55.88 0)
+			(at 133.35 55.88 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -2393,7 +2396,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 55.88 0)
+			(at 133.35 55.88 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -2403,7 +2406,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 180.34 55.88 0)
+			(at 133.35 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2425,7 +2428,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 195.58 116.84 180)
+		(at 214.63 119.38 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2433,7 +2436,7 @@
 		(dnp no)
 		(uuid "eafaeb50-0593-46b8-90ca-d2be6e0e4504")
 		(property "Reference" "J1"
-			(at 197.485 115.57 0)
+			(at 216.535 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2441,7 +2444,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 196.215 119.38 0)
+			(at 215.265 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2450,7 +2453,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 195.58 116.84 0)
+			(at 214.63 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2459,7 +2462,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 195.58 116.84 0)
+			(at 214.63 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2468,7 +2471,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 195.58 116.84 0)
+			(at 214.63 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -2617,7 +2617,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 52.07) (xy 128.27 52.07)
+			(xy 123.19 52.07) (xy 128.27 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2807,7 +2807,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 52.07) (xy 116.84 52.07)
+			(xy 107.95 52.07) (xy 115.57 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3507,7 +3507,7 @@
 	)
 	(global_label "VBUS 5V"
 		(shape output)
-		(at 113.03 52.07 180)
+		(at 107.95 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3519,7 +3519,7 @@
 		)
 		(uuid "c839c408-52a6-4b66-b7f8-8af2a2bab40c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 105.4326 52.07 0)
+			(at 100.3526 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3772,7 +3772,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12a5176d-10f2-4043-8f24-0bc9162e3676")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR022"
 			(at 173.99 62.23 0)
 			(effects
 				(font
@@ -3828,7 +3828,7 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/301b3ab9-8372-40d2-93c7-cd7607d23fc4"
-					(reference "#PWR023")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -3844,7 +3844,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ab29522-a559-4f7b-bbb4-edb314d87c21")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR025"
 			(at 223.52 157.48 0)
 			(effects
 				(font
@@ -3900,7 +3900,7 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/301b3ab9-8372-40d2-93c7-cd7607d23fc4"
-					(reference "#PWR026")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -3916,7 +3916,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a9a0101-9655-467d-a56f-e1d5cc17bc61")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR020"
 			(at 121.92 81.28 0)
 			(effects
 				(font
@@ -3972,7 +3972,7 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/301b3ab9-8372-40d2-93c7-cd7607d23fc4"
-					(reference "#PWR021")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -3987,7 +3987,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4c2458fb-e7d1-4e0f-a77f-7ac3e765f160")
-		(property "Reference" "D4"
+		(property "Reference" "D5"
 			(at 215.9 142.24 0)
 			(effects
 				(font
@@ -4039,7 +4039,75 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/301b3ab9-8372-40d2-93c7-cd7607d23fc4"
-					(reference "D4")
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 119.38 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f450e93-bd22-4bd5-b362-25f1269320b5")
+		(property "Reference" "D1"
+			(at 119.38 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 119.38 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 119.38 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 119.38 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "134c2a32-65b3-48c0-a743-0484b7f04a6b")
+		)
+		(pin "1"
+			(uuid "158266c4-3168-43cf-9b4f-6e3f803e3534")
+		)
+		(instances
+			(project "SchrackCounter"
+				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/301b3ab9-8372-40d2-93c7-cd7607d23fc4"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -4562,7 +4630,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76894e0b-a08d-4e00-bf33-67a8feec3e9f")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR021"
 			(at 153.67 144.78 0)
 			(effects
 				(font
@@ -4618,7 +4686,7 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/301b3ab9-8372-40d2-93c7-cd7607d23fc4"
-					(reference "#PWR022")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -4706,7 +4774,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8b0a45df-abe2-453c-b062-0552d2683ce1")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR018"
 			(at 87.63 139.7 0)
 			(effects
 				(font
@@ -4761,7 +4829,7 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/301b3ab9-8372-40d2-93c7-cd7607d23fc4"
-					(reference "#PWR019")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -4843,7 +4911,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "905c7834-aab5-43c2-8ffa-7840d90e3784")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR017"
 			(at 87.63 127 0)
 			(effects
 				(font
@@ -4898,7 +4966,7 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/301b3ab9-8372-40d2-93c7-cd7607d23fc4"
-					(reference "#PWR018")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -5143,7 +5211,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a06d8560-3546-4d64-bb80-35b3fceb55fd")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR019"
 			(at 87.63 151.13 0)
 			(effects
 				(font
@@ -5198,75 +5266,7 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/301b3ab9-8372-40d2-93c7-cd7607d23fc4"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 120.65 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a770cff8-2982-44c8-b522-15facca79481")
-		(property "Reference" "D1"
-			(at 120.65 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D_Schottky"
-			(at 120.65 48.895 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
-			(at 120.65 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 120.65 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ca142d79-21a3-4ba6-bb88-c4ea1ebf26b7")
-		)
-		(pin "1"
-			(uuid "2b811852-6b09-4bec-940f-65e12c1441b2")
-		)
-		(instances
-			(project "SchrackCounter"
-				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/301b3ab9-8372-40d2-93c7-cd7607d23fc4"
-					(reference "D1")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -5421,7 +5421,7 @@
 		(dnp no)
 		(uuid "bf35ff68-52b0-42f7-8f02-359737c4eca1")
 		(property "Reference" "R2"
-			(at 81.28 113.792 90)
+			(at 82.55 113.665 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5628,7 +5628,7 @@
 		(dnp no)
 		(uuid "d3f2a6f5-f3b4-4bf2-b7e0-781c33969398")
 		(property "Reference" "R3"
-			(at 81.28 126.492 90)
+			(at 82.55 126.365 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5695,7 +5695,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfeebd4d-3f38-4507-916d-988c1629984b")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR023"
 			(at 223.52 76.2 0)
 			(effects
 				(font
@@ -5751,7 +5751,7 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/301b3ab9-8372-40d2-93c7-cd7607d23fc4"
-					(reference "#PWR025")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -5766,7 +5766,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e941c078-bdb6-4f1b-a261-741e0c606b8b")
-		(property "Reference" "D5"
+		(property "Reference" "D4"
 			(at 215.9 132.08 0)
 			(effects
 				(font
@@ -5818,7 +5818,7 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/301b3ab9-8372-40d2-93c7-cd7607d23fc4"
-					(reference "D5")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -5902,7 +5902,7 @@
 		(dnp no)
 		(uuid "fca53d35-f984-4037-9d10-f378e5817aad")
 		(property "Reference" "R4"
-			(at 81.28 137.922 90)
+			(at 82.55 137.795 90)
 			(effects
 				(font
 					(size 1.27 1.27)

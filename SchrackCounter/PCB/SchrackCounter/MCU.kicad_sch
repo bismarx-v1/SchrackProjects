@@ -1925,9 +1925,9 @@
 		)
 		(uuid "e15d81d3-eae7-49b6-b99d-24727bea6e70")
 	)
-	(global_label "MODE"
+	(global_label "CLK"
 		(shape input)
-		(at 179.07 81.28 180)
+		(at 179.07 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1937,9 +1937,9 @@
 			)
 			(justify right)
 		)
-		(uuid "0446ed8a-ecfb-44f6-8af1-f348e6caf974")
+		(uuid "31f88dba-0d16-43f0-9f98-91c0961f324b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.1735 81.28 0)
+			(at 174.3429 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1964,6 +1964,30 @@
 		(uuid "38b92b5e-1fcc-48ec-9a87-e255fe016050")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 223.4748 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_EXT1"
+		(shape input)
+		(at 217.17 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "3a073e43-374d-401f-a391-221db2626555")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 225.336 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2023,7 +2047,7 @@
 	)
 	(global_label "LED_EXT3"
 		(shape input)
-		(at 217.17 101.6 0)
+		(at 217.17 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2033,9 +2057,9 @@
 			)
 			(justify left)
 		)
-		(uuid "4522c785-b51b-4aa2-abd8-4e47b9ef1736")
+		(uuid "47082773-b691-4799-8ba2-e5d2d0dbf6b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.6106 101.6 0)
+			(at 225.6106 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2093,9 +2117,9 @@
 			)
 		)
 	)
-	(global_label "GREEN_FLASH"
+	(global_label "~{CS0}"
 		(shape input)
-		(at 217.17 88.9 0)
+		(at 179.07 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2103,16 +2127,16 @@
 				(size 1 1)
 				(color 0 0 0 1)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "692f8b5c-1251-4c6f-815f-d3bbbb3b0a1b")
+		(uuid "52f2f338-5509-465f-830f-876b245e1ca6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 228.6714 88.9 0)
+			(at 174.4504 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2141,31 +2165,7 @@
 			)
 		)
 	)
-	(global_label "LED_EXT2"
-		(shape input)
-		(at 217.17 104.14 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 1 1)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "85b025b3-2969-4b5a-8acc-aeb647da732c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.594 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "~{CS0}"
+	(global_label "MISO"
 		(shape input)
 		(at 179.07 104.14 180)
 		(fields_autoplaced yes)
@@ -2177,9 +2177,9 @@
 			)
 			(justify right)
 		)
-		(uuid "8a2cc19c-5e6a-4209-b96b-f2789c14ae75")
+		(uuid "a3c0c649-68ee-48b8-ab28-d264f4804e0f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.4504 104.14 0)
+			(at 173.6815 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2189,79 +2189,7 @@
 			)
 		)
 	)
-	(global_label "SCHRACK_SW"
-		(shape input)
-		(at 179.07 83.82 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 1 1)
-				(color 0 0 0 1)
-			)
-			(justify right)
-		)
-		(uuid "90f3b9eb-3284-4f6a-8678-9cbcc5ac84f9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.1235 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MOSI"
-		(shape input)
-		(at 179.07 106.68 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 1 1)
-				(color 0 0 0 1)
-			)
-			(justify right)
-		)
-		(uuid "9fe304c1-a2b1-4738-8d1c-46024a71d981")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.6952 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MISO"
-		(shape input)
-		(at 179.07 109.22 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 1 1)
-				(color 0 0 0 1)
-			)
-			(justify right)
-		)
-		(uuid "a90394b6-d3d1-4c1e-8890-ab394d66e874")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.6815 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RED_FLASH"
+	(global_label "GREEN_FLASH"
 		(shape input)
 		(at 179.07 101.6 180)
 		(fields_autoplaced yes)
@@ -2273,9 +2201,9 @@
 			)
 			(justify right)
 		)
-		(uuid "ad274f80-06f6-418a-b021-7d904231732a")
+		(uuid "a5cb0c74-02fc-4dfb-8b96-27280a6b38ec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.3574 101.6 0)
+			(at 167.5686 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2309,9 +2237,9 @@
 			)
 		)
 	)
-	(global_label "CLK"
+	(global_label "LED_EXT2"
 		(shape input)
-		(at 179.07 111.76 180)
+		(at 217.17 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2319,16 +2247,40 @@
 				(size 1 1)
 				(color 0 0 0 1)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "cdbfd337-1c82-404b-bda8-db4ccb7c7641")
+		(uuid "c45e1a84-ca46-46ee-b1be-ac912668bbc6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.3429 111.76 0)
+			(at 225.594 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MODE"
+		(shape input)
+		(at 217.17 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "d4c2dca8-ea10-44c8-a530-4fb196520c19")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 223.0665 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2357,9 +2309,9 @@
 			)
 		)
 	)
-	(global_label "LED_EXT1"
+	(global_label "MOSI"
 		(shape input)
-		(at 217.17 106.68 0)
+		(at 179.07 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2367,21 +2319,21 @@
 				(size 1 1)
 				(color 0 0 0 1)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "e57a33dd-7ce8-4970-aa4e-488cc4b2410d")
+		(uuid "decddf9d-768b-48b3-aa28-d94a091cdf72")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.336 106.68 0)
+			(at 173.6952 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
-	(global_label "~{CS1}"
+	(global_label "RED_FLASH"
 		(shape input)
 		(at 179.07 114.3 180)
 		(fields_autoplaced yes)
@@ -2393,14 +2345,62 @@
 			)
 			(justify right)
 		)
-		(uuid "f4e7b49f-8186-42d4-89c9-22e683bbdcf8")
+		(uuid "efeb9777-d69d-4139-98dd-4e281826dd00")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.7298 114.3 0)
+			(at 169.3574 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "~{CS1}"
+		(shape input)
+		(at 179.07 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "fb5748d6-2ed2-4cd8-8e50-c801517ce1ea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.7298 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCHRACK_SW"
+		(shape input)
+		(at 217.17 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "ffecaeed-01a4-4f5a-8018-451defc48aab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.1165 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2415,7 +2415,7 @@
 		(dnp no)
 		(uuid "090cee62-70bc-4575-8a21-d9ecf32a5f29")
 		(property "Reference" "U6"
-			(at 176.53 123.19 0)
+			(at 172.72 123.825 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2424,7 +2424,7 @@
 			)
 		)
 		(property "Value" "ESP32-S3-WROOM-2"
-			(at 176.53 125.73 0)
+			(at 172.72 126.365 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2602,7 +2602,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF.mcu"
+		(property "Value" "100nF"
 			(at 208.28 67.31 90)
 			(effects
 				(font
@@ -2675,7 +2675,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF.mcu"
+		(property "Value" "10uF"
 			(at 208.28 59.69 90)
 			(effects
 				(font
@@ -2738,7 +2738,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7e2d1a2d-693e-469a-9502-0c0eb7dc244c")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR014"
 			(at 198.12 57.15 0)
 			(effects
 				(font
@@ -2793,7 +2793,7 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/39e148ed-9462-493d-862b-d9debebaa239"
-					(reference "#PWR015")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -2809,7 +2809,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "912f8e04-37bb-42ac-962f-1bbe680cf53c")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR015"
 			(at 198.12 130.81 0)
 			(effects
 				(font
@@ -2859,7 +2859,7 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/39e148ed-9462-493d-862b-d9debebaa239"
-					(reference "#PWR016")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -2876,7 +2876,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4d46da5-8630-4633-9a3a-9fb8d4e86df0")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR016"
 			(at 212.09 72.39 0)
 			(effects
 				(font
@@ -2927,7 +2927,7 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/39e148ed-9462-493d-862b-d9debebaa239"
-					(reference "#PWR017")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
