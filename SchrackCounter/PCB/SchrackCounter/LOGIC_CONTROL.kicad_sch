@@ -3639,6 +3639,17 @@
 		)
 		(uuid d877c8f5-0313-43c7-ae94-98c3ea8815f9)
 	)
+	(text "COMMON CATHODE\nPINOUT MAY BE WRONG"
+		(exclude_from_sim no)
+		(at 81.28 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "00109edc-cef5-48cb-a22f-a50abfa4979f")
+	)
 	(text "DRIVERS"
 		(exclude_from_sim no)
 		(at 160.02 32.385 0)

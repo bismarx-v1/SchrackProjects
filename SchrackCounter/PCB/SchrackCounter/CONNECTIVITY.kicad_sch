@@ -2617,7 +2617,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 52.07) (xy 128.27 52.07)
+			(xy 125.73 52.07) (xy 128.27 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2807,7 +2807,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 52.07) (xy 115.57 52.07)
+			(xy 114.3 52.07) (xy 118.11 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3507,7 +3507,7 @@
 	)
 	(global_label "VBUS 5V"
 		(shape output)
-		(at 107.95 52.07 180)
+		(at 114.3 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3519,7 +3519,7 @@
 		)
 		(uuid "c839c408-52a6-4b66-b7f8-8af2a2bab40c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.3526 52.07 0)
+			(at 106.7026 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4047,7 +4047,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 119.38 52.07 0)
+		(at 121.92 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4055,7 +4055,7 @@
 		(dnp no)
 		(uuid "4f450e93-bd22-4bd5-b362-25f1269320b5")
 		(property "Reference" "D1"
-			(at 119.38 48.895 0)
+			(at 121.92 48.895 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4063,7 +4063,7 @@
 			)
 		)
 		(property "Value" "D_Schottky"
-			(at 119.38 46.99 0)
+			(at 121.92 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4072,7 +4072,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
-			(at 119.38 52.07 0)
+			(at 121.92 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4081,7 +4081,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 119.38 52.07 0)
+			(at 121.92 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4090,7 +4090,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 119.38 52.07 0)
+			(at 121.92 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
