@@ -2303,7 +2303,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "032823b5-0116-4bde-b848-53f2c402781a")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR029"
 			(at 114.3 39.37 0)
 			(effects
 				(font
@@ -2358,7 +2358,7 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/0ccd8f36-c6f2-454f-91e2-c1976b699e0e"
-					(reference "#PWR033")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -2373,7 +2373,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "037c00d9-af78-4ae6-854f-6a4502095ef7")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR024"
 			(at 64.77 118.11 0)
 			(effects
 				(font
@@ -2428,7 +2428,7 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/0ccd8f36-c6f2-454f-91e2-c1976b699e0e"
-					(reference "#PWR028")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -2443,7 +2443,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0affeac0-b09d-454e-88c2-fe218aef5bbc")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR036"
 			(at 223.52 129.54 0)
 			(effects
 				(font
@@ -2497,7 +2497,7 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/0ccd8f36-c6f2-454f-91e2-c1976b699e0e"
-					(reference "#PWR040")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -2512,7 +2512,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "108a2a8b-732a-40b2-b40e-e34fc720ec63")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR034"
 			(at 215.9 99.06 0)
 			(effects
 				(font
@@ -2567,7 +2567,7 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/0ccd8f36-c6f2-454f-91e2-c1976b699e0e"
-					(reference "#PWR038")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -2793,7 +2793,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "248264cb-1557-4aa2-b8de-78721b1c76b5")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR033"
 			(at 137.16 63.5 0)
 			(effects
 				(font
@@ -2847,7 +2847,7 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/0ccd8f36-c6f2-454f-91e2-c1976b699e0e"
-					(reference "#PWR037")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -2935,7 +2935,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3255f289-b595-4814-bd99-ee4242a2d994")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR032"
 			(at 127 63.5 0)
 			(effects
 				(font
@@ -2989,7 +2989,7 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/0ccd8f36-c6f2-454f-91e2-c1976b699e0e"
-					(reference "#PWR036")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -3004,7 +3004,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "35e168b4-bb99-419c-8e80-3acc6ac5aecc")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR022"
 			(at 50.8 110.49 0)
 			(effects
 				(font
@@ -3059,7 +3059,7 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/0ccd8f36-c6f2-454f-91e2-c1976b699e0e"
-					(reference "#PWR026")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -3074,7 +3074,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3e8b64f8-1335-4ec7-998b-7afffbcdf748")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR026"
 			(at 92.71 100.33 0)
 			(effects
 				(font
@@ -3129,7 +3129,7 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/0ccd8f36-c6f2-454f-91e2-c1976b699e0e"
-					(reference "#PWR030")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -3217,7 +3217,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4ae99ab7-5303-41d2-a9e5-50238c94614f")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR027"
 			(at 92.71 118.11 0)
 			(effects
 				(font
@@ -3272,7 +3272,7 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/0ccd8f36-c6f2-454f-91e2-c1976b699e0e"
-					(reference "#PWR031")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -3287,7 +3287,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5379a3cf-7515-45e7-bedc-a79cb20fead5")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR025"
 			(at 78.74 110.49 0)
 			(effects
 				(font
@@ -3342,7 +3342,7 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/0ccd8f36-c6f2-454f-91e2-c1976b699e0e"
-					(reference "#PWR029")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -3357,7 +3357,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "58992303-f77a-4ad5-a584-d89cb5fece18")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR031"
 			(at 124.46 118.11 0)
 			(effects
 				(font
@@ -3412,7 +3412,7 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/0ccd8f36-c6f2-454f-91e2-c1976b699e0e"
-					(reference "#PWR035")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -3709,7 +3709,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6def7c8b-562a-4a73-aa4f-5860b01ce3b4")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR037"
 			(at 226.06 80.01 0)
 			(effects
 				(font
@@ -3764,7 +3764,7 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/0ccd8f36-c6f2-454f-91e2-c1976b699e0e"
-					(reference "#PWR041")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -3979,7 +3979,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7c63cc97-1dd5-4be5-8230-6bed0fc2882f")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR035"
 			(at 218.44 62.23 0)
 			(effects
 				(font
@@ -4029,7 +4029,7 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/0ccd8f36-c6f2-454f-91e2-c1976b699e0e"
-					(reference "#PWR039")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -4180,7 +4180,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b2b14153-41a1-4f16-a75b-c347be67ecfb")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR030"
 			(at 124.46 100.33 0)
 			(effects
 				(font
@@ -4235,7 +4235,7 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/0ccd8f36-c6f2-454f-91e2-c1976b699e0e"
-					(reference "#PWR034")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -4395,7 +4395,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c84468be-0d2c-40df-b3c1-111df159817a")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR028"
 			(at 110.49 110.49 0)
 			(effects
 				(font
@@ -4450,7 +4450,7 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/0ccd8f36-c6f2-454f-91e2-c1976b699e0e"
-					(reference "#PWR032")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -4608,7 +4608,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d5113562-103b-4590-9fe6-ff9fae8c39fc")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR023"
 			(at 64.77 100.33 0)
 			(effects
 				(font
@@ -4663,7 +4663,7 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/0ccd8f36-c6f2-454f-91e2-c1976b699e0e"
-					(reference "#PWR027")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)

@@ -1661,7 +1661,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0eb07778-47a2-4305-b0b8-b4f443babf90")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR05"
 			(at 210.82 116.84 0)
 			(effects
 				(font
@@ -1716,7 +1716,7 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/2b0bd697-1473-4a31-8990-1278f12dea07"
-					(reference "#PWR042")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
