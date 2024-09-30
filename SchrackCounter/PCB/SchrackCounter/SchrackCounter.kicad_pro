@@ -58,11 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "copper_edge_clearance|162460000|137540000|be354de7-d325-4321-bacb-2d8d2d51a3cf|e680c46f-d850-48bf-806a-c5af4adca6c6",
-        "copper_edge_clearance|167540000|137540000|be354de7-d325-4321-bacb-2d8d2d51a3cf|e655e8d1-ed94-4f3f-a787-fa48b046052b",
-        "unconnected_items|170000000|111580000|282a93b4-e15f-4873-96bc-6c9c85f5ca3b|9e07636f-1c06-4288-aaab-23175521089e"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
