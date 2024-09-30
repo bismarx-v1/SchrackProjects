@@ -1227,7 +1227,7 @@
 			)
 		)
 		(property "Value" "TYPE-C-31-M-12 (USB C CONN)"
-			(at 6.405 3.685 360)
+			(at 6.405 3.685 0)
 			(layer "F.Fab")
 			(uuid "e439fd05-c7d9-46a0-b010-76527a37d169")
 			(effects
@@ -1604,7 +1604,7 @@
 			)
 		)
 		(property "Footprint" "sumec_brd:USB_Type_C"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "576c5b82-50cb-4a4a-ae11-2236fed67d4f")
@@ -1616,7 +1616,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fd72830c-be55-4402-8a0a-0146d223c3b1")
@@ -1628,7 +1628,7 @@
 			)
 		)
 		(property "Description" "USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2d4194b7-f199-49b7-8b14-9638d6f028ea")
@@ -2106,7 +2106,7 @@
 			(uuid "43a4c7d9-ff8e-431e-8f9f-826d1947b24a")
 		)
 		(fp_text user "PCB EDGE"
-			(at 5.2 1.9 360)
+			(at 5.2 1.9 0)
 			(layer "F.Fab")
 			(uuid "dfe7085f-84de-432b-957d-23de4677c3ac")
 			(effects
@@ -3852,7 +3852,7 @@
 		(descr "24-lead though-hole mounted DIP package, row spacing 10.16 mm (400 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 10.16mm 400mil")
 		(property "Reference" "U5"
-			(at 0.1 -2.275 360)
+			(at 0.1 -2.275 0)
 			(layer "F.SilkS")
 			(uuid "8430ad2d-3c12-4f4f-abc8-5ae4ab1e8ca7")
 			(effects
@@ -3902,7 +3902,7 @@
 			)
 		)
 		(property "Value" "MAX7219"
-			(at 5.08 30.27 360)
+			(at 5.08 30.27 0)
 			(layer "F.Fab")
 			(uuid "9bd66d48-fedf-4d6c-9114-28650b1ca67c")
 			(effects
@@ -4195,7 +4195,7 @@
 			(uuid "4a105dfa-1557-45d7-8e8f-f4a94de42203")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 5.08 13.97 360)
+			(at 5.08 13.97 0)
 			(layer "F.Fab")
 			(uuid "2c23e39c-eaf6-4979-8d16-8ef97a920721")
 			(effects
@@ -6530,7 +6530,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "48776c91-4dc2-484f-8c17-62b0241b15c6")
 			(effects
@@ -6759,7 +6759,7 @@
 			(uuid "ccc0e20a-fdce-457b-8840-c93f31d11489")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "b99f79e7-62c9-47a9-9298-c45fb96c7de7")
 			(effects
@@ -14140,7 +14140,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "7113228a-a4a2-4170-b36d-51bda4e9d334")
 			(effects
@@ -14369,7 +14369,7 @@
 			(uuid "9267a55d-44fc-40ac-81ca-1eb00c806d69")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "0f433a4c-2eaa-4577-9056-aa49d52876a5")
 			(effects
@@ -15712,7 +15712,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "608e3058-a923-4193-a2c3-21127809cb8c")
 			(effects
@@ -15941,7 +15941,7 @@
 			(uuid "9a172109-a4a4-45dd-8ca3-75f0df5d7b5e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "fd02dc01-1692-4908-a1ce-6a984f37e14e")
 			(effects
@@ -16578,7 +16578,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "ea236e8a-0ba4-4a48-be54-bb6ecc2dd787")
 			(effects
@@ -16807,7 +16807,7 @@
 			(uuid "4cfe5714-89ff-4ff2-92dd-471a8f8dcdd0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "10fda474-fc46-434c-b038-bff6c7f3fef0")
 			(effects
@@ -22287,7 +22287,7 @@
 			)
 		)
 		(property "Value" "220R"
-			(at 0 -1.65 360)
+			(at 0 -1.65 0)
 			(layer "B.Fab")
 			(uuid "6df51fbe-4290-4aae-8303-cab5e726ebe7")
 			(effects
@@ -22529,7 +22529,7 @@
 			(uuid "8037c3c2-ac65-43d6-87c6-520e904dc688")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "15639eed-478b-4a63-9115-35924b3a2e4b")
 			(effects
@@ -23783,7 +23783,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R1"
-			(at 2.5375 0 360)
+			(at 2.5375 0 0)
 			(layer "B.SilkS")
 			(uuid "454d97f7-6065-4fcc-afa2-3979578483b4")
 			(effects
@@ -24758,7 +24758,7 @@
 			(uuid "2fbf9e2f-d26a-4335-aa1c-f3fb8a4cfb9e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "d0f13504-7daf-41c8-a2b6-7bee5afbd49a")
 			(effects
@@ -25238,7 +25238,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C6"
-			(at 2.4625 0 360)
+			(at 2.4625 0 0)
 			(layer "B.SilkS")
 			(uuid "252a8dd8-3da4-467c-b558-8132ed81fe63")
 			(effects
@@ -25714,7 +25714,7 @@
 			)
 		)
 		(property "Value" "220R"
-			(at 0 -1.65 360)
+			(at 0 -1.65 0)
 			(layer "B.Fab")
 			(uuid "ce1824ac-1350-41b4-8c6d-8e088c301747")
 			(effects
@@ -25956,7 +25956,7 @@
 			(uuid "925eaa7b-3a16-4970-ba5e-c9d222d4d538")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "6f0a8ce0-e8c8-44c0-a447-5afa3d4429cc")
 			(effects
@@ -26457,7 +26457,7 @@
 		(descr "Tantalum Capacitor SMD Kemet-A (3216-18 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor tantalum")
 		(property "Reference" "C1"
-			(at 0 -1.75 360)
+			(at 0 -1.75 0)
 			(layer "B.SilkS")
 			(uuid "bde4e8f2-658f-4574-aad5-ff99776742da")
 			(effects
@@ -28020,7 +28020,7 @@
 		(descr "TO-263/D2PAK/DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/")
 		(tags "D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404")
 		(property "Reference" "U1"
-			(at -9.4 4.75 360)
+			(at -9.4 4.75 0)
 			(layer "B.SilkS")
 			(uuid "d9c1f5d8-35f2-4262-9b6b-c92703c9dedd")
 			(effects
@@ -28057,7 +28057,7 @@
 			)
 		)
 		(property "Value" "LM1084-3.3"
-			(at 0 -6.65 360)
+			(at 0 -6.65 0)
 			(layer "B.Fab")
 			(uuid "d02aff49-ccce-474c-a8a3-3476f5cf2810")
 			(effects
@@ -28538,7 +28538,7 @@
 			(uuid "b2579b7b-35e5-4254-9e3d-2401594c9f61")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "27cdfcf8-5bf2-4562-a4b6-fb10ebbac6b2")
 			(effects
@@ -30369,7 +30369,7 @@
 		(descr "Tantalum Capacitor SMD Kemet-A (3216-18 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor tantalum")
 		(property "Reference" "C4"
-			(at 0 1.75 360)
+			(at 0 1.75 0)
 			(layer "B.SilkS")
 			(uuid "510f6285-e4e8-4fc1-b0a1-58f0b3d5cfea")
 			(effects
@@ -31908,7 +31908,7 @@
 		(descr "Tantalum Capacitor SMD Kemet-A (3216-18 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor tantalum")
 		(property "Reference" "C5"
-			(at -3.1375 -0.15 360)
+			(at -3.1375 -0.15 0)
 			(layer "B.SilkS")
 			(uuid "e7a979a4-96cd-48c8-89bd-851d683bda48")
 			(effects
