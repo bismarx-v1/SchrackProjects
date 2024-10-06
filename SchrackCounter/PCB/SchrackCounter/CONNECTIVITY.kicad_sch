@@ -2807,7 +2807,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 129.54) (xy 172.72 129.54)
+			(xy 176.53 129.54) (xy 173.99 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2854,6 +2854,16 @@
 			(type default)
 		)
 		(uuid "43b944c3-7b50-4fd9-ab01-60318e7891aa")
+	)
+	(wire
+		(pts
+			(xy 166.37 118.11) (xy 163.83 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45b02032-1a20-454a-acbb-ad39bb4f13ce")
 	)
 	(wire
 		(pts
@@ -2997,6 +3007,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 129.54) (xy 163.83 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93d003e0-5f00-4c6f-a575-8a491dc53d75")
+	)
+	(wire
+		(pts
 			(xy 208.28 123.19) (xy 212.09 123.19)
 		)
 		(stroke
@@ -3027,7 +3047,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 118.11) (xy 172.72 118.11)
+			(xy 176.53 118.11) (xy 173.99 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3134,26 +3154,6 @@
 			(type default)
 		)
 		(uuid "bdf119b7-1515-4f41-bb79-8ddf70196aad")
-	)
-	(wire
-		(pts
-			(xy 163.83 118.11) (xy 165.1 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be930ed2-f158-4de6-bbaf-9cace88d2d6c")
-	)
-	(wire
-		(pts
-			(xy 163.83 129.54) (xy 165.1 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c47e9151-3a42-489d-8acb-24cdb748a24b")
 	)
 	(wire
 		(pts
@@ -3898,73 +3898,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 160.02 118.11 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "05e9870b-10cb-4e6d-ada7-9dcbc6b93df0")
-		(property "Reference" "R6"
-			(at 160.02 113.665 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220R"
-			(at 160.02 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 160.02 119.888 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 160.02 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "28870959-1cc8-49b9-9439-f3feff426e75")
-		)
-		(pin "1"
-			(uuid "d405f6da-747f-4372-be7d-1130717bb20e")
-		)
-		(instances
-			(project "SchrackCounter"
-				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/301b3ab9-8372-40d2-93c7-cd7607d23fc4"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Buzzer")
 		(at 137.16 124.46 90)
 		(unit 1)
@@ -4035,7 +3968,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 168.91 129.54 180)
+		(at 160.02 129.54 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4043,7 +3976,7 @@
 		(dnp no)
 		(uuid "10809a56-e83d-4243-a76f-b2ff22dc64e2")
 		(property "Reference" "D3"
-			(at 168.91 124.46 0)
+			(at 160.02 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4051,7 +3984,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 168.91 126.365 0)
+			(at 160.02 126.365 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4059,7 +3992,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 168.91 129.54 0)
+			(at 160.02 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4068,7 +4001,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 129.54 0)
+			(at 160.02 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4077,7 +4010,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 168.91 129.54 0)
+			(at 160.02 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4311,73 +4244,6 @@
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/301b3ab9-8372-40d2-93c7-cd7607d23fc4"
 					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 160.02 129.54 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "492eb168-ab35-4feb-bb51-d317ea4a601e")
-		(property "Reference" "R7"
-			(at 160.02 125.095 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220R"
-			(at 160.02 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 160.02 131.318 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 160.02 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "843860e8-7c16-4af3-b405-595b038cac04")
-		)
-		(pin "1"
-			(uuid "a4ef7c46-35a4-4360-9228-78dc3c9d070b")
-		)
-		(instances
-			(project "SchrackCounter"
-				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/301b3ab9-8372-40d2-93c7-cd7607d23fc4"
-					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -5964,6 +5830,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 170.18 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba5b13c4-c2e0-474a-a126-a1ec5f782263")
+		(property "Reference" "R6"
+			(at 170.18 113.665 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 170.18 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 170.18 119.888 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 170.18 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a5b497ec-3744-4476-84f9-911dbfbe091f")
+		)
+		(pin "1"
+			(uuid "c7b620c2-bcb7-4f21-9fcc-82672be0af3d")
+		)
+		(instances
+			(project "SchrackCounter"
+				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/301b3ab9-8372-40d2-93c7-cd7607d23fc4"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 215.9 113.03 180)
 		(unit 1)
@@ -6378,7 +6311,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 168.91 118.11 180)
+		(at 160.02 118.11 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6386,7 +6319,7 @@
 		(dnp no)
 		(uuid "e01e27f1-6b78-4c67-a025-caa8d1e62930")
 		(property "Reference" "D2"
-			(at 168.91 113.03 0)
+			(at 160.02 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6394,7 +6327,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 168.91 114.935 0)
+			(at 160.02 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6402,7 +6335,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 168.91 118.11 0)
+			(at 160.02 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6411,7 +6344,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 118.11 0)
+			(at 160.02 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6420,7 +6353,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 168.91 118.11 0)
+			(at 160.02 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6438,6 +6371,73 @@
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/301b3ab9-8372-40d2-93c7-cd7607d23fc4"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 170.18 129.54 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e85d1c9f-d7fc-4382-b496-5611c3c17a69")
+		(property "Reference" "R7"
+			(at 170.18 125.095 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 170.18 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 170.18 131.318 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 170.18 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e9c8bead-e658-4b64-a9da-eca739ded45a")
+		)
+		(pin "1"
+			(uuid "7cc77ad3-a041-46e1-8596-bd8030f567b9")
+		)
+		(instances
+			(project "SchrackCounter"
+				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/301b3ab9-8372-40d2-93c7-cd7607d23fc4"
+					(reference "R7")
 					(unit 1)
 				)
 			)

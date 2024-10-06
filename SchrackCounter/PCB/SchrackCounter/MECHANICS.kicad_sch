@@ -3639,7 +3639,7 @@
 		(dnp no)
 		(uuid "6a883db8-e0c7-41ae-8417-e2d3c1126b7a")
 		(property "Reference" "R14"
-			(at 107.315 38.735 0)
+			(at 111.125 39.37 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -3647,8 +3647,8 @@
 				)
 			)
 		)
-		(property "Value" "10k.mcu"
-			(at 109.22 41.275 0)
+		(property "Value" "10k"
+			(at 111.125 41.91 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4753,7 +4753,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF.en"
+		(property "Value" "100nF"
 			(at 125.095 58.42 90)
 			(effects
 				(font
@@ -5038,8 +5038,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF.boot"
-			(at 139.7 58.42 90)
+		(property "Value" "100nF"
+			(at 143.51 58.42 90)
 			(effects
 				(font
 					(face "Bahnschrift")
