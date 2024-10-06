@@ -2985,7 +2985,7 @@
 	)
 	(text "		DISPLAY            			 MAX7219\n\ntime(ss.ss)   score(###)    time(ss.ss)    score(###)\n   0, 1, 2, 3           4, 5, 6            0, 4, 6, 2         1, 5, 7"
 		(exclude_from_sim no)
-		(at 165.735 50.165 0)
+		(at 170.18 47.625 0)
 		(effects
 			(font
 				(face "Bahnschrift")
