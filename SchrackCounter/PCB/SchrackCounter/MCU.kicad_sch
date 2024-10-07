@@ -1999,7 +1999,7 @@
 	)
 	(rectangle
 		(start 51.435 41.91)
-		(end 233.68 137.795)
+		(end 233.68 147.955)
 		(stroke
 			(width 0)
 			(type dash)
@@ -2012,7 +2012,7 @@
 	)
 	(text "Default Configuration of Strapping Pins\n\nStrapping Pin	Default Configuration		Bit Value\nGPIO0 			Pull-up						1\nGPIO3			Floating						-\nGPIO45			Pull-down					0\nGPIO46			Pull-down					0"
 		(exclude_from_sim no)
-		(at 53.975 75.565 0)
+		(at 54.61 74.93 0)
 		(effects
 			(font
 				(face "Bahnschrift")
@@ -2022,6 +2022,19 @@
 			(justify left bottom)
 		)
 		(uuid "013e069d-e958-48e8-8c7f-d33cb0084717")
+	)
+	(text "GPIO  | NAME      | DESC. \n02    | MAIN_BTN  | Schrack light switch; --debounced --pullup \n05    | R_LED     | LEDs, Indication --debug\n06    | G_LED     | LEDs, Indication --debug\n09    | BUZZER    | Passive buzzer\n10    | MISO      | SPI; SD Card\n11    | CLOCK     | SPI clock; SD Card, MAX7219\n12    | MOSI      | SPI; SD Card, MAX7219\n04    | cSelect0  | Chipselect for MAX7219; --defHigh\n13    | cSelect1  | Chipselect for SD Card; --defHigh\n38    | D_EXT1    | External device, eg: LEDs, Button\n39    | D_EXT2    | External device, eg: LEDs, Button\n40    | D_EXT3    | External device, eg: LEDs, Button\n41    | MODE_SW   | External switch, --unused\n42    | RESET_SW  | External switch, Time/Score reset\n\n"
+		(exclude_from_sim no)
+		(at 54.61 127 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1.5 1.5)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "03ad522f-ff0a-4162-b7af-51e9d9509c1f")
 	)
 	(text "ESP32-S3-WROOM2"
 		(exclude_from_sim no)
@@ -2039,7 +2052,7 @@
 	)
 	(text "GPIO0 has an internal pullup resistor, so if it is left unconnected then it will pull high.\n\nGPIO0, GPIO45, and GPIO46 are connected to the chip's internal weak pull-up/pull-down resistors at chip reset.\nThese resistors determine the default bit values of the strapping pins. Also, these resistors determine the bit\nvalues if the strapping pins are connected to an external high-impedance circuit."
 		(exclude_from_sim no)
-		(at 53.975 56.515 0)
+		(at 54.61 55.88 0)
 		(effects
 			(font
 				(face "Bahnschrift")
@@ -2052,7 +2065,7 @@
 	)
 	(text "Typically these can be used, but you need to make sure they are not in the wrong state during boot.\n\ngpio.0 Boot Mode. Weak pullup during reset. (Boot Mode 0=Boot from Flash, 1=Download)\ngpio.3 JTAG Mode. Weak pull down during reset. (JTAG Config)\ngpio.45 SPI voltage. Weak pull down during reset. (SPI Voltage 0=3.3v 1=1.8v)\ngpio.46 Boot mode. Weak pull down during reset. (Enabling/Disabling ROM Messages Print During Booting)"
 		(exclude_from_sim no)
-		(at 53.975 93.345 0)
+		(at 54.61 92.71 0)
 		(effects
 			(font
 				(face "Bahnschrift")
@@ -2065,7 +2078,7 @@
 	)
 	(text "ESP32-S3 Datasheet"
 		(exclude_from_sim no)
-		(at 54.61 109.855 0)
+		(at 53.34 103.505 0)
 		(effects
 			(font
 				(size 5 5)
