@@ -3196,7 +3196,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal"
+		(property "Footprint" "Schrack_brd:RJ45_Amphenol_54602-x08_Horizontal"
 			(at 66.675 48.26 90)
 			(effects
 				(font
@@ -3349,7 +3349,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal"
+		(property "Footprint" "Schrack_brd:RJ45_Amphenol_54602-x08_Horizontal"
 			(at 259.715 48.26 90)
 			(effects
 				(font
@@ -3766,7 +3766,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal"
+		(property "Footprint" "Schrack_brd:RJ45_Amphenol_54602-x08_Horizontal"
 			(at 225.425 48.26 90)
 			(effects
 				(font
@@ -3919,7 +3919,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal"
+		(property "Footprint" "Schrack_brd:RJ45_Amphenol_54602-x08_Horizontal"
 			(at 98.425 48.26 90)
 			(effects
 				(font
@@ -4071,7 +4071,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal"
+		(property "Footprint" "Schrack_brd:RJ45_Amphenol_54602-x08_Horizontal"
 			(at 33.655 48.26 90)
 			(effects
 				(font
@@ -4159,7 +4159,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal"
+		(property "Footprint" "Schrack_brd:RJ45_Amphenol_54602-x08_Horizontal"
 			(at 193.675 48.26 90)
 			(effects
 				(font
@@ -4247,7 +4247,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal"
+		(property "Footprint" "Schrack_brd:RJ45_Amphenol_54602-x08_Horizontal"
 			(at 130.175 48.26 90)
 			(effects
 				(font
@@ -4466,7 +4466,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal"
+		(property "Footprint" "Schrack_brd:RJ45_Amphenol_54602-x08_Horizontal"
 			(at 161.925 48.26 90)
 			(effects
 				(font
