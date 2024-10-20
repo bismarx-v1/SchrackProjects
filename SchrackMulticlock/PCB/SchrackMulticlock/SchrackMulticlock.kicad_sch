@@ -892,7 +892,7 @@
 			)
 		)
 		(instances
-			(project "SchrackCounter"
+			(project "SchrackMulticlock"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d"
 					(page "5")
 				)
@@ -933,7 +933,7 @@
 			)
 		)
 		(instances
-			(project "SchrackCounter"
+			(project "SchrackMulticlock"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d"
 					(page "2")
 				)
@@ -983,7 +983,7 @@
 			)
 		)
 		(instances
-			(project "SchrackCounter"
+			(project "SchrackMulticlock"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d"
 					(page "5")
 				)
@@ -1033,7 +1033,7 @@
 			)
 		)
 		(instances
-			(project "SchrackCounter"
+			(project "SchrackMulticlock"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d"
 					(page "4")
 				)
@@ -1074,7 +1074,7 @@
 			)
 		)
 		(instances
-			(project "SchrackCounter"
+			(project "SchrackMulticlock"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d"
 					(page "3")
 				)
@@ -1115,7 +1115,7 @@
 			)
 		)
 		(instances
-			(project "SchrackCounter"
+			(project "SchrackMulticlock"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d"
 					(page "6")
 				)

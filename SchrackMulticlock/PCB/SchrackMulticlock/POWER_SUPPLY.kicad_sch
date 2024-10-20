@@ -2209,7 +2209,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Schrack_brd:SOLDER_PADS"
+		(property "Footprint" "Battery:BatteryHolder_TruPower_BH-331P_3xAA"
 			(at 125.73 122.936 90)
 			(effects
 				(font

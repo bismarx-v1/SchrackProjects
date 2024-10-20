@@ -2646,10 +2646,10 @@
 		)
 	)
 	(junction
-		(at 208.28 142.24)
+		(at 224.79 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1a451bd4-0012-4364-b3bc-7d000ee498c9")
+		(uuid "1f887c54-06f8-4df6-8402-a733110f61d1")
 	)
 	(junction
 		(at 223.52 62.23)
@@ -2658,22 +2658,22 @@
 		(uuid "805185a1-0dfe-4617-8062-29c0d5a88fc8")
 	)
 	(junction
-		(at 223.52 147.32)
+		(at 209.55 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a5eb0c38-fc52-477e-ba8e-8186bc60880a")
+		(uuid "8dcc04c3-f30f-4766-a09e-6799d9806913")
 	)
 	(junction
-		(at 223.52 123.19)
+		(at 224.79 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "beaf99f7-c1e4-4afd-bb70-893de742d800")
+		(uuid "90307215-1409-49e9-81b9-f81c0907165d")
 	)
 	(junction
-		(at 208.28 118.11)
+		(at 209.55 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c0fb9417-e9dd-42b6-9fd2-e87074cf83da")
+		(uuid "cbb8d146-5416-40e6-af7b-6d7ec4f77afb")
 	)
 	(no_connect
 		(at 127 69.85)
@@ -2697,6 +2697,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 111.76) (xy 224.79 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04705066-74d2-4f99-a10b-2392358f345e")
+	)
+	(wire
+		(pts
 			(xy 127 57.15) (xy 128.27 57.15)
 		)
 		(stroke
@@ -2717,26 +2727,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 142.24) (xy 196.85 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10665115-b17c-4fe6-96dd-eff411127b6e")
-	)
-	(wire
-		(pts
-			(xy 208.28 137.16) (xy 212.09 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11441493-a592-431e-9935-f5b4ed759a32")
-	)
-	(wire
-		(pts
 			(xy 125.73 52.07) (xy 128.27 52.07)
 		)
 		(stroke
@@ -2744,6 +2734,16 @@
 			(type default)
 		)
 		(uuid "120b4e5e-124c-4663-972a-b7f15c2e517c")
+	)
+	(wire
+		(pts
+			(xy 209.55 135.89) (xy 209.55 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "159bc2a7-9ccf-4ff0-ab39-ab3c1ea7708a")
 	)
 	(wire
 		(pts
@@ -2757,13 +2757,13 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 113.03) (xy 223.52 113.03)
+			(xy 220.98 135.89) (xy 224.79 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "25491b64-8e40-4f61-bc2a-7076b602d8b7")
+		(uuid "1e4f39b1-11ac-4b20-9f0a-59902844a51e")
 	)
 	(wire
 		(pts
@@ -2797,13 +2797,13 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 137.16) (xy 223.52 137.16)
+			(xy 224.79 121.92) (xy 224.79 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2cdef3ea-8c34-4594-827e-f99c03813265")
+		(uuid "2e2591af-9f4d-427a-b8b2-aa7dd99f2aa1")
 	)
 	(wire
 		(pts
@@ -2867,16 +2867,6 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 147.32) (xy 223.52 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bbd3633-0d16-4c9e-9784-066958a31aba")
-	)
-	(wire
-		(pts
 			(xy 78.74 118.11) (xy 77.47 118.11)
 		)
 		(stroke
@@ -2917,33 +2907,13 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 123.19) (xy 223.52 123.19)
+			(xy 205.74 140.97) (xy 209.55 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5fe1f59a-8214-4b97-b793-bab55adf1aff")
-	)
-	(wire
-		(pts
-			(xy 208.28 142.24) (xy 208.28 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62807733-bd52-4849-acd6-e08e7e047ea0")
-	)
-	(wire
-		(pts
-			(xy 204.47 142.24) (xy 208.28 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "675436c3-3136-429b-8c2e-6e6bda499d24")
+		(uuid "6a4cdd88-cccd-40bf-96f5-ca20120b411f")
 	)
 	(wire
 		(pts
@@ -2967,13 +2937,13 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 137.16) (xy 208.28 142.24)
+			(xy 209.55 116.84) (xy 209.55 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7ac73fad-6dd1-4be1-914f-67edc258f891")
+		(uuid "795ced2d-102b-4339-af07-a8b32e12270c")
 	)
 	(wire
 		(pts
@@ -3017,16 +2987,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 123.19) (xy 212.09 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94ff4d3a-e752-4f5e-a474-cc3c717a2256")
-	)
-	(wire
-		(pts
 			(xy 127 59.69) (xy 128.27 59.69)
 		)
 		(stroke
@@ -3037,13 +2997,13 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 118.11) (xy 204.47 118.11)
+			(xy 220.98 111.76) (xy 224.79 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "98a0591d-ca9b-4ba3-8d77-185f37e4723a")
+		(uuid "98ffd3a6-f056-4609-b649-6e33b8accf93")
 	)
 	(wire
 		(pts
@@ -3057,13 +3017,13 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 147.32) (xy 223.52 147.32)
+			(xy 209.55 121.92) (xy 213.36 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a28c01a0-ceb1-4573-be63-b6fa6c9f3adb")
+		(uuid "a1b40f53-ea5c-4a94-a209-27e5dd7312af")
 	)
 	(wire
 		(pts
@@ -3074,6 +3034,16 @@
 			(type default)
 		)
 		(uuid "a5a36295-e2bb-4490-abf1-45a1c6076d5f")
+	)
+	(wire
+		(pts
+			(xy 209.55 111.76) (xy 213.36 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5c1924d-6f78-449a-ae6b-25baa5a6bec8")
 	)
 	(wire
 		(pts
@@ -3097,16 +3067,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 113.03) (xy 212.09 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac5fe4ad-9048-434f-875d-6a3bc9272947")
-	)
-	(wire
-		(pts
 			(xy 134.62 128.27) (xy 134.62 127)
 		)
 		(stroke
@@ -3114,26 +3074,6 @@
 			(type default)
 		)
 		(uuid "ad1edb21-0134-48d1-b31d-1f830dab52fa")
-	)
-	(wire
-		(pts
-			(xy 223.52 137.16) (xy 223.52 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b33e879d-04b5-451c-9344-31d179f5c6d4")
-	)
-	(wire
-		(pts
-			(xy 208.28 113.03) (xy 208.28 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b850338f-9c56-4a20-afe9-9d67e2042e8d")
 	)
 	(wire
 		(pts
@@ -3147,13 +3087,13 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 147.32) (xy 212.09 147.32)
+			(xy 224.79 135.89) (xy 224.79 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bdf119b7-1515-4f41-bb79-8ddf70196aad")
+		(uuid "c3aa97cb-40e2-4b05-b90e-b1e1d9b27f5e")
 	)
 	(wire
 		(pts
@@ -3167,13 +3107,33 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 123.19) (xy 223.52 127)
+			(xy 220.98 121.92) (xy 224.79 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d2d244c9-5bda-493c-bfd3-f5bd8c58efef")
+		(uuid "c86e670c-0047-449d-a61d-6766fceac1f9")
+	)
+	(wire
+		(pts
+			(xy 209.55 111.76) (xy 209.55 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc286c7b-eaf4-4306-a940-95dd58f578d0")
+	)
+	(wire
+		(pts
+			(xy 209.55 135.89) (xy 213.36 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4cf0a2d-4adb-401b-81d9-f9642c47fc03")
 	)
 	(wire
 		(pts
@@ -3187,23 +3147,13 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 113.03) (xy 223.52 123.19)
+			(xy 209.55 146.05) (xy 213.36 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d8a175be-bfba-4b9e-b693-56cae56516a2")
-	)
-	(wire
-		(pts
-			(xy 208.28 118.11) (xy 208.28 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da597ef1-19ef-4303-9058-a5edcb249c1c")
+		(uuid "d7684505-c4df-430b-bb27-b28c90696100")
 	)
 	(wire
 		(pts
@@ -3227,6 +3177,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 146.05) (xy 224.79 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "defb1b84-e47e-4d87-a9b8-f7fb1bca20ec")
+	)
+	(wire
+		(pts
 			(xy 88.9 118.11) (xy 86.36 118.11)
 		)
 		(stroke
@@ -3247,6 +3207,56 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 116.84) (xy 205.74 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0f76864-d9a0-4cf3-92e2-d03f1a12915a")
+	)
+	(wire
+		(pts
+			(xy 195.58 116.84) (xy 198.12 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3ee68de-8de9-489a-a292-6b9a62dcf5d2")
+	)
+	(wire
+		(pts
+			(xy 195.58 140.97) (xy 198.12 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7940324-fbb4-43fe-9025-cfb45df726eb")
+	)
+	(wire
+		(pts
+			(xy 220.98 146.05) (xy 224.79 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8215e66-ee42-4070-8dc2-f0bb34795284")
+	)
+	(wire
+		(pts
+			(xy 209.55 140.97) (xy 209.55 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaab95aa-5c5d-4439-9f53-cb9c791278f5")
+	)
+	(wire
+		(pts
 			(xy 171.45 74.93) (xy 172.72 74.93)
 		)
 		(stroke
@@ -3264,16 +3274,6 @@
 			(type default)
 		)
 		(uuid "f6f720f8-d46e-4315-9a5a-ed741b64bad4")
-	)
-	(wire
-		(pts
-			(xy 194.31 118.11) (xy 196.85 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbc4e980-0b6c-4db3-9d42-0cfdda86d3f3")
 	)
 	(rectangle
 		(start 123.19 102.235)
@@ -3445,30 +3445,6 @@
 			)
 		)
 	)
-	(global_label "GREEN_FLASH"
-		(shape input)
-		(at 194.31 142.24 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 1 1)
-				(color 0 0 0 1)
-			)
-			(justify right)
-		)
-		(uuid "09723837-02b9-47af-982c-8457bcdded2d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.8086 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "D-"
 		(shape output)
 		(at 223.52 74.93 0)
@@ -3556,30 +3532,6 @@
 		(uuid "7e656ff5-f841-4d52-a600-5e6e3b68c9fd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 164.6383 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RED_FLASH"
-		(shape input)
-		(at 194.31 118.11 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 1 1)
-				(color 0 0 0 1)
-			)
-			(justify right)
-		)
-		(uuid "7fdf928d-2daa-41ee-bb76-679446b10599")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.5974 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3685,6 +3637,30 @@
 			)
 		)
 	)
+	(global_label "COLON_2"
+		(shape input)
+		(at 195.58 140.97 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "b75c302a-144a-4c07-874c-e62fd72ed50d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 187.6992 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LED_EXT2"
 		(shape input)
 		(at 88.9 130.81 0)
@@ -3705,6 +3681,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COLON_1"
+		(shape input)
+		(at 195.58 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "c382693c-27cc-4081-822a-cf28be6738c7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 187.9572 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4034,6 +4034,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 217.17 121.92 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "10a18ff6-0658-4201-80b6-64b08758eb95")
+		(property "Reference" "D?"
+			(at 217.17 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 217.17 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 217.17 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 217.17 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "399a0eba-8e73-4378-9463-776313785428")
+		)
+		(pin "2"
+			(uuid "6e58b190-e914-4e4a-b01d-ea098da268bb")
+		)
+		(instances
+			(project "SchrackMulticlock"
+				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/301b3ab9-8372-40d2-93c7-cd7607d23fc4"
+					(reference "D?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 180.34 62.23 270)
 		(unit 1)
@@ -4106,17 +4173,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 217.17 135.89 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1c1dc76d-09bb-424a-a82c-46840585b258")
+		(property "Reference" "D?"
+			(at 217.17 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 217.17 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 217.17 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 217.17 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44a0d227-c10d-4222-a3e5-34db6c2ea22b")
+		)
+		(pin "2"
+			(uuid "28f01c4b-7947-48f4-a1e6-8b769971d940")
+		)
+		(instances
+			(project "SchrackMulticlock"
+				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/301b3ab9-8372-40d2-93c7-cd7607d23fc4"
+					(reference "D?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 223.52 151.13 0)
+		(at 224.79 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1ab29522-a559-4f7b-bbb4-edb314d87c21")
-		(property "Reference" "#PWR024"
-			(at 223.52 157.48 0)
+		(uuid "384329e2-0123-4c94-9b44-c4cc49889756")
+		(property "Reference" "#PWR041"
+			(at 224.79 132.08 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4126,7 +4260,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 222.885 154.94 90)
+			(at 224.155 129.54 90)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4137,7 +4271,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 151.13 0)
+			(at 224.79 125.73 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4147,7 +4281,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 151.13 0)
+			(at 224.79 125.73 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4157,7 +4291,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 223.52 151.13 0)
+			(at 224.79 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4166,12 +4300,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f9e6a084-6892-44df-ae14-4f0d4a794390")
+			(uuid "0f23e938-ca8a-4402-9cf2-9b91b2c829fb")
 		)
 		(instances
-			(project "SchrackCounter"
+			(project "SchrackMulticlock"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/301b3ab9-8372-40d2-93c7-cd7607d23fc4"
-					(reference "#PWR024")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -4394,73 +4528,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 215.9 147.32 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4c2458fb-e7d1-4e0f-a77f-7ac3e765f160")
-		(property "Reference" "D7"
-			(at 215.9 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 215.9 144.145 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 215.9 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 215.9 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 215.9 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "06605b81-4f49-4d00-8db9-10593b46f447")
-		)
-		(pin "2"
-			(uuid "75af1388-0940-4604-b0b6-ca4352488cbb")
-		)
-		(instances
-			(project "SchrackCounter"
-				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/301b3ab9-8372-40d2-93c7-cd7607d23fc4"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 153.67 118.11 90)
 		(unit 1)
@@ -4599,73 +4666,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 215.9 123.19 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "507fc463-d9ef-48b5-aeb9-e3e6414bec2c")
-		(property "Reference" "D5"
-			(at 215.9 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 215.9 120.015 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 215.9 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 215.9 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 215.9 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5434418d-0632-45f4-90b8-b7eebc2d6ef9")
-		)
-		(pin "2"
-			(uuid "23e0acae-4ac4-4c3c-9672-658de466e7fa")
-		)
-		(instances
-			(project "SchrackCounter"
-				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/301b3ab9-8372-40d2-93c7-cd7607d23fc4"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 176.53 74.93 90)
 		(unit 1)
@@ -4733,6 +4733,78 @@
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/301b3ab9-8372-40d2-93c7-cd7607d23fc4"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 224.79 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59d2afca-4657-4609-a560-cc93766c1b71")
+		(property "Reference" "#PWR042"
+			(at 224.79 156.21 0)
+			(effects
+				(font
+					(face "Bahnschrift")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 224.155 153.67 90)
+			(effects
+				(font
+					(face "Bahnschrift")
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 149.86 0)
+			(effects
+				(font
+					(face "Bahnschrift")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 149.86 0)
+			(effects
+				(font
+					(face "Bahnschrift")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 224.79 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2be7cba5-0c71-4d95-8716-f5d8655c2a9b")
+		)
+		(instances
+			(project "SchrackMulticlock"
+				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/301b3ab9-8372-40d2-93c7-cd7607d23fc4"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -5322,15 +5394,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 200.66 142.24 90)
+		(at 201.93 140.97 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8c8f52ad-576e-4329-9824-bb83a53a02cf")
-		(property "Reference" "R11"
-			(at 200.66 137.795 90)
+		(uuid "8cbe3dae-7453-49d2-a2f2-11f18c7093d7")
+		(property "Reference" "R?"
+			(at 201.93 136.525 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5338,7 +5410,7 @@
 			)
 		)
 		(property "Value" "220R"
-			(at 200.66 139.7 90)
+			(at 201.93 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5346,7 +5418,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 200.66 144.018 90)
+			(at 201.93 142.748 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5355,7 +5427,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 200.66 142.24 0)
+			(at 201.93 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5364,7 +5436,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 200.66 142.24 0)
+			(at 201.93 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5373,15 +5445,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "6cebf0c5-d1b3-4b80-9613-c18416e1c601")
+			(uuid "ba5f31bf-8ff1-4fb9-a9d3-bff144d0c496")
 		)
 		(pin "1"
-			(uuid "a861be8b-969b-4eb9-ba7e-c1782e6f8109")
+			(uuid "1bb10edd-558f-4c7f-8507-c9a09d87c0e0")
 		)
 		(instances
-			(project "SchrackCounter"
+			(project "SchrackMulticlock"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/301b3ab9-8372-40d2-93c7-cd7607d23fc4"
-					(reference "R11")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -5758,58 +5830,50 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 223.52 127 0)
+		(lib_id "Device:LED")
+		(at 217.17 146.05 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "acb5382b-0b0d-4ae0-8bfd-db8cb2247422")
-		(property "Reference" "#PWR023"
-			(at 223.52 133.35 0)
+		(uuid "b9878476-8ec3-4c22-90bf-f480b809c66c")
+		(property "Reference" "D?"
+			(at 217.17 140.97 0)
 			(effects
 				(font
-					(face "Bahnschrift")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 217.17 142.875 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 217.17 146.05 0)
+			(effects
+				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 222.885 130.81 90)
+		(property "Datasheet" "~"
+			(at 217.17 146.05 0)
 			(effects
 				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 223.52 127 0)
-			(effects
-				(font
-					(face "Bahnschrift")
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 223.52 127 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 223.52 127 0)
+		(property "Description" "Light emitting diode"
+			(at 217.17 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5818,12 +5882,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "f75af369-02aa-4b9d-a5a7-a92e877a9149")
+			(uuid "3a076d72-7150-4cd3-8427-db15cb471098")
+		)
+		(pin "2"
+			(uuid "9a914ed0-de34-4ee9-af89-f58f6515b5d8")
 		)
 		(instances
-			(project "SchrackCounter"
+			(project "SchrackMulticlock"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/301b3ab9-8372-40d2-93c7-cd7607d23fc4"
-					(reference "#PWR023")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -5891,73 +5958,6 @@
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/301b3ab9-8372-40d2-93c7-cd7607d23fc4"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 215.9 113.03 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bdd3447d-74f2-4c34-abee-d494012d8bfa")
-		(property "Reference" "D4"
-			(at 215.9 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 215.9 109.855 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 215.9 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 215.9 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 215.9 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bfd91485-bd89-46b3-b2cc-2a9423682ccd")
-		)
-		(pin "2"
-			(uuid "43e37a87-e887-4b31-944e-a88e248233c3")
-		)
-		(instances
-			(project "SchrackCounter"
-				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/301b3ab9-8372-40d2-93c7-cd7607d23fc4"
-					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -6098,73 +6098,6 @@
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/301b3ab9-8372-40d2-93c7-cd7607d23fc4"
 					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 200.66 118.11 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c879ae21-1bf3-46ba-8faf-7e0b70603f10")
-		(property "Reference" "R10"
-			(at 200.66 113.665 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220R"
-			(at 200.66 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 200.66 119.888 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 200.66 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 200.66 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ff7e8cfa-b66d-41b4-8ea2-19fc52b89ab2")
-		)
-		(pin "1"
-			(uuid "f40be2c0-0c67-446a-98a5-0678d671509a")
-		)
-		(instances
-			(project "SchrackCounter"
-				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/301b3ab9-8372-40d2-93c7-cd7607d23fc4"
-					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -6444,73 +6377,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 215.9 137.16 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e941c078-bdb6-4f1b-a261-741e0c606b8b")
-		(property "Reference" "D6"
-			(at 215.9 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 215.9 133.985 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 215.9 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 215.9 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 215.9 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c0ab5916-0600-4648-a665-9975ff6468de")
-		)
-		(pin "2"
-			(uuid "c138f6c2-af47-4d79-805f-27a3a4336251")
-		)
-		(instances
-			(project "SchrackCounter"
-				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/301b3ab9-8372-40d2-93c7-cd7607d23fc4"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 72.39 130.81 0)
 		(unit 1)
@@ -6573,6 +6439,140 @@
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/301b3ab9-8372-40d2-93c7-cd7607d23fc4"
 					(reference "D_EXT2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 201.93 116.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f35fe0ac-7306-4801-9589-1c0a38b46385")
+		(property "Reference" "R?"
+			(at 201.93 112.395 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 201.93 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 201.93 118.618 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 201.93 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a92a39b0-e65d-4d1e-87b7-6dc5160fabb8")
+		)
+		(pin "1"
+			(uuid "0d1c94f2-0d19-4901-97c9-6d02c53c4842")
+		)
+		(instances
+			(project "SchrackMulticlock"
+				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/301b3ab9-8372-40d2-93c7-cd7607d23fc4"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 217.17 111.76 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc31e1ad-6cce-4eb3-a6bf-7d5caea81b64")
+		(property "Reference" "D?"
+			(at 217.17 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 217.17 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 217.17 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 217.17 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3eb15359-1475-4375-972a-c3c47458682e")
+		)
+		(pin "2"
+			(uuid "df7a4a94-8e1d-4096-abf7-b1c05bbab87e")
+		)
+		(instances
+			(project "SchrackMulticlock"
+				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/301b3ab9-8372-40d2-93c7-cd7607d23fc4"
+					(reference "D?")
 					(unit 1)
 				)
 			)
