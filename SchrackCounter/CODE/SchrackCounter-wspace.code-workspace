@@ -5,6 +5,10 @@
 		},
 		{
 			"path": "Name01"
+		},
+		{
+			"name": "SchrackMulticlock-bismarx",
+			"path": "../../SchrackMulticlock/CODE/SchrackMulticlock-bismarx"
 		}
 	],
 	"settings": {}

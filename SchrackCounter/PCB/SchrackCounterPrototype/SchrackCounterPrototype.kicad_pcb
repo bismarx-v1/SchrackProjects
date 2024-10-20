@@ -472,7 +472,7 @@
 		(descr "Through hole straight pin header, 1x05, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x05 2.54mm single row")
 		(property "Reference" "J1"
-			(at 0 -2.33 360)
+			(at 0 -2.33 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "18916ed1-fe18-4271-a51a-e7beb52445c0")
@@ -484,7 +484,7 @@
 			)
 		)
 		(property "Value" "Conn_01x05_Pin"
-			(at 0 12.49 360)
+			(at 0 12.49 0)
 			(layer "F.Fab")
 			(uuid "26e6fcdb-18ff-4f5f-9fcb-a5ea1a767f8b")
 			(effects
@@ -773,7 +773,7 @@
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=6*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 6mm width 2.5mm Capacitor")
 		(property "Reference" "C2"
-			(at 2.5 -2.5 360)
+			(at 2.5 -2.5 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "70a86114-a668-4fd5-8337-28b68ed4799a")
@@ -785,7 +785,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 2.5 2.5 360)
+			(at 2.5 2.5 0)
 			(layer "F.Fab")
 			(uuid "9695cc34-b9fa-4ad2-91d1-0be0bb178da5")
 			(effects
@@ -980,7 +980,7 @@
 			(uuid "fde17a94-8e1f-488a-bbec-d7b5d706d249")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.5 0 360)
+			(at 2.5 0 0)
 			(layer "F.Fab")
 			(uuid "e423d68a-32a2-4bad-8c5e-b25a9283b37b")
 			(effects
@@ -1029,7 +1029,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=6.3mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.50mm  diameter 6.3mm Electrolytic Capacitor")
 		(property "Reference" "C1"
-			(at 1.25 -4.4 360)
+			(at 1.25 -4.4 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c1f015e4-21b3-47f8-924b-7724ee8d45c9")
@@ -1041,7 +1041,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 1.25 4.4 360)
+			(at 1.25 4.4 0)
 			(layer "F.Fab")
 			(uuid "72e71808-1a45-4b0c-866c-f7635e5767b3")
 			(effects
@@ -2509,7 +2509,7 @@
 			(uuid "032a1e24-3e61-48ba-b04d-d05dfac166a4")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.25 0 360)
+			(at 1.25 0 0)
 			(layer "F.Fab")
 			(uuid "0efe4a0c-099a-4b1a-ad80-36c221ad395c")
 			(effects
@@ -2558,7 +2558,7 @@
 		(descr "tactile push button, 6x6mm e.g. PHAP33xx series, height=5mm")
 		(tags "tact sw push 6mm")
 		(property "Reference" "SW3"
-			(at 3.25 -2.25 360)
+			(at 3.25 -2.25 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "d0928739-c894-41f5-bcfe-1e53c054b125")
@@ -2570,7 +2570,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 3.75 6.7 360)
+			(at 3.75 6.7 0)
 			(layer "F.Fab")
 			(uuid "7cf4054b-0652-46ed-8476-8d9e00357402")
 			(effects
@@ -2845,7 +2845,7 @@
 			(uuid "6b0e537b-7ffa-415d-94cf-4b5b1b226151")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.25 2.25 360)
+			(at 3.25 2.25 0)
 			(layer "F.Fab")
 			(uuid "33978061-cb09-4959-ad47-3d1e01a98b58")
 			(effects
@@ -2918,7 +2918,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R4"
-			(at 5 -2.37 360)
+			(at 5 -2.37 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b0a4bc11-04a7-41cf-ab43-e1d4f82ad04a")
@@ -2930,7 +2930,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 5.08 2.37 360)
+			(at 5.08 2.37 0)
 			(layer "F.Fab")
 			(uuid "5b30dd85-9610-4193-aaac-ec2d364086d7")
 			(effects
@@ -3145,7 +3145,7 @@
 			(uuid "524149f7-2541-4b98-b32a-829b69a2172c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 5.08 0 360)
+			(at 5.08 0 0)
 			(layer "F.Fab")
 			(uuid "f43db81c-a6dc-40dd-816e-64453500ca76")
 			(effects
@@ -3194,7 +3194,7 @@
 		(descr "tactile push button, 6x6mm e.g. PHAP33xx series, height=5mm")
 		(tags "tact sw push 6mm")
 		(property "Reference" "SW2"
-			(at 3.25 -2.25 360)
+			(at 3.25 -2.25 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "da49c802-82b2-4d31-8e88-86f94fc9bb6e")
@@ -3206,7 +3206,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 3.75 6.7 360)
+			(at 3.75 6.7 0)
 			(layer "F.Fab")
 			(uuid "d30817fd-8da5-4002-ba8f-3243bb3a4a84")
 			(effects
@@ -3481,7 +3481,7 @@
 			(uuid "99b5fe69-65ef-4b38-b74d-ff61dedb61f5")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.25 2.25 360)
+			(at 3.25 2.25 0)
 			(layer "F.Fab")
 			(uuid "0150a91c-27f6-4599-9402-469a92677480")
 			(effects
@@ -5124,7 +5124,7 @@
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=6*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 6mm width 2.5mm Capacitor")
 		(property "Reference" "C3"
-			(at 2.5 -2.5 360)
+			(at 2.5 -2.5 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c616290e-5b99-4a78-82f2-8c868e7e48c0")
@@ -5136,7 +5136,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 2.5 2.5 360)
+			(at 2.5 2.5 0)
 			(layer "F.Fab")
 			(uuid "62996739-22e1-44ce-a2cb-4d28ff3adde2")
 			(effects
@@ -5331,7 +5331,7 @@
 			(uuid "1a94dbef-c74e-42fb-a4b6-d37e27eb87d3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.5 0 360)
+			(at 2.5 0 0)
 			(layer "F.Fab")
 			(uuid "0c2ef76a-931c-462e-823d-18cd982deb9a")
 			(effects
@@ -7070,7 +7070,7 @@
 		(descr "Through hole straight Samtec HPM power header series 11.94mm post length, 1x02, 5.08mm pitch, single row")
 		(tags "Through hole Samtec HPM power header series 11.94mm post length THT 1x02 5.08mm single row")
 		(property "Reference" "BT1"
-			(at 8.5 0.5 360)
+			(at 8.5 0.5 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "f987c82a-01f0-46dd-b6e3-5e27906be142")
@@ -7083,7 +7083,7 @@
 			)
 		)
 		(property "Value" "Battery"
-			(at 0.25 2.25 360)
+			(at 0.25 2.25 0)
 			(layer "B.Fab")
 			(uuid "1e5b42c4-6e0f-47e4-8e98-68fc94ae4c90")
 			(effects
@@ -7239,7 +7239,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 11 -1.25 360)
+			(at 11 -1.25 0)
 			(layer "B.Fab")
 			(uuid "51192289-ae68-418d-ac1b-7a9450160c60")
 			(effects
@@ -8136,6 +8136,18 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "f1612046-91e9-4a67-b63f-6a870bc1fd47")
+	)
+	(gr_text "add buzzer"
+		(at 189.05 123.445 0)
+		(layer "Cmts.User")
+		(uuid "4a402697-2226-492f-86b1-24eb0df0b64e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
 	)
 	(dimension
 		(type aligned)
