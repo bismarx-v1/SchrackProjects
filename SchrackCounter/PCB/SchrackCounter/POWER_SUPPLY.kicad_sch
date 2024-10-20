@@ -2231,6 +2231,15 @@
 				(hide yes)
 			)
 		)
+		(property "mouser" "https://cz.mouser.com/ProductDetail/Texas-Instruments/LM1117DT-3.3-NOPB?qs=X1J7HmVL2ZHOT670myqy2w%3D%3D"
+			(at 113.03 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "00b768b3-7875-4ac8-a159-a6b895ef35cc")
 		)
