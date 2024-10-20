@@ -524,10 +524,7 @@
 				)
 			)
 		)
-		(symbol "Regulator_Linear:LM1084-3.3"
-			(pin_names
-				(offset 0.254)
-			)
+		(symbol "Regulator_Linear:LM1117DT-3.3"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -539,7 +536,7 @@
 					)
 				)
 			)
-			(property "Value" "LM1084-3.3"
+			(property "Value" "LM1117DT-3.3"
 				(at 0 3.175 0)
 				(effects
 					(font
@@ -548,17 +545,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1084.pdf"
+			(property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2"
 				(at 0 0 0)
 				(effects
 					(font
@@ -567,7 +554,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "5A 27V Linear Regulator, Fixed Output 3.3V, TO-220/TO-263"
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -576,7 +563,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Voltage Regulator Fixed 5A Positive"
+			(property "Description" "800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-252"
 				(at 0 0 0)
 				(effects
 					(font
@@ -585,7 +572,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO?220* TO?263*"
+			(property "ki_keywords" "linear regulator ldo fixed positive"
 				(at 0 0 0)
 				(effects
 					(font
@@ -594,10 +581,19 @@
 					(hide yes)
 				)
 			)
-			(symbol "LM1084-3.3_0_1"
+			(property "ki_fp_filters" "TO?252*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LM1117DT-3.3_0_1"
 				(rectangle
-					(start -5.08 1.905)
-					(end 5.08 -5.08)
+					(start -5.08 -5.08)
+					(end 5.08 1.905)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -607,7 +603,7 @@
 					)
 				)
 			)
-			(symbol "LM1084-3.3_1_1"
+			(symbol "LM1117DT-3.3_1_1"
 				(pin power_in line
 					(at 0 -7.62 90)
 					(length 2.54)
@@ -2183,6 +2179,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:LM1117DT-3.3")
+		(at 113.03 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a70dff41-0ef6-4711-b533-1d13898aebf6")
+		(property "Reference" "U1"
+			(at 113.03 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM1117DT-3.3"
+			(at 113.03 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2"
+			(at 113.03 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf"
+			(at 113.03 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-252"
+			(at 113.03 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00b768b3-7875-4ac8-a159-a6b895ef35cc")
+		)
+		(pin "2"
+			(uuid "8c78566e-4079-42cd-91c1-9c6ad269ffbb")
+		)
+		(pin "3"
+			(uuid "0eccfea5-1ed3-4bc6-bab2-20d3389d6d49")
+		)
+		(instances
+			(project ""
+				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/2b0bd697-1473-4a31-8990-1278f12dea07"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Battery")
 		(at 125.73 124.46 0)
 		(unit 1)
@@ -2246,82 +2313,6 @@
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/2b0bd697-1473-4a31-8990-1278f12dea07"
 					(reference "BT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:LM1084-3.3")
-		(at 113.03 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ba01a7c2-dfbd-433c-baf2-57c6c1f30cd4")
-		(property "Reference" "U1"
-			(at 113.03 53.34 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM1084-3.3"
-			(at 113.03 55.88 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-3_TabPin2"
-			(at 113.03 53.34 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1084.pdf"
-			(at 113.03 59.69 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 113.03 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5663473b-3bed-4c49-b224-4c9072cfc0d4")
-		)
-		(pin "2"
-			(uuid "49598480-709c-4a90-bee2-6b82aa38627e")
-		)
-		(pin "3"
-			(uuid "4b75bd4b-64fd-46fa-a4c7-03daca37f9a4")
-		)
-		(instances
-			(project "SchrackCounter"
-				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/2b0bd697-1473-4a31-8990-1278f12dea07"
-					(reference "U1")
 					(unit 1)
 				)
 			)

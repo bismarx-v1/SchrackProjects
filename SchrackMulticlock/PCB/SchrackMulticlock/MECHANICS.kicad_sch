@@ -148,164 +148,6 @@
 				)
 			)
 		)
-		(symbol "Device:C_Polarized"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Polarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Polarized_0_1"
-				(rectangle
-					(start -2.286 0.508)
-					(end 2.286 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.794) (xy -1.27 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.286 -0.508)
-					(end -2.286 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "C_Polarized_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -523,389 +365,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "SchrackThingy_library:MEM2067-02-180-00-A_REVB"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 12.7117 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "MEM2067-02-180-00-A_REVB"
-				(at 0 -17.7826 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "MEM2067-02-180-00-A_REVB:GCT_MEM2067-02-180-00-A_REVB"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Global Connector Technology"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "\n8 Position Card Connector microSD Surface Mount, Right Angle Gold\n"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/MEM2067-02-180-00-A/Global+Connector+Technology/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/MEM2067-02-180-00-A/Global+Connector+Technology/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "MEM2067-02-180-00-A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=779218&manufacturer=Global Connector Technology&part_name=MEM2067-02-180-00-A&search_term=None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "Not in stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "GCT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "MEM2067-02-180-00-A_REVB_0_0"
-				(rectangle
-					(start 0 -15.24)
-					(end 15.24 12.7)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 2.54 0)
-					(length 5.08)
-					(name "DAT2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -12.7 0)
-					(length 5.08)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -12.7 0)
-					(length 5.08)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -12.7 0)
-					(length 5.08)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 0 0)
-					(length 5.08)
-					(name "CD/DAT3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 -2.54 0)
-					(length 5.08)
-					(name "CMD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -5.08 10.16 0)
-					(length 5.08)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional clock
-					(at -5.08 -5.08 0)
-					(length 5.08)
-					(name "CLK"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -5.08 -7.62 0)
-					(length 5.08)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 7.62 0)
-					(length 5.08)
-					(name "DAT0"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 5.08 0)
-					(length 5.08)
-					(name "DAT1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -12.7 0)
-					(length 5.08)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.016 1.016)
 							)
 						)
 					)
@@ -1275,18 +734,6 @@
 		)
 	)
 	(junction
-		(at 215.9 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1e43f12e-ea0b-4af8-a903-2db9846be2c2")
-	)
-	(junction
-		(at 226.06 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "232f4cec-a939-4198-b53b-bda515cd911e")
-	)
-	(junction
 		(at 218.44 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1335,18 +782,6 @@
 		(uuid "932cd10d-4ae5-4b3c-86b5-0e2e4c3bdeb9")
 	)
 	(junction
-		(at 215.9 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "970780e2-c698-48e7-a70c-f4136bf6c7ad")
-	)
-	(junction
-		(at 226.06 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d762f9f0-1da4-466d-8eaa-acb4616d77e2")
-	)
-	(junction
 		(at 64.77 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1357,30 +792,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f514a0dd-9005-466e-82d2-7a848f846f4c")
-	)
-	(junction
-		(at 223.52 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fb230556-17bf-4616-9b7b-0e0196bd7447")
-	)
-	(no_connect
-		(at 226.06 106.68)
-		(uuid "768ef0c9-10d3-4214-aecf-93f38e8932f5")
-	)
-	(no_connect
-		(at 226.06 104.14)
-		(uuid "803abe1b-9f4c-405c-97c6-297d4072f042")
-	)
-	(wire
-		(pts
-			(xy 209.55 109.22) (xy 215.9 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01acfd7e-a652-4f3b-ab26-370c96d9629c")
 	)
 	(wire
 		(pts
@@ -1424,26 +835,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 107.95) (xy 215.9 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12174268-eaaa-4966-aee8-f1b88a87acce")
-	)
-	(wire
-		(pts
-			(xy 223.52 123.19) (xy 223.52 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b04b51f-8b38-430a-832a-e3b724b9ae10")
-	)
-	(wire
-		(pts
 			(xy 147.32 54.61) (xy 149.86 54.61)
 		)
 		(stroke
@@ -1484,16 +875,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 109.22) (xy 226.06 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f4a3885-66d7-4104-94f6-fc66d4b247e8")
-	)
-	(wire
-		(pts
 			(xy 127 48.26) (xy 125.73 48.26)
 		)
 		(stroke
@@ -1511,36 +892,6 @@
 			(type default)
 		)
 		(uuid "3858c9f0-57c5-472d-b144-63dd456d3a31")
-	)
-	(wire
-		(pts
-			(xy 226.06 87.63) (xy 226.06 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3983f65d-1807-459c-bdfd-be17ecdad4af")
-	)
-	(wire
-		(pts
-			(xy 223.52 121.92) (xy 226.06 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "409011af-29ac-480d-91a2-4be1d91aa5c8")
-	)
-	(wire
-		(pts
-			(xy 212.09 99.06) (xy 215.9 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42094704-b994-40ec-b151-ba5d654dc11f")
 	)
 	(wire
 		(pts
@@ -1574,16 +925,6 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 116.84) (xy 226.06 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4faccf0b-0d6e-4304-a126-58d236bffdfc")
-	)
-	(wire
-		(pts
 			(xy 107.95 48.26) (xy 114.3 48.26)
 		)
 		(stroke
@@ -1601,26 +942,6 @@
 			(type default)
 		)
 		(uuid "5a19cc51-2465-4456-b3ff-3689644da1f1")
-	)
-	(wire
-		(pts
-			(xy 226.06 87.63) (xy 215.9 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a8e3804-c8cd-4bc7-86c6-ef1b48d00594")
-	)
-	(wire
-		(pts
-			(xy 226.06 86.36) (xy 226.06 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "686e27dc-f212-4110-a242-332ea91266f1")
 	)
 	(wire
 		(pts
@@ -1664,16 +985,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 96.52) (xy 226.06 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e841e13-2cd9-4e5e-86b4-62f19074ce89")
-	)
-	(wire
-		(pts
 			(xy 114.3 48.26) (xy 115.57 48.26)
 		)
 		(stroke
@@ -1681,26 +992,6 @@
 			(type default)
 		)
 		(uuid "7f4b0231-4909-418b-93e2-ea8857959c26")
-	)
-	(wire
-		(pts
-			(xy 215.9 99.06) (xy 215.9 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b3b185a-92c9-4c0c-ad4f-ef3e6d0afe2c")
-	)
-	(wire
-		(pts
-			(xy 215.9 96.52) (xy 215.9 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95ebf40c-b112-48d0-90bf-1a6a265ffc81")
 	)
 	(wire
 		(pts
@@ -1724,16 +1015,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 87.63) (xy 215.9 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9803f346-9c70-4d0e-80a3-8cbd1c49b301")
-	)
-	(wire
-		(pts
 			(xy 218.44 48.26) (xy 218.44 54.61)
 		)
 		(stroke
@@ -1741,16 +1022,6 @@
 			(type default)
 		)
 		(uuid "9d8f423c-7a31-417d-952d-b3f551374902")
-	)
-	(wire
-		(pts
-			(xy 215.9 99.06) (xy 226.06 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2ab4d0d-f1c6-468e-ae24-88867702dc55")
 	)
 	(wire
 		(pts
@@ -1824,16 +1095,6 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 121.92) (xy 223.52 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c662a368-fcaf-42c9-88c2-2a04055793e3")
-	)
-	(wire
-		(pts
 			(xy 63.5 104.14) (xy 64.77 104.14)
 		)
 		(stroke
@@ -1896,19 +1157,6 @@
 		(uuid afc4245d-2580-431e-80b6-e73374e1fba7)
 	)
 	(rectangle
-		(start 176.53 81.28)
-		(end 263.525 131.445)
-		(stroke
-			(width 0)
-			(type dash)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid d1d1ccd0-d36f-4b22-8290-0d0d4de6ed50)
-	)
-	(rectangle
 		(start 40.005 81.28)
 		(end 166.37 131.445)
 		(stroke
@@ -1933,20 +1181,6 @@
 			(type none)
 		)
 		(uuid e3f4ab00-9f04-447e-9d2f-812e8fce89b0)
-	)
-	(text "MICRO SD"
-		(exclude_from_sim no)
-		(at 175.895 82.55 0)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 5 5)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "35193781-09ff-4171-a9d9-83b2808c90d4")
 	)
 	(text "BOOT"
 		(exclude_from_sim no)
@@ -2078,78 +1312,6 @@
 		)
 		(uuid "eb8c81e9-934b-429f-8da6-d1dab6188a47")
 	)
-	(global_label "CLK"
-		(shape input)
-		(at 226.06 114.3 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 1 1)
-				(color 0 0 0 1)
-			)
-			(justify right)
-		)
-		(uuid "0baaebee-1fb2-433c-85cc-347dd18d53c9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 221.3329 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MISO"
-		(shape input)
-		(at 226.06 101.6 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 1 1)
-				(color 0 0 0 1)
-			)
-			(justify right)
-		)
-		(uuid "2027bac7-1328-486a-a37d-a9c331fb564b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 220.6715 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MOSI"
-		(shape input)
-		(at 226.06 111.76 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 1 1)
-				(color 0 0 0 1)
-			)
-			(justify right)
-		)
-		(uuid "25cdb311-7527-46d3-9dd6-bb98187bb24e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 220.6852 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "EN"
 		(shape input)
 		(at 107.95 48.26 180)
@@ -2194,30 +1356,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "~{CS1}"
-		(shape input)
-		(at 209.55 109.22 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 1 1)
-				(color 0 0 0 1)
-			)
-			(justify right)
-		)
-		(uuid "d6ebdbac-fec9-4ecd-a4da-086f0f8ca976")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 205.2098 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -2435,145 +1573,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 223.52 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0affeac0-b09d-454e-88c2-fe218aef5bbc")
-		(property "Reference" "#PWR039"
-			(at 223.52 129.54 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 223.52 127 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 223.52 123.19 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 123.19 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 223.52 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8f015c25-2dcc-440d-8ed0-63bbe39adb93")
-		)
-		(instances
-			(project "SchrackCounter"
-				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/0ccd8f36-c6f2-454f-91e2-c1976b699e0e"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 212.09 99.06 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "108a2a8b-732a-40b2-b40e-e34fc720ec63")
-		(property "Reference" "#PWR037"
-			(at 215.9 99.06 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 212.725 97.155 90)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 212.09 99.06 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 99.06 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 212.09 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ade30b18-6bfc-4514-9781-604ddc4e5d8d")
-		)
-		(instances
-			(project "SchrackCounter"
-				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/0ccd8f36-c6f2-454f-91e2-c1976b699e0e"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 92.71 100.33 180)
 		(unit 1)
@@ -2639,75 +1638,6 @@
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/0ccd8f36-c6f2-454f-91e2-c1976b699e0e"
 					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 215.9 92.71 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1c72ebd8-9d5b-4bb6-b6d3-0dcb1dbbd2bc")
-		(property "Reference" "C15"
-			(at 212.725 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 212.725 93.345 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder"
-			(at 214.9348 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 215.9 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 215.9 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ddd1b985-ff9e-4b9a-8dad-d9c6b2f34255")
-		)
-		(pin "2"
-			(uuid "ea9740f4-6aab-4f24-b205-06a47921c130")
-		)
-		(instances
-			(project "SchrackCounter"
-				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/0ccd8f36-c6f2-454f-91e2-c1976b699e0e"
-					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -3419,80 +2349,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 226.06 92.71 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "59038273-602f-4f25-8856-6b95b5d781d7")
-		(property "Reference" "C16"
-			(at 220.98 91.44 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 219.075 93.345 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 227.0252 88.9 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 226.06 92.71 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 226.06 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8b0db87d-eab0-4d20-882a-057421c69625")
-		)
-		(pin "2"
-			(uuid "b0ca44a9-06aa-448f-a1f5-8c2d8f336ad3")
-		)
-		(instances
-			(project "SchrackCounter"
-				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/0ccd8f36-c6f2-454f-91e2-c1976b699e0e"
-					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 86.36 104.14 0)
 		(unit 1)
@@ -3695,276 +2551,6 @@
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/0ccd8f36-c6f2-454f-91e2-c1976b699e0e"
 					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 226.06 86.36 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6def7c8b-562a-4a73-aa4f-5860b01ce3b4")
-		(property "Reference" "#PWR040"
-			(at 226.06 80.01 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 226.06 82.55 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 226.06 86.36 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 86.36 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 226.06 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aefa2b8e-efe3-43e0-b2bc-8ce610467ced")
-		)
-		(instances
-			(project "SchrackCounter"
-				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/0ccd8f36-c6f2-454f-91e2-c1976b699e0e"
-					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SchrackThingy_library:MEM2067-02-180-00-A_REVB")
-		(at 231.14 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "791b9927-cf7e-4bde-9794-4dd9e7f751d1")
-		(property "Reference" "J2"
-			(at 229.87 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MEM2067-02-180-00-A_REVB"
-			(at 229.87 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Schrack_brd:MICRO_SD_CARD"
-			(at 231.14 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 231.14 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 231.14 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Global Connector Technology"
-			(at 231.14 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n8 Position Card Connector microSD Surface Mount, Right Angle Gold\n"
-			(at 231.14 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 231.14 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 231.14 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/MEM2067-02-180-00-A/Global+Connector+Technology/view-part/?ref=eda"
-			(at 231.14 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MEM2067-02-180-00-A/Global+Connector+Technology/view-part/?ref=snap"
-			(at 231.14 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "MEM2067-02-180-00-A"
-			(at 231.14 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=779218&manufacturer=Global Connector Technology&part_name=MEM2067-02-180-00-A&search_term=None"
-			(at 231.14 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 231.14 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "GCT"
-			(at 231.14 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "48bde096-ed41-4519-872e-e91ee748efc4")
-		)
-		(pin "10"
-			(uuid "642a8710-57a4-4ab0-9b6d-de9e421d9849")
-		)
-		(pin "6"
-			(uuid "8c757143-0202-4bad-9330-5d63691cd0df")
-		)
-		(pin "7"
-			(uuid "d3d659c1-cf1f-48fa-b07a-ddc55832ce42")
-		)
-		(pin "11"
-			(uuid "aa9c2f31-f67a-4cf1-8e3e-76a81386541f")
-		)
-		(pin "12"
-			(uuid "661f45bc-08c5-4d58-94ec-7e26424d401d")
-		)
-		(pin "3"
-			(uuid "dc8bd7be-fde3-476f-83f2-fa907e85cb57")
-		)
-		(pin "8"
-			(uuid "756cfce1-46c9-4b2f-b600-d524364fbd9f")
-		)
-		(pin "4"
-			(uuid "c7e0aa24-073c-48e3-bf0a-875bd0e6ca9f")
-		)
-		(pin "2"
-			(uuid "2fafe2b8-aadb-4138-81ec-5e19543368cb")
-		)
-		(pin "9"
-			(uuid "55d8a92a-810b-40ed-8107-b63a6dde248a")
-		)
-		(pin "5"
-			(uuid "2769d5a2-e392-4fc6-94b8-f8f36748910e")
-		)
-		(instances
-			(project "SchrackCounter"
-				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/0ccd8f36-c6f2-454f-91e2-c1976b699e0e"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -4451,77 +3037,6 @@
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/0ccd8f36-c6f2-454f-91e2-c1976b699e0e"
 					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 215.9 104.14 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c9109a3c-bb67-4bc9-af6d-1e31138598e8")
-		(property "Reference" "R16"
-			(at 212.725 102.87 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 212.725 104.775 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 217.678 104.14 90)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 215.9 104.14 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 215.9 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "17b9854a-7dd1-4fa9-8832-fe27e59b57a1")
-		)
-		(pin "2"
-			(uuid "2d89e641-ff93-4abc-ace3-7ebde164dff7")
-		)
-		(instances
-			(project "SchrackCounter"
-				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/0ccd8f36-c6f2-454f-91e2-c1976b699e0e"
-					(reference "R16")
 					(unit 1)
 				)
 			)

@@ -4443,7 +4443,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "783a52ce-596f-465a-bee0-cb44863bcaf7")
-		(property "Reference" "U?"
+		(property "Reference" "U3"
 			(at 97.79 90.17 0)
 			(effects
 				(font
@@ -4561,7 +4561,7 @@
 		(instances
 			(project "SchrackMulticlock"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/50491303-1200-42ed-9e6c-90c20c198c18"
-					(reference "U?")
+					(reference "U3")
 					(unit 1)
 				)
 			)

@@ -82,7 +82,8 @@
         "copper_edge_clearance|160785000|137540000|fa565deb-7813-4890-a103-69ea8dbe47b8|e680c46f-d850-48bf-806a-c5af4adca6c6",
         "copper_edge_clearance|165865000|137540000|fa565deb-7813-4890-a103-69ea8dbe47b8|e655e8d1-ed94-4f3f-a787-fa48b046052b",
         "courtyards_overlap|156488240|60380001|6bb3f605-a0b2-48b6-84ad-c1ad053051c3|d43040a7-df2e-4a81-b430-d690493442d8",
-        "unconnected_items|163525000|113105000|9e07636f-1c06-4288-aaab-23175521089e|282a93b4-e15f-4873-96bc-6c9c85f5ca3b"
+        "silk_edge_clearance|201780000|137580000|fa565deb-7813-4890-a103-69ea8dbe47b8|4ffb1d1c-d891-4f9a-babb-a10f0e156a8f",
+        "silk_edge_clearance|210720000|137580000|fa565deb-7813-4890-a103-69ea8dbe47b8|d0d6c68a-be00-49cc-973c-baa80a46870d"
       ],
       "meta": {
         "version": 2

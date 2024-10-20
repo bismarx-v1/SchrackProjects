@@ -2985,7 +2985,7 @@
 	)
 	(text "		DISPLAY            			 MAX7219\n\ntime(ss.ss)   score(###)    time(ss.ss)    score(###)\n   0, 1, 2, 3           4, 5, 6            0, 4, 6, 2         1, 5, 7"
 		(exclude_from_sim no)
-		(at 170.18 47.625 0)
+		(at 168.91 47.625 0)
 		(effects
 			(font
 				(face "Bahnschrift")
@@ -3011,19 +3011,6 @@
 		)
 		(uuid "185d2f80-c205-4af3-9332-72a229d9a36a")
 	)
-	(text "7SEG | DRIVER\n\nD0		D0\nD1		D4\nD2		D6\nD3		D2\nD4		D1\nD5		D5\nD6		D7\n!D7		!D3\n\nD_{NUM} = Digit Number\n!D_{NUM} = Digit is not used\n"
-		(exclude_from_sim no)
-		(at 249.555 76.835 0)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 2 2)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "76549cae-226d-49fe-8085-2279f4194e32")
-	)
 	(text "TIME"
 		(exclude_from_sim no)
 		(at 46.355 32.385 0)
@@ -3038,19 +3025,6 @@
 			(justify left)
 		)
 		(uuid "797e6a1c-1ab7-4563-8a8f-b0dfb0f9b54d")
-	)
-	(text "SEGMENTS \n\nD0D1.D2D3    (ss.ss)\nD4D5D6        (score)\n"
-		(exclude_from_sim no)
-		(at 249.555 43.18 0)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 2 2)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "b5554116-fcc7-4e0a-8f04-f4c4f2bcb5bc")
 	)
 	(text "SCORE"
 		(exclude_from_sim no)

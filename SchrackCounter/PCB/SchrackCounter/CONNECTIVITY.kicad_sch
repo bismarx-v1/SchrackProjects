@@ -2827,7 +2827,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 142.24) (xy 77.47 142.24)
+			(xy 78.74 142.24) (xy 76.2 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2877,17 +2877,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 118.11) (xy 77.47 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5420f641-47e9-4ee6-9d7e-c1b9402b4a30")
-	)
-	(wire
-		(pts
-			(xy 77.47 120.65) (xy 87.63 120.65)
+			(xy 76.2 120.65) (xy 87.63 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2947,7 +2937,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 133.35) (xy 87.63 133.35)
+			(xy 76.2 133.35) (xy 87.63 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2987,6 +2977,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 118.11) (xy 78.74 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "835f2f44-3052-4c05-b80b-3914acca52eb")
+	)
+	(wire
+		(pts
 			(xy 222.25 49.53) (xy 223.52 49.53)
 		)
 		(stroke
@@ -2994,16 +2994,6 @@
 			(type default)
 		)
 		(uuid "8ff2fb66-fb6c-4fdc-bd4b-16c32c4ae211")
-	)
-	(wire
-		(pts
-			(xy 78.74 130.81) (xy 77.47 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "910e8a98-afb0-4835-b24d-775aeedd3c56")
 	)
 	(wire
 		(pts
@@ -3117,6 +3107,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 130.81) (xy 78.74 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b252a765-15a8-4d47-b766-06bf80830dff")
+	)
+	(wire
+		(pts
 			(xy 223.52 137.16) (xy 223.52 147.32)
 		)
 		(stroke
@@ -3177,7 +3177,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 144.78) (xy 87.63 144.78)
+			(xy 76.2 144.78) (xy 87.63 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3420,6 +3420,39 @@
 			(justify left bottom)
 		)
 		(uuid "de108e5f-47f5-47cc-a552-646723f1e825")
+	)
+	(label "EXT2"
+		(at 76.2 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.7 0.7)
+			)
+			(justify left bottom)
+		)
+		(uuid "1aa895b4-cba0-4182-883e-83387ebb10f4")
+	)
+	(label "EXT3"
+		(at 76.2 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.7 0.7)
+			)
+			(justify left bottom)
+		)
+		(uuid "41c35529-576c-4fc7-a4ff-0fa75ed88242")
+	)
+	(label "EXT1"
+		(at 76.2 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.7 0.7)
+			)
+			(justify left bottom)
+		)
+		(uuid "7d41b2b2-ae28-4498-ab6a-848316626b03")
 	)
 	(global_label "VBUS 5V"
 		(shape input)
@@ -3831,7 +3864,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 72.39 118.11 0)
+		(at 71.12 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3839,7 +3872,7 @@
 		(dnp no)
 		(uuid "05e4b6ae-3e95-4819-8445-4ea4787f89d1")
 		(property "Reference" "D_EXT1"
-			(at 68.58 119.38 0)
+			(at 67.31 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3847,7 +3880,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 71.755 115.57 0)
+			(at 70.485 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3856,7 +3889,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 72.39 118.11 0)
+			(at 71.12 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3865,7 +3898,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 118.11 0)
+			(at 71.12 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3874,7 +3907,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 72.39 118.11 0)
+			(at 71.12 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5039,7 +5072,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 72.39 142.24 0)
+		(at 71.12 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5047,7 +5080,7 @@
 		(dnp no)
 		(uuid "6d0bc00d-5844-4c6f-a0ef-53da9a44f977")
 		(property "Reference" "D_EXT3"
-			(at 68.58 143.51 0)
+			(at 67.31 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5055,7 +5088,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 71.755 139.7 0)
+			(at 70.485 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5064,7 +5097,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 72.39 142.24 0)
+			(at 71.12 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5073,7 +5106,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 142.24 0)
+			(at 71.12 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5082,7 +5115,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 72.39 142.24 0)
+			(at 71.12 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6512,7 +6545,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 72.39 130.81 0)
+		(at 71.12 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6520,7 +6553,7 @@
 		(dnp no)
 		(uuid "f10121b0-8ed6-4386-ad69-ef64a0ee398e")
 		(property "Reference" "D_EXT2"
-			(at 68.58 132.08 0)
+			(at 67.31 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6528,7 +6561,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 71.755 128.27 0)
+			(at 70.485 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6537,7 +6570,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 72.39 130.81 0)
+			(at 71.12 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6546,7 +6579,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 130.81 0)
+			(at 71.12 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6555,7 +6588,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 72.39 130.81 0)
+			(at 71.12 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
