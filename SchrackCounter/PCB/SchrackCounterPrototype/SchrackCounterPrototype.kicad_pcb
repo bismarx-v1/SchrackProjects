@@ -8138,7 +8138,7 @@
 		(uuid "f1612046-91e9-4a67-b63f-6a870bc1fd47")
 	)
 	(gr_text "add buzzer"
-		(at 189.05 123.445 0)
+		(at 207.55 138.195 0)
 		(layer "Cmts.User")
 		(uuid "4a402697-2226-492f-86b1-24eb0df0b64e")
 		(effects

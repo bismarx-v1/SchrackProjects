@@ -524,10 +524,7 @@
 				)
 			)
 		)
-		(symbol "Regulator_Linear:LM1084-3.3"
-			(pin_names
-				(offset 0.254)
-			)
+		(symbol "Regulator_Linear:LM1117DT-3.3"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -539,7 +536,7 @@
 					)
 				)
 			)
-			(property "Value" "LM1084-3.3"
+			(property "Value" "LM1117DT-3.3"
 				(at 0 3.175 0)
 				(effects
 					(font
@@ -548,17 +545,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1084.pdf"
+			(property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2"
 				(at 0 0 0)
 				(effects
 					(font
@@ -567,7 +554,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "5A 27V Linear Regulator, Fixed Output 3.3V, TO-220/TO-263"
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -576,7 +563,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Voltage Regulator Fixed 5A Positive"
+			(property "Description" "800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-252"
 				(at 0 0 0)
 				(effects
 					(font
@@ -585,7 +572,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO?220* TO?263*"
+			(property "ki_keywords" "linear regulator ldo fixed positive"
 				(at 0 0 0)
 				(effects
 					(font
@@ -594,10 +581,19 @@
 					(hide yes)
 				)
 			)
-			(symbol "LM1084-3.3_0_1"
+			(property "ki_fp_filters" "TO?252*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LM1117DT-3.3_0_1"
 				(rectangle
-					(start -5.08 1.905)
-					(end 5.08 -5.08)
+					(start -5.08 -5.08)
+					(end 5.08 1.905)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -607,7 +603,7 @@
 					)
 				)
 			)
-			(symbol "LM1084-3.3_1_1"
+			(symbol "LM1117DT-3.3_1_1"
 				(pin power_in line
 					(at 0 -7.62 90)
 					(length 2.54)
@@ -1135,10 +1131,10 @@
 		)
 	)
 	(junction
-		(at 113.03 72.39)
+		(at 106.68 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2c8420ec-dc1f-4157-8966-154e86c2dc76")
+		(uuid "3c6a4530-1b76-4b93-a2cb-304b909b7a02")
 	)
 	(junction
 		(at 104.14 129.54)
@@ -1147,10 +1143,10 @@
 		(uuid "7fff7e38-9fb1-4834-a95e-50a77138c4a0")
 	)
 	(junction
-		(at 101.6 59.69)
+		(at 118.11 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8e13c0d6-4c1f-4f29-a35b-c3625b509d22")
+		(uuid "8f626cfd-5a7f-41ca-b830-9f7c8dea7e67")
 	)
 	(junction
 		(at 114.3 119.38)
@@ -1165,36 +1161,16 @@
 		(uuid "b2479536-3073-4c8a-bf04-1e639c0fdce6")
 	)
 	(junction
+		(at 129.54 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7186442-36ed-4aef-97e1-4e6f008086e3")
+	)
+	(junction
 		(at 104.14 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da98400e-48e5-4532-b881-a2659ce70e03")
-	)
-	(junction
-		(at 124.46 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e72d2abe-c6c8-413a-86f0-5ab4afa92ace")
-	)
-	(wire
-		(pts
-			(xy 124.46 59.69) (xy 124.46 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02b5b423-a699-4b47-87c3-4322e97ed8a2")
-	)
-	(wire
-		(pts
-			(xy 124.46 72.39) (xy 124.46 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02f3bade-66a4-42da-978c-f85e9c5037be")
 	)
 	(wire
 		(pts
@@ -1205,16 +1181,6 @@
 			(type solid)
 		)
 		(uuid "065a7de6-21cb-4849-b959-86a8198e8d57")
-	)
-	(wire
-		(pts
-			(xy 113.03 72.39) (xy 113.03 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0efe88a7-9d4d-4875-a061-965e241dc770")
 	)
 	(wire
 		(pts
@@ -1238,6 +1204,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 59.69) (xy 110.49 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3807bfb3-0ad3-4523-9715-516e7bfccdbc")
+	)
+	(wire
+		(pts
 			(xy 100.33 129.54) (xy 104.14 129.54)
 		)
 		(stroke
@@ -1245,6 +1221,16 @@
 			(type solid)
 		)
 		(uuid "3a7a1c64-c29c-4b3f-95d4-802d5ae491f8")
+	)
+	(wire
+		(pts
+			(xy 118.11 67.31) (xy 118.11 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "447a5fc6-2c78-48f7-98d0-ef392b657a43")
 	)
 	(wire
 		(pts
@@ -1258,26 +1244,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 69.85) (xy 101.6 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d1c5174-1763-4216-a842-0038c493474e")
-	)
-	(wire
-		(pts
-			(xy 101.6 59.69) (xy 105.41 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52c671d0-4393-4e59-ab22-3590a4044d7a")
-	)
-	(wire
-		(pts
 			(xy 100.33 125.73) (xy 100.33 129.54)
 		)
 		(stroke
@@ -1285,16 +1251,6 @@
 			(type solid)
 		)
 		(uuid "570160e9-0f19-4bb8-a330-d039390fb0c4")
-	)
-	(wire
-		(pts
-			(xy 101.6 62.23) (xy 101.6 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e916b50-3d0d-4ded-9fb7-d29cdc09f2de")
 	)
 	(wire
 		(pts
@@ -1308,13 +1264,33 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 59.69) (xy 124.46 59.69)
+			(xy 102.87 59.69) (xy 106.68 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "78be7ac5-a80f-4f79-a0a4-9ed50d50d815")
+		(uuid "75601d36-fc5b-4036-b296-cd3bbddffbca")
+	)
+	(wire
+		(pts
+			(xy 106.68 69.85) (xy 106.68 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d4f7732-debb-4c10-9f7f-c7dfc745393a")
+	)
+	(wire
+		(pts
+			(xy 106.68 62.23) (xy 106.68 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81397ec9-3dfe-4668-9957-3db182a271fd")
 	)
 	(wire
 		(pts
@@ -1338,23 +1314,13 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 67.31) (xy 113.03 72.39)
+			(xy 106.68 72.39) (xy 118.11 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a9b001b1-7767-472b-bb21-0653e03d5184")
-	)
-	(wire
-		(pts
-			(xy 101.6 72.39) (xy 113.03 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aaaaf391-2a4f-4762-a266-d86fc113012a")
+		(uuid "8ea98ae3-2494-4b50-95be-0157fdb7eb81")
 	)
 	(wire
 		(pts
@@ -1368,6 +1334,46 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 59.69) (xy 129.54 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae9c4258-9e40-4032-9ec7-4bb9b96b0a0d")
+	)
+	(wire
+		(pts
+			(xy 125.73 59.69) (xy 129.54 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b219c107-ab71-45e3-827d-b67db46493f1")
+	)
+	(wire
+		(pts
+			(xy 118.11 72.39) (xy 129.54 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2a442ab-c591-4223-be09-c952ad65c7a5")
+	)
+	(wire
+		(pts
+			(xy 129.54 72.39) (xy 129.54 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b86255f5-5c7d-4eac-8786-9c1425846550")
+	)
+	(wire
+		(pts
 			(xy 100.33 119.38) (xy 104.14 119.38)
 		)
 		(stroke
@@ -1378,13 +1384,13 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 72.39) (xy 124.46 72.39)
+			(xy 118.11 72.39) (xy 118.11 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c3844581-ed5f-4ded-9c91-2d417221a727")
+		(uuid "cb02c86d-a3b8-4c4b-be83-c23eab21028f")
 	)
 	(wire
 		(pts
@@ -1405,16 +1411,6 @@
 			(type solid)
 		)
 		(uuid "d51109dc-edf2-4a4c-8098-b8ef69dcc7f5")
-	)
-	(wire
-		(pts
-			(xy 97.79 59.69) (xy 101.6 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8dd411b-0c05-4013-989c-ffd92bc3b7af")
 	)
 	(wire
 		(pts
@@ -1448,13 +1444,13 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 59.69) (xy 127 59.69)
+			(xy 129.54 59.69) (xy 132.08 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f3a512a8-c414-429e-a950-a3d568305f69")
+		(uuid "f86527bf-0842-4832-9713-d131bd71df62")
 	)
 	(rectangle
 		(start 59.69 99.06)
@@ -1509,19 +1505,6 @@
 		)
 		(uuid "2f84dcf7-bf1c-48ff-8e36-262aa3dffb83")
 	)
-	(text "Texas Instruments \nLDO Voltage Regulator\n\nLM1084IS-3.3/NOPB 3.3V\n\nUsing TO-263-3 footprint"
-		(exclude_from_sim no)
-		(at 62.23 65.405 0)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 1.5 1.5)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "2fd558cc-2e47-4dc2-9461-ec00d75e87aa")
-	)
 	(text "BATTERY"
 		(exclude_from_sim no)
 		(at 59.055 97.155 0)
@@ -1551,6 +1534,19 @@
 			(justify left)
 		)
 		(uuid "8c8dd178-b024-4fcf-87dc-9305be9be1cc")
+	)
+	(text "Texas Instruments \nLDO Voltage Regulator\n\nLM1084IS-3.3/NOPB 3.3V\n\nUsing TO-263-3 footprint"
+		(exclude_from_sim no)
+		(at 77.47 32.385 0)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1.5 1.5)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "92515914-6897-4c32-83b5-6b55ce4e54aa")
 	)
 	(text "LDO VOLTAGE REGULATOR"
 		(exclude_from_sim no)
@@ -1626,76 +1622,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 97.79 59.69 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "10c7e0f0-3e12-42a6-8e29-8d0a7603d589")
-		(property "Reference" "#PWR02"
-			(at 101.6 59.69 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 90.17 59.69 90)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.79 59.69 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 59.69 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 97.79 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7e9cc9fa-6efd-4017-9fb8-018095bff501")
-		)
-		(instances
-			(project "SchrackCounter"
-				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/2b0bd697-1473-4a31-8990-1278f12dea07"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_SPST")
 		(at 189.23 68.58 0)
 		(unit 1)
@@ -1758,79 +1684,6 @@
 			(project ""
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/2b0bd697-1473-4a31-8990-1278f12dea07"
 					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 124.46 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "23b0d0b7-4364-45b5-ab01-37c118234e85")
-		(property "Reference" "C4"
-			(at 127.635 65.405 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 127.635 67.31 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder"
-			(at 125.4252 69.85 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 66.04 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bcb05cfe-5278-4656-8be7-d9c4a1baebdd")
-		)
-		(pin "2"
-			(uuid "8b434ece-ed09-45fd-a64a-952b3ae926ee")
-		)
-		(instances
-			(project "SchrackCounter"
-				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/2b0bd697-1473-4a31-8990-1278f12dea07"
-					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -1972,148 +1825,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 113.03 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3a385379-972a-483e-873a-d7d86fb2666b")
-		(property "Reference" "#PWR03"
-			(at 113.03 82.55 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 113.03 80.01 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 76.2 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 76.2 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 113.03 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "283bdbbb-9559-4754-a339-99534c800589")
-		)
-		(instances
-			(project "SchrackCounter"
-				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/2b0bd697-1473-4a31-8990-1278f12dea07"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 101.6 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3d86ec75-048f-4580-9a4d-a308d6fa9cd1")
-		(property "Reference" "C1"
-			(at 95.25 65.405 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 95.25 67.31 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder"
-			(at 102.5652 69.85 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 66.04 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 101.6 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "65ec6f51-ad4b-4e36-b859-8f5b02aa41d4")
-		)
-		(pin "2"
-			(uuid "8a558dc0-1843-4988-be58-8ea2bf0af92c")
-		)
-		(instances
-			(project "SchrackCounter"
-				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/2b0bd697-1473-4a31-8990-1278f12dea07"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 104.14 124.46 0)
 		(unit 1)
@@ -2177,6 +1888,86 @@
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/2b0bd697-1473-4a31-8990-1278f12dea07"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:LM1117DT-3.3")
+		(at 118.11 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b04b1e2-0f44-4648-ba02-a4dd673fa710")
+		(property "Reference" "U?"
+			(at 118.11 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM1117DT-3.3"
+			(at 118.11 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2"
+			(at 118.11 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf"
+			(at 118.11 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-252"
+			(at 118.11 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "https://cz.mouser.com/ProductDetail/Texas-Instruments/LM1117DT-3.3-NOPB?qs=X1J7HmVL2ZHOT670myqy2w%3D%3D"
+			(at 118.11 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2fc8bc2f-c8b0-4c9c-acdd-437c1237df04")
+		)
+		(pin "2"
+			(uuid "3a82030f-f24d-46b1-b501-a086d83dd297")
+		)
+		(pin "3"
+			(uuid "f095cfae-b438-4076-930e-5b2aa29acec1")
+		)
+		(instances
+			(project "SchrackMulticlock"
+				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/2b0bd697-1473-4a31-8990-1278f12dea07"
+					(reference "U?")
 					(unit 1)
 				)
 			)
@@ -2252,46 +2043,46 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:LM1084-3.3")
-		(at 113.03 59.69 0)
+		(lib_id "Device:C_Polarized")
+		(at 129.54 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ba01a7c2-dfbd-433c-baf2-57c6c1f30cd4")
-		(property "Reference" "U1"
-			(at 113.03 53.34 0)
+		(uuid "b3c22ae1-54dc-4fbb-a5da-88cbc6907014")
+		(property "Reference" "C?"
+			(at 132.715 65.405 0)
 			(effects
 				(font
 					(face "Bahnschrift")
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "LM1084-3.3"
-			(at 113.03 55.88 0)
+		(property "Value" "10uF"
+			(at 132.715 67.31 0)
 			(effects
 				(font
 					(face "Bahnschrift")
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-3_TabPin2"
-			(at 113.03 53.34 0)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder"
+			(at 130.5052 69.85 0)
 			(effects
 				(font
 					(face "Bahnschrift")
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1084.pdf"
-			(at 113.03 59.69 0)
+		(property "Datasheet" "~"
+			(at 129.54 66.04 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -2301,7 +2092,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 113.03 59.69 0)
+			(at 129.54 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2310,18 +2101,227 @@
 			)
 		)
 		(pin "1"
-			(uuid "5663473b-3bed-4c49-b224-4c9072cfc0d4")
+			(uuid "013fb311-c057-4481-968e-8bb54b037942")
 		)
 		(pin "2"
-			(uuid "49598480-709c-4a90-bee2-6b82aa38627e")
-		)
-		(pin "3"
-			(uuid "4b75bd4b-64fd-46fa-a4c7-03daca37f9a4")
+			(uuid "53cafc34-c0a8-4e18-82e9-3605f93b8e0e")
 		)
 		(instances
-			(project "SchrackCounter"
+			(project "SchrackMulticlock"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/2b0bd697-1473-4a31-8990-1278f12dea07"
-					(reference "U1")
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 106.68 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9f4a387-8252-47fb-acc1-9c5d9b1e7cd0")
+		(property "Reference" "C?"
+			(at 100.33 65.405 0)
+			(effects
+				(font
+					(face "Bahnschrift")
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 100.33 67.31 0)
+			(effects
+				(font
+					(face "Bahnschrift")
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder"
+			(at 107.6452 69.85 0)
+			(effects
+				(font
+					(face "Bahnschrift")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 66.04 0)
+			(effects
+				(font
+					(face "Bahnschrift")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "123a4f9a-9906-4834-9da0-045fb75f0974")
+		)
+		(pin "2"
+			(uuid "760628e7-a9ef-41c0-a1c0-08644af714a4")
+		)
+		(instances
+			(project "SchrackMulticlock"
+				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/2b0bd697-1473-4a31-8990-1278f12dea07"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 102.87 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cea9b63b-7539-445d-877e-5230a9dc72c0")
+		(property "Reference" "#PWR02"
+			(at 106.68 59.69 0)
+			(effects
+				(font
+					(face "Bahnschrift")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 95.25 59.69 90)
+			(effects
+				(font
+					(face "Bahnschrift")
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 59.69 0)
+			(effects
+				(font
+					(face "Bahnschrift")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 59.69 0)
+			(effects
+				(font
+					(face "Bahnschrift")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "926eb4ca-cebb-40e4-907f-460abdd74c74")
+		)
+		(instances
+			(project "SchrackMulticlock"
+				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/2b0bd697-1473-4a31-8990-1278f12dea07"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 118.11 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cf56a6e6-0994-4e64-81df-741eab4444a7")
+		(property "Reference" "#PWR03"
+			(at 118.11 82.55 0)
+			(effects
+				(font
+					(face "Bahnschrift")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 80.01 0)
+			(effects
+				(font
+					(face "Bahnschrift")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 76.2 0)
+			(effects
+				(font
+					(face "Bahnschrift")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 76.2 0)
+			(effects
+				(font
+					(face "Bahnschrift")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b15d8ecd-5b8b-4ade-8cf8-cf1ababcb699")
+		)
+		(instances
+			(project "SchrackMulticlock"
+				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/2b0bd697-1473-4a31-8990-1278f12dea07"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -2399,15 +2399,15 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 127 59.69 270)
+		(at 132.08 59.69 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e6d75f73-f2f4-49ab-aa08-f005b99a88ab")
+		(uuid "ed982291-8bc8-44d4-a7da-76a03bf31bb7")
 		(property "Reference" "#PWR04"
-			(at 123.19 59.69 0)
+			(at 128.27 59.69 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -2417,7 +2417,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 130.81 59.69 90)
+			(at 135.89 59.69 90)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -2427,7 +2427,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 59.69 0)
+			(at 132.08 59.69 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -2437,7 +2437,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 59.69 0)
+			(at 132.08 59.69 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -2447,7 +2447,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 59.69 0)
+			(at 132.08 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2456,10 +2456,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "6ccea2ef-dc87-4676-bd62-1eae5885dd0c")
+			(uuid "a3d78266-6ab6-4545-84b1-e957eda76956")
 		)
 		(instances
-			(project "SchrackCounter"
+			(project "SchrackMulticlock"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/2b0bd697-1473-4a31-8990-1278f12dea07"
 					(reference "#PWR04")
 					(unit 1)
