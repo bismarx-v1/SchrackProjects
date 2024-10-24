@@ -2652,6 +2652,18 @@
 		(uuid "1a451bd4-0012-4364-b3bc-7d000ee498c9")
 	)
 	(junction
+		(at 118.11 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e4545a1-96b2-47fd-b5ef-60928fe3517e")
+	)
+	(junction
+		(at 118.11 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74df8c25-8bb4-4043-9d0e-9942b642efe8")
+	)
+	(junction
 		(at 223.52 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2674,10 +2686,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0fb9417-e9dd-42b6-9fd2-e87074cf83da")
-	)
-	(no_connect
-		(at 127 69.85)
-		(uuid "12fa63bf-f80d-4c41-8547-00768886a7ea")
 	)
 	(no_connect
 		(at 163.83 57.15)
@@ -2747,13 +2755,13 @@
 	)
 	(wire
 		(pts
-			(xy 127 69.85) (xy 128.27 69.85)
+			(xy 107.95 69.85) (xy 118.11 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1b95de27-f4a5-4eb5-86de-7756876788f0")
+		(uuid "24d927ff-c160-4a53-8569-e998fecaa60d")
 	)
 	(wire
 		(pts
@@ -2957,6 +2965,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 77.47) (xy 118.11 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77450c6e-b754-4bb7-9e90-579d249f0704")
+	)
+	(wire
+		(pts
 			(xy 208.28 137.16) (xy 208.28 142.24)
 		)
 		(stroke
@@ -2964,6 +2982,16 @@
 			(type default)
 		)
 		(uuid "7ac73fad-6dd1-4be1-914f-67edc258f891")
+	)
+	(wire
+		(pts
+			(xy 118.11 69.85) (xy 128.27 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cbd02e4-627e-431a-ab55-4b1cc444596e")
 	)
 	(wire
 		(pts
@@ -3127,6 +3155,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 77.47) (xy 118.11 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b84318f8-9adc-420b-aabf-35f669422298")
+	)
+	(wire
+		(pts
 			(xy 208.28 113.03) (xy 208.28 118.11)
 		)
 		(stroke
@@ -3207,7 +3245,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 74.93) (xy 121.92 72.39)
+			(xy 121.92 78.74) (xy 121.92 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3453,6 +3491,17 @@
 			(justify left bottom)
 		)
 		(uuid "7d41b2b2-ae28-4498-ab6a-848316626b03")
+	)
+	(label "SHLD"
+		(at 107.95 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8effb19e-f63b-4350-916e-4e7e8c620ec6")
 	)
 	(global_label "VBUS 5V"
 		(shape input)
@@ -4356,7 +4405,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 121.92 74.93 0)
+		(at 121.92 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4365,7 +4414,7 @@
 		(fields_autoplaced yes)
 		(uuid "4a9a0101-9655-467d-a56f-e1d5cc17bc61")
 		(property "Reference" "#PWR016"
-			(at 121.92 81.28 0)
+			(at 121.92 85.09 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4375,7 +4424,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 121.285 78.74 90)
+			(at 121.285 82.55 90)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4386,7 +4435,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 74.93 0)
+			(at 121.92 78.74 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4396,7 +4445,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 74.93 0)
+			(at 121.92 78.74 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4406,7 +4455,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 121.92 74.93 0)
+			(at 121.92 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5863,6 +5912,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 118.11 73.66 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af1372b5-f0a6-4f06-ace0-546a065b329b")
+		(property "Reference" "C?"
+			(at 113.03 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 109.855 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 119.0752 69.85 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 73.66 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 73.66 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81aff63d-f55e-4766-9f5f-6929690a802c")
+		)
+		(pin "2"
+			(uuid "0a584507-71ca-485b-a09a-32c967beab7b")
+		)
+		(instances
+			(project "SchrackCounter"
+				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/301b3ab9-8372-40d2-93c7-cd7607d23fc4"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 170.18 118.11 90)
 		(unit 1)
@@ -6410,6 +6532,79 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 118.11 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6c7d336-5223-4633-885c-9e1bdd3c68d1")
+		(property "Reference" "#PWR043"
+			(at 118.11 85.09 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 117.475 82.55 90)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 78.74 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 78.74 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 78.74 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1353e12b-bf6e-4e6b-9636-a29df7d6baae")
+		)
+		(instances
+			(project "SchrackCounter"
+				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/301b3ab9-8372-40d2-93c7-cd7607d23fc4"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 170.18 129.54 90)
 		(unit 1)
@@ -6673,6 +6868,76 @@
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/301b3ab9-8372-40d2-93c7-cd7607d23fc4"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 107.95 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff79534f-a0f5-4882-acb7-35ffe3c8060c")
+		(property "Reference" "R?"
+			(at 105.41 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 104.14 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 106.172 73.66 90)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 73.66 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 73.66 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f26ea23-5e3c-4da0-869d-d92b3849d0fb")
+		)
+		(pin "2"
+			(uuid "9d39201d-82c5-4771-8c85-3001eedf6583")
+		)
+		(instances
+			(project "SchrackCounter"
+				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/301b3ab9-8372-40d2-93c7-cd7607d23fc4"
+					(reference "R?")
 					(unit 1)
 				)
 			)

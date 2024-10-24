@@ -78,7 +78,22 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|147050001|109065001|a5ba3064-7dc4-42bf-bc17-ba152c7ab768|31ba3973-e3a2-4cc9-bef0-ec8d05325dee",
+        "courtyards_overlap|151420001|92445001|065504f9-9e93-4613-b9a2-a123e45497a3|a5ba3064-7dc4-42bf-bc17-ba152c7ab768",
+        "courtyards_overlap|151670001|138945001|a5ba3064-7dc4-42bf-bc17-ba152c7ab768|fa79b382-b0c1-417d-82ae-7c5a13b06276",
+        "courtyards_overlap|152176291|128767879|a5ba3064-7dc4-42bf-bc17-ba152c7ab768|f331a516-555b-436d-8882-bfabc51158b1",
+        "courtyards_overlap|152518027|109065001|a5ba3064-7dc4-42bf-bc17-ba152c7ab768|ad43fa51-68b3-4ef5-8952-cab916700e46",
+        "courtyards_overlap|153050001|109065001|a5ba3064-7dc4-42bf-bc17-ba152c7ab768|a87d6136-c1d6-4aae-93a1-a08326653a54",
+        "courtyards_overlap|159050001|109065001|a5ba3064-7dc4-42bf-bc17-ba152c7ab768|3056e6cd-b1de-44f6-9d89-234bd2cda6c9",
+        "courtyards_overlap|162050001|109065001|a5ba3064-7dc4-42bf-bc17-ba152c7ab768|c203f370-2aa1-4926-aaad-8683408d59ac",
+        "courtyards_overlap|165050001|109065001|a5ba3064-7dc4-42bf-bc17-ba152c7ab768|531ed028-c9d1-475b-abe2-321ea521c526",
+        "courtyards_overlap|165404777|94671096|e8363e97-8ad4-4147-8373-e6136d28ad87|a5ba3064-7dc4-42bf-bc17-ba152c7ab768",
+        "unconnected_items|162630000|93945000|9e72832e-d4da-4efc-ae60-e416852b5bb1|b75f6dad-759d-4c5b-a55f-e36af6d06cde",
+        "unconnected_items|174392102|101537103|2724daab-97e0-400a-b4ac-8790cf38b9cf|65c4a362-0b17-4b7e-a36f-c06b76bdd2ad",
+        "unconnected_items|174550000|106865000|d6f57981-09ce-4ff7-a32f-2c9e04a0c61c|3879829d-c551-4a50-8092-4b40aa6be4ab",
+        "unconnected_items|174550000|129355000|bc845b7d-0051-4ee9-a5bd-487e7fa29099|b75f6dad-759d-4c5b-a55f-e36af6d06cde"
+      ],
       "meta": {
         "version": 2
       },
@@ -822,18 +837,6 @@
     [
       "d96f2ffc-3f4c-4f71-b693-29f6b8c3245d",
       "Root"
-    ],
-    [
-      "2b0bd697-1473-4a31-8990-1278f12dea07",
-      "POWER_SUPPLY"
-    ],
-    [
-      "50491303-1200-42ed-9e6c-90c20c198c18",
-      "LOGIC_CONTROL"
-    ],
-    [
-      "39e148ed-9462-493d-862b-d9debebaa239",
-      "MCU"
     ]
   ],
   "text_variables": {}

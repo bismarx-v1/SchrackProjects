@@ -2675,9 +2675,17 @@
 		(color 0 0 0 0)
 		(uuid "cbb8d146-5416-40e6-af7b-6d7ec4f77afb")
 	)
-	(no_connect
-		(at 127 69.85)
-		(uuid "12fa63bf-f80d-4c41-8547-00768886a7ea")
+	(junction
+		(at 118.11 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8bc54e7-1e9f-4fc9-930d-eda6eaa4b000")
+	)
+	(junction
+		(at 118.11 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5cf9578-4b01-4d41-932d-21ea91566e35")
 	)
 	(no_connect
 		(at 163.83 57.15)
@@ -2747,16 +2755,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 69.85) (xy 128.27 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b95de27-f4a5-4eb5-86de-7756876788f0")
-	)
-	(wire
-		(pts
 			(xy 220.98 135.89) (xy 224.79 135.89)
 		)
 		(stroke
@@ -2777,7 +2775,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 138.43) (xy 139.7 127)
+			(xy 142.24 135.89) (xy 142.24 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2787,7 +2785,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 129.54) (xy 156.21 129.54)
+			(xy 157.48 135.89) (xy 158.75 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2807,13 +2805,23 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 129.54) (xy 173.99 129.54)
+			(xy 179.07 135.89) (xy 176.53 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "31e9b90b-9940-4943-a74c-e865a66c3941")
+	)
+	(wire
+		(pts
+			(xy 107.95 69.85) (xy 118.11 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ab21023-e3e5-4cc6-a227-feb62c03cc2d")
 	)
 	(wire
 		(pts
@@ -2857,7 +2865,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 118.11) (xy 163.83 118.11)
+			(xy 168.91 121.92) (xy 166.37 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2894,6 +2902,16 @@
 			(type default)
 		)
 		(uuid "56467011-5720-4d98-9894-bb4522b345f6")
+	)
+	(wire
+		(pts
+			(xy 118.11 69.85) (xy 128.27 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5691a01f-d84a-46d4-87f4-205b38315253")
 	)
 	(wire
 		(pts
@@ -2977,7 +2995,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 129.54) (xy 163.83 129.54)
+			(xy 168.91 135.89) (xy 166.37 135.89)
 		)
 		(stroke
 			(width 0)
@@ -3007,7 +3025,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 118.11) (xy 173.99 118.11)
+			(xy 179.07 121.92) (xy 176.53 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3047,7 +3065,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 118.11) (xy 156.21 118.11)
+			(xy 156.21 121.92) (xy 158.75 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3067,7 +3085,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 128.27) (xy 134.62 127)
+			(xy 137.16 125.73) (xy 137.16 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3084,6 +3102,16 @@
 			(type default)
 		)
 		(uuid "bc6be931-7bf1-4ed8-a3b8-c4acff71e836")
+	)
+	(wire
+		(pts
+			(xy 107.95 77.47) (xy 118.11 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bedfca03-3cee-455d-921a-f5617311ccd5")
 	)
 	(wire
 		(pts
@@ -3157,7 +3185,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 74.93) (xy 121.92 72.39)
+			(xy 121.92 78.74) (xy 121.92 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3217,6 +3245,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 77.47) (xy 118.11 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1d82869-5804-466c-91af-c4c373a86196")
+	)
+	(wire
+		(pts
 			(xy 195.58 116.84) (xy 198.12 116.84)
 		)
 		(stroke
@@ -3267,7 +3305,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 139.7) (xy 134.62 135.89)
+			(xy 137.16 137.16) (xy 137.16 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3316,7 +3354,7 @@
 	)
 	(text "current in parallel\nMax GPIO current 40mA, recommended 20mA"
 		(exclude_from_sim no)
-		(at 176.53 151.765 0)
+		(at 152.4 164.465 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3407,7 +3445,7 @@
 		)
 		(uuid "db9db3b9-f1bf-44ea-ac68-05c2a69a8653")
 	)
-	(text "EXTERNAL LEDS"
+	(text "AUXILIARY"
 		(exclude_from_sim no)
 		(at 55.245 102.87 0)
 		(effects
@@ -3420,6 +3458,17 @@
 			(justify left bottom)
 		)
 		(uuid "de108e5f-47f5-47cc-a552-646723f1e825")
+	)
+	(label "SHLD"
+		(at 107.95 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "20ded8ac-9e4d-4c75-a001-74c71c6b55c7")
 	)
 	(global_label "VBUS 5V"
 		(shape input)
@@ -3436,6 +3485,30 @@
 		(uuid "04d5d221-48ba-4434-848f-625372194291")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 233.5064 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AUX2"
+		(shape input)
+		(at 88.9 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "0b4dea26-5486-4691-b0d4-cb87034b4989")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.3403 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3495,7 +3568,7 @@
 	)
 	(global_label "VBATT"
 		(shape input)
-		(at 154.94 129.54 180)
+		(at 157.48 135.89 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3507,7 +3580,7 @@
 		)
 		(uuid "7bc12811-2474-43ad-addc-a49e96b2e8c7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.724 129.54 0)
+			(at 151.264 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3565,6 +3638,30 @@
 			)
 		)
 	)
+	(global_label "AUX3"
+		(shape input)
+		(at 88.9 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "930300cd-2ad9-414a-8516-81563f12373c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.3569 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "D- IN"
 		(shape input)
 		(at 171.45 74.93 180)
@@ -3613,7 +3710,7 @@
 			)
 		)
 	)
-	(global_label "LED_EXT1"
+	(global_label "AUX1"
 		(shape input)
 		(at 88.9 118.11 0)
 		(fields_autoplaced yes)
@@ -3627,7 +3724,7 @@
 		)
 		(uuid "b644a6d2-d0db-40a7-8e56-7d5e997bae94")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.066 118.11 0)
+			(at 94.0824 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3657,30 +3754,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LED_EXT2"
-		(shape input)
-		(at 88.9 130.81 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 1 1)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "c12e4615-ad09-4bea-bd73-73e3e16b1b7f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.324 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -3759,7 +3832,7 @@
 	)
 	(global_label "BZ1_PWM"
 		(shape input)
-		(at 134.62 139.7 180)
+		(at 137.16 137.16 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3771,36 +3844,12 @@
 		)
 		(uuid "d4f35bf5-1172-4337-a684-7e0f47e511a4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.5517 139.7 0)
+			(at 129.0917 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LED_EXT3"
-		(shape input)
-		(at 88.9 142.24 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 1 1)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "d8ec6e69-8efa-43d7-b4f7-62478f345d5d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.3406 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -3899,7 +3948,7 @@
 	)
 	(symbol
 		(lib_id "Device:Buzzer")
-		(at 137.16 124.46 90)
+		(at 139.7 121.92 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3907,7 +3956,7 @@
 		(dnp no)
 		(uuid "0c4f8431-ca5f-49c0-ab28-3025e69359c4")
 		(property "Reference" "BZ1"
-			(at 137.16 117.475 90)
+			(at 139.7 114.935 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3916,7 +3965,7 @@
 			)
 		)
 		(property "Value" "Buzzer"
-			(at 140.0175 119.6976 90)
+			(at 142.5575 117.1576 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3925,7 +3974,7 @@
 			)
 		)
 		(property "Footprint" "Schrack_brd:BUZZER_CUI_CPT"
-			(at 134.62 125.095 90)
+			(at 137.16 122.555 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3934,7 +3983,7 @@
 			)
 		)
 		(property "Datasheet" "https://cz.mouser.com/ProductDetail/CUI-Devices/CPT-1625-80-SMT-TR?qs=P1JMDcb91o43eCFIymFs3Q%3D%3D"
-			(at 134.62 125.095 90)
+			(at 137.16 122.555 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3943,7 +3992,7 @@
 			)
 		)
 		(property "Description" "Buzzer, polarized"
-			(at 137.16 124.46 0)
+			(at 139.7 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3968,7 +4017,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 160.02 129.54 180)
+		(at 162.56 135.89 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3976,7 +4025,7 @@
 		(dnp no)
 		(uuid "10809a56-e83d-4243-a76f-b2ff22dc64e2")
 		(property "Reference" "D3"
-			(at 160.02 124.46 0)
+			(at 162.56 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3984,7 +4033,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 160.02 126.365 0)
+			(at 162.56 132.715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3992,7 +4041,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 160.02 129.54 0)
+			(at 162.56 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4001,7 +4050,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 129.54 0)
+			(at 162.56 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4010,7 +4059,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 160.02 129.54 0)
+			(at 162.56 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4313,7 +4362,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 176.53 129.54 0)
+		(at 179.07 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4322,7 +4371,7 @@
 		(fields_autoplaced yes)
 		(uuid "418ef457-5c4c-4b05-a8d6-b8073d6afc6c")
 		(property "Reference" "#PWR0121"
-			(at 176.53 135.89 0)
+			(at 179.07 142.24 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4332,7 +4381,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 175.895 133.35 90)
+			(at 178.435 139.7 90)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4343,7 +4392,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 129.54 0)
+			(at 179.07 135.89 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4353,7 +4402,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 129.54 0)
+			(at 179.07 135.89 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4363,7 +4412,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 176.53 129.54 0)
+			(at 179.07 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4385,7 +4434,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 176.53 118.11 0)
+		(at 179.07 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4394,7 +4443,7 @@
 		(fields_autoplaced yes)
 		(uuid "4a33faa0-60f0-4002-885e-a2b259f8208d")
 		(property "Reference" "#PWR0122"
-			(at 176.53 124.46 0)
+			(at 179.07 128.27 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4404,7 +4453,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 175.895 121.92 90)
+			(at 178.435 125.73 90)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4415,7 +4464,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 118.11 0)
+			(at 179.07 121.92 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4425,7 +4474,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 118.11 0)
+			(at 179.07 121.92 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4435,7 +4484,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 176.53 118.11 0)
+			(at 179.07 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4457,7 +4506,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 121.92 74.93 0)
+		(at 121.92 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4466,7 +4515,7 @@
 		(fields_autoplaced yes)
 		(uuid "4a9a0101-9655-467d-a56f-e1d5cc17bc61")
 		(property "Reference" "#PWR0113"
-			(at 121.92 81.28 0)
+			(at 121.92 85.09 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4476,7 +4525,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 121.285 78.74 90)
+			(at 121.285 82.55 90)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4487,7 +4536,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 74.93 0)
+			(at 121.92 78.74 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4497,7 +4546,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 74.93 0)
+			(at 121.92 78.74 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4507,7 +4556,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 121.92 74.93 0)
+			(at 121.92 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4529,7 +4578,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 153.67 118.11 90)
+		(at 156.21 121.92 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4537,7 +4586,7 @@
 		(dnp no)
 		(uuid "4e00443e-375a-4ce4-801b-5f4b28dd7029")
 		(property "Reference" "#PWR0123"
-			(at 157.48 118.11 0)
+			(at 160.02 121.92 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4547,7 +4596,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 150.495 118.11 90)
+			(at 153.035 121.92 90)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4557,7 +4606,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 118.11 0)
+			(at 156.21 121.92 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4567,7 +4616,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 118.11 0)
+			(at 156.21 121.92 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4577,7 +4626,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 153.67 118.11 0)
+			(at 156.21 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4812,7 +4861,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 134.62 132.08 180)
+		(at 137.16 129.54 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4820,7 +4869,7 @@
 		(dnp no)
 		(uuid "635ebe8c-fc9a-4347-acc8-4fd842b29e7d")
 		(property "Reference" "R5"
-			(at 132.08 131.445 0)
+			(at 134.62 128.905 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4828,7 +4877,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 132.08 133.35 0)
+			(at 134.62 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4836,7 +4885,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 136.398 132.08 90)
+			(at 138.938 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4845,7 +4894,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 132.08 0)
+			(at 137.16 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4854,7 +4903,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 134.62 132.08 0)
+			(at 137.16 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5178,8 +5227,81 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 118.11 73.66 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "745bc04b-558d-477a-b76d-a9327fe8a3d8")
+		(property "Reference" "C?"
+			(at 113.03 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 109.855 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 119.0752 69.85 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 73.66 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 73.66 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb675c0d-928d-44a7-a1c7-0c677e2b2beb")
+		)
+		(pin "2"
+			(uuid "b67bc11c-25c1-4175-a781-00b1d57761e1")
+		)
+		(instances
+			(project "SchrackMulticlock"
+				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/301b3ab9-8372-40d2-93c7-cd7607d23fc4"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 139.7 138.43 0)
+		(at 142.24 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5188,7 +5310,7 @@
 		(fields_autoplaced yes)
 		(uuid "76894e0b-a08d-4e00-bf33-67a8feec3e9f")
 		(property "Reference" "#PWR0124"
-			(at 139.7 144.78 0)
+			(at 142.24 142.24 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -5198,7 +5320,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 139.065 142.24 90)
+			(at 141.605 139.7 90)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -5209,7 +5331,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 138.43 0)
+			(at 142.24 135.89 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -5219,7 +5341,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 138.43 0)
+			(at 142.24 135.89 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -5229,7 +5351,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 139.7 138.43 0)
+			(at 142.24 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5454,6 +5576,76 @@
 			(project "SchrackMulticlock"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/301b3ab9-8372-40d2-93c7-cd7607d23fc4"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 107.95 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ce17192-d738-4d41-9732-c5295320c84c")
+		(property "Reference" "R?"
+			(at 105.41 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 104.14 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 106.172 73.66 90)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 73.66 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 73.66 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94b9dc68-cda6-460e-806e-1e2851cb8a48")
+		)
+		(pin "2"
+			(uuid "0787c580-b955-4d73-8c02-ef0341328c79")
+		)
+		(instances
+			(project "SchrackMulticlock"
+				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/301b3ab9-8372-40d2-93c7-cd7607d23fc4"
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -5898,7 +6090,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 170.18 118.11 90)
+		(at 172.72 121.92 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5906,7 +6098,7 @@
 		(dnp no)
 		(uuid "ba5b13c4-c2e0-474a-a126-a1ec5f782263")
 		(property "Reference" "R6"
-			(at 170.18 113.665 90)
+			(at 172.72 117.475 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5914,7 +6106,7 @@
 			)
 		)
 		(property "Value" "220R"
-			(at 170.18 115.57 90)
+			(at 172.72 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5922,7 +6114,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 170.18 119.888 90)
+			(at 172.72 123.698 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5931,7 +6123,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 118.11 0)
+			(at 172.72 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5940,7 +6132,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 170.18 118.11 0)
+			(at 172.72 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6104,6 +6296,79 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 118.11 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cda88e6a-b6a5-4133-9cdb-5fde5bd86f36")
+		(property "Reference" "#PWR01"
+			(at 118.11 85.09 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 117.475 82.55 90)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 78.74 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 78.74 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 78.74 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b49396dd-b5fd-4587-8713-ffb899d2909d")
+		)
+		(instances
+			(project "SchrackMulticlock"
+				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/301b3ab9-8372-40d2-93c7-cd7607d23fc4"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 82.55 130.81 90)
 		(unit 1)
@@ -6244,7 +6509,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 160.02 118.11 180)
+		(at 162.56 121.92 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6252,7 +6517,7 @@
 		(dnp no)
 		(uuid "e01e27f1-6b78-4c67-a025-caa8d1e62930")
 		(property "Reference" "D2"
-			(at 160.02 113.03 0)
+			(at 162.56 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6260,7 +6525,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 160.02 114.935 0)
+			(at 162.56 118.745 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6268,7 +6533,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 160.02 118.11 0)
+			(at 162.56 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6277,7 +6542,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 118.11 0)
+			(at 162.56 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6286,7 +6551,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 160.02 118.11 0)
+			(at 162.56 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6311,7 +6576,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 170.18 129.54 90)
+		(at 172.72 135.89 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6319,7 +6584,7 @@
 		(dnp no)
 		(uuid "e85d1c9f-d7fc-4382-b496-5611c3c17a69")
 		(property "Reference" "R7"
-			(at 170.18 125.095 90)
+			(at 172.72 131.445 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6327,7 +6592,7 @@
 			)
 		)
 		(property "Value" "220R"
-			(at 170.18 127 90)
+			(at 172.72 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6335,7 +6600,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 170.18 131.318 90)
+			(at 172.72 137.668 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6344,7 +6609,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 129.54 0)
+			(at 172.72 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6353,7 +6618,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 170.18 129.54 0)
+			(at 172.72 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)

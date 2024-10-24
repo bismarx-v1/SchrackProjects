@@ -1318,7 +1318,7 @@
 		)
 	)
 	(junction
-		(at 129.54 125.73)
+		(at 134.62 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "072f6063-360d-4685-9bad-c2937e09758b")
@@ -1342,13 +1342,13 @@
 		(uuid "27267c78-7c50-4c7f-8139-715f33cd9d98")
 	)
 	(junction
-		(at 71.12 146.05)
+		(at 134.62 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3096e9a3-badc-4942-812f-150e5975e431")
 	)
 	(junction
-		(at 118.11 153.67)
+		(at 58.42 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4fa67ca2-dba0-488c-a78b-f034840f7ecf")
@@ -1366,7 +1366,7 @@
 		(uuid "56407933-6d52-43c8-8169-bc19b29d1a34")
 	)
 	(junction
-		(at 58.42 146.05)
+		(at 121.92 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6178574e-ff4a-4a29-9d02-5bb9db0b1439")
@@ -1384,49 +1384,49 @@
 		(uuid "932cd10d-4ae5-4b3c-86b5-0e2e4c3bdeb9")
 	)
 	(junction
-		(at 116.84 125.73)
+		(at 121.92 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99c1656b-5f4f-47b7-8126-1ab95bd9d414")
 	)
 	(junction
-		(at 129.54 99.06)
+		(at 71.12 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a9660d47-878c-4754-9c70-52c31728e6dc")
 	)
 	(junction
-		(at 71.12 99.06)
+		(at 71.12 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf984337-b832-4309-8399-36642b00603f")
 	)
 	(junction
-		(at 58.42 123.19)
+		(at 121.92 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d0d544bf-0706-484a-bc88-bc0f19c0b94a")
 	)
 	(junction
-		(at 130.81 153.67)
+		(at 71.12 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d55f4d9d-142e-4cb4-883a-48f332c37e76")
 	)
 	(junction
-		(at 71.12 123.19)
+		(at 134.62 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d9e22a49-5a42-4526-9a56-40f5bee733c4")
 	)
 	(junction
-		(at 116.84 99.06)
+		(at 58.42 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e578da4e-cb81-40a2-a7f7-7944192adb00")
 	)
 	(junction
-		(at 58.42 99.06)
+		(at 58.42 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f8cbafea-e4e3-43e2-8694-2c40ce8c466e")
@@ -1463,7 +1463,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 99.06) (xy 58.42 99.06)
+			(xy 59.69 120.65) (xy 58.42 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1473,7 +1473,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 125.73) (xy 116.84 125.73)
+			(xy 118.11 143.51) (xy 121.92 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1483,7 +1483,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 123.19) (xy 90.17 123.19)
+			(xy 154.94 97.79) (xy 153.67 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1493,7 +1493,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 153.67) (xy 134.62 153.67)
+			(xy 71.12 143.51) (xy 74.93 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1503,7 +1503,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 99.06) (xy 58.42 99.06)
+			(xy 54.61 120.65) (xy 58.42 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1513,7 +1513,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 125.73) (xy 116.84 125.73)
+			(xy 123.19 143.51) (xy 121.92 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1523,7 +1523,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 123.19) (xy 58.42 119.38)
+			(xy 121.92 97.79) (xy 121.92 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1553,7 +1553,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 146.05) (xy 44.45 146.05)
+			(xy 106.68 120.65) (xy 107.95 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1573,7 +1573,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 146.05) (xy 74.93 146.05)
+			(xy 134.62 120.65) (xy 138.43 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1603,7 +1603,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 99.06) (xy 71.12 99.06)
+			(xy 67.31 120.65) (xy 71.12 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1623,17 +1623,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 99.06) (xy 116.84 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43988814-71f8-4b70-a161-6b77384c6e3e")
-	)
-	(wire
-		(pts
-			(xy 54.61 123.19) (xy 58.42 123.19)
+			(xy 118.11 97.79) (xy 121.92 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1643,7 +1633,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 99.06) (xy 101.6 99.06)
+			(xy 43.18 97.79) (xy 44.45 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1653,7 +1643,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 123.19) (xy 44.45 123.19)
+			(xy 106.68 97.79) (xy 107.95 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1663,7 +1653,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 99.06) (xy 133.35 99.06)
+			(xy 71.12 97.79) (xy 74.93 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1713,7 +1703,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 99.06) (xy 129.54 99.06)
+			(xy 67.31 97.79) (xy 71.12 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1733,7 +1723,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 146.05) (xy 71.12 146.05)
+			(xy 130.81 120.65) (xy 134.62 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1753,7 +1743,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 99.06) (xy 74.93 99.06)
+			(xy 71.12 120.65) (xy 74.93 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1763,13 +1753,23 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 146.05) (xy 58.42 146.05)
+			(xy 118.11 120.65) (xy 121.92 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "79034996-8396-432c-b16b-332872346d09")
+	)
+	(wire
+		(pts
+			(xy 54.61 97.79) (xy 58.42 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f2a4834-70d5-40b0-b68a-8b3d12cee49a")
 	)
 	(wire
 		(pts
@@ -1783,7 +1783,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 125.73) (xy 102.87 125.73)
+			(xy 106.68 143.51) (xy 107.95 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1793,7 +1793,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 125.73) (xy 116.84 121.92)
+			(xy 121.92 143.51) (xy 121.92 139.7)
 		)
 		(stroke
 			(width 0)
@@ -1803,7 +1803,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 123.19) (xy 74.93 123.19)
+			(xy 134.62 97.79) (xy 138.43 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1813,7 +1813,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 153.67) (xy 118.11 153.67)
+			(xy 54.61 143.51) (xy 58.42 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1843,7 +1843,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 99.06) (xy 116.84 99.06)
+			(xy 59.69 97.79) (xy 58.42 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1853,7 +1853,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 99.06) (xy 90.17 99.06)
+			(xy 91.44 120.65) (xy 90.17 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1873,7 +1873,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 123.19) (xy 71.12 123.19)
+			(xy 130.81 97.79) (xy 134.62 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1893,7 +1893,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 123.19) (xy 229.87 123.19)
+			(xy 119.38 165.1) (xy 118.11 165.1)
 		)
 		(stroke
 			(width 0)
@@ -1903,7 +1903,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 125.73) (xy 133.35 125.73)
+			(xy 134.62 143.51) (xy 138.43 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1913,7 +1913,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 99.06) (xy 116.84 95.25)
+			(xy 58.42 97.79) (xy 58.42 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1923,7 +1923,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 99.06) (xy 58.42 95.25)
+			(xy 58.42 120.65) (xy 58.42 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1943,7 +1943,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 153.67) (xy 104.14 153.67)
+			(xy 43.18 143.51) (xy 44.45 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1983,7 +1983,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 123.19) (xy 58.42 123.19)
+			(xy 123.19 97.79) (xy 121.92 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1993,7 +1993,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 146.05) (xy 90.17 146.05)
+			(xy 154.94 120.65) (xy 153.67 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2003,7 +2003,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 125.73) (xy 129.54 125.73)
+			(xy 130.81 143.51) (xy 134.62 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2013,7 +2013,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 153.67) (xy 130.81 153.67)
+			(xy 67.31 143.51) (xy 71.12 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2023,7 +2023,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 99.06) (xy 44.45 99.06)
+			(xy 43.18 120.65) (xy 44.45 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2043,7 +2043,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 153.67) (xy 149.86 153.67)
+			(xy 91.44 143.51) (xy 90.17 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2053,7 +2053,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 99.06) (xy 148.59 99.06)
+			(xy 91.44 97.79) (xy 90.17 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2063,7 +2063,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 146.05) (xy 58.42 146.05)
+			(xy 123.19 120.65) (xy 121.92 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2073,7 +2073,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 153.67) (xy 118.11 149.86)
+			(xy 58.42 143.51) (xy 58.42 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2083,7 +2083,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 153.67) (xy 118.11 153.67)
+			(xy 59.69 143.51) (xy 58.42 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2093,7 +2093,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 125.73) (xy 148.59 125.73)
+			(xy 154.94 143.51) (xy 153.67 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2103,7 +2103,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 146.05) (xy 58.42 142.24)
+			(xy 121.92 120.65) (xy 121.92 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2123,7 +2123,7 @@
 	)
 	(rectangle
 		(start 40.005 25.4)
-		(end 166.37 71.12)
+		(end 168.275 71.12)
 		(stroke
 			(width 0)
 			(type dash)
@@ -2136,7 +2136,7 @@
 	)
 	(rectangle
 		(start 40.005 80.01)
-		(end 166.37 175.26)
+		(end 171.45 175.26)
 		(stroke
 			(width 0)
 			(type dash)
@@ -2305,7 +2305,7 @@
 		(uuid "e821a787-4886-4400-940d-3ecdbec5565a")
 	)
 	(label "BT2"
-		(at 114.3 153.67 0)
+		(at 54.61 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2316,7 +2316,7 @@
 		(uuid "2e7a1cab-8fd7-4c30-9bf5-298d02df8adf")
 	)
 	(label "BT2"
-		(at 54.61 123.19 0)
+		(at 118.11 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2327,7 +2327,7 @@
 		(uuid "339614d3-652f-4d1b-b4c3-7809e22aefae")
 	)
 	(label "MD"
-		(at 111.76 99.06 0)
+		(at 54.61 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2338,7 +2338,7 @@
 		(uuid "5028444d-51a3-45f5-a64e-7eb0ca683497")
 	)
 	(label "BT2"
-		(at 54.61 146.05 0)
+		(at 118.11 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2349,7 +2349,7 @@
 		(uuid "7a3fe1e1-74d3-4991-94a2-826284144340")
 	)
 	(label "BT1"
-		(at 54.61 99.06 0)
+		(at 54.61 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2360,7 +2360,7 @@
 		(uuid "7f5b2e7b-d897-4170-be09-b05fac86ef3f")
 	)
 	(label "BT2"
-		(at 113.03 125.73 0)
+		(at 118.11 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2372,7 +2372,7 @@
 	)
 	(global_label "DIGIT_SELECT"
 		(shape input)
-		(at 91.44 146.05 0)
+		(at 154.94 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2384,7 +2384,7 @@
 		)
 		(uuid "1a060717-b391-4ae1-8ad0-c629de917323")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.3816 146.05 0)
+			(at 165.8816 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2396,7 +2396,7 @@
 	)
 	(global_label "TIME_DOWN"
 		(shape input)
-		(at 151.13 153.67 0)
+		(at 91.44 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2408,7 +2408,7 @@
 		)
 		(uuid "65715b88-7aad-4ac4-a48e-1a480e75b4e2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.8944 153.67 0)
+			(at 101.2044 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2420,7 +2420,7 @@
 	)
 	(global_label "BTN1"
 		(shape input)
-		(at 91.44 99.06 0)
+		(at 91.44 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2432,7 +2432,7 @@
 		)
 		(uuid "70b894dd-0de4-4b30-af09-a194c5641e28")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.6654 99.06 0)
+			(at 96.6654 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2444,7 +2444,7 @@
 	)
 	(global_label "MODE"
 		(shape input)
-		(at 149.86 99.06 0)
+		(at 91.44 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2456,7 +2456,7 @@
 		)
 		(uuid "82de681d-ee32-4fdd-999e-f90bb4cd41a2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.7565 99.06 0)
+			(at 97.3365 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2468,7 +2468,7 @@
 	)
 	(global_label "BTN2"
 		(shape input)
-		(at 91.44 123.19 0)
+		(at 154.94 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2480,7 +2480,7 @@
 		)
 		(uuid "945dafb0-2948-40c8-a420-4a7a2eac1dba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.9233 123.19 0)
+			(at 160.4233 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2540,7 +2540,7 @@
 	)
 	(global_label "AUX"
 		(shape input)
-		(at 149.86 125.73 0)
+		(at 154.94 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2552,7 +2552,7 @@
 		)
 		(uuid "d468b92e-5cbd-4afa-bfc7-9ade22af6d00")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.5773 125.73 0)
+			(at 159.6573 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2564,7 +2564,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 71.12 127 0)
+		(at 134.62 101.6 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2573,7 +2573,7 @@
 		(dnp no)
 		(uuid "0327bc92-050e-47e6-975c-fabd6716e210")
 		(property "Reference" "C11"
-			(at 66.04 126.365 0)
+			(at 129.54 100.965 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -2583,7 +2583,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 64.135 128.27 0)
+			(at 127.635 102.87 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -2593,7 +2593,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 72.0852 123.19 0)
+			(at 135.5852 97.79 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -2603,7 +2603,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 127 0)
+			(at 134.62 101.6 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -2613,7 +2613,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 71.12 127 0)
+			(at 134.62 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2708,7 +2708,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC14")
-		(at 82.55 146.05 0)
+		(at 146.05 120.65 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2716,7 +2716,7 @@
 		(dnp no)
 		(uuid "0ad1a3d6-0048-4890-9052-c34b587bbf66")
 		(property "Reference" "U8"
-			(at 82.55 139.065 0)
+			(at 146.05 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2724,7 +2724,7 @@
 			)
 		)
 		(property "Value" "74HC14"
-			(at 82.55 140.97 0)
+			(at 146.05 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2732,7 +2732,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 82.55 146.05 0)
+			(at 146.05 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2741,7 +2741,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
-			(at 82.55 146.05 0)
+			(at 146.05 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2750,7 +2750,7 @@
 			)
 		)
 		(property "Description" "Hex inverter schmitt trigger"
-			(at 82.55 146.05 0)
+			(at 146.05 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2811,7 +2811,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 116.84 91.44 180)
+		(at 58.42 90.17 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2819,7 +2819,7 @@
 		(dnp no)
 		(uuid "1198ee06-2fae-4d4a-bd4d-993d13cc776a")
 		(property "Reference" "R19"
-			(at 120.015 90.17 0)
+			(at 61.595 88.9 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -2828,7 +2828,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 120.015 92.075 0)
+			(at 61.595 90.805 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -2837,7 +2837,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 118.618 91.44 90)
+			(at 60.198 90.17 90)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -2847,7 +2847,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 116.84 91.44 0)
+			(at 58.42 90.17 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -2857,7 +2857,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 116.84 91.44 0)
+			(at 58.42 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2882,7 +2882,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 116.84 87.63 0)
+		(at 58.42 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2890,7 +2890,7 @@
 		(dnp no)
 		(uuid "14a3081f-a835-44be-a873-53301d65eccf")
 		(property "Reference" "#PWR0126"
-			(at 116.84 91.44 0)
+			(at 58.42 90.17 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -2900,7 +2900,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 118.11 86.36 0)
+			(at 59.69 85.09 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -2910,7 +2910,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 87.63 0)
+			(at 58.42 86.36 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -2920,7 +2920,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 87.63 0)
+			(at 58.42 86.36 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -2930,7 +2930,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 116.84 87.63 0)
+			(at 58.42 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2952,7 +2952,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 102.87 153.67 0)
+		(at 43.18 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2960,7 +2960,7 @@
 		(dnp no)
 		(uuid "1f963584-f8aa-4960-899c-fa34985f0b2c")
 		(property "Reference" "#PWR0142"
-			(at 102.87 160.02 0)
+			(at 43.18 149.86 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -2970,7 +2970,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 102.87 157.48 0)
+			(at 43.18 147.32 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -2980,7 +2980,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 153.67 0)
+			(at 43.18 143.51 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -2990,7 +2990,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 153.67 0)
+			(at 43.18 143.51 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -3000,7 +3000,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 102.87 153.67 0)
+			(at 43.18 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3022,7 +3022,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 71.12 106.68 0)
+		(at 71.12 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3030,7 +3030,7 @@
 		(dnp no)
 		(uuid "2179cac7-8213-497d-87b2-52e3c7aefdb7")
 		(property "Reference" "#PWR0145"
-			(at 71.12 113.03 0)
+			(at 71.12 134.62 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -3040,7 +3040,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 71.12 110.49 0)
+			(at 71.12 132.08 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -3050,7 +3050,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 106.68 0)
+			(at 71.12 128.27 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -3060,7 +3060,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 106.68 0)
+			(at 71.12 128.27 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -3070,7 +3070,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 71.12 106.68 0)
+			(at 71.12 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3092,7 +3092,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 58.42 87.63 0)
+		(at 58.42 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3100,7 +3100,7 @@
 		(dnp no)
 		(uuid "2256dd44-48ef-46fc-aea5-f78ac825d5e0")
 		(property "Reference" "#PWR0147"
-			(at 58.42 91.44 0)
+			(at 58.42 113.03 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -3110,7 +3110,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 59.69 86.36 0)
+			(at 59.69 107.95 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -3120,7 +3120,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 87.63 0)
+			(at 58.42 109.22 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -3130,7 +3130,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 87.63 0)
+			(at 58.42 109.22 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -3140,7 +3140,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 87.63 0)
+			(at 58.42 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3162,7 +3162,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 106.68 99.06 0)
+		(at 49.53 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3170,7 +3170,7 @@
 		(dnp no)
 		(uuid "23ac051f-dc64-4cf2-9a6a-2921de7d2d5b")
 		(property "Reference" "SW5"
-			(at 106.68 94.615 0)
+			(at 49.53 93.345 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -3179,7 +3179,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 106.68 95.25 0)
+			(at 49.53 93.98 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -3189,7 +3189,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 106.68 93.98 0)
+			(at 49.53 92.71 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -3199,7 +3199,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 93.98 0)
+			(at 49.53 92.71 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -3209,7 +3209,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 99.06 0)
+			(at 49.53 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3303,7 +3303,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 130.81 157.48 0)
+		(at 71.12 147.32 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3312,7 +3312,7 @@
 		(dnp no)
 		(uuid "27c1c8d3-702a-4d65-8587-c798bad73f22")
 		(property "Reference" "C16"
-			(at 125.73 156.845 0)
+			(at 66.04 146.685 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -3322,7 +3322,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 123.825 158.75 0)
+			(at 64.135 148.59 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -3332,7 +3332,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 131.7752 153.67 0)
+			(at 72.0852 143.51 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -3342,7 +3342,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.81 157.48 0)
+			(at 71.12 147.32 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -3352,7 +3352,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.81 157.48 0)
+			(at 71.12 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3377,7 +3377,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 118.11 146.05 180)
+		(at 58.42 135.89 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3385,7 +3385,7 @@
 		(dnp no)
 		(uuid "2d5380de-7b9f-46d1-b001-776ac1bf20f7")
 		(property "Reference" "R21"
-			(at 121.285 144.78 0)
+			(at 61.595 134.62 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -3394,7 +3394,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 121.285 146.685 0)
+			(at 61.595 136.525 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -3403,7 +3403,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 119.888 146.05 90)
+			(at 60.198 135.89 90)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -3413,7 +3413,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 118.11 146.05 0)
+			(at 58.42 135.89 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -3423,7 +3423,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 118.11 146.05 0)
+			(at 58.42 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3518,7 +3518,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 71.12 130.81 0)
+		(at 134.62 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3526,7 +3526,7 @@
 		(dnp no)
 		(uuid "386f613a-5887-4520-87a0-42b26f1aced8")
 		(property "Reference" "#PWR0130"
-			(at 71.12 137.16 0)
+			(at 134.62 111.76 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -3536,7 +3536,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 71.12 134.62 0)
+			(at 134.62 109.22 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -3546,7 +3546,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 130.81 0)
+			(at 134.62 105.41 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -3556,7 +3556,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 130.81 0)
+			(at 134.62 105.41 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -3566,7 +3566,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 71.12 130.81 0)
+			(at 134.62 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3588,7 +3588,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 116.84 114.3 0)
+		(at 121.92 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3596,7 +3596,7 @@
 		(dnp no)
 		(uuid "39f9a1e2-c974-4ad3-8a08-03dcf2280202")
 		(property "Reference" "#PWR0140"
-			(at 116.84 118.11 0)
+			(at 121.92 135.89 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -3606,7 +3606,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 118.11 113.03 0)
+			(at 123.19 130.81 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -3616,7 +3616,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 114.3 0)
+			(at 121.92 132.08 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -3626,7 +3626,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 114.3 0)
+			(at 121.92 132.08 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -3636,7 +3636,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 116.84 114.3 0)
+			(at 121.92 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3658,7 +3658,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC14")
-		(at 140.97 125.73 0)
+		(at 146.05 143.51 0)
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3666,7 +3666,7 @@
 		(dnp no)
 		(uuid "45b4c78f-e0e2-4e9a-97fa-a11aa32f8255")
 		(property "Reference" "U8"
-			(at 140.97 118.745 0)
+			(at 146.05 136.525 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3674,7 +3674,7 @@
 			)
 		)
 		(property "Value" "74HC14"
-			(at 140.97 120.65 0)
+			(at 146.05 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3682,7 +3682,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 140.97 125.73 0)
+			(at 146.05 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3691,7 +3691,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
-			(at 140.97 125.73 0)
+			(at 146.05 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3700,7 +3700,7 @@
 			)
 		)
 		(property "Description" "Hex inverter schmitt trigger"
-			(at 140.97 125.73 0)
+			(at 146.05 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3761,7 +3761,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 71.12 102.87 0)
+		(at 71.12 124.46 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3770,7 +3770,7 @@
 		(dnp no)
 		(uuid "4fce9686-c5ef-4c42-9eb6-726440fb1248")
 		(property "Reference" "C10"
-			(at 66.04 102.235 0)
+			(at 66.04 123.825 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -3780,7 +3780,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 64.135 104.14 0)
+			(at 64.135 125.73 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -3790,7 +3790,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 72.0852 99.06 0)
+			(at 72.0852 120.65 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -3800,7 +3800,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 102.87 0)
+			(at 71.12 124.46 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -3810,7 +3810,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 71.12 102.87 0)
+			(at 71.12 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3835,7 +3835,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 49.53 146.05 0)
+		(at 113.03 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3843,7 +3843,7 @@
 		(dnp no)
 		(uuid "56464288-033b-4c55-87c8-0e4cc0824538")
 		(property "Reference" "SW4"
-			(at 49.53 141.605 0)
+			(at 113.03 116.205 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -3852,7 +3852,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 49.53 142.24 0)
+			(at 113.03 116.84 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -3862,7 +3862,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 49.53 140.97 0)
+			(at 113.03 115.57 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -3872,7 +3872,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 140.97 0)
+			(at 113.03 115.57 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -3882,7 +3882,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 146.05 0)
+			(at 113.03 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3907,7 +3907,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 43.18 123.19 0)
+		(at 106.68 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3915,7 +3915,7 @@
 		(dnp no)
 		(uuid "60081581-9358-4876-a400-f2e4c9992643")
 		(property "Reference" "#PWR0131"
-			(at 43.18 129.54 0)
+			(at 106.68 104.14 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -3925,7 +3925,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 127 0)
+			(at 106.68 101.6 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -3935,7 +3935,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 123.19 0)
+			(at 106.68 97.79 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -3945,7 +3945,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 123.19 0)
+			(at 106.68 97.79 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -3955,7 +3955,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 43.18 123.19 0)
+			(at 106.68 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4042,7 +4042,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 100.33 99.06 0)
+		(at 43.18 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4050,7 +4050,7 @@
 		(dnp no)
 		(uuid "64ec2147-5897-4d2d-815c-2dcaff17fb4c")
 		(property "Reference" "#PWR0141"
-			(at 100.33 105.41 0)
+			(at 43.18 104.14 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4060,7 +4060,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.33 102.87 0)
+			(at 43.18 101.6 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4070,7 +4070,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 99.06 0)
+			(at 43.18 97.79 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4080,7 +4080,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 99.06 0)
+			(at 43.18 97.79 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4090,7 +4090,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 100.33 99.06 0)
+			(at 43.18 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4112,7 +4112,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 58.42 91.44 180)
+		(at 58.42 113.03 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4120,7 +4120,7 @@
 		(dnp no)
 		(uuid "6847fed1-caad-4a5d-8ff3-00d84848b45d")
 		(property "Reference" "R12"
-			(at 61.595 90.17 0)
+			(at 61.595 111.76 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4129,7 +4129,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 61.595 92.075 0)
+			(at 61.595 113.665 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4138,7 +4138,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 60.198 91.44 90)
+			(at 60.198 113.03 90)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4148,7 +4148,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 91.44 0)
+			(at 58.42 113.03 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4158,7 +4158,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 91.44 0)
+			(at 58.42 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4254,16 +4254,15 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC14")
-		(at 140.97 99.06 0)
+		(at 82.55 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6f1ac379-8788-4fda-a385-8fb9a4dde981")
 		(property "Reference" "U8"
-			(at 140.97 90.17 0)
+			(at 82.55 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4271,7 +4270,7 @@
 			)
 		)
 		(property "Value" "74HC14"
-			(at 140.97 92.71 0)
+			(at 82.55 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4279,7 +4278,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 140.97 99.06 0)
+			(at 82.55 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4288,7 +4287,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
-			(at 140.97 99.06 0)
+			(at 82.55 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4297,7 +4296,7 @@
 			)
 		)
 		(property "Description" "Hex inverter schmitt trigger"
-			(at 140.97 99.06 0)
+			(at 82.55 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4358,7 +4357,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 118.11 142.24 0)
+		(at 58.42 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4366,7 +4365,7 @@
 		(dnp no)
 		(uuid "702515d9-ade6-4c17-be52-7c5cc9e021a0")
 		(property "Reference" "#PWR0138"
-			(at 118.11 146.05 0)
+			(at 58.42 135.89 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4376,7 +4375,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 119.38 140.97 0)
+			(at 59.69 130.81 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4386,7 +4385,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 142.24 0)
+			(at 58.42 132.08 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4396,7 +4395,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 142.24 0)
+			(at 58.42 132.08 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4406,7 +4405,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 118.11 142.24 0)
+			(at 58.42 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4428,7 +4427,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 107.95 125.73 0)
+		(at 113.03 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4436,7 +4435,7 @@
 		(dnp no)
 		(uuid "713bf640-0299-4093-a536-b50e35851bdb")
 		(property "Reference" "SW6"
-			(at 107.95 121.285 0)
+			(at 113.03 139.065 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4445,7 +4444,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 107.95 121.92 0)
+			(at 113.03 139.7 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4455,7 +4454,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 107.95 120.65 0)
+			(at 113.03 138.43 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4465,7 +4464,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 120.65 0)
+			(at 113.03 138.43 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4475,7 +4474,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 107.95 125.73 0)
+			(at 113.03 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4500,7 +4499,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 63.5 99.06 270)
+		(at 63.5 120.65 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4508,7 +4507,7 @@
 		(dnp no)
 		(uuid "746f89f6-57f9-4bfb-aa45-87ad4df786bf")
 		(property "Reference" "R15"
-			(at 63.5 95.25 90)
+			(at 63.5 116.84 90)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4517,7 +4516,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 63.5 97.155 90)
+			(at 63.5 118.745 90)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4526,7 +4525,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 63.5 97.282 90)
+			(at 63.5 118.872 90)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4536,7 +4535,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 99.06 0)
+			(at 63.5 120.65 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4546,7 +4545,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 63.5 99.06 0)
+			(at 63.5 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4636,7 +4635,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 43.18 99.06 0)
+		(at 43.18 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4644,7 +4643,7 @@
 		(dnp no)
 		(uuid "812216e0-aab8-4d63-90b1-66a57f7fd706")
 		(property "Reference" "#PWR0143"
-			(at 43.18 105.41 0)
+			(at 43.18 127 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4654,7 +4653,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 102.87 0)
+			(at 43.18 124.46 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4664,7 +4663,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 99.06 0)
+			(at 43.18 120.65 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4674,7 +4673,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 99.06 0)
+			(at 43.18 120.65 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4684,7 +4683,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 43.18 99.06 0)
+			(at 43.18 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4706,16 +4705,15 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC14")
-		(at 82.55 123.19 0)
+		(at 146.05 97.79 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "81c40d7e-540e-40fd-8331-4e2738d0fc25")
 		(property "Reference" "U8"
-			(at 82.55 114.3 0)
+			(at 146.05 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4723,7 +4721,7 @@
 			)
 		)
 		(property "Value" "74HC14"
-			(at 82.55 116.84 0)
+			(at 146.05 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4731,7 +4729,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 82.55 123.19 0)
+			(at 146.05 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4740,7 +4738,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
-			(at 82.55 123.19 0)
+			(at 146.05 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4749,7 +4747,7 @@
 			)
 		)
 		(property "Description" "Hex inverter schmitt trigger"
-			(at 82.55 123.19 0)
+			(at 146.05 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4810,7 +4808,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 49.53 99.06 0)
+		(at 49.53 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4818,7 +4816,7 @@
 		(dnp no)
 		(uuid "8301286b-6796-4a2a-a0c6-bd2921146e60")
 		(property "Reference" "SW2"
-			(at 49.53 94.615 0)
+			(at 49.53 116.205 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4827,7 +4825,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 49.53 95.25 0)
+			(at 49.53 116.84 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4837,7 +4835,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 49.53 93.98 0)
+			(at 49.53 115.57 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4847,7 +4845,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 93.98 0)
+			(at 49.53 115.57 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4857,7 +4855,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 99.06 0)
+			(at 49.53 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4882,7 +4880,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 109.22 153.67 0)
+		(at 49.53 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4890,7 +4888,7 @@
 		(dnp no)
 		(uuid "89a09c68-a9a0-433e-bbad-bf580a58963d")
 		(property "Reference" "SW7"
-			(at 109.22 149.225 0)
+			(at 49.53 139.065 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4899,7 +4897,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 109.22 149.86 0)
+			(at 49.53 139.7 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4909,7 +4907,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 109.22 148.59 0)
+			(at 49.53 138.43 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4919,7 +4917,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 148.59 0)
+			(at 49.53 138.43 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4929,7 +4927,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 153.67 0)
+			(at 49.53 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4954,7 +4952,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 63.5 146.05 270)
+		(at 127 120.65 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4962,7 +4960,7 @@
 		(dnp no)
 		(uuid "991fdc69-2085-4f96-95e4-712a8957cdd1")
 		(property "Reference" "R17"
-			(at 63.5 142.24 90)
+			(at 127 116.84 90)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4971,7 +4969,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 63.5 144.145 90)
+			(at 127 118.745 90)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4980,7 +4978,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 63.5 144.272 90)
+			(at 127 118.872 90)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4990,7 +4988,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 146.05 0)
+			(at 127 120.65 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -5000,7 +4998,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 63.5 146.05 0)
+			(at 127 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5090,7 +5088,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 129.54 102.87 0)
+		(at 71.12 101.6 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5099,7 +5097,7 @@
 		(dnp no)
 		(uuid "9c0a93f8-0990-4a44-beb8-890a9dd525bb")
 		(property "Reference" "C14"
-			(at 124.46 102.235 0)
+			(at 66.04 100.965 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -5109,7 +5107,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 122.555 104.14 0)
+			(at 64.135 102.87 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -5119,7 +5117,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 130.5052 99.06 0)
+			(at 72.0852 97.79 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -5129,7 +5127,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 129.54 102.87 0)
+			(at 71.12 101.6 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -5139,7 +5137,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.54 102.87 0)
+			(at 71.12 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5164,7 +5162,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 204.47 123.19 90)
+		(at 92.71 165.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5172,7 +5170,7 @@
 		(dnp no)
 		(uuid "9e69221d-dca9-4462-8584-ac9635239199")
 		(property "Reference" "#PWR0128"
-			(at 208.28 123.19 0)
+			(at 96.52 165.1 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -5182,7 +5180,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 201.295 123.19 90)
+			(at 89.535 165.1 90)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -5192,7 +5190,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 123.19 0)
+			(at 92.71 165.1 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -5202,7 +5200,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 123.19 0)
+			(at 92.71 165.1 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -5212,7 +5210,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 204.47 123.19 0)
+			(at 92.71 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5234,7 +5232,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 58.42 134.62 0)
+		(at 121.92 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5242,7 +5240,7 @@
 		(dnp no)
 		(uuid "ace17a87-ff30-47bc-b8c6-db7d78b8e8d3")
 		(property "Reference" "#PWR0132"
-			(at 58.42 138.43 0)
+			(at 121.92 113.03 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -5252,7 +5250,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 59.69 133.35 0)
+			(at 123.19 107.95 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -5262,7 +5260,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 134.62 0)
+			(at 121.92 109.22 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -5272,7 +5270,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 134.62 0)
+			(at 121.92 109.22 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -5282,7 +5280,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 134.62 0)
+			(at 121.92 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5304,7 +5302,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 71.12 149.86 0)
+		(at 134.62 124.46 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5313,7 +5311,7 @@
 		(dnp no)
 		(uuid "b13e25fd-28d6-437f-876c-52492d743d4d")
 		(property "Reference" "C12"
-			(at 66.04 149.225 0)
+			(at 129.54 123.825 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -5323,7 +5321,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 64.135 151.13 0)
+			(at 127.635 125.73 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -5333,7 +5331,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 72.0852 146.05 0)
+			(at 135.5852 120.65 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -5343,7 +5341,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 149.86 0)
+			(at 134.62 124.46 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -5353,7 +5351,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 71.12 149.86 0)
+			(at 134.62 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5378,7 +5376,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC14")
-		(at 142.24 153.67 0)
+		(at 82.55 143.51 0)
 		(unit 6)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5386,7 +5384,7 @@
 		(dnp no)
 		(uuid "b1aa3f90-41b8-443e-99f1-671026ee4494")
 		(property "Reference" "U8"
-			(at 142.24 146.685 0)
+			(at 82.55 136.525 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5394,7 +5392,7 @@
 			)
 		)
 		(property "Value" "74HC14"
-			(at 142.24 148.59 0)
+			(at 82.55 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5402,7 +5400,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 142.24 153.67 0)
+			(at 82.55 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5411,7 +5409,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
-			(at 142.24 153.67 0)
+			(at 82.55 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5420,7 +5418,7 @@
 			)
 		)
 		(property "Description" "Hex inverter schmitt trigger"
-			(at 142.24 153.67 0)
+			(at 82.55 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5481,7 +5479,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 116.84 118.11 180)
+		(at 121.92 135.89 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5489,7 +5487,7 @@
 		(dnp no)
 		(uuid "b1b553f4-fc1d-4384-bcd4-eae4ab64f2ff")
 		(property "Reference" "R20"
-			(at 120.015 116.84 0)
+			(at 125.095 134.62 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -5498,7 +5496,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 120.015 118.745 0)
+			(at 125.095 136.525 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -5507,7 +5505,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 118.618 118.11 90)
+			(at 123.698 135.89 90)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -5517,7 +5515,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 116.84 118.11 0)
+			(at 121.92 135.89 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -5527,7 +5525,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 116.84 118.11 0)
+			(at 121.92 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5552,7 +5550,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 231.14 123.19 0)
+		(at 119.38 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5560,7 +5558,7 @@
 		(dnp no)
 		(uuid "b865a02a-750a-4de6-9e4a-1e00f322293a")
 		(property "Reference" "#PWR0129"
-			(at 231.14 129.54 0)
+			(at 119.38 171.45 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -5570,7 +5568,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 231.14 127 0)
+			(at 119.38 168.91 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -5580,7 +5578,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 123.19 0)
+			(at 119.38 165.1 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -5590,7 +5588,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 123.19 0)
+			(at 119.38 165.1 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -5600,7 +5598,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 231.14 123.19 0)
+			(at 119.38 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5622,7 +5620,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 123.19 153.67 270)
+		(at 63.5 143.51 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5630,7 +5628,7 @@
 		(dnp no)
 		(uuid "bcbb73a4-2528-40de-9277-3eb4f38bc413")
 		(property "Reference" "R24"
-			(at 123.19 149.86 90)
+			(at 63.5 139.7 90)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -5639,7 +5637,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 123.19 151.765 90)
+			(at 63.5 141.605 90)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -5648,7 +5646,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 123.19 151.892 90)
+			(at 63.5 141.732 90)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -5658,7 +5656,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 153.67 0)
+			(at 63.5 143.51 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -5668,7 +5666,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 123.19 153.67 0)
+			(at 63.5 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5693,7 +5691,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 58.42 115.57 180)
+		(at 121.92 90.17 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5701,7 +5699,7 @@
 		(dnp no)
 		(uuid "be50b55a-5e0b-49f1-b620-7d9a2c383fba")
 		(property "Reference" "R13"
-			(at 61.595 114.3 0)
+			(at 125.095 88.9 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -5710,7 +5708,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 61.595 116.205 0)
+			(at 125.095 90.805 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -5719,7 +5717,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 60.198 115.57 90)
+			(at 123.698 90.17 90)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -5729,7 +5727,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 115.57 0)
+			(at 121.92 90.17 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -5739,7 +5737,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 115.57 0)
+			(at 121.92 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5836,7 +5834,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 121.92 99.06 270)
+		(at 63.5 97.79 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5844,7 +5842,7 @@
 		(dnp no)
 		(uuid "c6b8884e-2849-4083-9481-b5e9ca569c0f")
 		(property "Reference" "R22"
-			(at 121.92 95.25 90)
+			(at 63.5 93.98 90)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -5853,7 +5851,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 121.92 97.155 90)
+			(at 63.5 95.885 90)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -5862,7 +5860,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 121.92 97.282 90)
+			(at 63.5 96.012 90)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -5872,7 +5870,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 99.06 0)
+			(at 63.5 97.79 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -5882,7 +5880,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 121.92 99.06 0)
+			(at 63.5 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5907,7 +5905,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 58.42 138.43 180)
+		(at 121.92 113.03 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5915,7 +5913,7 @@
 		(dnp no)
 		(uuid "cd442616-64e7-460d-94b9-af11707852a8")
 		(property "Reference" "R14"
-			(at 61.595 137.16 0)
+			(at 125.095 111.76 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -5924,7 +5922,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 61.595 139.065 0)
+			(at 125.095 113.665 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -5933,7 +5931,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 60.198 138.43 90)
+			(at 123.698 113.03 90)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -5943,7 +5941,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 138.43 0)
+			(at 121.92 113.03 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -5953,7 +5951,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 138.43 0)
+			(at 121.92 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5978,7 +5976,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC14")
-		(at 217.17 123.19 90)
+		(at 105.41 165.1 90)
 		(unit 7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5986,7 +5984,7 @@
 		(dnp no)
 		(uuid "cd7020d1-2ddc-4a2a-984f-3e599ee28fed")
 		(property "Reference" "U8"
-			(at 217.17 114.3 90)
+			(at 105.41 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5994,7 +5992,7 @@
 			)
 		)
 		(property "Value" "74HC14"
-			(at 217.17 116.84 90)
+			(at 105.41 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6002,7 +6000,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 217.17 123.19 0)
+			(at 105.41 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6011,7 +6009,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
-			(at 217.17 123.19 0)
+			(at 105.41 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6020,7 +6018,7 @@
 			)
 		)
 		(property "Description" "Hex inverter schmitt trigger"
-			(at 217.17 123.19 0)
+			(at 105.41 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6081,7 +6079,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 101.6 125.73 0)
+		(at 106.68 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6089,7 +6087,7 @@
 		(dnp no)
 		(uuid "d22571ea-7a29-4ad0-932a-5a6cd529b7fa")
 		(property "Reference" "#PWR0144"
-			(at 101.6 132.08 0)
+			(at 106.68 149.86 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -6099,7 +6097,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 101.6 129.54 0)
+			(at 106.68 147.32 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -6109,7 +6107,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 125.73 0)
+			(at 106.68 143.51 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -6119,7 +6117,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 125.73 0)
+			(at 106.68 143.51 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -6129,7 +6127,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 101.6 125.73 0)
+			(at 106.68 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6151,7 +6149,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 71.12 153.67 0)
+		(at 134.62 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6159,7 +6157,7 @@
 		(dnp no)
 		(uuid "d860267f-c5cd-4647-ba25-a891c53ce346")
 		(property "Reference" "#PWR0134"
-			(at 71.12 160.02 0)
+			(at 134.62 134.62 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -6169,7 +6167,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 71.12 157.48 0)
+			(at 134.62 132.08 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -6179,7 +6177,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 153.67 0)
+			(at 134.62 128.27 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -6189,7 +6187,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 153.67 0)
+			(at 134.62 128.27 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -6199,7 +6197,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 71.12 153.67 0)
+			(at 134.62 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6221,7 +6219,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 58.42 111.76 0)
+		(at 121.92 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6229,7 +6227,7 @@
 		(dnp no)
 		(uuid "d8cbd268-baef-4310-8a09-26118aad4056")
 		(property "Reference" "#PWR0146"
-			(at 58.42 115.57 0)
+			(at 121.92 90.17 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -6239,7 +6237,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 59.69 110.49 0)
+			(at 123.19 85.09 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -6249,7 +6247,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 111.76 0)
+			(at 121.92 86.36 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -6259,7 +6257,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 111.76 0)
+			(at 121.92 86.36 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -6269,7 +6267,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 111.76 0)
+			(at 121.92 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6291,7 +6289,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 63.5 123.19 270)
+		(at 127 97.79 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6299,7 +6297,7 @@
 		(dnp no)
 		(uuid "db0eb9c1-5edc-43ca-a30b-2ade5fb70ae9")
 		(property "Reference" "R16"
-			(at 63.5 119.38 90)
+			(at 127 93.98 90)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -6308,7 +6306,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 63.5 121.285 90)
+			(at 127 95.885 90)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -6317,7 +6315,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 63.5 121.412 90)
+			(at 127 96.012 90)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -6327,7 +6325,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 123.19 0)
+			(at 127 97.79 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -6337,7 +6335,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 63.5 123.19 0)
+			(at 127 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6500,7 +6498,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 129.54 133.35 0)
+		(at 134.62 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6508,7 +6506,7 @@
 		(dnp no)
 		(uuid "e0a84613-0f39-42d4-b6c7-a29d681eb794")
 		(property "Reference" "#PWR0137"
-			(at 129.54 139.7 0)
+			(at 134.62 157.48 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -6518,7 +6516,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 129.54 137.16 0)
+			(at 134.62 154.94 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -6528,7 +6526,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 133.35 0)
+			(at 134.62 151.13 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -6538,7 +6536,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 133.35 0)
+			(at 134.62 151.13 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -6548,7 +6546,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.54 133.35 0)
+			(at 134.62 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6570,7 +6568,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 129.54 106.68 0)
+		(at 71.12 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6578,7 +6576,7 @@
 		(dnp no)
 		(uuid "e0f06163-e98f-48d9-bc92-9606c3c68fb7")
 		(property "Reference" "#PWR0139"
-			(at 129.54 113.03 0)
+			(at 71.12 111.76 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -6588,7 +6586,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 129.54 110.49 0)
+			(at 71.12 109.22 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -6598,7 +6596,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 106.68 0)
+			(at 71.12 105.41 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -6608,7 +6606,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 106.68 0)
+			(at 71.12 105.41 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -6618,7 +6616,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.54 106.68 0)
+			(at 71.12 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6705,7 +6703,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 43.18 146.05 0)
+		(at 106.68 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6713,7 +6711,7 @@
 		(dnp no)
 		(uuid "e2df3fa8-8409-41a6-bbd9-45d05937bf02")
 		(property "Reference" "#PWR0133"
-			(at 43.18 152.4 0)
+			(at 106.68 127 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -6723,7 +6721,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 149.86 0)
+			(at 106.68 124.46 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -6733,7 +6731,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 146.05 0)
+			(at 106.68 120.65 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -6743,7 +6741,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 146.05 0)
+			(at 106.68 120.65 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -6753,7 +6751,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 43.18 146.05 0)
+			(at 106.68 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6848,7 +6846,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 49.53 123.19 0)
+		(at 113.03 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6856,7 +6854,7 @@
 		(dnp no)
 		(uuid "e6e295d3-e2fa-49c7-972e-9cf30eaf70c6")
 		(property "Reference" "SW3"
-			(at 49.53 118.745 0)
+			(at 113.03 93.345 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -6865,7 +6863,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 49.53 119.38 0)
+			(at 113.03 93.98 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -6875,7 +6873,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 49.53 118.11 0)
+			(at 113.03 92.71 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -6885,7 +6883,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 118.11 0)
+			(at 113.03 92.71 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -6895,7 +6893,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 123.19 0)
+			(at 113.03 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6920,7 +6918,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 121.92 125.73 270)
+		(at 127 143.51 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6928,7 +6926,7 @@
 		(dnp no)
 		(uuid "eb858d15-d5b6-445e-886e-5a8c64b5db2e")
 		(property "Reference" "R23"
-			(at 121.92 121.92 90)
+			(at 127 139.7 90)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -6937,7 +6935,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 121.92 123.825 90)
+			(at 127 141.605 90)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -6946,7 +6944,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 121.92 123.952 90)
+			(at 127 141.732 90)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -6956,7 +6954,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 125.73 0)
+			(at 127 143.51 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -6966,7 +6964,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 121.92 125.73 0)
+			(at 127 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6991,16 +6989,15 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC14")
-		(at 82.55 99.06 0)
+		(at 82.55 120.65 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f59eab5c-9217-44a3-aabc-9e907579cd7e")
 		(property "Reference" "U8"
-			(at 82.55 90.17 0)
+			(at 82.55 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7008,7 +7005,7 @@
 			)
 		)
 		(property "Value" "74HC14"
-			(at 82.55 92.71 0)
+			(at 82.55 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7016,7 +7013,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 82.55 99.06 0)
+			(at 82.55 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7025,7 +7022,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
-			(at 82.55 99.06 0)
+			(at 82.55 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7034,7 +7031,7 @@
 			)
 		)
 		(property "Description" "Hex inverter schmitt trigger"
-			(at 82.55 99.06 0)
+			(at 82.55 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7095,7 +7092,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 130.81 161.29 0)
+		(at 71.12 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7103,7 +7100,7 @@
 		(dnp no)
 		(uuid "f60ec6ed-72ec-4a0e-b5c8-40cbe727fdda")
 		(property "Reference" "#PWR0148"
-			(at 130.81 167.64 0)
+			(at 71.12 157.48 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -7113,7 +7110,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 165.1 0)
+			(at 71.12 154.94 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -7123,7 +7120,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 161.29 0)
+			(at 71.12 151.13 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -7133,7 +7130,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 161.29 0)
+			(at 71.12 151.13 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -7143,7 +7140,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.81 161.29 0)
+			(at 71.12 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7239,7 +7236,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 129.54 129.54 0)
+		(at 134.62 147.32 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7248,7 +7245,7 @@
 		(dnp no)
 		(uuid "fa0fd8cd-abae-4bd6-b790-1aaec8f016c3")
 		(property "Reference" "C15"
-			(at 124.46 128.905 0)
+			(at 129.54 146.685 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -7258,7 +7255,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 122.555 130.81 0)
+			(at 127.635 148.59 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -7268,7 +7265,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 130.5052 125.73 0)
+			(at 135.5852 143.51 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -7278,7 +7275,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 129.54 129.54 0)
+			(at 134.62 147.32 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -7288,7 +7285,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.54 129.54 0)
+			(at 134.62 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
