@@ -6,9 +6,11 @@
 
 #include <Arduino.h>
 
+// PINS
 #define SPI_CS	 17
 #define SPI_CLK	 18
 #define SPI_MOSI 16
+
 #define NS		 0.000001
 
 struct max7219Registers {
@@ -43,7 +45,8 @@ void spiSend(uint8_t reg, uint8_t val) {
 	for(uint8_t i = 0; i < 8; i++) {
 		digitalWrite(SPI_CLK, 1);
 		delay(100 * NS);
-		digitalWrite(SPI_MOSI, (reg >> (7 - i)) & 1);
+		//digitalWrite(SPI_MOSI, (reg >> (7 - i)) & 1);	// HS bit first LS bit last.
+		digitalWrite(SPI_MOSI, (reg >> i) & 1);	// LS bit first HS bit last.
 		delay(100 * NS);
 		digitalWrite(SPI_CLK, 0);
 		delay(100 * NS);
@@ -52,7 +55,8 @@ void spiSend(uint8_t reg, uint8_t val) {
 	for(uint8_t i = 0; i < 8; i++) {
 		digitalWrite(SPI_CLK, 1);
 		delay(100 * NS);
-		digitalWrite(SPI_MOSI, (val >> (7 - i)) & 1);
+		//digitalWrite(SPI_MOSI, (val >> (7 - i)) & 1);	// HS bit first LS bit last.
+		digitalWrite(SPI_MOSI, (val >> i) & 1);	// LS bit first HS bit last.
 		delay(100 * NS);
 		digitalWrite(SPI_CLK, 0);
 		delay(100 * NS);
@@ -71,9 +75,25 @@ void setup() {
 	spiSend(maxRegisters.scanLimit, 7); // Activeate all digits.
 	spiSend(maxRegisters.intensity, 0xF); // Intensity to max.
 
- // -------------------------------pABCDEFG
-	spiSend(0xD, 1); // Intensity to max.
+/**
+ *  -A-
+ * |   |
+ * F   B
+ *  -G-
+ * E   C
+ * |   |
+ *  -D-  (p)
+ */
+ //--------------------------------pABCDEFG
+	spiSend(maxRegisters.digit0, 0b01001110);
+	spiSend(maxRegisters.digit1, 0b01111111);
+	spiSend(maxRegisters.digit2, 0b01110111);
+
+	spiSend(maxRegisters.digit5, 0b01110110);
+	spiSend(maxRegisters.digit6, 0b01110000);
+	spiSend(maxRegisters.digit7, 0b00110000);
 }
 
 void loop() {
+	delay(1000);
 }
