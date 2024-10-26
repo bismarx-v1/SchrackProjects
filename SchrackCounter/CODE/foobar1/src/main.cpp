@@ -39,12 +39,12 @@ void spiSetup() {
 	digitalWrite(SPI_MOSI, 0);
 }
 
-#define LSBFIRST 1
+#define LSBFIRST1 1
 void shiftOut(uint8_t dataPin, uint8_t clockPin, uint8_t bitOrder, uint8_t val) {
 	uint8_t i;
 
 	for(i = 0; i < 8; i++) {
-		if(bitOrder == LSBFIRST) {
+		if(bitOrder == LSBFIRST1) {
 			digitalWrite(dataPin, !!(val & (1 << i)));
 		} else {
 			digitalWrite(dataPin, !!(val & (1 << (7 - i))));
@@ -56,8 +56,8 @@ void shiftOut(uint8_t dataPin, uint8_t clockPin, uint8_t bitOrder, uint8_t val) 
 }
 
 void spiSend(uint8_t reg, uint8_t val) {
-	shiftOut(SPI_MOSI, SPI_CLK, LSBFIRST, reg);
-	shiftOut(SPI_MOSI, SPI_CLK, LSBFIRST, val);
+	shiftOut(SPI_MOSI, SPI_CLK, LSBFIRST1, reg);
+	shiftOut(SPI_MOSI, SPI_CLK, LSBFIRST1, val);
 }
 
 /*
