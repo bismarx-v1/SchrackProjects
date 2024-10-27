@@ -3989,7 +3989,7 @@
 		(dnp no)
 		(uuid "0c4f8431-ca5f-49c0-ab28-3025e69359c4")
 		(property "Reference" "BZ1"
-			(at 137.16 117.475 90)
+			(at 137.795 117.475 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3998,7 +3998,7 @@
 			)
 		)
 		(property "Value" "Buzzer"
-			(at 140.0175 119.6976 90)
+			(at 140.335 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4757,7 +4757,7 @@
 		(dnp no)
 		(uuid "51ac71b9-e767-4490-b685-c38517ef87c9")
 		(property "Reference" "R10"
-			(at 173.99 72.39 90)
+			(at 173.99 73.025 90)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -4913,7 +4913,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sumec_brd:USB_Type_C"
+		(property "Footprint" "sumec_brd:HRO_TYPE-C-31-M-12"
 			(at 146.05 62.23 0)
 			(effects
 				(font
@@ -5269,7 +5269,7 @@
 		(dnp no)
 		(uuid "78f233d8-54a8-4f94-8182-bbf4c50ac2e6")
 		(property "Reference" "R9"
-			(at 173.99 46.99 90)
+			(at 173.99 47.625 90)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -5279,7 +5279,7 @@
 			)
 		)
 		(property "Value" "15R"
-			(at 173.99 52.07 90)
+			(at 173.99 51.435 90)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -6195,7 +6195,7 @@
 		(dnp no)
 		(uuid "c6ee28e9-3d9b-49bd-b4ab-5a9a3626caae")
 		(property "Reference" "C10"
-			(at 227.33 66.04 0)
+			(at 226.06 65.405 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -6205,7 +6205,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 227.33 68.58 0)
+			(at 226.06 67.31 0)
 			(effects
 				(font
 					(face "Bahnschrift")

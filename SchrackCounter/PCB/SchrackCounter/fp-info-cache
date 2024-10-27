@@ -1,4 +1,4 @@
-23676510515728131
+23697635599975071
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -89012,6 +89012,13 @@ MODULE_ESP32_DEVKIT_V1-NoPads-NoCopper
 30
 30
 Schrack_brd
+RJ45_Amphenol_54602-x08_Horizontal
+8 Pol Shallow Latch Connector, Modjack, RJ45 (https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/c-bmj-0102.pdf)
+RJ45
+0
+8
+8
+Schrack_brd
 SHIFT_REGISTER
 
 
@@ -96775,6 +96782,13 @@ AA battery cell holder
 2
 2
 sumec_brd
+Custom_SPDT_2.5_Switch
+Through hole straight pin header, 1x03, 2.54mm pitch, single row
+Through hole pin header THT 1x03 2.54mm single row
+0
+3
+3
+sumec_brd
 Custom_SPDT_4.7mm_Switch
 Through hole straight pin header, 1x03, 2.54mm pitch, single row
 Through hole pin header THT 1x03 2.54mm single row
@@ -96796,12 +96810,26 @@ Integrated Circuit
 17
 17
 sumec_brd
+HRO_TYPE-C-31-M-12
+
+
+0
+16
+16
+sumec_brd
 MODULE_ESP32-WROOM-32D
 
 
 0
 59
 59
+sumec_brd
+OS102011MS2QS1
+<b>OS102011MS2QS1-2</b><br>
+
+0
+5
+5
 sumec_brd
 OSCILATOR_CRYSTAL_4PIN_SMD
 ABM8G
@@ -96831,6 +96859,13 @@ Resistor Network (16-Pin)
 16
 16
 sumec_brd
+SW_SPST_EVQPE1
+Light Touch Switch, https://industrial.panasonic.com/cdbs/www-data/pdf/ATK0000/ATK0000CE7.pdf
+
+0
+2
+2
+sumec_brd
 TB6612FNG
 
 
@@ -96838,19 +96873,12 @@ TB6612FNG
 24
 24
 sumec_brd
-TSOP
-Through hole straight socket strip, 1x03, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
-Through hole socket strip THT 1x03 2.54mm single row
+Vishay_TSOP382
+IR Receiver Vishay TSOP-xxxx, MINICAST package, see https://www.vishay.com/docs/82669/tsop32s40f.pdf
+IR Receiver Vishay TSOP-xxxx MINICAST
 0
 3
 3
-sumec_brd
-USB_Type_C
-
-
-0
-16
-16
 sumec_brd
 XT30PW-M
 
@@ -96880,6 +96908,34 @@ DOOM_SIGIL_IMG
 0
 0
 sumec_graphic
+FLO_FRONT_C_IMG
+
+
+0
+0
+0
+sumec_graphic
+FLO_POINTING_IMG
+
+
+0
+0
+0
+sumec_graphic
+FLO_SLEEP_IMG
+
+
+0
+0
+0
+sumec_graphic
+FLO_SURPRISED_IMG
+
+
+0
+0
+0
+sumec_graphic
 FREEFALL_IMG
 
 
@@ -96901,7 +96957,35 @@ JOJO_SYMBOL_IMG
 0
 0
 sumec_graphic
+LIVE_NAT_REACTION_IMG
+
+
+0
+0
+0
+sumec_graphic
+LIVE_NAT_REACTION_NEG
+
+
+0
+0
+0
+sumec_graphic
 ME_FR_IMG
+
+
+0
+0
+0
+sumec_graphic
+NATI_PICME_IMG
+
+
+0
+0
+0
+sumec_graphic
+NAT_PFP_IMG
 
 
 0
