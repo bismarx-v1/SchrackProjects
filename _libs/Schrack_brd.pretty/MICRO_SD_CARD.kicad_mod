@@ -678,34 +678,6 @@
 		(solder_mask_margin 0.102)
 		(uuid "6455bee4-998c-44a6-88e0-1d1bd8bf0723")
 	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layer "F.Cu")
-		(uuid "a3f57d07-d56b-480f-9f99-efb7ad573e0d")
-		(hatch full 0.508)
-		(connect_pads
-			(clearance 0)
-		)
-		(min_thickness 0.01)
-		(filled_areas_thickness no)
-		(keepout
-			(tracks not_allowed)
-			(vias not_allowed)
-			(pads not_allowed)
-			(copperpour not_allowed)
-			(footprints allowed)
-		)
-		(fill
-			(thermal_gap 0.508)
-			(thermal_bridge_width 0.508)
-		)
-		(polygon
-			(pts
-				(xy -5.1547 -5.825) (xy 3.85 -5.825) (xy 3.85 -3.02776) (xy -5.1547 -3.02776)
-			)
-		)
-	)
 	(model "C:/Users/MenMe/GitHub/SchrackProjects/_libs/Schrack_3d/MEM2067-02-180-00-A_REVB.step"
 		(offset
 			(xyz 0 0 0)
