@@ -1537,7 +1537,7 @@
 	)
 	(text "Texas Instruments \nLDO Voltage Regulator\n\nLM1084IS-3.3/NOPB 3.3V\n\nUsing TO-263-3 footprint"
 		(exclude_from_sim no)
-		(at 77.47 32.385 0)
+		(at 34.925 67.31 0)
 		(effects
 			(font
 				(face "Bahnschrift")

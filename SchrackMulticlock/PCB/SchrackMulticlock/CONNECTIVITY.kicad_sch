@@ -4952,7 +4952,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+		(property "Footprint" "sumec_brd:HRO_TYPE-C-31-M-12"
 			(at 146.05 62.23 0)
 			(effects
 				(font
