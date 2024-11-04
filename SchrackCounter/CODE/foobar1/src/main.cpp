@@ -7,9 +7,9 @@
 #include <Arduino.h>
 
 // PINS
-#define SPI_CS	 17
-#define SPI_CLK	 18
-#define SPI_MOSI 16
+#define SPI_CS	 5
+#define SPI_CLK	 6
+#define SPI_MOSI 7
 
 #define NS 0.000001
 
@@ -40,6 +40,7 @@ void spiSetup() {
 }
 
 #define LSBFIRST1 1
+#define MSBFIRST1 0
 void shiftOut(uint8_t dataPin, uint8_t clockPin, uint8_t bitOrder, uint8_t val) {
 	uint8_t i;
 
@@ -56,8 +57,8 @@ void shiftOut(uint8_t dataPin, uint8_t clockPin, uint8_t bitOrder, uint8_t val) 
 }
 
 void spiSend(uint8_t reg, uint8_t val) {
-	shiftOut(SPI_MOSI, SPI_CLK, LSBFIRST1, reg);
-	shiftOut(SPI_MOSI, SPI_CLK, LSBFIRST1, val);
+	shiftOut(SPI_MOSI, SPI_CLK, MSBFIRST1, reg);
+	shiftOut(SPI_MOSI, SPI_CLK, MSBFIRST1, val);
 }
 
 /*

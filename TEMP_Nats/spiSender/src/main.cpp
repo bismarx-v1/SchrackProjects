@@ -1,8 +1,8 @@
 #include <Arduino.h>
 
-#define MOSI 27
-#define CLK	 26
-#define CS	 25
+#define MOSI 7
+#define CLK	 6
+#define CS	 5
 
 void setup() {
 	pinMode(MOSI, OUTPUT);
@@ -23,8 +23,8 @@ void loop() {
 		Serial.println(val, HEX);
 
 		digitalWrite(CS, 0);
-		shiftOut(MOSI, CLK, LSBFIRST, reg);
-		shiftOut(MOSI, CLK, LSBFIRST, val);
+		shiftOut(MOSI, CLK, MSBFIRST, reg);
+		shiftOut(MOSI, CLK, MSBFIRST, val);
 		digitalWrite(CS, 1);
 	}
 }
