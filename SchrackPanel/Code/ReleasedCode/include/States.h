@@ -176,7 +176,7 @@ void StatesLoop() {
 			}
 
 			break;
-		/*
+		
 		case 93:	// State "[Game name]"	// No game exists yet
 			if(Button1CheckedFlag == 1) {
 				Button1CheckedFlag = 0;
@@ -196,7 +196,7 @@ void StatesLoop() {
 			}
 
 			break;
-		*/
+		
 		case 100:	// State "Text cycle"
 			if(Button1CheckedFlag == 1) {
 				Button1CheckedFlag = 0;

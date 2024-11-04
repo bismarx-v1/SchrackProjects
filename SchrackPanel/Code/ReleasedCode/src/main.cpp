@@ -33,7 +33,7 @@
 // C     H   H E     C     K  K      O   O U   U   T   P     U   U   T  
 //  CCCC H   H EEEEE  CCCC K   K      OOO   UUU    T   P      UUU    T  
 
-#define OUTPUT_IS_HARDWARE 0	// Switches between printing to panel or serial console @ 230400 b/s
+#define OUTPUT_IS_HARDWARE 1	// Switches between printing to panel or serial console @ 230400 b/s
 
 #include <Arduino.h>
 #include "PinsAndConsts.h"

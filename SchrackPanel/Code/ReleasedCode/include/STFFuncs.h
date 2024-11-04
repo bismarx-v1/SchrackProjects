@@ -140,33 +140,80 @@ void CycleTextsReset(const String* TextsArray, String* Text) {
  * @param TextsArrayLength Length of the array
  * @param TextChangePeriod Array with times how long should each text stay
 */
-void CycleTexts(const String* TextsArray, uint8_t TextsArrayLength, const uint16_t* TextChangePeriod, uint8_t* IndexInTextArray, uint32_t* TextChangedLast, uint16_t* CycleTextsOffset, String* Text, uint8_t cTLOverride) {
-	if(cTLOverride != 1) {	// DEBUG/TODO	
-		//Serial.print(Text[0]); Serial.print("; "); Serial.print(IndexInTextArray[0]);  Serial.print("; "); Serial.print(CycleTextsOffset[0]); Serial.print("; "); Serial.print((TextsArray[IndexInTextArray[0]].length()+2)*6); Serial.print("; "); Serial.print(TextChangedLast[0]+TextChangePeriod[IndexInTextArray[0]]); Serial.print("; "); Serial.println(millis());	// Debug print
-		GraphicsLoop(Frame, 3, 0, Text[0], CycleTextsOffset[0]);
-		CurrentText = "       ";
+void CycleTexts(const String* TextsArray, uint8_t TextsArrayLength, const uint16_t* TextChangePeriod, uint8_t* IndexInTextArray, uint32_t* TextChangedLast, uint16_t* CycleTextsOffset, String* Text) {
+	//Serial.print(Text[0]); Serial.print("; "); Serial.print(IndexInTextArray[0]);  Serial.print("; "); Serial.print(CycleTextsOffset[0]); Serial.print("; "); Serial.print((TextsArray[IndexInTextArray[0]].length()+2)*6); Serial.print("; "); Serial.print(TextChangedLast[0]+TextChangePeriod[IndexInTextArray[0]]); Serial.print("; "); Serial.println(millis());	// Debug print
+	GraphicsLoop(Frame, 3, 0, Text[0], CycleTextsOffset[0]);
+	CurrentText = "       ";
 
-		if(TextChangedLast[0]+TextChangePeriod[IndexInTextArray[0]] < millis()) {
-			TextChangedLast[0] = millis();
-			CycleTextsOffset[0] = 0;
+	if(TextChangedLast[0]+TextChangePeriod[IndexInTextArray[0]] < millis()) {
+		TextChangedLast[0] = millis();
+		CycleTextsOffset[0] = 0;
 
-			if(IndexInTextArray[0]+1 >= TextsArrayLength) {
-				IndexInTextArray[0] = 0;
-			} else {
-				IndexInTextArray[0]++;
-			}
-
-			Text[0] = SetText(TextsArray, IndexInTextArray[0]);
-
+		if(IndexInTextArray[0]+1 >= TextsArrayLength) {
+			IndexInTextArray[0] = 0;
 		} else {
-			if(CycleTextsOffset[0]+1 >= (TextsArray[IndexInTextArray[0]].length()+2)*6) {
-				CycleTextsOffset[0] = 0;
-			} else {
-				CycleTextsOffset[0]++;
-			}
+			IndexInTextArray[0]++;
 		}
-	} else {
 
+		Text[0] = SetText(TextsArray, IndexInTextArray[0]);
+
+	} else {
+		if(CycleTextsOffset[0]+1 >= (TextsArray[IndexInTextArray[0]].length()+2)*6) {
+			CycleTextsOffset[0] = 0;
+		} else {
+			CycleTextsOffset[0]++;
+		}
+	}
+}
+
+uint16_t cT2Offset = 0;
+uint8_t cT2ChangeTextFlag = 0;
+uint8_t cT2TextIndex = 0;
+uint8_t cT2TextIndex2 = 0;
+String cT2Text = "";
+String cT2Text2 = "";
+
+void CycleTexts2Reset(const String* TextArray, const uint8_t TextArrayLength) {
+	if(TextArrayLength <= 1) {
+		return;
+	}
+
+	cT2Offset = 0;
+	cT2ChangeTextFlag = 0;
+	cT2TextIndex = 0;
+	cT2TextIndex2 = 1;
+	cT2Text = TextArray[cT2TextIndex];
+	cT2Text2 = TextArray[cT2TextIndex2];
+}
+
+void CycleTexts2(const String* TextArray, const uint8_t TextArrayLength) {
+	if(cT2ChangeTextFlag == 1) {
+		cT2ChangeTextFlag = 0;
+		if(cT2TextIndex2+1 >= TextArrayLength) {
+			cT2TextIndex2 = 0;
+		} else {
+			cT2TextIndex2++;
+		}
+	}
+
+	cT2Text = TextArray[cT2TextIndex];
+	cT2Text2 = TextArray[cT2TextIndex2];
+
+	GraphicsLoop(Frame, 3, 0, cT2Text + ". " + cT2Text2, cT2Offset);
+
+	if(cT2Offset >= (cT2Text.length()+2)*6-1) {
+		cT2Offset = 0;
+		cT2ChangeTextFlag = 1;
+	} else {
+		cT2Offset++;
+	}
+
+	if(cT2ChangeTextFlag == 1) {
+		if(cT2TextIndex+1 >= TextArrayLength) {
+			cT2TextIndex = 0;
+		} else {
+			cT2TextIndex++;
+		}
 	}
 }
 

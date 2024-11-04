@@ -126,7 +126,7 @@ void StateToFrameLoop() {
 			CycleTextsReset(CreditText, &Text);
 		}
 
-		CycleTexts(CreditText, CreditTextLength, CreditTextPeriod, &CycleTextsIndexInTextArray, &CycleTextsLast, &CycleTextsOffset, &Text, 0);
+		CycleTexts(CreditText, CreditTextLength, CreditTextPeriod, &CycleTextsIndexInTextArray, &CycleTextsLast, &CycleTextsOffset, &Text);
 
 		break;
 
@@ -139,16 +139,20 @@ void StateToFrameLoop() {
 			CycleTextsReset(DevText, &Text);
 		}
 
-		CycleTexts(DevText, DevTextLength, DevTextPeriod, &CycleTextsIndexInTextArray, &CycleTextsLast, &CycleTextsOffset, &Text, 0);
+		CycleTexts(DevText, DevTextLength, DevTextPeriod, &CycleTextsIndexInTextArray, &CycleTextsLast, &CycleTextsOffset, &Text);
 
 		break;
 
-	/*case 93:	// State "[Game name]"	// not yet added
+	case 93:	// State "[Game name]"	// not yet added
 		if(State != StateLast) {
 			StateLast = State;
+			
 		}
 
-		break;*/
+
+
+
+		break;
 	
 	case 100:	// State "Text cycle"
 		if(State != StateLast) {
@@ -156,10 +160,12 @@ void StateToFrameLoop() {
 			CycleTextsIndexInTextArray = 0;		// Reset; from STFF
 			CycleTextsOffset = 0;		// Reset; from STFF
 			CycleTextsLast = millis();	// Reset; from STFF
-			CycleTextsReset(TextsToCycle, &Text);
+			CycleTexts2Reset(TextsToCycle, TextsToCycleLength);	// DEBUG/TEST
+			//CycleTextsReset(TextsToCycle, &Text);		// DEBUG/Backup plan
 		}
 
-		CycleTexts(TextsToCycle, TextsToCycleLength, CycleTextChangePeriod, &CycleTextsIndexInTextArray, &CycleTextsLast, &CycleTextsOffset, &Text, 0);	// DEBUG/TODO
+		CycleTexts2(TextsToCycle, TextsToCycleLength);	// DEBUG/TEST
+		//CycleTexts(TextsToCycle, TextsToCycleLength, CycleTextChangePeriod, &CycleTextsIndexInTextArray, &CycleTextsLast, &CycleTextsOffset, &Text);		// DEBUG/Backup plan
 
 		break;
 	

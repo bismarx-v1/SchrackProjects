@@ -79,7 +79,7 @@ const uint8_t TimeColonChar[7] = {0, 1, 1, 0, 1, 1, 0};
 */
 #define TextsToCycleLength 5
 const String TextsToCycle[TextsToCycleLength]				= {"Schrack Technik",	"Get Ready, Get Schrack",	"Schrack for Students",	"ARODEM",	"MESIT Stredni Skola"};
-const uint16_t CycleTextChangePeriod[TextsToCycleLength]	= {30000,				30000,						30000,					30000,		30000};
+const uint16_t CycleTextChangePeriod[TextsToCycleLength]	= {10000,				10000,						10000,					10000,		10000};
 
 /**
  * Times for the "predefined time cycle" function
