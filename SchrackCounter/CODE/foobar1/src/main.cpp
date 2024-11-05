@@ -11,8 +11,6 @@
 #define SPI_CLK  6
 #define SPI_CS   5
 
-#define NS 0.000001
-
 struct max7219Registers {
   const uint8_t digit0     = 0x1;
   const uint8_t digit1     = 0x2;
@@ -46,39 +44,8 @@ void spiSend(uint8_t reg, uint8_t val) {
   digitalWrite(SPI_CS, 1);
 }
 
-/*
-void spiSend(uint8_t reg, uint8_t val) {
-	digitalWrite(SPI_CS, 0);
- // Data lines values are read on clock fallin edge.
-	for(uint8_t i = 0; i < 8; i++) {
-		digitalWrite(SPI_CLK, 1);
-		delay(100 * NS);
- // digitalWrite(SPI_MOSI, (reg >> (7 - i)) & 1);	// HS bit first LS bit last.
-		digitalWrite(SPI_MOSI, (reg >> i) & 1); // LS bit first HS bit last.
-		delay(100 * NS);
-		digitalWrite(SPI_CLK, 0);
-		delay(100 * NS);
-	}
-
-	for(uint8_t i = 0; i < 8; i++) {
-		digitalWrite(SPI_CLK, 1);
-		delay(100 * NS);
- // digitalWrite(SPI_MOSI, (val >> (7 - i)) & 1);	// HS bit first LS bit last.
-		digitalWrite(SPI_MOSI, (val >> i) & 1); // LS bit first HS bit last.
-		delay(100 * NS);
-		digitalWrite(SPI_CLK, 0);
-		delay(100 * NS);
-	}
-
-	digitalWrite(SPI_MOSI, 0);
-	digitalWrite(SPI_CS, 1);
-	delay(100 * NS);
-}
-*/
-
 void setup() {
   spiSetup();
-  delay(100 * NS);
   spiSend(maxRegisters.shutdown, 1);     // Exit shutdown.
   spiSend(maxRegisters.decodeMode, 0);   // Turn off decode.
   spiSend(maxRegisters.scanLimit, 7);    // Activeate all digits.
