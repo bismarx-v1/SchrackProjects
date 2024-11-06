@@ -1,0 +1,116 @@
+schrack ctd & ctu	"schrack_minutka"
+- desc
+	- a portable timer and stopwatch
+
+- features
+	- 2 modes
+		- modes
+			- countdown
+			- countup
+
+		- selecting
+			- 2 state switch
+				- countup
+				- countdown
+
+	- bateries
+		- dunno how long should it last.
+		- 3 AA and buck converter
+
+	- display
+		- 7segment
+			- m:ss.ss format
+
+	- body should be a "csas box" from schrack
+
+- i/o
+	- power
+		- 2 state switch	(https://www.schrack.cz/eshop/rizeni-ovladani-a-regulace/ovladaci-a-signalizacni-pristroje/serie-mm-packove-a-otocne-spinace/serie-mm-ovladace-otocne/ovladaci-hlavice-prepinace-m22-wr-mm216855.html) or (https://www.schrack.cz/eshop/rizeni-ovladani-a-regulace/ovladaci-a-signalizacni-pristroje/serie-mm-kompletni-sety/serie-mm-ovladaci-a-signalizacni-pristroje/tlacitko-se-zamkem-aretace-40-mm900016.html?q=tlac)
+			- off
+			- on
+		
+	- mode	(https://www.schrack.cz/eshop/rizeni-ovladani-a-regulace/ovladaci-a-signalizacni-pristroje/serie-mm-packove-a-otocne-spinace/serie-mm-ovladace-otocne/ovladaci-hlava-otocna-2-polohy-i-o-s-aretaci-mm216857.html)
+		- 2 state switch
+			- countup
+			- countdown
+
+	- reset time
+		- button ?
+		- stops time resets back to 0
+
+	- start
+		- button ?
+		- starts the selected function
+
+	- +15s
+		- button ?
+		- add 15 seconds (if in ctd mode and stopped)
+
+	- +1min
+		- button ?
+		- add 1 minute (if in ctd mode and stopped)
+
+	- main display
+		- 7segment dislplay
+
+- size
+	- "about the size of a palm"
+
+- deadline
+	- prototype
+		- "říjen" (12024/10/01 ?)
+
+	- release
+		- "únor" (12025/02/01 ?)
+
+- # of units
+	- 6
+
+
+schrack ctu button	"schrack_cudlik"
+- desc
+	- a game designed to test durability of a lightswitch mechanism
+	- pressing(or releasing) the button starts a timer, resets the counter and adds 1 to it
+	- pressing the button will add 1 to the counter every time 
+	- when the timer ends the button will stop responding for a few seconds (15 seconds ?)
+
+- features
+	- lightswitch button should be able to be hot swapped
+	- bateries
+		- dunno how long should it last.
+
+	- 2 displays
+	- ctd time can be set ?
+	- count only the "on" signal edge
+	- body should be a "csas box" from schrack
+	- user friendly
+
+- i/o
+	- lightswitch button
+		- viso s55 cubic
+		- the main button
+
+	- power switch
+		- just a switch
+	
+	- 2 7segment displays
+		- time
+			- ss.ss
+
+		- counter
+			- 3 digits
+
+- size
+	- same as "schrack ctd & ctu"
+	- "about the size of a palm"
+
+- deadline
+	- same as "schrack ctd & ctu"
+	- prototype
+		- "říjen" (12024/10/01 ?)
+
+	- release
+		- "únor" (12025/02/01 ?)
+
+- # of units
+	- 1
