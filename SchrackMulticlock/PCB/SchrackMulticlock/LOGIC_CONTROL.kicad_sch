@@ -4070,7 +4070,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02780c2d-d911-44bf-9c3d-da6bd8992427")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR011"
 			(at 217.17 74.93 0)
 			(effects
 				(font
@@ -4121,7 +4121,7 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/50491303-1200-42ed-9e6c-90c20c198c18"
-					(reference "#PWR09")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -4283,7 +4283,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4992ad79-79b0-4ee4-a30e-de3d8e456b78")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR09"
 			(at 200.66 60.96 0)
 			(effects
 				(font
@@ -4333,7 +4333,7 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/50491303-1200-42ed-9e6c-90c20c198c18"
-					(reference "#PWR07")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -4348,7 +4348,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4cd2a68c-38f2-4e10-af94-9b42afafbfc4")
-		(property "Reference" "R1"
+		(property "Reference" "R2"
 			(at 185.42 70.485 90)
 			(effects
 				(font
@@ -4400,7 +4400,7 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/50491303-1200-42ed-9e6c-90c20c198c18"
-					(reference "R1")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -4683,7 +4683,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c72b7363-decb-4504-b003-c1b9482c7c1c")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR08"
 			(at 184.15 74.93 0)
 			(effects
 				(font
@@ -4733,7 +4733,7 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/50491303-1200-42ed-9e6c-90c20c198c18"
-					(reference "#PWR06")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -4882,7 +4882,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3f8c69b-a29d-4243-b6d4-f589af1889f2")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR010"
 			(at 200.66 127 0)
 			(effects
 				(font
@@ -4937,7 +4937,7 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/50491303-1200-42ed-9e6c-90c20c198c18"
-					(reference "#PWR08")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
