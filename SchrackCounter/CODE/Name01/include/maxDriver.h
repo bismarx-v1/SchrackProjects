@@ -1,6 +1,5 @@
 #include <Arduino.h>
 
-#include "consts.h"
 #include "pins.h"
 
 #ifndef DRIVER_H
@@ -19,6 +18,7 @@ struct max7219Registers {
   const uint8_t intensity  = 0xA;
   const uint8_t scanLimit  = 0xB;
   const uint8_t shutdown   = 0xC;
+  const uint8_t testMode   = 0xF;
 
   const uint8_t digitArray[8] = {digit0, digit1, digit2, digit3, digit4, digit5, digit6, digit7};
   //const uint8_t  digitArray[8] = {digit0, digit4, digit6, digit2, digit3, digit1, digit5, digit7};
@@ -41,21 +41,19 @@ struct max7219Registers {
 
 struct thingDisplay {
 private:
-public:
-  max7219Registers maxRegisters;
-
-  void spiSend(uint8_t reg, uint8_t val);
   void clearDisplays();
   void displayNum(uint8_t pos, uint8_t num, uint8_t decimalPoint);
 
-  const uint8_t DIS_TIME  = 0;
-  const uint8_t DIS_SCORE = 1;
+public:
+  max7219Registers maxRegisters;
+  const uint8_t    DIS_TIME  = 0;
+  const uint8_t    DIS_SCORE = 1;
 
+  void spiSend(uint8_t reg, uint8_t val);
   void displaySetup();
   void display(uint8_t screen, int16_t number, int8_t decimalPos);
-
-  void set(uint64_t segments);
 };
+thingDisplay display;
 
 /**
  * @brief Sends 2 bytes to a device.
@@ -86,7 +84,7 @@ void thingDisplay::clearDisplays() {
 /**
  * @brief Displays a number on a position.
  * @param pos Pos on the display.
- * @param num Num to display. Displays only the last digit.
+ * @param num Num to display. Displays only the last digit. 0x7fff to clear display.
  * @param decimalPoint Position of the decimal point. -1 is no DP.
  */
 void thingDisplay::displayNum(uint8_t pos, uint8_t num, uint8_t decimalPoint) {
@@ -114,6 +112,7 @@ void thingDisplay::displaySetup() {
   digitalWrite(GPIO_SPI_SEL_MAX, 1);
 
   spiSend(maxRegisters.shutdown, 1);     // Exit shutdown.
+  spiSend(maxRegisters.testMode, 0);     // Tet mode off.
   spiSend(maxRegisters.decodeMode, 0);   // Turn off decode.
   spiSend(maxRegisters.scanLimit, 7);    // Activeate all digits.
   spiSend(maxRegisters.intensity, 0xF);  // Intensity to max.
@@ -127,42 +126,72 @@ void thingDisplay::displaySetup() {
  * @param decimalPos Pos of the decimal point. -1 is no DP.
  */
 void thingDisplay::display(uint8_t screen, int16_t number, int8_t decimalPos) {
-  if(screen == DIS_TIME) {                // Time display.
-    if(number > 5999 || number < -599) {  // Check number boundries.
+  static int16_t numberTimeLast    = -600;
+  static int16_t numberScoreLast   = -100;
+  static int8_t  numberDpTimeLast  = -2;
+  static int8_t  numberDpScoreLast = -2;
+  if(screen == DIS_TIME) {                                      // Time display.
+    if((number > 5999 && number != 0x7fff) || number < -599) {  // Check number boundries.
       return;
     }
 
-    if(decimalPos > 4 || decimalPos < 0) {  // Check decimal point boundries.
+    if(decimalPos > 4 || decimalPos < -1) {  // Check decimal point boundries.
       return;
     }
+
+    if(decimalPos == -1) {
+      decimalPos = 0xff;
+    }
+
+    if(number == numberTimeLast && decimalPos == numberDpTimeLast) {
+      return;
+    }
+    numberTimeLast   = number;
+    numberDpTimeLast = decimalPos;
 
     for(uint8_t i = 4; i < 8; i++) { spiSend(maxRegisters.digitArray[i], 0); }  // Clear.
 
-    // print(str((n-n%60)/60) + ":" + str(n%60))
-    uint16_t numberRestOfDigitsLeft  = (number - number % 60) / 60;
-    uint8_t  numberRestOfDigitsRight = number % 60;
+    if(number != 0x7fff) {  // Normal num.
 
-    uint8_t posOnDisplay = 4;
-    for(posOnDisplay; posOnDisplay < 8; posOnDisplay++) {
-      if(posOnDisplay < 6) {
-        displayNum(posOnDisplay, numberRestOfDigitsRight % 10, (decimalPos + 4 == posOnDisplay ? 1 : 0));
-        numberRestOfDigitsRight = numberRestOfDigitsRight / 10;
-      } else {
-        displayNum(posOnDisplay, numberRestOfDigitsLeft % 10, (decimalPos + 4 == posOnDisplay ? 1 : 0));
-        numberRestOfDigitsLeft = numberRestOfDigitsLeft / 10;
+      // print(str((n-n%60)/60) + ":" + str(n%60))
+      uint16_t numberRestOfDigitsLeft  = (number - number % 60) / 60;
+      uint8_t  numberRestOfDigitsRight = number % 60;
+
+      uint8_t posOnDisplay = 4;
+      for(posOnDisplay; posOnDisplay < 8; posOnDisplay++) {
+        if(posOnDisplay < 6) {
+          displayNum(posOnDisplay, numberRestOfDigitsRight % 10, (decimalPos + 4 == posOnDisplay ? 1 : 0));
+          numberRestOfDigitsRight = numberRestOfDigitsRight / 10;
+        } else {
+          displayNum(posOnDisplay, numberRestOfDigitsLeft % 10, (decimalPos + 4 == posOnDisplay ? 1 : 0));
+          numberRestOfDigitsLeft = numberRestOfDigitsLeft / 10;
+        }
+      }
+    } else {  // Clear display.
+      for(uint8_t i = 4; i < 8; i++) {
+        spiSend(maxRegisters.digitArray[i], (decimalPos + 4 == i ? 0b10000000 : 0));  // THIS
       }
     }
 
 
-  } else if(screen == DIS_SCORE) {      // Score display.
-    if(number > 999 || number < -99) {  // Check number boundries.
+  } else if(screen == DIS_SCORE) {                            // Score display.
+    if((number > 999 && number != 0x7fff) || number < -99) {  // Check number boundries.
       return;
     }
 
-    if(decimalPos > 3 || decimalPos < 0) {  // Check decimal point boundries.
+    if(decimalPos > 3 || decimalPos < -1) {  // Check decimal point boundries.
       return;
     }
 
+    if(decimalPos == -1) {
+      decimalPos = 0xff;
+    }
+
+    if(number == numberScoreLast && decimalPos == numberDpScoreLast) {
+      return;
+    }
+    numberScoreLast   = number;
+    numberDpScoreLast = decimalPos;
 
     for(uint8_t i = 0; i < 3; i++) { spiSend(maxRegisters.digitArray[i], 0); }  // Clear.
     uint16_t numberRestOfDigits = number;
