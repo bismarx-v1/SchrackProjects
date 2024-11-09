@@ -2337,7 +2337,7 @@
 		)
 		(uuid "5028444d-51a3-45f5-a64e-7eb0ca683497")
 	)
-	(label "BT2"
+	(label "DGT"
 		(at 118.11 120.65 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2359,7 +2359,7 @@
 		)
 		(uuid "7f5b2e7b-d897-4170-be09-b05fac86ef3f")
 	)
-	(label "BT2"
+	(label "AUX"
 		(at 118.11 143.51 0)
 		(fields_autoplaced yes)
 		(effects

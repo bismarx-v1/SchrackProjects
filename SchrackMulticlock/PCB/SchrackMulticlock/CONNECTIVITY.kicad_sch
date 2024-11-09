@@ -3567,7 +3567,7 @@
 			)
 		)
 	)
-	(global_label "VBATT"
+	(global_label "VBATT_OUT"
 		(shape input)
 		(at 157.48 135.89 180)
 		(fields_autoplaced yes)
@@ -3581,7 +3581,7 @@
 		)
 		(uuid "7bc12811-2474-43ad-addc-a49e96b2e8c7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.264 135.89 0)
+			(at 148.1865 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
