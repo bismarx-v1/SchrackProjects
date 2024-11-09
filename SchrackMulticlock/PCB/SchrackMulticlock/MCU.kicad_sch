@@ -618,7 +618,7 @@
 				)
 			)
 		)
-		(symbol "sumec_sch_lib:ESP32-S3-WROOM-2_CUSTOM_made_by_bismarx"
+		(symbol "sumec_sch_lib:ESP32-S3-WROOM-1_CUSTOM_made_by_bismarx"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -631,8 +631,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "ESP32-S3-WROOM-2"
-				(at -26.162 -31.242 0)
+			(property "Value" "ESP32-S3-WROOM-1"
+				(at -26.162 -30.734 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -640,7 +640,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "PCM_Espressif:ESP32-S3-WROOM-2"
+			(property "Footprint" "PCM_Espressif:ESP32-S3-WROOM-1"
 				(at -2.794 43.434 0)
 				(effects
 					(font
@@ -685,7 +685,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "ESP32-S3-WROOM-2_CUSTOM_made_by_bismarx_0_0"
+			(symbol "ESP32-S3-WROOM-1_CUSTOM_made_by_bismarx_0_0"
 				(rectangle
 					(start -20.32 25.4)
 					(end 12.7 -25.4)
@@ -698,7 +698,7 @@
 					)
 				)
 				(text "PSRAM"
-					(at 6.604 2.794 900)
+					(at 5.08 2.54 900)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -706,7 +706,7 @@
 					)
 				)
 			)
-			(symbol "ESP32-S3-WROOM-2_CUSTOM_made_by_bismarx_0_1"
+			(symbol "ESP32-S3-WROOM-1_CUSTOM_made_by_bismarx_0_1"
 				(polyline
 					(pts
 						(xy -16.51 -8.89) (xy -15.24 -8.89) (xy -15.24 -24.13) (xy -16.51 -24.13)
@@ -722,6 +722,18 @@
 				(polyline
 					(pts
 						(xy -16.51 16.51) (xy -15.24 16.51) (xy -15.24 -8.89) (xy -16.51 -8.89)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -13.97 -16.51) (xy -12.7 -16.51) (xy -12.7 -6.35) (xy -13.97 -6.35)
 					)
 					(stroke
 						(width 0)
@@ -757,7 +769,7 @@
 				)
 				(polyline
 					(pts
-						(xy 6.35 8.89) (xy 5.08 8.89) (xy 5.08 13.97) (xy 6.35 13.97)
+						(xy 4.826 8.89) (xy 3.556 8.89) (xy 3.556 13.97) (xy 4.826 13.97)
 					)
 					(stroke
 						(width 0)
@@ -769,7 +781,43 @@
 				)
 				(polyline
 					(pts
-						(xy 6.35 13.97) (xy 5.08 13.97) (xy 5.08 19.05) (xy 6.35 19.05)
+						(xy 4.826 13.97) (xy 3.556 13.97) (xy 3.556 19.05) (xy 4.826 19.05)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.366 -1.524) (xy 6.096 -1.524) (xy 6.096 6.096) (xy 7.366 6.096)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.366 8.89) (xy 6.096 8.89) (xy 6.096 19.05) (xy 7.366 19.05)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.366 19.05) (xy 6.096 19.05) (xy 6.096 24.13) (xy 7.366 24.13)
 					)
 					(stroke
 						(width 0)
@@ -803,44 +851,8 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 8.89 -1.27) (xy 7.62 -1.27) (xy 7.62 6.35) (xy 8.89 6.35)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 8.89) (xy 7.62 8.89) (xy 7.62 19.05) (xy 8.89 19.05)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 19.05) (xy 7.62 19.05) (xy 7.62 24.13) (xy 8.89 24.13)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
-			(symbol "ESP32-S3-WROOM-2_CUSTOM_made_by_bismarx_1_0"
+			(symbol "ESP32-S3-WROOM-1_CUSTOM_made_by_bismarx_1_0"
 				(text "1.8V"
 					(at 5.08 -21.59 900)
 					(effects
@@ -866,15 +878,23 @@
 					)
 				)
 				(text "ADC2"
-					(at 6.604 16.51 900)
+					(at 5.08 16.51 900)
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
+				(text "CLK"
+					(at -13.97 -12.7 900)
+					(effects
+						(font
+							(size 0.7 0.7)
+						)
+					)
+				)
 				(text "D+"
-					(at 6.096 10.414 900)
+					(at 4.572 10.414 900)
 					(effects
 						(font
 							(size 1 1)
@@ -882,7 +902,7 @@
 					)
 				)
 				(text "D-"
-					(at 6.096 12.7 900)
+					(at 4.572 12.7 900)
 					(effects
 						(font
 							(size 1 1)
@@ -890,10 +910,26 @@
 					)
 				)
 				(text "DAC"
-					(at 4.064 16.764 900)
+					(at 2.54 16.764 900)
 					(effects
 						(font
 							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "MISO"
+					(at -13.462 -14.986 900)
+					(effects
+						(font
+							(size 0.7 0.7)
+						)
+					)
+				)
+				(text "MOSI"
+					(at -13.462 -10.414 900)
+					(effects
+						(font
+							(size 0.7 0.7)
 						)
 					)
 				)
@@ -921,8 +957,16 @@
 						)
 					)
 				)
+				(text "SPI"
+					(at -11.43 -11.684 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
 				(text "UART"
-					(at 6.604 21.844 900)
+					(at 5.08 21.844 900)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -930,42 +974,23 @@
 					)
 				)
 				(text "USB"
-					(at 4.064 11.43 900)
+					(at 2.54 11.43 900)
 					(effects
 						(font
 							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "~{CS}"
+					(at -13.97 -7.874 900)
+					(effects
+						(font
+							(size 0.7 0.7)
 						)
 					)
 				)
 			)
-			(symbol "ESP32-S3-WROOM-2_CUSTOM_made_by_bismarx_1_1"
-				(text "IO35"
-					(at 10.414 4.826 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-							(color 72 72 72 1)
-						)
-					)
-				)
-				(text "IO36"
-					(at 10.414 2.54 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-							(color 72 72 72 1)
-						)
-					)
-				)
-				(text "IO37"
-					(at 10.414 0.254 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-							(color 72 72 72 1)
-						)
-					)
-				)
+			(symbol "ESP32-S3-WROOM-1_CUSTOM_made_by_bismarx_1_1"
 				(pin power_in line
 					(at -3.81 -27.94 90)
 					(length 2.54)
@@ -1326,6 +1351,42 @@
 						)
 					)
 				)
+				(pin bidirectional line
+					(at 15.24 5.08 180)
+					(length 2.54)
+					(name "IO35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 2.54 180)
+					(length 2.54)
+					(name "IO36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at -22.86 22.86 0)
 					(length 2.54)
@@ -1337,6 +1398,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "IO37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1680,7 +1759,7 @@
 		(uuid "6e9f33c0-4ee7-4c56-a411-6ef063a85293")
 	)
 	(no_connect
-		(at 179.07 86.36)
+		(at 177.8 86.36)
 		(uuid "7a71d0b3-cce9-4339-8175-d5a4d6538da3")
 	)
 	(wire
@@ -1722,6 +1801,16 @@
 			(type default)
 		)
 		(uuid "63711bb1-a406-4a6d-919e-f1666068c475")
+	)
+	(wire
+		(pts
+			(xy 177.8 86.36) (xy 179.07 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63b0455c-eda6-4160-a156-4de486e0b0d9")
 	)
 	(wire
 		(pts
@@ -1928,6 +2017,78 @@
 		)
 		(uuid "e15d81d3-eae7-49b6-b99d-24727bea6e70")
 	)
+	(global_label "AUX3"
+		(shape input)
+		(at 179.07 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "03e4e5c0-737b-4a33-8982-cf7a8d2d6604")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.6131 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "~{CS}"
+		(shape input)
+		(at 217.17 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "1876691a-6d77-4c68-a3ae-26c5d61e0cff")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 221.0452 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AUX2"
+		(shape input)
+		(at 179.07 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "22968a60-fe2f-42ac-b446-fed523bb7af2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.6297 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "D-"
 		(shape input)
 		(at 219.71 83.82 0)
@@ -2000,6 +2161,30 @@
 			)
 		)
 	)
+	(global_label "AUX1"
+		(shape input)
+		(at 179.07 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "4af9450e-6dc2-4cfd-a990-c2e0a7b2dda1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.8876 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RX"
 		(shape input)
 		(at 219.71 76.2 0)
@@ -2020,6 +2205,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DIGIT_SELECT"
+		(shape input)
+		(at 179.07 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "51d01ae0-ddc7-4d50-be66-17803437f881")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.1284 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2048,6 +2257,150 @@
 			)
 		)
 	)
+	(global_label "RESET"
+		(shape input)
+		(at 179.07 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "7b5ec5b5-dd4c-4f06-a1d9-a250fcad2bbb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 172.7602 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BZ1_PWM"
+		(shape input)
+		(at 179.07 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "7f856573-5067-43de-82b4-bd97b7c21d41")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 171.0017 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "START{slash}STOP"
+		(shape input)
+		(at 179.07 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "92a4f976-106e-4bf9-8d12-82b2ead56492")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 169.0194 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COLON_1"
+		(shape input)
+		(at 179.07 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "94e1dcf0-8404-4634-9fd9-c6646b2a4654")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 171.4472 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TIME_UP"
+		(shape input)
+		(at 179.07 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "b5c3970c-847a-49c6-8559-c669b41f0956")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 171.497 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOSI"
+		(shape input)
+		(at 217.17 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "c4a3db8e-8cd9-4578-a0f7-d96e4946769b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 222.5448 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "EN"
 		(shape input)
 		(at 179.07 73.66 180)
@@ -2072,180 +2425,99 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "sumec_sch_lib:ESP32-S3-WROOM-2_CUSTOM_made_by_bismarx")
-		(at 201.93 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "090cee62-70bc-4575-8a21-d9ecf32a5f29")
-		(property "Reference" "U6"
-			(at 172.72 123.825 0)
+	(global_label "CLK"
+		(shape input)
+		(at 217.17 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "dacbd014-486c-4d4a-95a9-f5a886d2a42e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 221.8971 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(property "Value" "ESP32-S3-WROOM-2"
-			(at 172.72 126.365 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_Espressif:ESP32-S3-WROOM-2"
-			(at 199.136 53.086 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf"
-			(at 198.374 59.182 0)
+	)
+	(global_label "COLON_2"
+		(shape input)
+		(at 179.07 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "e51a697d-74bf-423b-8ca9-57fce7ba86b5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 171.1892 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 				(hide yes)
 			)
 		)
-		(property "Description" "RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, onboard antenna, SMD"
-			(at 199.39 56.134 0)
+	)
+	(global_label "MODE"
+		(shape input)
+		(at 179.07 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "f565ee1d-ea38-42ba-a0f7-37d344402837")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.1735 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 				(hide yes)
 			)
 		)
-		(pin "40"
-			(uuid "0209df0e-f2d3-4de2-a16e-08317c77e6e2")
+	)
+	(global_label "TIME_DOWN"
+		(shape input)
+		(at 179.07 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify right)
 		)
-		(pin "20"
-			(uuid "875666b7-05de-4cc2-8341-14e374cefc20")
-		)
-		(pin "27"
-			(uuid "151d5132-4254-4d6f-b23d-55071b9e1392")
-		)
-		(pin "16"
-			(uuid "9d5c2112-df58-4adb-918d-c9920f38b103")
-		)
-		(pin "23"
-			(uuid "da8cee3a-4206-4b5e-93d1-537a10758d13")
-		)
-		(pin "26"
-			(uuid "3bf566b6-5bd2-4b82-ab9b-2cc3c997c9a4")
-		)
-		(pin "12"
-			(uuid "0303ea98-fedf-4640-b870-9d3ffe468473")
-		)
-		(pin "10"
-			(uuid "bbf53e78-e629-4b4c-aa8c-dccc91377ff1")
-		)
-		(pin "4"
-			(uuid "e79d458b-eb65-4d9c-a62b-1f3f46783628")
-		)
-		(pin "25"
-			(uuid "094b776e-f465-4776-b208-e4eaaff5d207")
-		)
-		(pin "41"
-			(uuid "9a2ba3a4-c83e-4043-838f-c0f5f5bbea18")
-		)
-		(pin "24"
-			(uuid "0c1dc07a-2567-486c-8c29-afaa96279587")
-		)
-		(pin "19"
-			(uuid "4927b690-a709-40f9-a5c0-5bc22145c96a")
-		)
-		(pin "34"
-			(uuid "4ceae6bd-037e-4e0d-b16f-f09b7a1be22b")
-		)
-		(pin "33"
-			(uuid "19ce434c-b59c-48a5-8f9d-4390b2b2054f")
-		)
-		(pin "37"
-			(uuid "e004968b-f201-47b4-9fc1-c52b71ec973c")
-		)
-		(pin "38"
-			(uuid "dccc8d18-246c-4016-809a-2c87ca0eed27")
-		)
-		(pin "13"
-			(uuid "d20d6cf2-8c37-4825-85b7-432726bd40da")
-		)
-		(pin "14"
-			(uuid "fa286de4-438e-4cc4-a1be-d5f1c9c9a2d1")
-		)
-		(pin "21"
-			(uuid "91ab7083-6f35-4dcf-9ed0-ae51bdf57da0")
-		)
-		(pin "32"
-			(uuid "8c22461a-5879-4c32-9cbb-6fe2334f16c4")
-		)
-		(pin "11"
-			(uuid "9e3179d4-e7a0-4e15-9eae-2c1b28d253b0")
-		)
-		(pin "22"
-			(uuid "8a90cdcf-0077-460a-bec3-9b7b2c44ec8a")
-		)
-		(pin "39"
-			(uuid "876b9be1-4135-4ca4-9ddc-013e77f68eb3")
-		)
-		(pin "7"
-			(uuid "b46f8724-0215-4065-8443-c090d2194085")
-		)
-		(pin "2"
-			(uuid "2514cc14-4e1f-4415-8270-af56712366f0")
-		)
-		(pin "6"
-			(uuid "4ef7f09c-40e1-45ee-b2c6-3beb67a8fcb1")
-		)
-		(pin "15"
-			(uuid "97f1eca3-210d-4f39-8663-01e0b4128b7c")
-		)
-		(pin "31"
-			(uuid "3b83b8f5-a97e-45e9-ba88-5ee62145dd7f")
-		)
-		(pin "35"
-			(uuid "29c831e0-d0f1-4749-828f-88bf96ecf6ed")
-		)
-		(pin "36"
-			(uuid "99c00f67-5673-4ba3-864f-7d8ce152f3b6")
-		)
-		(pin "18"
-			(uuid "1158cde4-e5d8-4491-884c-89d95a04b9d0")
-		)
-		(pin "1"
-			(uuid "ac44ce88-3b46-422f-a1b1-7df4590e2df4")
-		)
-		(pin "8"
-			(uuid "a79c9dda-d763-46c0-957b-5345d0cd8850")
-		)
-		(pin "9"
-			(uuid "83e8310f-1c35-4e20-a689-81c9b0fa8527")
-		)
-		(pin "5"
-			(uuid "693a1210-ea99-4290-b1ff-e730b1fbfd5f")
-		)
-		(pin "3"
-			(uuid "d55b4e75-5ae4-439a-be48-cf4230f517e8")
-		)
-		(pin "17"
-			(uuid "85236cb1-f166-430a-be9a-fe87c0e2dd56")
-		)
-		(instances
-			(project "SchrackCounter"
-				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/39e148ed-9462-493d-862b-d9debebaa239"
-					(reference "U6")
-					(unit 1)
+		(uuid "f947d71f-3657-4eb2-94c9-b8df0888e390")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 169.3056 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
+				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -2405,7 +2677,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7e2d1a2d-693e-469a-9502-0c0eb7dc244c")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR011"
 			(at 198.12 57.15 0)
 			(effects
 				(font
@@ -2460,7 +2732,7 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/39e148ed-9462-493d-862b-d9debebaa239"
-					(reference "#PWR012")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -2476,7 +2748,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "912f8e04-37bb-42ac-962f-1bbe680cf53c")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR012"
 			(at 198.12 130.81 0)
 			(effects
 				(font
@@ -2526,7 +2798,194 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/39e148ed-9462-493d-862b-d9debebaa239"
-					(reference "#PWR013")
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sumec_sch_lib:ESP32-S3-WROOM-1_CUSTOM_made_by_bismarx")
+		(at 201.93 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6da5d7b-dcfa-4812-99ba-5196b87c184d")
+		(property "Reference" "U6"
+			(at 200.3141 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESP32-S3-WROOM-1"
+			(at 200.3141 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Espressif:ESP32-S3-WROOM-1"
+			(at 199.136 53.086 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf"
+			(at 198.374 59.182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, onboard antenna, SMD"
+			(at 199.39 56.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "8178f848-cd3f-45b2-a873-b543f9c1e302")
+		)
+		(pin "12"
+			(uuid "2b2188a2-d4fd-409a-aa89-93d7e6ee1a70")
+		)
+		(pin "34"
+			(uuid "449d5a57-c39f-47c0-9b5a-4394683e179d")
+		)
+		(pin "1"
+			(uuid "4b34dacc-294e-46bc-a7fd-45ed6bef5f7a")
+		)
+		(pin "31"
+			(uuid "391a8304-e92c-4dc2-bff2-428da096361b")
+		)
+		(pin "38"
+			(uuid "3b6b8206-35e7-46f3-a607-2ba4d32f909e")
+		)
+		(pin "15"
+			(uuid "25f248b8-1035-4f8d-8ec1-7bd62816a9bf")
+		)
+		(pin "19"
+			(uuid "06a7a69e-d199-4f1b-bc44-5dd362b3ada1")
+		)
+		(pin "29"
+			(uuid "38b46245-49d3-47be-b4e0-4a03c62df7a3")
+		)
+		(pin "39"
+			(uuid "00368a12-1770-44e7-b074-d319aead1305")
+		)
+		(pin "6"
+			(uuid "ea02d007-0766-4def-9ad2-7db96f2b5bac")
+		)
+		(pin "22"
+			(uuid "fa461947-c0bf-4c84-9a6f-70eeeccd0b01")
+		)
+		(pin "11"
+			(uuid "f1b63c77-8fb9-4b61-ad15-e82fb4377bb6")
+		)
+		(pin "37"
+			(uuid "56a6564d-8cdb-4b1b-b1fc-1b24f0dcd237")
+		)
+		(pin "27"
+			(uuid "5978a77b-a0e2-4b0e-8494-3c3883f41478")
+		)
+		(pin "24"
+			(uuid "5f8ef026-eaf8-4ffb-af77-c85cda546766")
+		)
+		(pin "36"
+			(uuid "625134ee-63ad-4996-8578-d869a1e767e7")
+		)
+		(pin "10"
+			(uuid "d8fbd821-e7c8-4b36-a3da-c4b74c8f9f0a")
+		)
+		(pin "41"
+			(uuid "d1a46e0a-2ecd-4ab5-ad67-e893c17f324e")
+		)
+		(pin "13"
+			(uuid "9c52151a-1e30-4232-a252-41359051560b")
+		)
+		(pin "23"
+			(uuid "b6f4cc25-c3cf-45d2-83bf-1ed43f00d4e7")
+		)
+		(pin "4"
+			(uuid "3e59ea17-52d4-4420-9e48-4e64053a9444")
+		)
+		(pin "5"
+			(uuid "4b8ac769-fe80-4280-a3fb-2c3f18188cc0")
+		)
+		(pin "30"
+			(uuid "680be3c7-6e11-4a1d-a015-bd9158344ec9")
+		)
+		(pin "32"
+			(uuid "316f79d4-19f1-470f-8f82-1e6dc5e66483")
+		)
+		(pin "40"
+			(uuid "cf57bb64-016c-417c-a8b2-94454e308b70")
+		)
+		(pin "7"
+			(uuid "861fc0a9-ebab-4e58-ac72-63fca958cf3b")
+		)
+		(pin "33"
+			(uuid "ff020236-627b-4d99-966b-a190bb784844")
+		)
+		(pin "20"
+			(uuid "1f681f84-648a-4774-a3c1-0fef0d8b16f9")
+		)
+		(pin "35"
+			(uuid "c72ff910-183d-416c-84fb-ae750cf5a9e8")
+		)
+		(pin "26"
+			(uuid "ea8da678-660e-4825-b9c0-c236259bc75e")
+		)
+		(pin "21"
+			(uuid "7be9b8cb-84b1-4380-87cf-74c9c4684ef4")
+		)
+		(pin "2"
+			(uuid "ae5c4130-31e2-4403-9258-4a5690596579")
+		)
+		(pin "3"
+			(uuid "a1ec5ca9-5da4-4a2d-99b2-8daecec31e20")
+		)
+		(pin "14"
+			(uuid "f91393a8-0ea6-46c6-8a16-ee95156cfe1d")
+		)
+		(pin "18"
+			(uuid "c22769d9-99c3-401e-8e7d-b322f0849e8f")
+		)
+		(pin "28"
+			(uuid "b257be13-3c3d-480e-ba1e-0c59d4af82f0")
+		)
+		(pin "8"
+			(uuid "8ffce969-bc45-46c3-abd3-59faedb59adc")
+		)
+		(pin "16"
+			(uuid "43c5237a-a9a8-4f50-bf78-a469cf838fdf")
+		)
+		(pin "25"
+			(uuid "71cf4dac-0edf-468d-b3d9-780498a7fc3f")
+		)
+		(pin "17"
+			(uuid "d60d7204-afee-4b7b-af74-8ba1def2396c")
+		)
+		(instances
+			(project ""
+				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/39e148ed-9462-493d-862b-d9debebaa239"
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -2543,7 +3002,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4d46da5-8630-4633-9a3a-9fb8d4e86df0")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR013"
 			(at 212.09 72.39 0)
 			(effects
 				(font
@@ -2594,7 +3053,7 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/39e148ed-9462-493d-862b-d9debebaa239"
-					(reference "#PWR014")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
