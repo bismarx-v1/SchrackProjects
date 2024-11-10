@@ -474,7 +474,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "sumec_graphic:BRAND_BERSERK_SOLDER"
+		(property "Footprint" "sumec_graphic:BOCCHI_IMG"
 			(at 153.67 81.28 0)
 			(effects
 				(font

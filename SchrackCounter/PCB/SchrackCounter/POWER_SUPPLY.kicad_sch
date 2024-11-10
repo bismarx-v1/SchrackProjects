@@ -1786,6 +1786,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 68.58) (xy 184.15 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15432a84-cea9-4d3d-9ab1-318d8d369fa8")
+	)
+	(wire
+		(pts
 			(xy 104.14 129.54) (xy 114.3 129.54)
 		)
 		(stroke
@@ -1923,16 +1933,6 @@
 			(type default)
 		)
 		(uuid "5f3fdbaf-0ba3-4bc4-a248-1fbd3b0b22cc")
-	)
-	(wire
-		(pts
-			(xy 181.61 68.58) (xy 184.15 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70637c9d-7235-44d5-a887-cf1bc0a37ef0")
 	)
 	(wire
 		(pts
@@ -2306,6 +2306,30 @@
 		)
 		(uuid "fef0a759-4f3f-432d-818d-143aeb42f9eb")
 	)
+	(global_label "VBATT_OUT"
+		(shape input)
+		(at 198.12 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "02d88b88-5017-4f65-b7fa-78ed8e0578db")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 207.4135 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VBUS 5V"
 		(shape input)
 		(at 187.96 114.3 180)
@@ -2354,30 +2378,6 @@
 			)
 		)
 	)
-	(global_label "VBATT"
-		(shape input)
-		(at 198.12 68.58 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 1 1)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "a04f73cc-a38c-49ab-9b2a-3e7e8e01102f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.336 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VBUS 5V"
 		(shape input)
 		(at 222.25 124.46 0)
@@ -2402,7 +2402,7 @@
 			)
 		)
 	)
-	(global_label "VBATT"
+	(global_label "VBATT_OUT"
 		(shape input)
 		(at 203.2 102.87 180)
 		(fields_autoplaced yes)
@@ -2416,7 +2416,31 @@
 		)
 		(uuid "f14f7583-0974-4a77-96f8-0d556ff79cbb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.984 102.87 0)
+			(at 193.9065 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBATT"
+		(shape input)
+		(at 182.88 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "ff4fa08e-1f61-44ce-9c4c-91d0b6e0dc4d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.664 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2504,7 +2528,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "19bccc9c-a282-41cd-bc7e-6a95ff8890c2")
 		(property "Reference" "SW1"
 			(at 189.23 62.23 0)
@@ -2996,7 +3019,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4fd94386-524b-472c-8344-9e65e64f62ac")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR06"
 			(at 212.09 124.46 0)
 			(effects
 				(font
@@ -3047,7 +3070,7 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/2b0bd697-1473-4a31-8990-1278f12dea07"
-					(reference "#PWR07")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -3349,7 +3372,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b905bb72-3f75-4ab9-accb-9dda7128d491")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR05"
 			(at 191.77 132.08 0)
 			(effects
 				(font
@@ -3396,76 +3419,6 @@
 		)
 		(pin "1"
 			(uuid "d9310044-7275-4663-b776-c4ba954f5162")
-		)
-		(instances
-			(project "SchrackCounter"
-				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/2b0bd697-1473-4a31-8990-1278f12dea07"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 181.61 68.58 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d5c8c518-9097-48ca-8cb5-db1346f7f119")
-		(property "Reference" "#PWR05"
-			(at 185.42 68.58 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 173.99 68.58 90)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 68.58 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 68.58 0)
-			(effects
-				(font
-					(face "Bahnschrift")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 181.61 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "862316ab-fc79-4a4e-b397-34d5baecd305")
 		)
 		(instances
 			(project "SchrackCounter"

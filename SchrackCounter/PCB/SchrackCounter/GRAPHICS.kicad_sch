@@ -120,9 +120,25 @@
 		(color 0 0 0 0)
 		(uuid "2c18ad0b-8f33-4329-afcf-7f62739108a7")
 	)
+	(junction
+		(at 144.78 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6004b8a6-792f-429e-8741-176162ba1c1d")
+	)
 	(no_connect
 		(at 137.16 87.63)
 		(uuid "51e1822a-931d-47f0-9cef-22c6767fca93")
+	)
+	(wire
+		(pts
+			(xy 144.78 83.82) (xy 148.59 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4645540b-9f2d-4668-acb9-c12ee021f7a3")
 	)
 	(wire
 		(pts
@@ -153,6 +169,16 @@
 			(type default)
 		)
 		(uuid "ab2b6571-a4dc-406f-973a-7c5a10c56d35")
+	)
+	(wire
+		(pts
+			(xy 148.59 83.82) (xy 148.59 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab93b647-548b-4bac-9a90-5bc113fb0e02")
 	)
 	(wire
 		(pts
@@ -210,6 +236,75 @@
 			(justify left bottom)
 		)
 		(uuid "04988e79-f7b0-4a65-b350-1646099c3808")
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 148.59 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e16f48a-59f9-492d-af36-7db6de0dfdd1")
+		(property "Reference" "TP4"
+			(at 151.13 76.7079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 151.13 79.2479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "sumec_graphic:SHIKANOKO_IMG"
+			(at 153.67 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 148.59 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "449e4587-7bd7-4451-9b2a-4940d38d67cc")
+		)
+		(instances
+			(project "SchrackCounter"
+				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/d3d754f1-f67b-44d1-a5f7-0d46ec9de124"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
@@ -344,6 +439,75 @@
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/d3d754f1-f67b-44d1-a5f7-0d46ec9de124"
 					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 144.78 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4cf2578-92d5-4838-bb47-902ed3a83f93")
+		(property "Reference" "TP3"
+			(at 147.32 76.7079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 147.32 79.2479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "sumec_graphic:COLON_3_IMG"
+			(at 149.86 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c67fd559-80c1-47b9-b131-c9d18e4d8793")
+		)
+		(instances
+			(project "SchrackCounter"
+				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/d3d754f1-f67b-44d1-a5f7-0d46ec9de124"
+					(reference "TP3")
 					(unit 1)
 				)
 			)

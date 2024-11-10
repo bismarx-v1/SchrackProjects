@@ -1961,8 +1961,16 @@
 		(uuid "ba0188ad-f1fe-4ab4-bf58-9394a0adfc2c")
 	)
 	(no_connect
+		(at 215.9 105.41)
+		(uuid "303eebcd-3b0d-4f1b-9f49-0c6efd70ba0c")
+	)
+	(no_connect
 		(at 215.9 115.57)
 		(uuid "4f02d7a6-7f69-4932-9b5c-d45faa4d5d22")
+	)
+	(no_connect
+		(at 215.9 95.25)
+		(uuid "67d3cc7c-d358-42f2-9fbe-26801569958e")
 	)
 	(wire
 		(pts

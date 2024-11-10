@@ -1759,6 +1759,10 @@
 		(uuid "0b31932e-0f41-45cc-8ac4-04679de091bf")
 	)
 	(no_connect
+		(at 219.71 93.98)
+		(uuid "19661518-13fd-48d7-8f10-ba620b03c7e0")
+	)
+	(no_connect
 		(at 219.71 119.38)
 		(uuid "2c6d0921-5fff-4734-8840-ae9f675f1e97")
 	)
@@ -1775,11 +1779,15 @@
 		(uuid "3a35920b-faed-4c35-9c1b-1b631d1eaec7")
 	)
 	(no_connect
+		(at 219.71 96.52)
+		(uuid "570fc1d4-575c-4f2a-bfb5-339169fbe6a4")
+	)
+	(no_connect
 		(at 218.44 114.3)
 		(uuid "64b8cae1-ee0c-4453-ae31-f6ae0a5bc4c2")
 	)
 	(no_connect
-		(at 177.8 86.36)
+		(at 179.07 86.36)
 		(uuid "6ae8ba65-984e-463a-b5aa-be1bdd4f7561")
 	)
 	(no_connect
@@ -1801,6 +1809,10 @@
 	(no_connect
 		(at 219.71 78.74)
 		(uuid "da08133e-5f81-480b-89cc-ca2725e23a13")
+	)
+	(no_connect
+		(at 219.71 91.44)
+		(uuid "dd7c0f88-25bf-41af-a59a-12c3c405275d")
 	)
 	(no_connect
 		(at 176.53 99.06)
@@ -1825,6 +1837,16 @@
 			(type default)
 		)
 		(uuid "0cf1f06c-69f0-43c4-89f5-b9ae7ab24df5")
+	)
+	(wire
+		(pts
+			(xy 217.17 91.44) (xy 219.71 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14f3c8a5-b26d-4056-827e-96b1f26541ba")
 	)
 	(wire
 		(pts
@@ -1928,6 +1950,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 93.98) (xy 219.71 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92d64268-a23f-488e-8ee2-af688b8d8c65")
+	)
+	(wire
+		(pts
 			(xy 217.17 78.74) (xy 219.71 78.74)
 		)
 		(stroke
@@ -2028,6 +2060,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 96.52) (xy 219.71 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df24a695-055f-47a5-ac2c-7549bc5e2ee0")
+	)
+	(wire
+		(pts
 			(xy 176.53 119.38) (xy 179.07 119.38)
 		)
 		(stroke
@@ -2055,16 +2097,6 @@
 			(type default)
 		)
 		(uuid "e7fb88ef-717c-4e1f-8a03-4f03d0833924")
-	)
-	(wire
-		(pts
-			(xy 177.8 86.36) (xy 179.07 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f22523f7-8bc0-40d6-ab5d-41476ba07104")
 	)
 	(wire
 		(pts
@@ -2807,7 +2839,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7e2d1a2d-693e-469a-9502-0c0eb7dc244c")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR011"
 			(at 198.12 57.15 0)
 			(effects
 				(font
@@ -2862,7 +2894,7 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/39e148ed-9462-493d-862b-d9debebaa239"
-					(reference "#PWR012")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -2878,7 +2910,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "912f8e04-37bb-42ac-962f-1bbe680cf53c")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR012"
 			(at 198.12 130.81 0)
 			(effects
 				(font
@@ -2928,7 +2960,7 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/39e148ed-9462-493d-862b-d9debebaa239"
-					(reference "#PWR013")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -2943,7 +2975,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c72df5c3-9a51-4ce3-b409-d70e287b39e9")
-		(property "Reference" "U?"
+		(property "Reference" "U6"
 			(at 173.355 123.825 0)
 			(effects
 				(font
@@ -3114,7 +3146,7 @@
 		(instances
 			(project ""
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/39e148ed-9462-493d-862b-d9debebaa239"
-					(reference "U?")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -3131,7 +3163,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4d46da5-8630-4633-9a3a-9fb8d4e86df0")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR013"
 			(at 212.09 72.39 0)
 			(effects
 				(font
@@ -3182,7 +3214,7 @@
 		(instances
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/39e148ed-9462-493d-862b-d9debebaa239"
-					(reference "#PWR014")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
