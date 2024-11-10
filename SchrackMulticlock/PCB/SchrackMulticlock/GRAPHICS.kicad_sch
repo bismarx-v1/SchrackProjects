@@ -120,9 +120,25 @@
 		(color 0 0 0 0)
 		(uuid "2c18ad0b-8f33-4329-afcf-7f62739108a7")
 	)
+	(junction
+		(at 144.78 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "487d9c6c-fd16-4609-b11f-502c3210ea41")
+	)
 	(no_connect
 		(at 137.16 87.63)
 		(uuid "51e1822a-931d-47f0-9cef-22c6767fca93")
+	)
+	(wire
+		(pts
+			(xy 148.59 81.28) (xy 148.59 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e50d537-31fc-4b9f-a73d-39412fa2842e")
 	)
 	(wire
 		(pts
@@ -173,6 +189,16 @@
 			(type default)
 		)
 		(uuid "de49a967-8195-49c5-9647-202a01cd4d96")
+	)
+	(wire
+		(pts
+			(xy 148.59 83.82) (xy 144.78 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5b2ea2e-267d-4f96-989d-e29f08eee56d")
 	)
 	(wire
 		(pts
@@ -282,6 +308,75 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 144.78 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69d4d709-0456-4ec7-bcf1-f70e9cd25ff0")
+		(property "Reference" "TP3"
+			(at 147.32 76.7079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 147.32 79.2479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "sumec_graphic:BRAND_BERSERK"
+			(at 149.86 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91cab464-82bf-4ad9-a9fd-b7fec1a8ebc4")
+		)
+		(instances
+			(project "SchrackMulticlock"
+				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/d3d754f1-f67b-44d1-a5f7-0d46ec9de124"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 140.97 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -344,6 +439,75 @@
 			(project "SchrackCounter"
 				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/d3d754f1-f67b-44d1-a5f7-0d46ec9de124"
 					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 148.59 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed5baa57-bfaa-481a-aa75-186ffb0a04e2")
+		(property "Reference" "TP4"
+			(at 151.13 76.7079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 151.13 79.2479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "sumec_graphic:BRAND_BERSERK_SOLDER"
+			(at 153.67 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 148.59 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "175cef4c-844d-4b56-9481-12cf20d7ae0b")
+		)
+		(instances
+			(project "SchrackMulticlock"
+				(path "/d96f2ffc-3f4c-4f71-b693-29f6b8c3245d/d3d754f1-f67b-44d1-a5f7-0d46ec9de124"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
