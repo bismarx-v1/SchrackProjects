@@ -5,7 +5,8 @@
 #ifndef BUTTONS_H
   #define BUTTONS_H
 
-  #define MORE_BUTTONS 0
+  #define MORE_BUTTONS        0
+  #define DETECT_FALLING_EDGE 1
 
 struct buttonsStruct {
   uint8_t main = 0;
@@ -16,8 +17,19 @@ struct buttonsStruct {
 };
 buttonsStruct buttons;
 
+volatile uint64_t callbackMainLastTrig = 0;
+
 void IRAM_ATTR callbackBtnMain() {
-  buttons.main++;
+  if(digitalRead(GPIO_BTN_MAIN) == 1 - DETECT_FALLING_EDGE) {
+    if(digitalRead(GPIO_BTN_MAIN) == 1 - DETECT_FALLING_EDGE) {
+      if(digitalRead(GPIO_BTN_MAIN) == 1 - DETECT_FALLING_EDGE) {
+        if(callbackMainLastTrig + 2 < millis()) {
+          callbackMainLastTrig = millis();
+          buttons.main++;
+        }
+      }
+    }
+  }
 }
 
   #if MORE_BUTTONS
@@ -32,7 +44,11 @@ void IRAM_ATTR callbackBtnReset() {
 
 void buttonsSetup() {
   pinMode(GPIO_BTN_MAIN, INPUT);
+  #if DETECT_FALLING_EDGE
   attachInterrupt(GPIO_BTN_MAIN, callbackBtnMain, FALLING);
+  #else
+  attachInterrupt(GPIO_BTN_MAIN, callbackBtnMain, RISING);
+  #endif
 
   #if MORE_BUTTONS
   pinMode(GPIO_SW_MODE, INPUT);

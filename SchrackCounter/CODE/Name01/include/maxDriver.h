@@ -196,8 +196,8 @@ void thingDisplay::display(uint8_t screen, int16_t number, int8_t decimalPos) {
     for(uint8_t i = 0; i < 3; i++) { spiSend(maxRegisters.digitArray[i], 0); }  // Clear.
     uint16_t numberRestOfDigits = number;
 
-    uint8_t posOnDisplay = 0;
-    for(posOnDisplay; posOnDisplay < 3; posOnDisplay++) {
+    uint8_t posOnDisplay = 1;
+    for(posOnDisplay; posOnDisplay < 4; posOnDisplay++) {
       displayNum(posOnDisplay, numberRestOfDigits % 10, (decimalPos == posOnDisplay ? 1 : 0));
       numberRestOfDigits = numberRestOfDigits / 10;
     }

@@ -17,14 +17,14 @@
  */
 // clang-format off
 // clang-format on
-#define DEBUG_NATS            1
-#define GAME_LENGTH           15*60*10  // B2 relevant
+#define DEBUG_NATS            0
+#define GAME_LENGTH           15 * 60 * 10  // B2 relevant
 #define GAME_FREEZE_LENGTH    5000
 #define GAME_END_BLINK_LENGTH 500
 
 #include <Arduino.h>
 #include "maxDriver.h"
-#include "Buttons.h"
+#include "buttons.h"
 
 struct thingMode {
 private:
@@ -57,6 +57,7 @@ void setup() {
   Serial.begin(115200);
 #endif
   display.displaySetup();
+  buttonsSetup();
 }
 
 
@@ -73,6 +74,7 @@ void setup() {
 void loop() {
   static uint8_t  whileProtection        = 0;
   static uint16_t score                  = 0;
+  static uint16_t hiScore                = 0;
   static uint64_t timeGameStartOrEnd     = 0;
   static uint64_t timeGameFreezeLastTrig = 0;
   static uint8_t  gameFreezeDisplayState = 1;
@@ -98,7 +100,12 @@ void loop() {
     case 0:
       if(mode.current() != mode.last()) {
         mode.set(0);
-        display.spiSend(display.maxRegisters.digit0, 0b01110111);
+        buttons.main = 0;
+        display.display(display.DIS_SCORE, hiScore, -1);
+        display.spiSend(display.maxRegisters.digitArray[7], 0b00110111);  // High score.
+        display.spiSend(display.maxRegisters.digitArray[6], 0b00000110);
+        display.spiSend(display.maxRegisters.digitArray[5], 0b01011011);
+        display.spiSend(display.maxRegisters.digitArray[4], 0b00000000);
       }
 
       if(buttons.main > 0) {
@@ -113,7 +120,9 @@ void loop() {
     case 1:
       if(mode.current() != mode.last()) {
         mode.set(1);
+        buttons.main = 0;
         timeGameStartOrEnd = millis();
+        score              = 0;
       }
 
       while(buttons.main > 0 && whileProtection < 255) {
@@ -130,9 +139,9 @@ void loop() {
 
       if(timeGameStartOrEnd + GAME_LENGTH < millis()) {
         mode.setCur(2);
-        display.display(display.DIS_TIME, 0, -1);
+        display.display(display.DIS_TIME, 0, 2);
       } else {
-        display.display(display.DIS_TIME, (GAME_LENGTH + (timeGameStartOrEnd - millis())) / 10, -1);
+        display.display(display.DIS_TIME, (GAME_LENGTH + (timeGameStartOrEnd - millis())) / 10, 2);
       }
 
       break;
@@ -142,27 +151,31 @@ void loop() {
       if(mode.current() != mode.last()) {
         mode.set(2);
         timeGameStartOrEnd = millis();
+        if(score > hiScore) { // Set high score.
+          hiScore = score;
+        }
       }
 
       if(timeGameFreezeLastTrig + GAME_END_BLINK_LENGTH < millis()) {
         timeGameFreezeLastTrig = millis();
         if(gameFreezeDisplayState == 1) {
-          display.display(display.DIS_TIME, 0x7fff, -1);  // Clear.
+          display.display(display.DIS_TIME, 0x7fff, -1);  // Clear. Dp is somehow wrong.
         } else {
-          display.display(display.DIS_TIME, 0, -1);  // Show zeros.
+          display.display(display.DIS_TIME, 0, 2);  // Show zeros.
         }
         gameFreezeDisplayState = 1 - gameFreezeDisplayState;
       }
 
 
       if(timeGameStartOrEnd + GAME_FREEZE_LENGTH < millis()) {
-        mode.setCur(3);
+        mode.setCur(0);
       }
 
       break;
   }
 
 #if DEBUG_NATS
+  Serial.println(buttons.main);
   if(Serial.available() > 0) {
     uint8_t incomingByte = Serial.read();
     Serial.println(incomingByte, HEX);
@@ -172,6 +185,6 @@ void loop() {
   }
 #endif
 
-  vTaskDelay(10);
+  vTaskDelay(10); // Replace with fps targetting.
   //vTaskDelay(5);
 }
