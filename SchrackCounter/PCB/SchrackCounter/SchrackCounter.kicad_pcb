@@ -950,7 +950,7 @@
 				(font
 					(face "Bahnschrift")
 					(size 0.7 0.7)
-					(thickness 0.7)
+					(thickness 0.175)
 				)
 			)
 			(render_cache "SW5" 0
@@ -1025,7 +1025,7 @@
 				(font
 					(face "Bahnschrift")
 					(size 0.7 0.7)
-					(thickness 0.7)
+					(thickness 0.175)
 				)
 			)
 			(render_cache "SW_Push" 180
@@ -1471,7 +1471,7 @@
 			(pintype "passive")
 			(uuid "c0a1d1e1-a453-401a-8d0e-c41900be7bb5")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_EVQPE1.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -22907,7 +22907,7 @@
 				(font
 					(face "Bahnschrift")
 					(size 0.7 0.7)
-					(thickness 0.7)
+					(thickness 0.175)
 				)
 			)
 			(render_cache "SW6" 0
@@ -22984,7 +22984,7 @@
 				(font
 					(face "Bahnschrift")
 					(size 0.7 0.7)
-					(thickness 0.7)
+					(thickness 0.175)
 				)
 			)
 			(render_cache "SW_Push" 180
@@ -23432,7 +23432,7 @@
 			(pintype "passive")
 			(uuid "627a07fb-c576-459c-983b-7bbefad01fda")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_EVQPE1.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -25081,16 +25081,15 @@
 				)
 			)
 		)
-		(model "${KICAD7_3RD_PARTY}/3dmodels/com_github_espressif_kicad-libraries/espressif.3dshapes/ESP32-S3-WROOM-1.STEP"
-			(opacity 0.7500)
+		(model "C:/Users/MenMe/GitHub/Sumec-MiniSumo/-PCB-/_libs/sumec_3d/ESP32-S3-WROOM.step"
 			(offset
-				(xyz -9 -9.75 0)
+				(xyz 0 3 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)

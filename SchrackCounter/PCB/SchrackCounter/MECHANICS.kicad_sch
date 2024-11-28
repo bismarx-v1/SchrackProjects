@@ -4601,7 +4601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/GCT/MEM2067-02-180-00-A?qs=KUoIvG%2F9IlYTw%2Fcc1GlNJA%3D%3D"
 			(at 212.09 114.3 0)
 			(effects
 				(font
