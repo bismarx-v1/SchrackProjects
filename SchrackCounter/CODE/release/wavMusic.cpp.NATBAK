@@ -1,0 +1,116 @@
+/*12024/12/22 @ 15:22*/
+
+/**
+ * plays a .wav file from the sd card.
+ * 
+ * the wav file is defined as 16000 Hz unsigned 8bit pcm
+ */
+
+#include <Arduino.h>
+//#include "sdCardStuff.h"
+//#include "pins.h"
+
+/*#define WAV_FILENAME ""
+#define WAV_START_FROM_BYTE 45*/
+#define WAV_FREQ 16000
+
+//wavFile.seek(44);
+
+#define GPIO_BUZZER 9
+#define GPIO_BUZZER_REG GPIO_NUM_9
+
+
+
+// Timer channel, clock divisor (clock is 80MHz) (80 should make it returm micros), count up.
+#define N_TIMER_BEGIN(N_TIMER_HANDLE, N_TIMER_CHANNEL) {N_TIMER_HANDLE = timerBegin(N_TIMER_CHANNEL, 80, true); timerStop(N_TIMER_HANDLE);}
+#define N_TIMER_START(N_TIMER_HANDLE) {timerRestart(N_TIMER_HANDLE); timerStart(N_TIMER_HANDLE);}
+#define N_TIMER_READ(N_TIMER_HANDLE, readMicros) {readMicros = timerReadMicros(N_TIMER_HANDLE); timerStop(N_TIMER_HANDLE); timerRestart(N_TIMER_HANDLE); timerStart(N_TIMER_HANDLE);}
+#define N_TIMER_STOP(N_TIMER_HANDLE) {timerStop(N_TIMER_HANDLE);}
+
+
+
+
+
+
+#define CONST_AUD_FUNCSTACK_SIZE 2000
+TaskHandle_t audFuncHandle;
+void         audFunc(void* parameter) {                  // States
+  //pinMode(GPIO_BUZZER, OUTPUT);                  // Pin mode.
+  REG_WRITE(GPIO_ENABLE_REG, BIT9);
+  const float xDelay = 1.0 / WAV_FREQ * 1000000;  // Target period in us.
+
+  // Create a timer
+  hw_timer_t* timerHandle;
+  N_TIMER_BEGIN(timerHandle, 0)
+  
+  
+
+  static uint64_t trigTimes[2];                 // Array containing micros now and from previous trig.
+  static bool     pinState     = 0;             // Value of the pin (0|1).
+  static bool     pinStatePrev = 1 - pinState;  // Value of the pin from the previous trig (0|1).
+
+  //trigTimes[pinState]     = micros();             // Save micros.
+  //trigTimes[pinState]     = esp_timer_get_time();             // Save micros.
+  N_TIMER_READ(timerHandle, trigTimes[pinState])  // Save micros.
+  trigTimes[pinStatePrev] = trigTimes[pinState];  // Set delta to close to 0 the first time.
+
+  N_TIMER_START(timerHandle)
+
+
+
+  N_TIMER_READ(timerHandle, trigTimes[pinState])
+  ets_delay_us(1);
+  N_TIMER_READ(timerHandle, trigTimes[pinStatePrev])
+
+
+  // Loop for 1s.
+  for(uint16_t i = 0; i < 16000; i++) {
+    return; //HERE
+    pinStatePrev = pinState;  // Update pin states.
+    pinState     = 1 - pinState;
+
+    //trigTimes[pinState] = micros();  // Save micros.
+    N_TIMER_READ(timerHandle, trigTimes[pinState])  // Save micros.
+
+
+    if(pinState == 1) {
+      REG_WRITE(GPIO_OUT_W1TS_REG, BIT9);
+    } else {
+      REG_WRITE(GPIO_OUT_W1TC_REG, BIT9);
+    }
+    //digitalWrite(GPIO_BUZZER, pinState);  // Write to the pin.
+
+
+    /*if(trigTimes[pinState] - trigTimes[pinStatePrev] < xDelay) {
+      ets_delay_us(xDelay - (trigTimes[pinState] - trigTimes[pinStatePrev]));  // Delay with the target period - delta time.
+    }*/
+    ets_delay_us(xDelay);
+    //ets_delay_us(1);
+  }
+
+  N_TIMER_STOP(timerHandle)
+  Serial.println("task done");
+  Serial.println(trigTimes[pinState]);
+  Serial.println(trigTimes[pinStatePrev]);
+
+  while(1) {
+    taskYIELD();
+  }
+}
+
+
+void setup() {
+  Serial.begin(115200);
+  delay(2000);
+
+  // Driver task |Task func |Name |Stack size |Parameter of the task |Priority |Task handle |Core
+  xTaskCreatePinnedToCore(audFunc, "audFunc", CONST_AUD_FUNCSTACK_SIZE, NULL, 2, &audFuncHandle, 1);
+
+  delay(2000);
+  Serial.println("main done");
+}
+
+
+void loop() {
+  delay(1000);
+}
