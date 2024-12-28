@@ -582,7 +582,7 @@
       "plot": "plots/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "SchrackCounter.step",
       "svg": "",
       "vrml": ""
     },
