@@ -1,19 +1,11 @@
 /**
  * This now works but has no anims.
  * Mode (0|1) - (hh:mm:ss(ctu)|mm:ss.ss(ctd)).
- * Display max 0x22550FF
+ * Display time max 0x22550FF - 99:59:59.99
 */
 /**
  * CHECK:
- * Check for "//DEBUG".
- * Check all uses of Serial.
  * TODO:
- * Ctu paused add anim.
- * Ctd paused add anim.
- * Ctd end screen anim.
- * Ctd start - blink cursor.
- * Other anims?
- * Add error and state logging using "log_e()".
  * FIX:
  */
 
@@ -144,8 +136,6 @@ void timeDigitChange(uint32_t* timeVarPointer, uint8_t cursorPos, uint8_t operat
 
 // Setup.
 void setup() {
-  // Serial.
-  Serial.begin(115200);  //DEBUG
   delay(2000);           //DEBUG
 
   // Setups.
@@ -161,6 +151,7 @@ void setup() {
 
 // Loop.
 void loop() {
+  uint32_t timeLoopStart = micros();
   // States.
   static uint8_t stateCurrent = 0;
   static uint8_t stateLast    = -1;
@@ -335,7 +326,8 @@ void loop() {
         stateCurrent = ctdRunning;          // Goto "Ctd running".
       } else if(buttons.reset > 0) {        // Reset
         buttons.reset  = 0;
-        timerCountFrom = 0;                 // Reset.
+        timerCountFrom = 0;                 // Reset time.
+        timerCountFromCursorPos = 0;        // Reset cursor.
       } else if(buttons.digitSelect > 0) {  // Digit selsect (shift cursor).
         buttons.digitSelect     = 0;
         timerCountFromCursorPos = (timerCountFromCursorPos + 1) % NUMBER_OF_DIGITS;  // Shift the cursor.
@@ -455,5 +447,8 @@ void loop() {
   digitalWrite(GPIO_COLON1, colon1);
   digitalWrite(GPIO_COLON2, colon2);
   display.clear();
+  log_e("State current: %x.", stateCurrent);
+  log_e("State last: %x.", stateLast);
+  log_e("Loop length: %ius", micros() - timeLoopStart);
   delay(50);
 }
