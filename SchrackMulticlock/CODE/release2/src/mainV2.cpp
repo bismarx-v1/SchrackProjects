@@ -250,7 +250,7 @@ void loop() {
 
     // Ctu running.
     case ctuRunning:
-      CASE_ON_ENTER(N_TIMER_START(timerMainHandle))
+      CASE_ON_ENTER(N_TIMER_WRITE(timerMainHandle, timerValBeforePause, TIMER_READ_DIVIDER) N_TIMER_START(timerMainHandle))
 
       // Time stuff.
       N_TIMER_READ(timerMainHandle, timerVal, TIMER_READ_DIVIDER)  // Read time.
@@ -270,16 +270,26 @@ void loop() {
         buttons.start = 0;
         stateCurrent  = ctuPaused;  // Goto "Ctu paused".
       }
-      CASE_ON_EXIT(N_TIMER_STOP(timerMainHandle) colon1 = 0; colon2 = 0; buttons.clear();)
+      CASE_ON_EXIT(N_TIMER_STOP(timerMainHandle) N_TIMER_READ(timerMainHandle, timerValBeforePause, TIMER_READ_DIVIDER) colon1 = 0; colon2 = 0; buttons.clear();)
       break;
 
     // Ctu paused.
     case ctuPaused:
-      CASE_ON_ENTER()
-      TIMER_05HZ_UPDATE()
+      CASE_ON_ENTER(N_TIMER_START(timerMainHandle) N_TIMER_RESET(timerMainHandle))
 
+      // Time stuff.
+      N_TIMER_READ(timerMainHandle, timerVal, TIMER_READ_DIVIDER)  // Read time.
+      TIMER_05HZ_UPDATE()
       // Display the text.
-      display.displaySegments(segmentsPaused);
+      if(timer05Hz == 1) {
+        display.display(1, timerValBeforePause);
+        colon1 = 1;
+        colon2 = 1;
+      } else {
+        display.displaySegments(segmentsPaused);
+        colon1 = 0;
+        colon2 = 0;
+      }
 
       // State changes.
       if(buttons.reset > 0) {  // Cancel.
@@ -289,7 +299,7 @@ void loop() {
         buttons.start = 0;
         stateCurrent  = ctuRunning;  // Goto "Ctu running".
       }
-      CASE_ON_EXIT(buttons.clear();)
+      CASE_ON_EXIT(N_TIMER_STOP(timerMainHandle) buttons.clear();)
       break;
 
     // Ctu end.
@@ -311,8 +321,11 @@ void loop() {
 
     // Ctd start.
     case ctdStart:
-      CASE_ON_ENTER(timerCountFrom = 0; timerCountFromCursorPos = 0; decimalPoints = 1 << HOUR_DISPLAY_DP_SHIFT;)
-
+      CASE_ON_ENTER(N_TIMER_START(timerMainHandle) N_TIMER_RESET(timerMainHandle) timerCountFrom = 0; timerCountFromCursorPos = 0; decimalPoints = 1 << HOUR_DISPLAY_DP_SHIFT;)
+     
+      // Time stuff.
+      N_TIMER_READ(timerMainHandle, timerVal, TIMER_READ_DIVIDER)  // Read time.
+      TIMER_1HZ_UPDATE()
       // State change and registering other buttons.
       if(buttons.mode == 0) {         // Switch mode.
         stateCurrent = ctuStart;      // Goto "Ctu start".
@@ -326,7 +339,6 @@ void loop() {
       } else if(buttons.digitSelect > 0) {  // Digit selsect (shift cursor).
         buttons.digitSelect     = 0;
         timerCountFromCursorPos = (timerCountFromCursorPos + 1) % NUMBER_OF_DIGITS;  // Shift the cursor.
-        decimalPoints           = 1 << timerCountFromCursorPos + HOUR_DISPLAY_DP_SHIFT;       // Update the decimal point (it shows the selected digit).
       } else if(buttons.timeInc > 0) {  // Digit increment.
         buttons.timeInc = 0;
         timeDigitChange(&timerCountFrom, timerCountFromCursorPos, 0);
@@ -337,12 +349,18 @@ void loop() {
 
       // Display the set time.
       display.display(0, timerCountFrom);
-      CASE_ON_EXIT(buttons.clear(); decimalPoints = 0;)
+      if(timer1Hz == 1) {
+        decimalPoints = 1 << timerCountFromCursorPos + HOUR_DISPLAY_DP_SHIFT; // Update the decimal point (it shows the selected digit).
+      } else {
+        decimalPoints = 0;
+      }
+      
+      CASE_ON_EXIT(N_TIMER_STOP(timerMainHandle) buttons.clear(); decimalPoints = 0;)
       break;
 
     // Ctd running.
     case ctdRunning:
-      CASE_ON_ENTER(N_TIMER_START(timerMainHandle))
+      CASE_ON_ENTER(N_TIMER_WRITE(timerMainHandle, timerValBeforePause, TIMER_READ_DIVIDER) N_TIMER_START(timerMainHandle))
 
       // Time stuff.
       N_TIMER_READ(timerMainHandle, timerVal, TIMER_READ_DIVIDER)  // Read time.
@@ -363,15 +381,26 @@ void loop() {
         buttons.start = 0;
         stateCurrent  = ctdPaused;  // Goto "Ctd paused".
       }
-      CASE_ON_EXIT(N_TIMER_STOP(timerMainHandle) colon1 = 0; colon2 = 0; buttons.clear();)
+      CASE_ON_EXIT(N_TIMER_STOP(timerMainHandle) N_TIMER_READ(timerMainHandle, timerValBeforePause, TIMER_READ_DIVIDER) colon1 = 0; colon2 = 0; buttons.clear();)
       break;
 
     // Ctd paused (same as ctu paused, just different jumps).
     case ctdPaused:
-      CASE_ON_ENTER()
+      CASE_ON_ENTER(N_TIMER_START(timerMainHandle) N_TIMER_RESET(timerMainHandle))
 
+      // Time stuff.
+      N_TIMER_READ(timerMainHandle, timerVal, TIMER_READ_DIVIDER)  // Read time.
+      TIMER_05HZ_UPDATE()
       // Display the text.
-      display.displaySegments(segmentsPaused);
+      if(timer05Hz == 1) {
+        display.display(0, timerCountFrom - timerValBeforePause);
+        colon1 = 1;
+        colon2 = 1;
+      } else {
+        display.displaySegments(segmentsPaused);
+        colon1 = 0;
+        colon2 = 0;
+      }
 
       // State changes.
       if(buttons.reset > 0) {  // Cancel.
@@ -381,14 +410,26 @@ void loop() {
         buttons.start = 0;
         stateCurrent  = ctdRunning;  // Goto "Ctd running".
       }
-      CASE_ON_EXIT(buttons.clear();)
+      CASE_ON_EXIT(N_TIMER_STOP(timerMainHandle) buttons.clear();)
       break;
 
     // Ctd end.
     case ctdEnd:
-      CASE_ON_ENTER()
+      CASE_ON_ENTER(N_TIMER_START(timerMainHandle) N_TIMER_RESET(timerMainHandle))
+
+      // Time stuff.
+      N_TIMER_READ(timerMainHandle, timerVal, TIMER_READ_DIVIDER)  // Read time.
+      TIMER_1HZ_UPDATE()
       // Text.
-      display.displaySegments(segmentsEnd);
+      if(timer1Hz == 1) {
+        display.display(0, 0);
+        colon1 = 1;
+        colon2 = 1;
+      } else {
+        display.displaySegments(segmentsEnd);
+        colon1 = 0;
+        colon2 = 0;
+      }
 
       // State changes.
       if(buttons.reset > 0) {  // Reset.
@@ -398,7 +439,7 @@ void loop() {
         buttons.start = 0;
         stateCurrent  = ctdStart;  // Goto "Ctd start".
       }
-      CASE_ON_EXIT(buttons.clear();)
+      CASE_ON_EXIT(N_TIMER_STOP(timerMainHandle) buttons.clear();)
       break;
   }
 
