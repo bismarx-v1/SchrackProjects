@@ -18,7 +18,7 @@
 #define NUMBER_OF_DIGITS 6  // Number of digits on the display.
 #define NUMBER_OF_DIGITS_DRIVER 8  // Number of digits on the driver.
 #define DISPLAY_MAX_TIME 0x22550FF  // Max number of seconds*10^-2 that fit on the display. Converts to 99:59:59.99.
-#define HOUR_DISPLAY_DP_SHIFT 2  // By how many digits should the decimal point on the hour display be shifted.
+#define HOUR_DISPLAY_DP_SHIFT (NUMBER_OF_DIGITS_DRIVER - NUMBER_OF_DIGITS)  // By how many digits should the decimal point on the hour display be shifted.
 
 /**
  * @param STUFF The stuff in the if.

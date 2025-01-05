@@ -16,7 +16,7 @@
 #define IS_PROTOTYPE_LAYOUT 0
 #include "sdCardStuffForMusic.h"
 
-#define WAV_FILENAME "/file_yoink_8kHz.wav"
+#define WAV_FILENAME "/nya.wav"
 #define WAV_START_FROM_BYTE 44
 
 
@@ -120,7 +120,8 @@ void wavMusicPlay() {
 }
 
 
-void setup() {String  filenameString = WAV_FILENAME;
+void setup() {
+  String  filenameString = WAV_FILENAME;
   uint8_t filenameLen    = filenameString.length() + 1; // Include the \0.
   char    filename[filenameLen];
   filenameString.toCharArray(filename, filenameLen);
