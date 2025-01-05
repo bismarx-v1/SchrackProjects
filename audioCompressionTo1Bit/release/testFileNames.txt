@@ -1,0 +1,6 @@
+testFiles/alexiane-aMillionOnMySoul/alexiane-aMillionOnMySoul.wav
+testFiles/contextSensitive-hifiChiptuneNotToStudyTo/contextSensitive-hifiChiptuneNotToStudyTo.wav
+testFiles/contextSensitive-nice/contextSensitive-nice.wav
+testFiles/norfair-purpleNotions/norfair-purpleNotions.wav
+testFiles/s3rl-nekoNationAnthem/s3rl-nekoNationAnthem.wav
+testFiles/simonViklund-iWillGiveYouMyAll/simonViklund-iWillGiveYouMyAll.wav
