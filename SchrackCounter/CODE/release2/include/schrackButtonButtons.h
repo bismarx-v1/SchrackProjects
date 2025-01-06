@@ -22,6 +22,8 @@ buttonsStruct buttons;
 void IRAM_ATTR callbackBtnPrimary() {
   if(digitalRead(GPIO_BTN_MAIN_SWITCH) == 1 - DETECT_FALLING_EDGE) {
     buttons.primary++;
+  } else {
+    buttons.primary++;
   }
 }
 
@@ -48,11 +50,11 @@ void buttonsStruct::setup() {
   mode = digitalRead(GPIO_BTN_MODE);
 
   #if DETECT_FALLING_EDGE
-  attachInterrupt(GPIO_BTN_MAIN_SWITCH, callbackBtnPrimary, FALLING);
+  attachInterrupt(GPIO_BTN_MAIN_SWITCH, callbackBtnPrimary, CHANGE);
   attachInterrupt(GPIO_BTN_RESET, callbackBtnReset, FALLING);
   attachInterrupt(GPIO_BTN_MODE, callbackBtnMode, CHANGE);
   #else
-  attachInterrupt(GPIO_BTN_MAIN_SWITCH, callbackBtnPrimary, RISING);
+  attachInterrupt(GPIO_BTN_MAIN_SWITCH, callbackBtnPrimary, CHANGE);
   attachInterrupt(GPIO_BTN_RESET, callbackBtnReset, RISING);
   attachInterrupt(GPIO_BTN_MODE, callbackBtnMode, CHANGE);
   #endif
