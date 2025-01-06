@@ -90,7 +90,7 @@ void loop() {
   const uint8_t segmentsHI[NUMBER_OF_DIGITS_DRIVER]  = {0b110111, 0b110000, 0, 0, 0, 0, 0, 0};
 
   // Score stuff.
-  static uint16_t score               = 0;  // Current score.
+  static uint16_t score               = 1;  // Current score.
   static uint16_t scoreGameNumber     = 0;  // Current score.
   static uint16_t highScore           = 0;  // Max reached score.
   static uint16_t highScoreGameNumber = 0;  // Number of the game that reached the high score
@@ -151,7 +151,7 @@ void loop() {
 
     // Game running.
     case caseGameRunning:
-      CASE_ON_ENTER(N_TIMER_RESET(timerMainHandle) N_TIMER_START(timerMainHandle) score = 0; scoreGameNumber++;)
+      CASE_ON_ENTER(N_TIMER_RESET(timerMainHandle) N_TIMER_START(timerMainHandle) score = 1; scoreGameNumber++;)
       // Read timer
       N_TIMER_READ(timerMainHandle, timerVal, TIMER_READ_DIVIDER)
 
