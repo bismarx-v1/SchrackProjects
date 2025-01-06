@@ -18,7 +18,6 @@
 // Constants.
 #define NUMBER_OF_DIGITS        6     // Number of digits on the display.
 #define NUMBER_OF_DIGITS_DRIVER 8     // Number of digits on the driver.
-#define GAME_LENGTH             1500  // Game length - 15 seconds.
 #define GAME_LENGTH_PAUSE       400   // Game length - 15 seconds.
 
 
@@ -68,7 +67,7 @@ void setup() {
   Serial.begin(115200);  //DEBUG
   delay(2000);           //DEBUG
 
-  // Setups.
+  // Setups.0
   display.setup();                  // Display.
   pinMode(GPIO_LED_GREEN, OUTPUT);  // Some leds.
   pinMode(GPIO_LED_RED, OUTPUT);
@@ -101,6 +100,11 @@ void loop() {
   static uint64_t timerVal;  // Timer time val.
   static uint8_t  timer1Hz;  // 1Hz pulse based on the timer.
   static uint8_t  timer2Hz;  // 2Hz pulse based on the timer.
+  
+  // Game lengths.
+  const uint8_t gameLengthsArrayLength = 3;
+  const uint16_t gameLengthsArray[gameLengthsArrayLength] = {500, 1500, 3000};
+  static uint8_t gameLengthsArrayIndex = 1;
 
   // Display additions.
   static uint8_t decimalPoints = 0;
@@ -130,10 +134,13 @@ void loop() {
     // High score.
     case caseHighScore:
       CASE_ON_ENTER()
-      // State change.
-      if(buttons.primary > 0) {
+      // Register buttons.
+      if(buttons.primary > 0) { // Start.
         buttons.primary = 0;
         stateCurrent    = caseGameRunning;
+      } else if(buttons.mode > 0) { // Change game length.
+        buttons.mode = 0;
+        gameLengthsArrayIndex = (gameLengthsArrayIndex + 1) % gameLengthsArrayLength;
       }
       // Display.
       display.displaySegments(segmentsHI);
@@ -152,19 +159,24 @@ void loop() {
       TIMER_1HZ_UPDATE()
       decimalPoints = decimalPoints & 0b10111111 | (timer1Hz << 6);
       // Display.
-      display.display(display.SCR_TIME, GAME_LENGTH - timerVal);
+      display.display(display.SCR_TIME, gameLengthsArray[gameLengthsArrayIndex] - timerVal);
       display.display(display.SCR_SCORE, score);
 
       // Register buttons.
-      if(timerVal >= GAME_LENGTH) {  // Gmae ended.
+      if(timerVal >= gameLengthsArray[gameLengthsArrayIndex]) {  // Gmae ended.
         stateCurrent = caseGameEnd;
-      } else if(buttons.primary > 0) {  // Button pressed.
-        for(uint8_t i = 0; i < 256; i++) {
-          score++;
-          buttons.primary--;
-          if(buttons.primary == 0) {
-            break;
+      } else {
+        if(buttons.primary > 0) {  // Button pressed.
+          for(uint8_t i = 0; i < 256; i++) {
+            score++;
+            buttons.primary--;
+            if(buttons.primary == 0) {
+              break;
+            }
           }
+        }
+        if(buttons.reset > 0) { // Reset.
+          stateCurrent = caseGameEnd;
         }
       }
 
