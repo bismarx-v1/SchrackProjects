@@ -89,10 +89,15 @@ void loop() {
   const uint8_t segmentsEnd[NUMBER_OF_DIGITS_DRIVER] = {0b1001111, 0b10101, 0b111101, 0, 0, 0, 0, 0};
   const uint8_t segmentsHI[NUMBER_OF_DIGITS_DRIVER]  = {0b110111, 0b110000, 0, 0, 0, 0, 0, 0};
 
+  // Game lengths.
+  const uint8_t gameLengthsArrayLength = 3;
+  const uint16_t gameLengthsArray[gameLengthsArrayLength] = {500, 1500, 3000};
+  static uint8_t gameLengthsArrayIndex = 1;
+
   // Score stuff.
   static uint16_t score               = 1;  // Current score.
   static uint16_t scoreGameNumber     = 0;  // Current score.
-  static uint16_t highScore           = 0;  // Max reached score.
+  static uint16_t highScore[gameLengthsArrayLength]           = {0};  // Max reached score.
   static uint16_t highScoreGameNumber = 0;  // Number of the game that reached the high score
   static uint8_t  isHighScore         = 0;
 
@@ -101,11 +106,6 @@ void loop() {
   static uint8_t  timer1Hz;  // 1Hz pulse based on the timer.
   static uint8_t  timer2Hz;  // 2Hz pulse based on the timer.
   
-  // Game lengths.
-  const uint8_t gameLengthsArrayLength = 3;
-  const uint16_t gameLengthsArray[gameLengthsArrayLength] = {500, 1500, 3000};
-  static uint8_t gameLengthsArrayIndex = 1;
-
   // Display additions.
   static uint8_t decimalPoints = 0;
   static uint8_t ledsGreen     = 0;
@@ -144,7 +144,7 @@ void loop() {
       }
       // Display.
       display.displaySegments(segmentsHI);
-      display.display(display.SCR_SCORE, highScore);
+      display.display(display.SCR_SCORE, highScore[gameLengthsArrayIndex]);
 
       CASE_ON_EXIT(buttons.clear();)
       break;
@@ -185,8 +185,8 @@ void loop() {
 
     // Game end.
     case caseGameEnd:
-      CASE_ON_ENTER(N_TIMER_RESET(timerMainHandle) N_TIMER_START(timerMainHandle) isHighScore = 0; if(score > highScore) {
-        highScore           = score;
+      CASE_ON_ENTER(N_TIMER_RESET(timerMainHandle) N_TIMER_START(timerMainHandle) isHighScore = 0; if(score > highScore[gameLengthsArrayIndex]) {
+        highScore[gameLengthsArrayIndex]           = score;
         highScoreGameNumber = scoreGameNumber;
         isHighScore         = 1;
       })
