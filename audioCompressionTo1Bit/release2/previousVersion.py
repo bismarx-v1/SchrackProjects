@@ -95,11 +95,6 @@ sampleRate = readBytes(wavfile, 4)
 wavfile.seek(0x20)
 bytesPerSample = readBytes(wavfile, 2)
 
-
-# read bytes per sample
-wavfile.seek(0x20)
-bytesPerSample = readBytes(wavfile, 2)
-
 # read the data tag
 wavfile.seek(0x24)
 if(wavfile.read(4) != b'data'):

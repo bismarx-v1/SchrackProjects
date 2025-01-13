@@ -91,7 +91,32 @@ for cursorI in range(os.path.getsize(filename_in)):											# Go through the w
 	readByte = int.from_bytes(readByte, "little")												# Convert to int
 	if(cursorI < 44):																			# Pos - Header
 		writeByte = readByte																		# Copy
-	elif (cursorI >= 44 and cursorI < os.path.getsize(filename_in)):							# Pos - Data
+		if (cursorI == 0x18):																		# If at smaple rate
+			wavfile.seek(0x18)																			#
+			sampleRate = readBytes(wavfile, 4)															# Read sample rate
+			wavfile.seek(0x19)																			#
+		if (cursorI == 0x20):																		# If at bytes per sample
+			wavfile.seek(0x20)																			#
+			bytesPerSample = readBytes(wavfile, 2)														# Read bytes persample
+			wavfile.seek(0x21)																			#
+		if (cursorI == 0x24):																		# If at data tag
+			wavfile.seek(0x24)																			#
+			if (wavfile.read(4) != b'data'):															# No data tag
+				print("No data tag at 0x24")																#
+				file_in.close()																				#
+				file_out.close()																			#
+				debug_log.close()																			#
+				quit(-3)																					#
+			wavfile.seek(0x25)																			#
+		if (cursorI == 0x28):																		# Read the size of the samples
+			wavfile.seek(0x28)																			#
+			sampledDataSize = readBytes(wavfile, 4)														# Read the size of the samples
+			wavfile.seek(0x29)																			#
+		if (cursorI == 43):
+			print("Sample rate: " + str(sampleRate))
+			print("Bytes per sample: " + str(bytesPerSample))
+			print("Sampled data size: " + str(sampledDataSize))
+	elif (cursorI >= 44 and cursorI < 44 + sampledDataSize):							# Pos - Data
 		if (dynamic_threshold == 0):																# Threshold mode - static
 			threshold = threshold_static																# Static threshold
 		elif (dynamic_threshold == 1):																# Threshold mode - dynamic
