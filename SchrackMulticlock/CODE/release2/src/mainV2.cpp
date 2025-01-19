@@ -15,10 +15,11 @@
 #include "schrackStopwatchButtons.h"
 
 // Constants.
-#define NUMBER_OF_DIGITS 6  // Number of digits on the display.
-#define NUMBER_OF_DIGITS_DRIVER 8  // Number of digits on the driver.
-#define DISPLAY_MAX_TIME 0x22550FF  // Max number of seconds*10^-2 that fit on the display. Converts to 99:59:59.99.
-#define HOUR_DISPLAY_DP_SHIFT (NUMBER_OF_DIGITS_DRIVER - NUMBER_OF_DIGITS)  // By how many digits should the decimal point on the hour display be shifted.
+#define NUMBER_OF_DIGITS        6          // Number of digits on the display.
+#define NUMBER_OF_DIGITS_DRIVER 8          // Number of digits on the driver.
+#define DISPLAY_MAX_TIME        0x22550FF  // Max number of seconds*10^-2 that fit on the display. Converts to 99:59:59.99.
+#define HOUR_DISPLAY_DP_SHIFT                                                                                                  \
+  (NUMBER_OF_DIGITS_DRIVER - NUMBER_OF_DIGITS)  // By how many digits should the decimal point on the hour display be shifted.
 
 /**
  * @param STUFF The stuff in the if.
@@ -136,7 +137,7 @@ void timeDigitChange(uint32_t* timeVarPointer, uint8_t cursorPos, uint8_t operat
 
 // Setup.
 void setup() {
-  delay(2000);           //DEBUG
+  delay(2000);  //DEBUG
 
   // Setups.
   display.setup();               // Display.
@@ -159,7 +160,8 @@ void loop() {
   // Constant text patterns.
   const uint8_t segmentsErr[NUMBER_OF_DIGITS_DRIVER]      = {0b1001111, 0b101, 0b101, 0b1110110, 0b111011, 0b1110111, 0, 0};
   const uint8_t segmentsCtuStart[NUMBER_OF_DIGITS_DRIVER] = {0b1001110, 0, 0b1110000, 0b1000000, 0b111110, 0, 0, 0};
-  const uint8_t segmentsPaused[NUMBER_OF_DIGITS_DRIVER]   = {0b1100111, 0b1110111, 0b111110, 0b1011011, 0b1001111, 0b111101, 0, 0};
+  const uint8_t segmentsPaused[NUMBER_OF_DIGITS_DRIVER]   = {0b1100111, 0b1110111, 0b111110, 0b1011011,
+                                                             0b1001111, 0b111101,  0,        0};
   const uint8_t segmentsOwerflow[NUMBER_OF_DIGITS_DRIVER] = {0b1001111, 0b101, 0b101, 0, 0b1, 0b110000, 0, 0};
   const uint8_t segmentsEnd[NUMBER_OF_DIGITS_DRIVER]      = {0, 0b1001111, 0b1110110, 0b111101, 0, 0, 0, 0};
 
@@ -170,11 +172,11 @@ void loop() {
 
 
   // Timer values.
-  static uint64_t timerVal;        // Timer time val.
-  static uint64_t timerValBeforePause;        // Timer time val.
-  static uint8_t  timer1Hz;        // 1Hz pulse based on the timer.
-  static uint8_t  timer05Hz;       // 0.5Hz pulse based on the timer.
-  static uint32_t timerCountFrom;  // Timer count from.
+  static uint64_t timerVal;             // Timer time val.
+  static uint64_t timerValBeforePause;  // Timer time val.
+  static uint8_t  timer1Hz;             // 1Hz pulse based on the timer.
+  static uint8_t  timer05Hz;            // 0.5Hz pulse based on the timer.
+  static uint32_t timerCountFrom;       // Timer count from.
 
   // Ctd set time cursor.
   static uint8_t timerCountFromCursorPos = 0;
@@ -233,8 +235,9 @@ void loop() {
         stateCurrent = ctdStart;      // Goto "Ctd start".
       } else if(buttons.start > 0) {  // Start ctu.
         buttons.start = 0;
-        N_TIMER_RESET(timerMainHandle);  // Set timer to 0.
-        stateCurrent = ctuRunning;          // Goto "Ctu running".
+        N_TIMER_RESET(timerMainHandle);    // Set timer to 0.
+        timerValBeforePause = 0;           // Reset time.
+        stateCurrent        = ctuRunning;  // Goto "Ctu running".
       }
       CASE_ON_EXIT(buttons.clear();)
       break;
@@ -252,16 +255,18 @@ void loop() {
       colon2 = timer1Hz ^ 1;
 
       // State changes.
-      if(timerVal > DISPLAY_MAX_TIME) {      // Time overflow.
-        stateCurrent = ctuEnd;        // Goto "Ctu end".
-      } else if(buttons.reset > 0) {  // Cancel.
+      if(timerVal > DISPLAY_MAX_TIME) {  // Time overflow.
+        stateCurrent = ctuEnd;           // Goto "Ctu end".
+      } else if(buttons.reset > 0) {     // Cancel.
         buttons.reset = 0;
         stateCurrent  = ctuStart;     // Goto "Ctu start".
       } else if(buttons.start > 0) {  // Pause.
         buttons.start = 0;
         stateCurrent  = ctuPaused;  // Goto "Ctu paused".
       }
-      CASE_ON_EXIT(N_TIMER_STOP(timerMainHandle) N_TIMER_READ(timerMainHandle, timerValBeforePause, TIMER_READ_DIVIDER) colon1 = 0; colon2 = 0; buttons.clear();)
+      CASE_ON_EXIT(N_TIMER_STOP(timerMainHandle) N_TIMER_READ(timerMainHandle, timerValBeforePause, TIMER_READ_DIVIDER) colon1 =
+                   0;
+                   colon2 = 0; buttons.clear();)
       break;
 
     // Ctu paused.
@@ -312,8 +317,9 @@ void loop() {
 
     // Ctd start.
     case ctdStart:
-      CASE_ON_ENTER(N_TIMER_START(timerMainHandle) N_TIMER_RESET(timerMainHandle) timerCountFrom = 0; timerCountFromCursorPos = 0; decimalPoints = 1 << HOUR_DISPLAY_DP_SHIFT;)
-     
+      CASE_ON_ENTER(N_TIMER_START(timerMainHandle) N_TIMER_RESET(timerMainHandle) timerCountFrom = 0;
+                    timerCountFromCursorPos = 0; decimalPoints = 1 << HOUR_DISPLAY_DP_SHIFT;)
+
       // Time stuff.
       N_TIMER_READ(timerMainHandle, timerVal, TIMER_READ_DIVIDER)  // Read time.
       TIMER_1HZ_UPDATE()
@@ -323,15 +329,16 @@ void loop() {
       } else if(buttons.start > 0) {  // Start ctd.
         buttons.start = 0;
         N_TIMER_RESET(timerMainHandle);  // Set timer to 0.
-        stateCurrent = ctdRunning;          // Goto "Ctd running".
-      } else if(buttons.reset > 0) {        // Reset
-        buttons.reset  = 0;
-        timerCountFrom = 0;                 // Reset time.
+        timerValBeforePause = 0;         // Reset timer backup.
+        stateCurrent = ctdRunning;       // Goto "Ctd running".
+      } else if(buttons.reset > 0) {     // Reset
+        buttons.reset           = 0;
+        timerCountFrom          = 0;        // Reset time.
         timerCountFromCursorPos = 0;        // Reset cursor.
       } else if(buttons.digitSelect > 0) {  // Digit selsect (shift cursor).
         buttons.digitSelect     = 0;
         timerCountFromCursorPos = (timerCountFromCursorPos + 1) % NUMBER_OF_DIGITS;  // Shift the cursor.
-      } else if(buttons.timeInc > 0) {  // Digit increment.
+      } else if(buttons.timeInc > 0) {                                               // Digit increment.
         buttons.timeInc = 0;
         timeDigitChange(&timerCountFrom, timerCountFromCursorPos, 0);
       } else if(buttons.timeDec > 0) {  // Digit decrement.
@@ -342,11 +349,12 @@ void loop() {
       // Display the set time.
       display.display(0, timerCountFrom);
       if(timer1Hz == 1) {
-        decimalPoints = 1 << timerCountFromCursorPos + HOUR_DISPLAY_DP_SHIFT; // Update the decimal point (it shows the selected digit).
+        decimalPoints =
+        1 << timerCountFromCursorPos + HOUR_DISPLAY_DP_SHIFT;  // Update the decimal point (it shows the selected digit).
       } else {
         decimalPoints = 0;
       }
-      
+
       CASE_ON_EXIT(N_TIMER_STOP(timerMainHandle) buttons.clear(); decimalPoints = 0;)
       break;
 
@@ -373,7 +381,9 @@ void loop() {
         buttons.start = 0;
         stateCurrent  = ctdPaused;  // Goto "Ctd paused".
       }
-      CASE_ON_EXIT(N_TIMER_STOP(timerMainHandle) N_TIMER_READ(timerMainHandle, timerValBeforePause, TIMER_READ_DIVIDER) colon1 = 0; colon2 = 0; buttons.clear();)
+      CASE_ON_EXIT(N_TIMER_STOP(timerMainHandle) N_TIMER_READ(timerMainHandle, timerValBeforePause, TIMER_READ_DIVIDER) colon1 =
+                   0;
+                   colon2 = 0; buttons.clear();)
       break;
 
     // Ctd paused (same as ctu paused, just different jumps).
@@ -436,12 +446,14 @@ void loop() {
   }
 
   // Set the decimal points.
-  if(decimalPoints > 0) { // Check if any points need to be set.
+  if(decimalPoints > 0) {                                               // Check if any points need to be set.
     for(uint8_t digit = 0; digit < NUMBER_OF_DIGITS_DRIVER; digit++) {  // Go through all the digits.
-      display.segmentsArrayObjGlobal[digit] = display.segmentsArrayObjGlobal[digit] | ((decimalPoints >> NUMBER_OF_DIGITS_DRIVER-1-digit) & 1) << NUMBER_OF_DIGITS_DRIVER-1; // Set the dP bit.
+      display.segmentsArrayObjGlobal[digit] =
+      display.segmentsArrayObjGlobal[digit] | ((decimalPoints >> NUMBER_OF_DIGITS_DRIVER - 1 - digit) & 1)
+                                              << NUMBER_OF_DIGITS_DRIVER - 1;  // Set the dP bit.
     }
   }
-  
+
   // Send stuff to display.
   display.push();
   digitalWrite(GPIO_COLON1, colon1);

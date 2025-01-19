@@ -6,7 +6,7 @@
   #define _BUTTONS_H
 
   #ifndef DETECT_FALLING_EDGE
-    #define DETECT_FALLING_EDGE 1
+    #define DETECT_FALLING_EDGE 0
   #endif
 
 struct buttonsStruct {
