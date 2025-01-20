@@ -561,7 +561,7 @@
       "plot": "plots/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "SchrackMulticlock.step",
       "svg": "",
       "vrml": ""
     },
