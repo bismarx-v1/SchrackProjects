@@ -239,7 +239,7 @@ void loop() {
         timerValBeforePause = 0;           // Reset time.
         stateCurrent        = ctuRunning;  // Goto "Ctu running".
       }
-      CASE_ON_EXIT(buttons.clear();)
+      CASE_ON_EXIT(buttons.clear(); tone(GPIO_BUZZER, 500, 500);)
       break;
 
     // Ctu running.
@@ -328,10 +328,10 @@ void loop() {
         stateCurrent = ctuStart;      // Goto "Ctu start".
       } else if(buttons.start > 0) {  // Start ctd.
         buttons.start = 0;
-        N_TIMER_RESET(timerMainHandle);  // Set timer to 0.
-        timerValBeforePause = 0;         // Reset timer backup.
-        stateCurrent = ctdRunning;       // Goto "Ctd running".
-      } else if(buttons.reset > 0) {     // Reset
+        N_TIMER_RESET(timerMainHandle);    // Set timer to 0.
+        timerValBeforePause = 0;           // Reset timer backup.
+        stateCurrent        = ctdRunning;  // Goto "Ctd running".
+      } else if(buttons.reset > 0) {       // Reset
         buttons.reset           = 0;
         timerCountFrom          = 0;        // Reset time.
         timerCountFromCursorPos = 0;        // Reset cursor.
@@ -355,7 +355,7 @@ void loop() {
         decimalPoints = 0;
       }
 
-      CASE_ON_EXIT(N_TIMER_STOP(timerMainHandle) buttons.clear(); decimalPoints = 0;)
+      CASE_ON_EXIT(N_TIMER_STOP(timerMainHandle) buttons.clear(); decimalPoints = 0; tone(GPIO_BUZZER, 500, 500);)
       break;
 
     // Ctd running.
@@ -417,7 +417,7 @@ void loop() {
 
     // Ctd end.
     case ctdEnd:
-      CASE_ON_ENTER(N_TIMER_START(timerMainHandle) N_TIMER_RESET(timerMainHandle))
+      CASE_ON_ENTER(N_TIMER_START(timerMainHandle) N_TIMER_RESET(timerMainHandle) tone(GPIO_BUZZER, 400, 500);)
 
       // Time stuff.
       N_TIMER_READ(timerMainHandle, timerVal, TIMER_READ_DIVIDER)  // Read time.
