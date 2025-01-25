@@ -239,7 +239,7 @@ void loop() {
         timerValBeforePause = 0;           // Reset time.
         stateCurrent        = ctuRunning;  // Goto "Ctu running".
       }
-      CASE_ON_EXIT(buttons.clear(); tone(GPIO_BUZZER, 500, 500);)
+      CASE_ON_EXIT(buttons.clear(); tone(GPIO_BUZZER, 1000, 100);) //ctu start sound - ctd switch sound
       break;
 
     // Ctu running.
@@ -355,7 +355,7 @@ void loop() {
         decimalPoints = 0;
       }
 
-      CASE_ON_EXIT(N_TIMER_STOP(timerMainHandle) buttons.clear(); decimalPoints = 0; tone(GPIO_BUZZER, 500, 500);)
+      CASE_ON_EXIT(N_TIMER_STOP(timerMainHandle) buttons.clear(); decimalPoints = 0; tone(GPIO_BUZZER, 700, 200);) //ctd start sound
       break;
 
     // Ctd running.
@@ -417,7 +417,7 @@ void loop() {
 
     // Ctd end.
     case ctdEnd:
-      CASE_ON_ENTER(N_TIMER_START(timerMainHandle) N_TIMER_RESET(timerMainHandle) tone(GPIO_BUZZER, 400, 500);)
+      CASE_ON_ENTER(N_TIMER_START(timerMainHandle) N_TIMER_RESET(timerMainHandle) tone(GPIO_BUZZER, 400, 1000);) //ctd end sound
 
       // Time stuff.
       N_TIMER_READ(timerMainHandle, timerVal, TIMER_READ_DIVIDER)  // Read time.
