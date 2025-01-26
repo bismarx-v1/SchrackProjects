@@ -271,7 +271,7 @@ void loop() {
 
     // Ctu paused.
     case ctuPaused:
-      CASE_ON_ENTER(N_TIMER_START(timerMainHandle) N_TIMER_RESET(timerMainHandle) tone(GPIO_BUZZER, 1000, 100);)
+      CASE_ON_ENTER(N_TIMER_START(timerMainHandle) N_TIMER_RESET(timerMainHandle) tone(GPIO_BUZZER, 800, 200);) //ctu pause sound
 
       // Time stuff.
       N_TIMER_READ(timerMainHandle, timerVal, TIMER_READ_DIVIDER)  // Read time.
