@@ -239,7 +239,7 @@ void loop() {
         timerValBeforePause = 0;           // Reset time.
         stateCurrent        = ctuRunning;  // Goto "Ctu running".
       }
-      CASE_ON_EXIT(buttons.clear(); if(stateCurrent == ctuRunning) {tone(GPIO_BUZZER, 1000, 100);}) //ctu start sound
+      CASE_ON_EXIT(buttons.clear(); if(stateCurrent == ctuRunning) {tone(GPIO_BUZZER, 1000, 100);} else if(stateCurrent == ctdStart) {tone(GPIO_BUZZER, 1500, 100);}) 
       break;
 
     // Ctu running.
@@ -355,7 +355,7 @@ void loop() {
         decimalPoints = 0;
       }
 
-      CASE_ON_EXIT(N_TIMER_STOP(timerMainHandle) buttons.clear(); decimalPoints = 0; if(stateCurrent == ctdRunning) {tone(GPIO_BUZZER, 700, 200);}) //ctd start sound
+      CASE_ON_EXIT(N_TIMER_STOP(timerMainHandle) buttons.clear(); decimalPoints = 0; if(stateCurrent == ctdRunning) {tone(GPIO_BUZZER, 700, 200);} else if(stateCurrent == ctuStart) {tone(GPIO_BUZZER, 1500, 100);}) //ctd start sound and switch sound
       break;
 
     // Ctd running.
