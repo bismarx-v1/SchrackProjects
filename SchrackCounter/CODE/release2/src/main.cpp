@@ -191,8 +191,8 @@ void loop() {
         highScore[gameLengthsArrayIndex] = score;
         highScoreGameNumber              = scoreGameNumber;
         isHighScore                      = 1;
-      } if(isHighScore == 1) { tone(GPIO_BUZZER, 5000, 100); } else {
-        tone(GPIO_BUZZER, 500, 100);
+      } if(isHighScore == 1) { tone(GPIO_BUZZER, 1000, 600); } else {
+        tone(GPIO_BUZZER, 500, 300);
       })
 
       // Read timer.
