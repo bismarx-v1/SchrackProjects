@@ -1,7 +1,7 @@
 (footprint "SOLDER_PADS"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Through hole straight Samtec HPM power header series 11.94mm post length, 1x02, 5.08mm pitch, single row")
 	(tags "Through hole Samtec HPM power header series 11.94mm post length THT 1x02 5.08mm single row")
@@ -28,21 +28,8 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 2.54 2.54 -90)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "cf377408-426a-4d47-9582-c18e96df319d")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
 	(property "Datasheet" ""
-		(at 2.54 2.54 -90)
+		(at 2.54 2.54 270)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -55,7 +42,7 @@
 		)
 	)
 	(property "Description" ""
-		(at 2.54 2.54 -90)
+		(at 2.54 2.54 270)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -75,7 +62,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "78d2ecda-31ea-4a58-beaa-b68f08a4d346")
 	)
@@ -120,7 +107,7 @@
 		(uuid "74755b82-ff0c-4d43-a4fe-e583f3009fb6")
 	)
 	(fp_text user "+"
-		(at -2.75 4.5 -90)
+		(at -2.75 4.5 270)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "6132b53c-3650-49b2-9504-8f1a30b43cee")
@@ -134,12 +121,12 @@
 		(render_cache "+" 270
 			(polygon
 				(pts
-					(xy -2.421831 3.677878) (xy -2.421831 5.342637) (xy -2.819703 5.342637) (xy -2.819703 3.677878)
+					(xy -2.42403 3.677512) (xy -2.42403 5.341721) (xy -2.822634 5.341721) (xy -2.822634 3.677512)
 				)
 			)
 			(polygon
 				(pts
-					(xy -1.788021 4.719818) (xy -3.453513 4.719818) (xy -3.453513 4.30143) (xy -1.788021 4.30143)
+					(xy -1.790952 4.718719) (xy -3.455711 4.718719) (xy -3.455711 4.300514) (xy -1.790952 4.300514)
 				)
 			)
 		)
@@ -159,7 +146,7 @@
 		(render_cache "-" 0
 			(polygon
 				(pts
-					(xy 1.821493 4.227379) (xy 3.199755 4.227379) (xy 3.199755 4.625251) (xy 1.821493 4.625251)
+					(xy 1.821127 4.228845) (xy 3.19829 4.228845) (xy 3.19829 4.627449) (xy 1.821127 4.627449)
 				)
 			)
 		)
@@ -178,13 +165,14 @@
 	(pad "1" smd rect
 		(at -2.54 1.5)
 		(size 3 4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "47d2ddc7-e4f3-4048-a12a-e0941c368e5d")
 	)
 	(pad "2" smd rect
 		(at 2.54 1.5)
 		(size 3 4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f72f1b0d-4921-4d87-9fe6-98628f932b15")
 	)
+	(embedded_fonts no)
 )

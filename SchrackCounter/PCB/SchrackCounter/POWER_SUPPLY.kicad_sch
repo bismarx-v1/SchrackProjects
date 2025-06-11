@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "554cf997-c77f-4b25-83ec-4e975e4b2efc")
 	(paper "A4")
 	(title_block
@@ -13,9 +13,13 @@
 	)
 	(lib_symbols
 		(symbol "Device:Battery"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -75,17 +79,6 @@
 			)
 			(symbol "Battery_0_1"
 				(rectangle
-					(start -2.286 -1.27)
-					(end 2.286 -1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
 					(start -2.286 1.778)
 					(end 2.286 1.524)
 					(stroke
@@ -97,8 +90,8 @@
 					)
 				)
 				(rectangle
-					(start -1.524 -2.032)
-					(end 1.524 -2.54)
+					(start -2.286 -1.27)
+					(end 2.286 -1.524)
 					(stroke
 						(width 0)
 						(type default)
@@ -118,21 +111,20 @@
 						(type outline)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0 -1.016) (xy 0 -0.762)
-					)
+				(rectangle
+					(start -1.524 -2.032)
+					(end 1.524 -2.54)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(polyline
 					(pts
-						(xy 0 -0.508) (xy 0 -0.254)
+						(xy 0 1.778) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -156,7 +148,19 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.778) (xy 0 2.54)
+						(xy 0 -0.508) (xy 0 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.016) (xy 0 -0.762)
 					)
 					(stroke
 						(width 0)
@@ -229,9 +233,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -304,7 +311,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -316,7 +323,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -365,9 +372,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C_Polarized"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -523,11 +533,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:D_Schottky"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -595,10 +610,10 @@
 			(symbol "D_Schottky_0_1"
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -619,10 +634,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -668,10 +683,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:Q_PMOS_GSD"
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -732,6 +750,18 @@
 			(symbol "Q_PMOS_GSD_0_1"
 				(polyline
 					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 0.254 0) (xy -2.54 0)
 					)
 					(stroke
@@ -744,7 +774,31 @@
 				)
 				(polyline
 					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
 					)
 					(stroke
 						(width 0.254)
@@ -766,60 +820,11 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
 					(stroke
 						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
-					)
-					(stroke
-						(width 0)
 						(type default)
 					)
 					(fill
@@ -836,6 +841,52 @@
 					)
 					(fill
 						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(polyline
@@ -862,39 +913,6 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 			)
 			(symbol "Q_PMOS_GSD_1_1"
 				(pin input line
@@ -908,24 +926,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -951,10 +951,31 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -1073,6 +1094,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Regulator_Linear:LM1117DT-3.3"
 			(exclude_from_sim no)
@@ -1155,6 +1177,24 @@
 			)
 			(symbol "LM1117DT-3.3_1_1"
 				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
 					(at 0 -7.62 90)
 					(length 2.54)
 					(name "GND"
@@ -1190,29 +1230,14 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "VI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Switch:SW_SPST"
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1342,6 +1367,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3V3"
 			(power)
@@ -1419,7 +1445,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1431,7 +1457,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1445,7 +1471,8 @@
 			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+3V3"
 						(effects
 							(font
@@ -1462,12 +1489,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+5V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1539,7 +1571,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1551,7 +1583,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1582,12 +1614,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1678,7 +1715,200 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 59.69 99.06)
+		(end 143.51 137.16)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0d57dc0b-64b2-4215-8bf1-02e139614040)
+	)
+	(rectangle
+		(start 154.305 48.26)
+		(end 231.775 86.36)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 38bd03d0-6c00-41a3-9337-725a07d0e1a9)
+	)
+	(rectangle
+		(start 59.69 48.26)
+		(end 143.51 86.36)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d097977a-0c3a-4a03-bb31-3d73d0940ce6)
+	)
+	(rectangle
+		(start 154.305 99.06)
+		(end 231.775 137.16)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e4a87cf1-39a5-475d-b9c3-ea2e4e37f60b)
+	)
+	(text "3XAA Battery connector\n\nBattery specs:\n- Alkaline \n- 1.5V Cell voltage (nominal voltage)\n- 1,65V Cell voltage (fully charged)"
+		(exclude_from_sim no)
+		(at 61.595 116.205 0)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1.5 1.5)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "2f84dcf7-bf1c-48ff-8e36-262aa3dffb83")
+	)
+	(text "Texas Instruments \nLDO Voltage Regulator\n\nLM1084IS-3.3/NOPB 3.3V\n\nUsing TO-263-3 footprint"
+		(exclude_from_sim no)
+		(at 62.23 65.405 0)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1.5 1.5)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "2fd558cc-2e47-4dc2-9461-ec00d75e87aa")
+	)
+	(text "BATTERY"
+		(exclude_from_sim no)
+		(at 59.055 97.155 0)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 5 5)
+				(thickness 1.2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "539b3cac-2356-4af2-a19e-fa6063f81204")
+	)
+	(text "Rds On = 22.7 mOhms\nVds = 30 V\nVgs = - 20 V, + 16 V\nVgs th = 2.2 V"
+		(exclude_from_sim no)
+		(at 156.21 122.555 0)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1.5 1.5)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "572fec29-ae89-4b18-ae79-aa9507c38bea")
+	)
+	(text "USB POWER SWITCH"
+		(exclude_from_sim no)
+		(at 154.305 97.155 0)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 5 5)
+				(thickness 1.2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "5a390310-38dc-4109-9540-37fe81838a1e")
+	)
+	(text "SWITCHING SIMULATION - FALSTAD"
+		(exclude_from_sim no)
+		(at 175.26 133.985 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+				(italic yes)
+				(color 0 0 255 1)
+			)
+			(href "https://www.youtube.com/watch?v=lVDUcCuKls0")
+		)
+		(uuid "7d2c83f0-9f7d-46b9-8717-7dc0d1400cc6")
+	)
+	(text "MAIN SWITCH"
+		(exclude_from_sim no)
+		(at 153.67 46.355 0)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 5 5)
+				(thickness 1.2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "8c8dd178-b024-4fcf-87dc-9305be9be1cc")
+	)
+	(text "Power switching between \n5V VBUS - USB \nand \n5V Buck converter - BATT"
+		(exclude_from_sim no)
+		(at 156.21 110.49 0)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1.5 1.5)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb3d9131-2a9f-4367-9060-2e4586949f11")
+	)
+	(text "LDO VOLTAGE REGULATOR"
+		(exclude_from_sim no)
+		(at 59.055 46.355 0)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 5 5)
+				(thickness 1.2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "e4b148ff-0287-43de-8193-012b1ae79d0a")
+	)
+	(text "Batt connector should probs be in the box but not on the pcb"
+		(exclude_from_sim no)
+		(at 100.33 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fef0a759-4f3f-432d-818d-143aeb42f9eb")
 	)
 	(junction
 		(at 113.03 72.39)
@@ -2113,198 +2343,6 @@
 			(type default)
 		)
 		(uuid "f467ef75-2df7-4ef6-a77e-b5b1e7d2a047")
-	)
-	(rectangle
-		(start 59.69 99.06)
-		(end 143.51 137.16)
-		(stroke
-			(width 0)
-			(type dash)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 0d57dc0b-64b2-4215-8bf1-02e139614040)
-	)
-	(rectangle
-		(start 154.305 48.26)
-		(end 231.775 86.36)
-		(stroke
-			(width 0)
-			(type dash)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 38bd03d0-6c00-41a3-9337-725a07d0e1a9)
-	)
-	(rectangle
-		(start 59.69 48.26)
-		(end 143.51 86.36)
-		(stroke
-			(width 0)
-			(type dash)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid d097977a-0c3a-4a03-bb31-3d73d0940ce6)
-	)
-	(rectangle
-		(start 154.305 99.06)
-		(end 231.775 137.16)
-		(stroke
-			(width 0)
-			(type dash)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid e4a87cf1-39a5-475d-b9c3-ea2e4e37f60b)
-	)
-	(text "3XAA Battery connector\n\nBattery specs:\n- Alkaline \n- 1.5V Cell voltage (nominal voltage)\n- 1,65V Cell voltage (fully charged)"
-		(exclude_from_sim no)
-		(at 61.595 116.205 0)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 1.5 1.5)
-				(italic yes)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "2f84dcf7-bf1c-48ff-8e36-262aa3dffb83")
-	)
-	(text "Texas Instruments \nLDO Voltage Regulator\n\nLM1084IS-3.3/NOPB 3.3V\n\nUsing TO-263-3 footprint"
-		(exclude_from_sim no)
-		(at 62.23 65.405 0)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 1.5 1.5)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "2fd558cc-2e47-4dc2-9461-ec00d75e87aa")
-	)
-	(text "BATTERY"
-		(exclude_from_sim no)
-		(at 59.055 97.155 0)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 5 5)
-				(thickness 1.2)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "539b3cac-2356-4af2-a19e-fa6063f81204")
-	)
-	(text "Rds On = 22.7 mOhms\nVds = 30 V\nVgs = - 20 V, + 16 V\nVgs th = 2.2 V"
-		(exclude_from_sim no)
-		(at 156.21 122.555 0)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 1.5 1.5)
-				(italic yes)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "572fec29-ae89-4b18-ae79-aa9507c38bea")
-	)
-	(text "USB POWER SWITCH"
-		(exclude_from_sim no)
-		(at 154.305 97.155 0)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 5 5)
-				(thickness 1.2)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "5a390310-38dc-4109-9540-37fe81838a1e")
-	)
-	(text "SWITCHING SIMULATION - FALSTAD"
-		(exclude_from_sim no)
-		(at 175.26 133.985 0)
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
-				(italic yes)
-				(color 0 0 255 1)
-			)
-			(href "https://www.youtube.com/watch?v=lVDUcCuKls0")
-		)
-		(uuid "7d2c83f0-9f7d-46b9-8717-7dc0d1400cc6")
-	)
-	(text "MAIN SWITCH"
-		(exclude_from_sim no)
-		(at 153.67 46.355 0)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 5 5)
-				(thickness 1.2)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "8c8dd178-b024-4fcf-87dc-9305be9be1cc")
-	)
-	(text "Power switching between \n5V VBUS - USB \nand \n5V Buck converter - BATT"
-		(exclude_from_sim no)
-		(at 156.21 110.49 0)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 1.5 1.5)
-				(italic yes)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "cb3d9131-2a9f-4367-9060-2e4586949f11")
-	)
-	(text "LDO VOLTAGE REGULATOR"
-		(exclude_from_sim no)
-		(at 59.055 46.355 0)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 5 5)
-				(thickness 1.2)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "e4b148ff-0287-43de-8193-012b1ae79d0a")
-	)
-	(text "Batt connector should probs be in the box but not on the pcb"
-		(exclude_from_sim no)
-		(at 100.33 134.62 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "fef0a759-4f3f-432d-818d-143aeb42f9eb")
 	)
 	(global_label "VBATT_OUT"
 		(shape input)

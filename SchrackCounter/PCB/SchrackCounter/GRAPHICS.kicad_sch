@@ -1,14 +1,18 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "2cd0a313-1aeb-4181-8a84-e041cd2d117b")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.762) hide)
+				(offset 0.762)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -106,7 +110,35 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 109.22 59.055)
+		(end 173.99 104.775)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ec659622-2d2a-415e-973b-797421e9cb5b)
+	)
+	(text "ART"
+		(exclude_from_sim no)
+		(at 109.22 59.055 0)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 5 5)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "04988e79-f7b0-4a65-b350-1646099c3808")
 	)
 	(junction
 		(at 140.97 83.82)
@@ -209,33 +241,6 @@
 			(type default)
 		)
 		(uuid "f9a44b3d-fd78-4f8d-b0ca-2bf24b095fbc")
-	)
-	(rectangle
-		(start 109.22 59.055)
-		(end 173.99 104.775)
-		(stroke
-			(width 0)
-			(type dash)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid ec659622-2d2a-415e-973b-797421e9cb5b)
-	)
-	(text "ART"
-		(exclude_from_sim no)
-		(at 109.22 59.055 0)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 5 5)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "04988e79-f7b0-4a65-b350-1646099c3808")
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
